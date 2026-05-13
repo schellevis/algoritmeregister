@@ -4,11 +4,11 @@ import argparse
 import json
 import logging
 import math
-import re
 import sys
 import time
 from dataclasses import dataclass
 from datetime import UTC, datetime
+from email.utils import parsedate_to_datetime
 from html import unescape
 from pathlib import Path
 from typing import Any
@@ -17,11 +17,11 @@ import httpx
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://algoritmes.overheid.nl"
-LIST_PATH = "/nl/algoritme"
+SOURCE_URL = f"{BASE_URL}/api/algoritme/NLD"
+LIST_PATH = "/api/algoritme/NLD"
 DATA_PATH = Path("data/algoritmes.json")
 BACKOFF_SECONDS = (1, 4, 16)
-PAYLOAD_RE = re.compile(r'<script[^>]*id="__NUXT_DATA__"[^>]*>([\s\S]*?)</script>')
-WHITESPACE_RE = re.compile(r"\s+")
+WHITESPACE_REPLACEMENTS = ("\xa0", "\t", "\r", "\n")
 
 
 class ScrapeError(RuntimeError):
@@ -29,31 +29,21 @@ class ScrapeError(RuntimeError):
 
 
 @dataclass(frozen=True)
-class AlgorithmSummary:
-    title: str
-    organisatie: str
-    beschrijving_kort: str
-    status_bron: str
-    create_dt: str
-    org_id: str
-    lars: str
-
-
-@dataclass(frozen=True)
 class AlgorithmDetail:
+    id: str
     title: str
+    url: str
     organisatie: str
     doel: str
     juridische_basis: str
     impactassessment: str
     status: str
     laatst_gewijzigd: str
-    url: str
-    id: str
 
 
 def configure_logging() -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+    logging.getLogger("httpx").setLevel(logging.WARNING)
 
 
 def parse_args() -> argparse.Namespace:
@@ -63,113 +53,66 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def fetch_with_retries(client: httpx.Client, url: str) -> str:
-    last_error: Exception | None = None
-    for attempt, backoff in enumerate(BACKOFF_SECONDS, start=1):
-        try:
-            response = client.get(url)
-            if response.status_code == 429:
-                retry_after = parse_retry_after(response.headers.get("Retry-After"))
-                wait_seconds = retry_after if retry_after is not None else backoff
-                logging.warning("429 ontvangen voor %s; wacht %ss", url, wait_seconds)
-                time.sleep(wait_seconds)
-                continue
-            if 500 <= response.status_code < 600:
-                logging.warning("Serverfout %s voor %s", response.status_code, url)
-                time.sleep(backoff)
-                continue
-            if 400 <= response.status_code < 500:
-                raise ScrapeError(f"Clientfout {response.status_code} voor {url}")
-
-            response.raise_for_status()
-            text = response.text
-            if not text.strip():
-                logging.warning("Lege response voor %s", url)
-                raise ScrapeError(f"Lege response voor {url}")
-            return text
-        except httpx.HTTPError as exc:
-            last_error = exc
-            logging.warning("Netwerkfout bij %s (poging %s/3): %s", url, attempt, exc)
-            time.sleep(backoff)
-        except ScrapeError:
-            raise
-
-    if last_error is not None:
-        raise ScrapeError(f"Mislukt na retries voor {url}: {last_error}") from last_error
-    raise ScrapeError(f"Mislukt na retries voor {url}")
-
-
 def parse_retry_after(value: str | None) -> int | None:
     if value is None:
         return None
     if value.isdigit():
         return int(value)
     try:
-        retry_at = datetime.fromisoformat(value)
-    except ValueError:
+        retry_at = parsedate_to_datetime(value)
+    except (TypeError, ValueError, IndexError):
         return None
     delta = retry_at - datetime.now(retry_at.tzinfo or UTC)
     return max(0, math.ceil(delta.total_seconds()))
 
 
-def extract_payload(html: str) -> list[Any]:
-    match = PAYLOAD_RE.search(html)
-    if match is None:
-        raise ScrapeError("Kon __NUXT_DATA__ payload niet vinden")
-    try:
-        payload = json.loads(match.group(1))
-    except json.JSONDecodeError as exc:
-        raise ScrapeError(f"Kon payload niet parsen als JSON: {exc}") from exc
-    if not isinstance(payload, list) or not payload:
-        raise ScrapeError("Payload heeft onverwacht formaat")
-    return payload
+def request_json(
+    client: httpx.Client,
+    method: str,
+    path: str,
+    *,
+    json_body: dict[str, str] | None = None,
+) -> Any:
+    last_error: Exception | None = None
+
+    for attempt, backoff in enumerate(BACKOFF_SECONDS, start=1):
+        try:
+            response = client.request(method, path, json=json_body)
+            if response.status_code == 429:
+                wait_seconds = parse_retry_after(response.headers.get("Retry-After")) or backoff
+                logging.warning("429 ontvangen voor %s; wacht %ss", path, wait_seconds)
+                time.sleep(wait_seconds)
+                continue
+            if 500 <= response.status_code < 600:
+                logging.warning("Serverfout %s voor %s; wacht %ss", response.status_code, path, backoff)
+                time.sleep(backoff)
+                continue
+            if 400 <= response.status_code < 500:
+                raise ScrapeError(f"Clientfout {response.status_code} voor {path}")
+
+            response.raise_for_status()
+            if not response.content.strip():
+                logging.warning("Lege response voor %s", path)
+                raise ScrapeError(f"Lege response voor {path}")
+            try:
+                return response.json()
+            except json.JSONDecodeError as exc:
+                raise ScrapeError(f"Kon JSON niet parsen voor {path}: {exc}") from exc
+        except httpx.HTTPError as exc:
+            last_error = exc
+            logging.warning("Netwerkfout bij %s (poging %s/3): %s", path, attempt, exc)
+            time.sleep(backoff)
+
+    if last_error is not None:
+        raise ScrapeError(f"Mislukt na retries voor {path}: {last_error}") from last_error
+    raise ScrapeError(f"Mislukt na retries voor {path}")
 
 
-def decode_nuxt_value(node: Any, root: list[Any], seen: dict[int, Any] | None = None) -> Any:
-    if seen is None:
-        seen = {}
-
-    if isinstance(node, int) and 0 <= node < len(root):
-        if node in seen:
-            return seen[node]
-        target = root[node]
-        if isinstance(target, dict):
-            placeholder: dict[str, Any] = {}
-            seen[node] = placeholder
-            placeholder.update(decode_nuxt_value(target, root, seen))
-            return placeholder
-        if isinstance(target, list):
-            placeholder_list: list[Any] = []
-            seen[node] = placeholder_list
-            placeholder_list.extend(decode_nuxt_value(target, root, seen))
-            return placeholder_list
-        return target
-
-    if isinstance(node, dict):
-        return {key: decode_nuxt_value(value, root, seen) for key, value in node.items()}
-
-    if isinstance(node, list):
-        if node and node[0] in {"ShallowReactive", "Reactive"}:
-            return decode_nuxt_value(node[1], root, seen) if len(node) > 1 else []
-        if node and node[0] == "Set":
-            return [decode_nuxt_value(value, root, seen) for value in node[1:]]
-        return [decode_nuxt_value(value, root, seen) for value in node]
-
-    return node
-
-
-def find_listing_payload(payload: list[Any]) -> dict[str, Any]:
-    for item in payload:
-        if isinstance(item, dict) and {"results", "total_count"} <= set(item.keys()):
-            return decode_nuxt_value(item, payload)
-    raise ScrapeError("Kon listing-payload niet vinden")
-
-
-def find_detail_payload(payload: list[Any]) -> dict[str, Any]:
-    for item in payload:
-        if isinstance(item, dict) and {"name", "organization", "create_dt", "lars"} <= set(item.keys()):
-            return decode_nuxt_value(item, payload)
-    raise ScrapeError("Kon detail-payload niet vinden")
+def normalize_whitespace(value: str) -> str:
+    text = value
+    for token in WHITESPACE_REPLACEMENTS:
+        text = text.replace(token, " ")
+    return " ".join(text.split()).strip()
 
 
 def html_fragment_to_text(value: Any) -> str:
@@ -183,12 +126,8 @@ def html_fragment_to_text(value: Any) -> str:
     return normalize_whitespace(unescape(text))
 
 
-def normalize_whitespace(value: str) -> str:
-    return WHITESPACE_RE.sub(" ", value).strip()
-
-
-def normalize_status(value: str) -> str:
-    normalized = normalize_whitespace(value).lower()
+def normalize_status(value: Any) -> str:
+    normalized = normalize_whitespace(str(value)).lower()
     mapping = {
         "in gebruik": "in_gebruik",
         "in ontwikkeling": "ontwikkeling",
@@ -197,14 +136,14 @@ def normalize_status(value: str) -> str:
     return mapping.get(normalized, normalized.replace(" ", "_"))
 
 
-def normalize_impactassessment(detail: dict[str, Any]) -> str:
+def normalize_impactassessment(item: dict[str, Any]) -> str:
     candidates = [
-        html_fragment_to_text(detail.get("impacttoetsen")),
-        html_fragment_to_text(detail.get("impacttoetsen_grouping")),
-        html_fragment_to_text(detail.get("iama")),
-        html_fragment_to_text(detail.get("iama_description")),
-        html_fragment_to_text(detail.get("dpia")),
-        html_fragment_to_text(detail.get("dpia_description")),
+        html_fragment_to_text(item.get("impacttoetsen")),
+        html_fragment_to_text(item.get("impacttoetsen_grouping")),
+        html_fragment_to_text(item.get("iama")),
+        html_fragment_to_text(item.get("iama_description")),
+        html_fragment_to_text(item.get("dpia")),
+        html_fragment_to_text(item.get("dpia_description")),
     ]
     joined = " ".join(candidate for candidate in candidates if candidate).strip().lower()
     if not joined:
@@ -214,86 +153,97 @@ def normalize_impactassessment(detail: dict[str, Any]) -> str:
     return "Ja"
 
 
-def build_summary(item: dict[str, Any]) -> AlgorithmSummary:
-    lars_value = item.get("lars")
-    if lars_value is None:
-        raise ScrapeError("Listing-item mist lars")
-    return AlgorithmSummary(
-        title=normalize_whitespace(str(item.get("name", ""))),
-        organisatie=normalize_whitespace(str(item.get("organization", ""))),
-        beschrijving_kort=html_fragment_to_text(item.get("description_short")),
-        status_bron=normalize_whitespace(str(item.get("status", ""))),
-        create_dt=normalize_whitespace(str(item.get("create_dt", ""))),
-        org_id=normalize_whitespace(str(item.get("org_id", ""))),
-        lars=normalize_whitespace(str(lars_value)),
-    )
+def extract_stable_id(item: dict[str, Any]) -> str:
+    for key in ("uuid", "lars"):
+        value = item.get(key)
+        if value is not None and normalize_whitespace(str(value)):
+            return normalize_whitespace(str(value))
+    organisatie = normalize_whitespace(str(item.get("organization", "")))
+    naam = normalize_whitespace(str(item.get("name", "")))
+    if not organisatie or not naam:
+        raise ScrapeError("Kon geen stabiele id afleiden")
+    slug_source = f"{organisatie}-{naam}".lower()
+    allowed = [character if character.isalnum() else "-" for character in slug_source]
+    return "".join(allowed).strip("-")
 
 
-def build_detail(summary: AlgorithmSummary, detail: dict[str, Any]) -> AlgorithmDetail:
-    detail_lars = normalize_whitespace(str(detail.get("lars", "")))
-    if detail_lars != summary.lars:
-        raise ScrapeError(f"Detail-ID mismatch voor {summary.lars}: {detail_lars}")
+def build_url(item: dict[str, Any], stable_id: str) -> str:
+    org_id = normalize_whitespace(str(item.get("org_id", "")))
+    if org_id:
+        return f"{BASE_URL}/nl/algoritme/{org_id}/{stable_id}"
+    return f"{BASE_URL}/nl/algoritme/{stable_id}"
 
-    create_dt = normalize_whitespace(str(detail.get("create_dt", summary.create_dt)))
+
+def build_detail(item: dict[str, Any]) -> AlgorithmDetail:
+    stable_id = extract_stable_id(item)
+    create_dt = normalize_whitespace(str(item.get("create_dt", "")))
     if not create_dt:
-        raise ScrapeError(f"Detail mist create_dt voor {summary.lars}")
+        raise ScrapeError(f"Algoritme {stable_id} mist create_dt")
 
     return AlgorithmDetail(
-        id=summary.lars,
-        title=normalize_whitespace(str(detail.get("name", summary.title))),
-        url=f"{BASE_URL}/nl/algoritme/{summary.lars}",
-        organisatie=normalize_whitespace(str(detail.get("organization", summary.organisatie))),
-        doel=html_fragment_to_text(detail.get("goal")),
-        juridische_basis=html_fragment_to_text(detail.get("lawful_basis")),
-        impactassessment=normalize_impactassessment(detail),
-        status=normalize_status(normalize_whitespace(str(detail.get("status", summary.status_bron)))),
+        id=stable_id,
+        title=normalize_whitespace(str(item.get("name", ""))),
+        url=build_url(item, stable_id),
+        organisatie=normalize_whitespace(str(item.get("organization", ""))),
+        doel=html_fragment_to_text(item.get("goal")),
+        juridische_basis=html_fragment_to_text(item.get("lawful_basis")),
+        impactassessment=normalize_impactassessment(item),
+        status=normalize_status(item.get("status", "")),
         laatst_gewijzigd=create_dt[:10],
     )
 
 
-def scrape_listing_page(client: httpx.Client, page: int) -> tuple[list[AlgorithmSummary], int]:
-    html = fetch_with_retries(client, f"{BASE_URL}{LIST_PATH}?page={page}")
-    payload = extract_payload(html)
-    listing = find_listing_payload(payload)
-    raw_results = listing.get("results")
-    total_count = listing.get("total_count")
+def fetch_listing_page(
+    client: httpx.Client,
+    *,
+    page: int,
+    limit: int,
+) -> tuple[list[dict[str, Any]], int]:
+    payload = request_json(
+        client,
+        "POST",
+        LIST_PATH,
+        json_body={"page": str(page), "limit": str(limit)},
+    )
+    if not isinstance(payload, dict):
+        raise ScrapeError(f"Listing-payload heeft onverwacht formaat op pagina {page}")
+    raw_results = payload.get("results")
+    total_count = payload.get("total_count")
     if not isinstance(raw_results, list) or not isinstance(total_count, int):
         raise ScrapeError(f"Listing-payload heeft onverwacht formaat op pagina {page}")
-    return [build_summary(item) for item in raw_results], total_count
-
-
-def scrape_detail_page(client: httpx.Client, summary: AlgorithmSummary) -> AlgorithmDetail:
-    html = fetch_with_retries(client, f"{BASE_URL}{LIST_PATH}/{summary.lars}")
-    payload = extract_payload(html)
-    detail = find_detail_payload(payload)
-    return build_detail(summary, detail)
+    if not raw_results:
+        raise ScrapeError(f"Listing-payload op pagina {page} bevat geen resultaten")
+    return raw_results, total_count
 
 
 def collect_algorithms(limit: int | None) -> list[AlgorithmDetail]:
-    summaries: list[AlgorithmSummary] = []
+    request_limit = min(limit, 100) if limit is not None else 100
     details: list[AlgorithmDetail] = []
 
-    with httpx.Client(timeout=30.0, follow_redirects=True, headers={"User-Agent": "algoritmeregister-scraper/1.0"}) as client:
-        first_page_summaries, total_count = scrape_listing_page(client, page=1)
-        if not first_page_summaries:
-            raise ScrapeError("Geen resultaten gevonden op pagina 1")
-        summaries.extend(first_page_summaries)
-        page_size = len(first_page_summaries)
-        total_pages = math.ceil(total_count / page_size)
+    with httpx.Client(
+        base_url=BASE_URL,
+        timeout=30.0,
+        follow_redirects=True,
+        headers={"User-Agent": "algoritmeregister-scraper/1.0"},
+    ) as client:
+        first_page, total_count = fetch_listing_page(client, page=1, limit=request_limit)
+        page_size = len(first_page)
+        total_to_collect = min(total_count, limit) if limit is not None else total_count
+        total_pages = math.ceil(total_to_collect / page_size)
         logging.info("Gevonden: %s algoritmes over %s pagina's", total_count, total_pages)
 
+        records = list(first_page)
         for page in range(2, total_pages + 1):
-            if limit is not None and len(summaries) >= limit:
-                break
-            page_summaries, _ = scrape_listing_page(client, page=page)
-            summaries.extend(page_summaries)
+            page_records, _ = fetch_listing_page(client, page=page, limit=request_limit)
+            records.extend(page_records)
 
         if limit is not None:
-            summaries = summaries[:limit]
+            records = records[:limit]
 
-        for index, summary in enumerate(summaries, start=1):
-            logging.info("Detail %s/%s: %s", index, len(summaries), summary.title)
-            details.append(scrape_detail_page(client, summary))
+        for index, item in enumerate(records, start=1):
+            detail = build_detail(item)
+            logging.info("Record %s/%s: %s", index, len(records), detail.title)
+            details.append(detail)
 
     return details
 
@@ -318,10 +268,16 @@ def build_output(algoritmes: list[AlgorithmDetail]) -> dict[str, Any]:
     )
     return {
         "fetched_at": datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
-        "source_url": f"{BASE_URL}{LIST_PATH}",
+        "source_url": SOURCE_URL,
         "count": len(sorted_records),
         "algoritmes": sorted_records,
     }
+
+
+def write_output(data: dict[str, Any]) -> None:
+    DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+    serialized = json.dumps(data, sort_keys=True, indent=2, ensure_ascii=False) + "\n"
+    DATA_PATH.write_text(serialized, encoding="utf-8")
 
 
 def main() -> int:
@@ -340,7 +296,8 @@ def main() -> int:
         print(json.dumps(preview, indent=2, ensure_ascii=False))
         return 0
 
-    print(json.dumps(output, indent=2, ensure_ascii=False))
+    write_output(output)
+    logging.info("Geschreven: %s", DATA_PATH)
     return 0
 
 

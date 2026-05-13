@@ -1,43 +1,93 @@
 # algoritmeregister
 
-Standalone git-scraper voor het Nederlandse Algoritmeregister. GitHub Actions haalt dagelijks de publieke bron op, schrijft de actuele stand naar `data/algoritmes.json`, commit alleen bij wijzigingen, en gebruikt git-history als changelog.
+Dit project houdt het Nederlandse Algoritmeregister (`algoritmes.overheid.nl`) als git-geschiedenis bij. Een dagelijkse GitHub Actions workflow draait `scrape.py`, schrijft de actuele stand naar `data/algoritmes.json`, commit alleen bij inhoudelijke wijzigingen en gebruikt daarmee git als changelog. Een tweede workflow draait op push naar dat bestand, berekent wat er veranderde en kan relevante wijzigingen naar `ntfy` sturen via `alert.py`.
 
 ## Bron
 
-De publieke frontend op `https://algoritmes.overheid.nl` gebruikt geen publiek lees-API endpoint dat direct beschikbaar was tijdens inspectie op 13 mei 2026. De site rendert de data server-side in een Nuxt `__NUXT_DATA__` payload. De publieke paden `/api` en `/aanleverapi` gaven toen een `404`; release notes op de site verwijzen wel naar een aanlever-API voor publicerende organisaties, niet naar een publieke read-API voor bezoekers.
+Frequentie:
 
-Bevindingen uit de bron:
+- Dagelijks via GitHub Actions cron op `06:00 UTC`
 
-- Overzichtspagina: `https://algoritmes.overheid.nl/nl/algoritme?page=N`
-- Paginering: ja, via `?page=N`
-- Resultaten per pagina: 10
-- Totaal aantal op 13 mei 2026: 1431
-- Stabiele identifier: het detailpad bevat een numerieke ID, bijvoorbeeld `/nl/algoritme/89931921`; in de detailpayload staat die als `lars`
-- Detailvelden in de payload bevatten onder meer `name`, `organization`, `goal`, `lawful_basis`, `iama`, `dpia`, `impacttoetsen`, `status`, `create_dt`, `org_id` en `lars`
+Datavorm:
+
+- Eén JSON-bestand: `data/algoritmes.json`
+- Gesorteerd op stabiele `id`
+- Gestabiliseerde formatting via `json.dumps(..., sort_keys=True, indent=2, ensure_ascii=False)` plus trailing newline
+
+Bronbevindingen van 13 mei 2026:
+
+- De frontend gebruikt een publieke JSON-API achter `https://algoritmes.overheid.nl/api`
+- Listing-endpoint: `POST https://algoritmes.overheid.nl/api/algoritme/NLD`
+- Detail-endpoint: `GET https://algoritmes.overheid.nl/api/algoritme/NLD/{id}`
+- De API verwacht taalcodes `NLD`, `ENG`, `FRY` en niet de URL-locale `nl`, `en`, `fy`
+- Paginering gebeurt via JSON-body met `page` en `limit`
+- `total_count` geeft het totaal aantal records terug; op 13 mei 2026 was dat `1431`
+- Records bevatten in de listing al de velden die deze repo nodig heeft, waaronder `name`, `organization`, `goal`, `lawful_basis`, `iama`, `dpia`, `impacttoetsen`, `status`, `create_dt`, `org_id`, `lars`
+- Het stabiele ID is de numerieke `lars`-waarde; als fallback kan een scraper terugvallen op `uuid`
+- De frontend bundle bevat daarnaast download-URL helpers onder `/downloads/...`, maar voor deze worker is het listing-endpoint al voldoende
+
+De scraper gebruikt daarom de publieke frontend-API en vermijdt HTML-scraping.
 
 ## Lokaal testen
 
-Maak eerst een virtuele omgeving aan en installeer dependencies:
+Maak eerst een virtuele omgeving aan:
 
 ```bash
 python3 -m venv .venv
-./.venv/bin/pip install -r requirements.txt
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 Daarna:
 
 ```bash
-./.venv/bin/python scrape.py --dry-run
-./.venv/bin/python alert.py --since HEAD~1 --dry-run
+python scrape.py --dry-run
+python alert.py --since HEAD~1 --dry-run
 ```
+
+Voor debuggen:
+
+```bash
+python scrape.py --limit 5
+python scrape.py --dry-run --limit 3
+```
+
+## Workflows
+
+- `.github/workflows/scrape.yml`
+  - draait dagelijks en via `workflow_dispatch`
+  - commit en push alleen als `data/algoritmes.json` inhoudelijk wijzigt
+- `.github/workflows/alert.yml`
+  - draait op push naar `data/algoritmes.json` op `main`
+  - leest `HEAD~1` en de nieuwe file, classificeert events en post naar `ntfy`
+
+Alle `uses:` regels zijn gepind op volledige 40-char commit-SHA's.
 
 ## Zelf draaien in een fork
 
-- Fork deze repo
-- Zet `NTFY_TOPIC` als Actions secret in je repo
-- Trigger de workflow handmatig via de Actions-tab
+1. Fork deze repo
+2. Zet `NTFY_TOPIC` in `Settings -> Secrets and variables -> Actions`
+3. Optioneel: zet `NTFY_AUTH` als je topic authenticatie gebruikt
+4. Trigger de scrape handmatig via `Actions -> Scrape algoritmeregister -> Run workflow`
+
+## GitHub Pages
+
+De optionele viewer staat in `docs/index.html`.
+
+Activeer Pages via:
+
+- `Settings -> Pages`
+- Source: `Deploy from a branch`
+- Branch: `main`
+- Folder: `/docs`
+
+Daarna staat de viewer typisch op:
+
+- `https://{user}.github.io/{repo}/`
 
 ## Hoe lees ik de history
+
+Lokaal:
 
 ```bash
 git log -p data/algoritmes.json
@@ -45,4 +95,16 @@ git log -p data/algoritmes.json
 
 Online:
 
-`github.com/{repo}/commits/main/data/algoritmes.json`
+- `https://github.com/{repo}/commits/main/data/algoritmes.json`
+
+## Niet inbegrepen
+
+Bewust niet gebouwd:
+
+- database
+- eigen API
+- backend-service
+- multi-source aggregator
+- severity-DSL
+
+Git is de state, `data/algoritmes.json` is de dataset, en de workflows doen de rest.
