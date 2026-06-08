@@ -15,14 +15,58 @@
       --muted: #5c6773;
       --accent: #0066cc;
       --accent-soft: #e8f1fb;
+      --bar: #9ec9f5;
+      --bar-strong: #0066cc;
     }
     * { box-sizing: border-box; }
     body { margin: 0; background: var(--bg); color: var(--text); }
     main { max-width: 1440px; margin: 0 auto; padding: 20px; }
-    header { display: grid; gap: 12px; margin-bottom: 16px; }
+    header { display: grid; gap: 8px; margin-bottom: 20px; }
     h1 { margin: 0; font-size: 28px; }
+    h2 { margin: 28px 0 12px; font-size: 18px; }
     .meta { color: var(--muted); font-size: 14px; }
-    .toolbar { display: grid; gap: 12px; grid-template-columns: minmax(240px, 1fr) auto; align-items: center; }
+    .cards { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    .card .num { font-size: 26px; font-weight: 700; }
+    .card .label { color: var(--muted); font-size: 13px; margin-top: 2px; }
+    .card .sub { color: var(--muted); font-size: 12px; margin-top: 4px; }
+    .facts { display: grid; gap: 8px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+    .fact {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-size: 14px;
+    }
+    .fact .k { color: var(--muted); font-size: 12px; }
+    .fact .v { font-weight: 600; margin-top: 2px; }
+    .orgs { display: grid; gap: 6px; }
+    .org-row {
+      display: grid;
+      grid-template-columns: minmax(160px, 280px) 1fr auto;
+      gap: 10px;
+      align-items: center;
+      width: 100%;
+      border: 0;
+      background: transparent;
+      font: inherit;
+      color: inherit;
+      text-align: left;
+      cursor: pointer;
+      padding: 3px 4px;
+      border-radius: 6px;
+    }
+    .org-row:hover { background: var(--accent-soft); }
+    .org-row .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .org-row .track { display: block; background: var(--panel); border: 1px solid var(--line); border-radius: 4px; height: 16px; overflow: hidden; }
+    .org-row .fill { display: block; height: 100%; background: var(--bar); }
+    .org-row .n { color: var(--muted); font-variant-numeric: tabular-nums; min-width: 42px; text-align: right; }
+    .linkbtn { border: 0; background: transparent; color: var(--accent); font: inherit; cursor: pointer; padding: 0; }
     input {
       width: 100%;
       padding: 10px 12px;
@@ -31,22 +75,18 @@
       background: var(--panel);
       font: inherit;
     }
-    .table-wrap {
-      overflow: auto;
-      border: 1px solid var(--line);
-      background: var(--panel);
+    .toolbar { display: grid; gap: 12px; grid-template-columns: minmax(240px, 1fr) auto; align-items: center; margin-top: 8px; }
+    .chip {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--accent-soft); color: var(--accent);
+      border-radius: 999px; padding: 4px 10px; font-size: 13px;
     }
+    .chip button { border: 0; background: transparent; color: inherit; cursor: pointer; font: inherit; padding: 0; }
+    .table-wrap { overflow: auto; border: 1px solid var(--line); background: var(--panel); margin-top: 12px; }
     table { width: 100%; border-collapse: collapse; min-width: 1120px; }
     th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; font-size: 14px; }
     th { position: sticky; top: 0; background: var(--panel); z-index: 1; }
-    th button {
-      border: 0;
-      background: transparent;
-      color: inherit;
-      font: inherit;
-      cursor: pointer;
-      padding: 0;
-    }
+    th button { border: 0; background: transparent; color: inherit; font: inherit; cursor: pointer; padding: 0; }
     tr:hover { background: var(--accent-soft); }
     a { color: var(--accent); text-decoration: none; }
     .status { white-space: nowrap; }
@@ -58,34 +98,57 @@
     <header>
       <h1>Algoritmeregister</h1>
       <div class="meta" id="meta">Laden…</div>
+    </header>
+
+    <section id="insights">
+      <h2>Kerncijfers</h2>
+      <div class="cards" id="cards"></div>
+      <h2>Wist je dat…</h2>
+      <div class="facts" id="facts"></div>
+      <h2>Algoritmes per organisatie <span class="meta" id="orgs-meta"></span></h2>
+      <div class="orgs" id="orgs"></div>
+      <div style="margin-top:8px"><button class="linkbtn" id="orgs-toggle" hidden></button></div>
+    </section>
+
+    <section>
+      <h2>Alle algoritmes</h2>
       <div class="toolbar">
         <input id="filter" type="search" placeholder="Filter op naam, organisatie, status of juridische basis">
         <div class="meta" id="count"></div>
       </div>
-    </header>
-    <section class="table-wrap">
-      <table>
-        <thead>
-          <tr id="head"></tr>
-        </thead>
-        <tbody id="rows"></tbody>
-      </table>
-      <div class="empty" id="empty" hidden>Geen resultaten.</div>
+      <div id="active-org" style="margin-top:8px"></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr id="head"></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+        <div class="empty" id="empty" hidden>Geen resultaten.</div>
+      </div>
     </section>
   </main>
+
   <script>
     const columns = [
-      ["title", "Titel"],
-      ["organisatie", "Organisatie"],
-      ["status", "Status"],
-      ["impactassessment", "Impactassessment"],
-      ["juridische_basis", "Juridische basis"],
-      ["laatst_gewijzigd", "Laatst gewijzigd"]
+      { key: "title", label: "Titel", link: true },
+      { key: "organisatie", label: "Organisatie" },
+      { key: "status", label: "Status", cls: "status" },
+      { key: "impactassessment", label: "Impactassessment" },
+      { key: "juridische_basis", label: "Juridische basis" },
+      { key: "toegevoegd", label: "Toegevoegd", cls: "status" },
+      { key: "laatst_gewijzigd", label: "Laatst gewijzigd", cls: "status" }
     ];
+    const STATUS_LABELS = {
+      in_gebruik: "In gebruik",
+      ontwikkeling: "In ontwikkeling",
+      uitgefaseerd: "Uitgefaseerd"
+    };
 
     let records = [];
     let sortKey = "organisatie";
     let sortDirection = 1;
+    let orgFilter = null;
+    let showAllOrgs = false;
+    let orgCounts = [];
 
     function dataUrl() {
       if (location.hostname.endsWith(".github.io")) {
@@ -94,6 +157,190 @@
         return `https://raw.githubusercontent.com/${owner}/${repo}/refs/heads/main/data/algoritmes.json`;
       }
       return "../data/algoritmes.json";
+    }
+
+    function statusLabel(value) {
+      return STATUS_LABELS[value] || value || "";
+    }
+
+    function pct(part, whole) {
+      return whole ? Math.round((part / whole) * 100) : 0;
+    }
+
+    // --- insights -----------------------------------------------------------
+
+    function addCard(parent, num, label, sub) {
+      const card = document.createElement("div");
+      card.className = "card";
+      const n = document.createElement("div");
+      n.className = "num";
+      n.textContent = num;
+      const l = document.createElement("div");
+      l.className = "label";
+      l.textContent = label;
+      card.append(n, l);
+      if (sub) {
+        const s = document.createElement("div");
+        s.className = "sub";
+        s.textContent = sub;
+        card.appendChild(s);
+      }
+      parent.appendChild(card);
+    }
+
+    function addFact(parent, key, value) {
+      const f = document.createElement("div");
+      f.className = "fact";
+      const k = document.createElement("div");
+      k.className = "k";
+      k.textContent = key;
+      const v = document.createElement("div");
+      v.className = "v";
+      v.textContent = value;
+      f.append(k, v);
+      parent.appendChild(f);
+    }
+
+    function renderInsights() {
+      const total = records.length;
+      const orgMap = new Map();
+      const statusCount = {};
+      let impactJa = 0;
+      for (const r of records) {
+        const org = r.organisatie || "Onbekend";
+        orgMap.set(org, (orgMap.get(org) || 0) + 1);
+        statusCount[r.status] = (statusCount[r.status] || 0) + 1;
+        if (r.impactassessment === "Ja") impactJa += 1;
+      }
+      orgCounts = [...orgMap.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "nl"));
+
+      // Kerncijfers + statusverdeling
+      const cards = document.getElementById("cards");
+      cards.replaceChildren();
+      addCard(cards, total.toLocaleString("nl"), "Algoritmes");
+      addCard(cards, orgCounts.length.toLocaleString("nl"), "Organisaties");
+      for (const key of ["in_gebruik", "ontwikkeling", "uitgefaseerd"]) {
+        const c = statusCount[key] || 0;
+        addCard(cards, c.toLocaleString("nl"), statusLabel(key), `${pct(c, total)}% van totaal`);
+      }
+      addCard(cards, `${pct(impactJa, total)}%`, "Met impactassessment", `${impactJa.toLocaleString("nl")} algoritmes`);
+
+      // Lollige superlatieven
+      const facts = document.getElementById("facts");
+      facts.replaceChildren();
+
+      const [topOrg, topN] = orgCounts[0] || ["—", 0];
+      addFact(facts, "Koploper", `${topOrg} — ${topN} algoritmes`);
+
+      addFact(facts, "Gemiddeld per organisatie",
+        `${(total / (orgCounts.length || 1)).toFixed(1)} algoritmes`);
+
+      const eenpitters = orgCounts.filter(([, n]) => n === 1).length;
+      addFact(facts, "Eenpitters", `${eenpitters} organisaties met precies 1 algoritme`);
+
+      const withDoel = records.filter((r) => (r.doel || "").length > 0);
+      if (withDoel.length) {
+        const longest = withDoel.reduce((a, b) => (b.doel.length > a.doel.length ? b : a));
+        const shortest = withDoel.reduce((a, b) => (b.doel.length < a.doel.length ? b : a));
+        addFact(facts, "Langste doelomschrijving",
+          `${longest.title} — ${longest.doel.length.toLocaleString("nl")} tekens`);
+        addFact(facts, "Kortste doelomschrijving",
+          `${shortest.title} — ${shortest.doel.length} tekens`);
+      }
+
+      // Meest schrijflustige organisatie (gemiddelde doel-lengte, min. 5 algoritmes)
+      const orgDoel = new Map();
+      for (const r of records) {
+        const org = r.organisatie || "Onbekend";
+        const cur = orgDoel.get(org) || { sum: 0, n: 0 };
+        cur.sum += (r.doel || "").length;
+        cur.n += 1;
+        orgDoel.set(org, cur);
+      }
+      const wordy = [...orgDoel.entries()]
+        .filter(([, v]) => v.n >= 5)
+        .map(([org, v]) => [org, Math.round(v.sum / v.n)])
+        .sort((a, b) => b[1] - a[1])[0];
+      if (wordy) {
+        addFact(facts, "Meest schrijflustig (≥5 algoritmes)",
+          `${wordy[0]} — ⌀ ${wordy[1].toLocaleString("nl")} tekens per doel`);
+      }
+
+      // Nieuwste toevoeging op basis van git-"toegevoegd"
+      const dated = records.filter((r) => r.toegevoegd);
+      if (dated.length) {
+        const newest = dated.reduce((a, b) => (b.toegevoegd > a.toegevoegd ? b : a)).toegevoegd;
+        const newestCount = dated.filter((r) => r.toegevoegd === newest).length;
+        addFact(facts, "Laatste aanwas", `${newestCount} algoritme(s) toegevoegd op ${newest}`);
+      }
+
+      renderOrgs();
+    }
+
+    function renderOrgs() {
+      const wrap = document.getElementById("orgs");
+      wrap.replaceChildren();
+      const limit = showAllOrgs ? orgCounts.length : 15;
+      const max = orgCounts.length ? orgCounts[0][1] : 1;
+      document.getElementById("orgs-meta").textContent =
+        `(klik om te filteren — ${orgCounts.length} organisaties)`;
+
+      for (const [org, n] of orgCounts.slice(0, limit)) {
+        const row = document.createElement("button");
+        row.className = "org-row";
+        row.title = `Filter op ${org}`;
+
+        const name = document.createElement("span");
+        name.className = "name";
+        name.textContent = org;
+
+        const track = document.createElement("span");
+        track.className = "track";
+        const fill = document.createElement("span");
+        fill.className = "fill";
+        fill.style.width = `${Math.max(2, pct(n, max))}%`;
+        track.appendChild(fill);
+
+        const num = document.createElement("span");
+        num.className = "n";
+        num.textContent = n.toLocaleString("nl");
+
+        row.append(name, track, num);
+        row.addEventListener("click", () => {
+          orgFilter = org;
+          applyFilter();
+          document.getElementById("active-org").scrollIntoView({ behavior: "smooth", block: "center" });
+        });
+        wrap.appendChild(row);
+      }
+
+      const toggle = document.getElementById("orgs-toggle");
+      if (orgCounts.length > 15) {
+        toggle.hidden = false;
+        toggle.textContent = showAllOrgs
+          ? "Toon top 15"
+          : `Toon alle ${orgCounts.length} organisaties`;
+      } else {
+        toggle.hidden = true;
+      }
+    }
+
+    // --- tabel ---------------------------------------------------------------
+
+    function renderActiveOrg() {
+      const holder = document.getElementById("active-org");
+      holder.replaceChildren();
+      if (!orgFilter) return;
+      const chip = document.createElement("span");
+      chip.className = "chip";
+      const text = document.createElement("span");
+      text.textContent = `Organisatie: ${orgFilter}`;
+      const clear = document.createElement("button");
+      clear.textContent = "✕";
+      clear.title = "Filter wissen";
+      clear.addEventListener("click", () => { orgFilter = null; applyFilter(); });
+      chip.append(text, clear);
+      holder.appendChild(chip);
     }
 
     function compare(a, b) {
@@ -105,40 +352,34 @@
     function renderTable(items) {
       const rows = document.getElementById("rows");
       const empty = document.getElementById("empty");
-      rows.innerHTML = "";
+      rows.replaceChildren();
       if (!items.length) {
         empty.hidden = false;
-        return;
-      }
-      empty.hidden = true;
-      for (const item of items) {
-        const tr = document.createElement("tr");
-
-        const titleCell = document.createElement("td");
-        const link = document.createElement("a");
-        link.textContent = item.title || "";
-        if (/^https?:\/\//i.test(item.url || "")) {
-          link.href = item.url;
-          link.target = "_blank";
-          link.rel = "noreferrer";
+      } else {
+        empty.hidden = true;
+        for (const item of items) {
+          const tr = document.createElement("tr");
+          for (const col of columns) {
+            const td = document.createElement("td");
+            if (col.cls) td.className = col.cls;
+            if (col.link) {
+              const a = document.createElement("a");
+              a.textContent = item.title || "";
+              if (/^https?:\/\//i.test(item.url || "")) {
+                a.href = item.url;
+                a.target = "_blank";
+                a.rel = "noreferrer";
+              }
+              td.appendChild(a);
+            } else if (col.key === "status") {
+              td.textContent = statusLabel(item.status);
+            } else {
+              td.textContent = item[col.key] || "";
+            }
+            tr.appendChild(td);
+          }
+          rows.appendChild(tr);
         }
-        titleCell.appendChild(link);
-        tr.appendChild(titleCell);
-
-        for (const [field, className] of [
-          ["organisatie", ""],
-          ["status", "status"],
-          ["impactassessment", ""],
-          ["juridische_basis", ""],
-          ["laatst_gewijzigd", "status"]
-        ]) {
-          const td = document.createElement("td");
-          if (className) td.className = className;
-          td.textContent = item[field] || "";
-          tr.appendChild(td);
-        }
-
-        rows.appendChild(tr);
       }
       document.getElementById("count").textContent = `${items.length} zichtbare records`;
     }
@@ -146,6 +387,7 @@
     function applyFilter() {
       const query = document.getElementById("filter").value.trim().toLowerCase();
       const filtered = records
+        .filter((item) => !orgFilter || item.organisatie === orgFilter)
         .filter((item) => {
           if (!query) return true;
           return [item.title, item.organisatie, item.status, item.juridische_basis, item.impactassessment]
@@ -154,19 +396,22 @@
             .includes(query);
         })
         .sort(compare);
+      renderActiveOrg();
       renderTable(filtered);
     }
 
     function renderHead() {
       const head = document.getElementById("head");
-      head.innerHTML = "";
-      for (const [key, label] of columns) {
+      head.replaceChildren();
+      for (const col of columns) {
         const th = document.createElement("th");
         const button = document.createElement("button");
-        button.textContent = sortKey === key ? `${label} ${sortDirection === 1 ? "▲" : "▼"}` : label;
+        button.textContent = sortKey === col.key
+          ? `${col.label} ${sortDirection === 1 ? "▲" : "▼"}`
+          : col.label;
         button.addEventListener("click", () => {
-          if (sortKey === key) sortDirection *= -1;
-          else { sortKey = key; sortDirection = 1; }
+          if (sortKey === col.key) sortDirection *= -1;
+          else { sortKey = col.key; sortDirection = 1; }
           renderHead();
           applyFilter();
         });
@@ -182,11 +427,16 @@
       records = payload.algoritmes || [];
       document.getElementById("meta").textContent =
         `${payload.count || records.length} algoritmes | opgehaald op ${payload.fetched_at || "onbekend"}`;
+      renderInsights();
       renderHead();
       applyFilter();
     }
 
     document.getElementById("filter").addEventListener("input", applyFilter);
+    document.getElementById("orgs-toggle").addEventListener("click", () => {
+      showAllOrgs = !showAllOrgs;
+      renderOrgs();
+    });
     main().catch((error) => {
       document.getElementById("meta").textContent = `Laden mislukt: ${error.message}`;
     });
