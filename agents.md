@@ -7,6 +7,11 @@ This repository is a standalone git-scraping worker for the Dutch Algoritmeregis
 - Keep this repo simple: one scraper, one GitHub Actions workflow, one static viewer.
 - Do not add a database, backend service, API layer, queue, or extra infrastructure.
 - Git history is the changelog. `data/algoritmes.json` is the dataset.
+- `scrape_details.py` / `scrape_details.sh` is a separate LOCAL-only detail scraper
+  (not run in the Action). It writes full per-algorithm detail records to `detail/`
+  (gitignored), keyed by id (== lars) so it links back to `data/algoritmes.json`.
+  The "output only to data/algoritmes.json" rule below applies to `scrape.py`, the
+  Action scraper — not to this local tool.
 
 ## Source of Truth
 
