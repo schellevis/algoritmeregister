@@ -705,6 +705,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/zb000162/15583895"
     },
     {
+      "doel": "Als er op straat of in een park iets gemaakt of opgeruimd moet worden, dan kan dat bij de gemeente worden gemeld via Signalen, het open source meldingensysteem van voor en door gemeenten. Ook een gevaarlijke verkeerssituatie, woonoverlast of overlast van personen en horeca kan gemeld worden. Voorheen moesten mensen zelf kiezen bij welke categorie hun melding het beste paste (bijvoorbeeld ‘overlast’ of ‘straatmeubilair’), zodat de melding bij de juiste afdeling van de gemeente terecht kwam. Maar de gemeente is een complexe organisatie en de lijst met categorieën is lang. Daardoor koos men niet altijd de juiste categorie. Dat zorgde soms voor vertraging in de afhandeling van meldingen. Daarom gebruiken we nu een algoritme dat woorden herkent, bijvoorbeeld ‘afval’ en ‘stoep’. Op basis daarvan wordt bepaald bij welke categorie de melding het best past en welke afdeling de melding moet afhandelen. De melder hoeft dus geen categorie meer te kiezen, en de melding wordt sneller afgehandeld omdat hij bij de juiste afdeling terecht komt.",
+      "id": "15734974",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "laatst_gewijzigd": "2026-06-08",
+      "organisatie": "Gemeente Waadhoeke",
+      "status": "in_gebruik",
+      "title": "Meldingen openbare ruimte / Signalen",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm1949/15734974"
+    },
+    {
       "doel": "Wanneer u een WW-uitkering bij ons aanvraagt, willen wij weten of u niet door uw eigen schuld werkloos bent geworden. Als dit wel het geval is, dan bent u verwijtbaar werkloos. U heeft dan geen recht op een WW-uitkering. Om mogelijke verwijtbare werkloosheid bij WW-aanvragen te signaleren, gebruiken wij de Risicoscan Verwijtbare Werkloosheid.",
       "id": "15759870",
       "impactassessment": "Ja",
@@ -1605,6 +1616,17 @@
       "status": "in_gebruik",
       "title": "CiVision Samenlevingszaken",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0737/22157270"
+    },
+    {
+      "doel": "Het doel van het algoritme is medewerkers te ondersteunen bij het snel en consistent beoordelen van grote hoeveelheden documenten in een openbaarmakings- of inzagetraject. Het algoritme helpt bij het zoeken, filteren, clusteren, voorstellen van anonimiseringen ('lakken') en het herkennen van duplicaten. Hierdoor kunnen reviewers efficiënter bepalen welke documenten of documentonderdelen relevant zijn voor een verzoek. Het algoritme ondersteunt de organisatie bij het openbaar maken van informatie volgens wet- en regelgeving, zoals de Woo. Dit kan gaan om zowel actieve als passieve openbaarmaking. Tegelijkertijd helpt het algoritme persoonsgegevens te beschermen. Daardoor wordt het risico op privacyschendingen beperkt en draagt het gebruik bij aan naleving van de AVG. De impact van het algoritme is laag. Dit geldt voor burgers, medewerkers van afnemende organisaties en voor bedrijven en instellingen. Het algoritme zoekt naar persoonsgegevens en markeert of maskeert deze. De inhoud van het document speelt daarbij geen rol. Het algoritme doet alleen een voorstel voor anonimisering. Een medewerker beoordeelt dit voorstel en neemt de uiteindelijke beslissing. Er is geen sprake van geautomatiseerde besluitvorming. De tool biedt ook de mogelijkheid om handmatig informatie te markeren of te maskeren. Dit kan nodig zijn als informatie om andere redenen niet openbaar gemaakt mag worden. Denk bijvoorbeeld aan strategische of vertrouwelijke informatie. De grondslag voor het anonimiseren of maskeren wordt daarbij vastgelegd.",
+      "id": "22199498",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Algemene verordening gegevensbescherming (AVG) Omgevingswet Algemene Wet Bestuursrecht (AWB) Bekendmakingswet Wet Open Overheid (WOO) Wet Elektronische Publicaties (WEP)",
+      "laatst_gewijzigd": "2026-06-04",
+      "organisatie": "Ministerie van Landbouw, Natuur en Voedselkwaliteit",
+      "status": "buiten_gebruik",
+      "title": "Octobox Anonimiseren",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/mnre1153/22199498"
     },
     {
       "doel": "Het is de taak van de Dienst Toeslagen om ervoor te zorgen dat burgers die een aanvraag doen de huurtoeslag krijgen als zij daar recht op hebben. Het doel van het algoritme is: Snel, efficiënt en consistent toekennen van het recht op huurtoeslag voor ongeveer 1,5 miljoen huishoudens; Dat de aanvrager gelijk de laatste versie van de berekening van de huurtoeslag kan bekijken. Het algoritme beoordeelt de aanvraag voor huurtoeslag. Het algoritme bepaalt of er recht op is en hoe hoog de toeslag wordt. Door het jaar heen wordt er een voorschot gegeven. Na afloop van het jaar wordt op basis van de inkomens, vermogensgegevens en gegevens van de verhuurder de toeslag definitief berekend. Als het niet lukt om de beoordeling automatisch uit te voeren via het algoritme, kan het algoritme om hulp vragen van een ambtenaar.",
@@ -2679,7 +2701,7 @@
       "impactassessment": "Ja",
       "juridische_basis": "",
       "laatst_gewijzigd": "2026-05-13",
-      "organisatie": "Zeeuws archief",
+      "organisatie": "Zeeuws Archief",
       "status": "in_gebruik",
       "title": "Github Copilot",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/so0567/27483480"
@@ -3184,9 +3206,9 @@
       "id": "29617829",
       "impactassessment": "Ja",
       "juridische_basis": "2.67 lid 4; Besluit BRP art. 35; UAVG art. 29 – inzet van biometrie is toegestaan bij noodzakelijke authenticatie.",
-      "laatst_gewijzigd": "2025-10-20",
+      "laatst_gewijzigd": "2026-05-27",
       "organisatie": "Gemeente Rucphen",
-      "status": "ontwikkeling",
+      "status": "in_gebruik",
       "title": "Gezichtsvergelijking – hulpmiddel voor identiteitsvaststelling bij gemeentelijke balie",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0840/29617829"
     },
@@ -3444,6 +3466,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0848/32135581"
     },
     {
+      "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
+      "id": "32169948",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "laatst_gewijzigd": "2024-11-04",
+      "organisatie": "Gemeente Hof van Twente",
+      "status": "in_gebruik",
+      "title": "Zivver",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm1735/32169948"
+    },
+    {
       "doel": "Iemand die is ingesloten in een penitentiaire inrichting, heeft geen recht op een bijstandsuitkering. Gemeenten hebben de taak dit te controleren en in voorkomende gevallen na onderzoek de bijstandsuitkering stop te zetten. Het IB informeert de gemeente als een inwoner met een bijstandsuitkering is ingesloten in penitentiaire inrichting. Dit gebeurt met informatie van Dienst Justitiële Inrichting (DJI) en ministerie van Buitenlandse Zaken (BuZa).",
       "id": "32198791",
       "impactassessment": "Ja",
@@ -3466,6 +3499,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/mnre1130/32235874"
     },
     {
+      "doel": "Het handmatig doorzoeken van complexe, gelaagde digitale omgevingsplannen in het Digitaal Stelsel Omgevingswet (DSO) is voor medewerkers een tijdrovend proces. Door de gelaagde juridische structuur is het voor niet-specialisten vaak een uitdaging om snel en accuraat vast te stellen welke specifieke regels op een bepaald perceel van kracht zijn. Struck verken omgevingsplannen heeft als doel deze informatie snel en in begrijpelijke taal te ontsluiten. Het systeem stelt gebruikers in staat om in natuurlijke taal vragen te stellen over de gebruiks- en bouwmogelijkheden op een specifieke locatie. Het algoritme analyseert de relevante planregels en vat deze direct samen, waardoor het handmatig navigeren door honderden juridische regels niet langer nodig is. De impact hiervan kan zijn dat de complexe structuur van de nieuwe Omgevingswet toegankelijker wordt voor een bredere groep medewerkers. Dit kan leiden tot aanzienlijk kortere doorlooptijden bij vooroverleggen en een snellere, kwalitatief betere informatievoorziening aan de balie voor zowel burgers als bedrijven.",
+      "id": "32247246",
+      "impactassessment": "Ja",
+      "juridische_basis": "",
+      "laatst_gewijzigd": "2026-05-13",
+      "organisatie": "Gemeente Meppel",
+      "status": "in_gebruik",
+      "title": "Struck",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0119/32247246"
+    },
+    {
       "doel": "Het doel is het digitaal handhaven van het Promenadegebied. Controle hierop gebeurt met camera's die kentekens kunnen lezen. Het doel van het algoritme is om efficiënt te kunnen handhaven. Het algoritme heeft alleen impact op voertuigen die niet in het gebied mogen zijn. Alleen het overtredende voertuig wordt in beeld gebracht. Niet-overtreders worden buiten beschouwing gelaten. De camera's, en daarmee het algoritme, worden ingezet voor het handhaven van het Promenadegebied voor voertuigen. De impact van het algoritme op de inwoner is laag. Enkel het lezen van de kentekenplaat wordt door het algoritme uitgevoerd. Vermeende overtreders worden door een buitengewoon opsporingsambtenaar (boa) handmatig gecontroleerd om te bepalen of er sprake is van een strafbare gedraging, waarbij de boa ook de kentekenplaat zelf nog controleert op camerabeelden.",
       "id": "32388868",
       "impactassessment": "Ja",
@@ -3486,6 +3530,17 @@
       "status": "buiten_gebruik",
       "title": "Smartcity/ geluidsherkenning",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0518/32429839"
+    },
+    {
+      "doel": "Je komt in aanraking met dit algoritme wanneer je een paspoort of ID-kaart aanvraagt. Bij gemeente Almere controleren medewerkers of de pasfoto voldoet aan de eisen. Het algoritme ondersteunt bij de controle op vier eisen. Staan de ogen op de foto op een horizontale lijn? Is het hoofd gecentreerd afgebeeld op de foto? Is het hoofd niet te klein of te groot weergegeven? Is het hoofd volledig afgebeeld? Het algoritme voert uitsluitend metingen uit op verhoudingen. Als de foto ook na menselijke controle niet voldoet, moet de burger een nieuwe foto aanleveren.",
+      "id": "32441941",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De Paspoortwet (artikel 3 lid 2) schrijft voor dat een reisdocument voorzien moet zijn van een foto. Voor een goed beeld van de aanvrager moet de foto voldoen aan een aantal eisen. Dit is uitgewerkt in een aantal Paspoortuitvoeringsregelingen. Zo moet de foto scherp zijn, in kleur, en moet het hoofd helemaal zichtbaar zijn. De fotomatrix is gebaseerd op de door de internationale standaarden van DOC9303 en ISO 19794:5 vastgestelde criteria. Deze fotomatrix is hier te downloaden: Link naar externe paginahttps://rvig.nl/fotomatrix Er zijn ook uitzonderingen genoemd: Om godsdienstige of levensbeschouwelijke redenen mag je je hoofd bedekken. Je kunt om fysieke of medische redenen afwijken van de eisen, soms is daar verklaring van een arts of medische instelling voor nodig. Voor kinderen jonger dan zes jaar hoeven niet aan alle eisen te voldoen. Dat er voldaan moet worden aan deze fotomatrix staat genoemd in de verschillende paspoortuitvoeringsregelingen: Paspoortuitvoeringsregeling Nederland artikel 28 Paspoortuitvoeringsregeling Caribische landen artikel 40 Paspoortuitvoeringsregeling Koninklijke Marechaussee artikel 17 Paspoortuitvoeringsregeling Buitenland artikel 4",
+      "laatst_gewijzigd": "2026-05-20",
+      "organisatie": "Gemeente Almere",
+      "status": "in_gebruik",
+      "title": "Vereisten pasfoto voor een reisdocument controleren",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0034/32441941"
     },
     {
       "doel": "Het doel van de e-diensten met het onderliggende algoritme is inwoners en ondernemers maximaal ondersteunen/begeleiden bij een digitale aanvraag. Daardoor kan deze aanvraag juist en volledig worden ingediend. Het algoritme controleert verschillende gegevens van de inwoner. Als er geen bijzonderheden worden geconstateerd in de aanvraag of aangifte kan deze worden verwerkt zonder tussenkomst van een burgerzakenmedewerker. Als er wel een of meerdere bijzonderheden worden geconstateerd komt de aanvraag/aangifte altijd terecht in een werklijst. Daar wordt deze gecontroleerd door een burgerzakenmedewerker. Het algoritme kan alleen automatisch een aanvraag/aangifte goedkeuren. Een aanvraag/aangifte afkeuren kan alleen de burgerzakenmedewerker. Impact De impact is dat een dergelijke aanvraag efficiënt kan worden afgehandeld door de gemeente; burger/bedrijf heeft namelijk diverse stappen (werkzaamheden) al uitgevoerd waardoor de kwaliteit van de aangifte wordt verhoogt doordat de burger zelf de gegevens invult. In een aantal gevallen kan deze aanvraag zelfs volledig automatisch worden verwerkt. De kwaliteit van de dienstverlening gaat door deze diensten omhoog, net als de kwaliteit van de gegevens in de BRP.",
@@ -3728,6 +3783,17 @@
       "status": "in_gebruik",
       "title": "Rechten Rotterdammers",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0599/33569518"
+    },
+    {
+      "doel": "Het algoritme helpt medewerkers om snel en goed documenten te beoordelen. Dit gebeurt bij het openbaarmaken van informatie. Met slimme zoek- en filterfuncties kunnen reviewers beter zien welke documenten belangrijk zijn voor een verzoek. Hierdoor kunnen verzoeken sneller en beter worden behandeld. Burgers en bedrijven krijgen sneller antwoord op hun vragen.",
+      "id": "33698247",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De basis voor de processen is als volgt: 1. Voor openbaarmaking: de Wet open overheid (Woo). 2. Voor inzage: de Algemene Verordening Gegevensbescherming (AVG). 3. Voor bezwaar en beroep: de Algemene wet bestuursrecht (Awb). 4. Voor parlementaire onderzoeken: de Wet op de parlementaire enquête 2008 (WPE).",
+      "laatst_gewijzigd": "2026-06-04",
+      "organisatie": "Ministerie van Landbouw, Natuur en Voedselkwaliteit",
+      "status": "in_gebruik",
+      "title": "Zylab Ondersteuning bij Openbaarmaking",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/mnre1153/33698247"
     },
     {
       "doel": "De anonimiseringstool wordt ingezet om invulling te geven aan enerzijds transparantie en anderzijds aan de noodzakelijke bescherming van de personen, bedrijven en instellingen op wie documenten betrekking hebben. Transparantie omdat het de organisatie in staat stelt om informatie volgens regelgeving zoals de Woo te delen, actief danwel passief. Voor de burger over wie er gegevens in te publiceren documenten zijn opgenomen, betekent het gebruik dat er geen privacy schending plaatsvindt en de organisatie daarmee voldoet aan de AVG. Dat geldt ook voor de bescherming van privacygegevens van de medewerkers van de organisatie. De aanvrager van een Woo verzoek krijgt de informatie waarom zij vroeg, hetzij in geanonimiseerde versie of deels gemaskeerd op basis van een andere grondslag. Voor de afdelingen binnen de organisatie die voor het afhandelen van een Woo verzoek en/of publicatie van informatie verantwoordelijk zijn, betekent het dat ze voldoen aan wet- en regelgeving. Gebruik van de software verkort de doorlooptijd en draagt derhalve bij aan het binnen de wettelijke termijnen kunnen aanbieden van gevraagde informatie. De risico impact van het algoritme is laag. Dat geldt voor personen (burgers, medewerkers van afnemende organisaties) en bedrijven en instellingen. Het algoritme zoekt specifiek naar (persoons)gegevens en maskeert deze of duidt ze aan ongeacht de verdere inhoud van documenten. Er wordt een voorstel gedaan voor het anonimiseren van een tekstfragment aan een vakinhoudelijk persoon, er is geen sprake van automatische beslissingen. Daarnaast heeft de tool als optie om handmatig informatie te maskeren die om andere redenen niet publiek gemaakt kan worden. Daarmee kan bijvoorbeeld een tekstfragment met strategische informatie gemarkeerd worden, ter bescherming van de eigen organisatie of een partnerorganisatie (overheid, bedrijf of instelling). De grondslag van het anonimiseren of maskeren wordt vermeld in het vak.",
@@ -4819,6 +4885,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0770/38677335"
     },
     {
+      "doel": "Wij gebruiken dit computerprogramma om veilig informatie te sturen op de mail. Als je belangrijke informatie mailt, helpt dit programma de informatie in het mailtje te beschermen.",
+      "id": "38679894",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "laatst_gewijzigd": "2026-06-04",
+      "organisatie": "Gemeente Noordenveld",
+      "status": "in_gebruik",
+      "title": "Cryptshare",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm1699/38679894"
+    },
+    {
       "doel": "Amsterdam is een drukke stad. Dit kan soms leiden tot verkeersonveilige situaties. Door data te verzamelen over de aantallen voetgangers is het mogelijk om maatregelen te treffen, waardoor de drukte in goede banen geleid kan worden. Hierdoor blijft de stad comfortabel, bereikbaar en verkeersveilig. Als een situatie door te grote drukte onveilig wordt, kan de gemeente ingrijpen. Dit gebeurt bijvoorbeeld door digitale informatieborden te plaatsen, zodat mensen weten welke routes ze moeten nemen. Of er wordt éénrichtingsverkeer ingesteld. Met het crowdmonitoring systeem ‘Public Eye’ brengen we op een paar plekken in Amsterdam de drukte in kaart. In het verleden was het systeem actief op de Arena Boulevard, op het Marineterrein en op de Dam. Op deze plekken hangen camera’s die zijn gekoppeld aan een server van de gemeente. Op de server analyseert een algoritme hoeveel mensen er op de beelden staan. De informatie over het aantal aanwezige personen wordt doorgestuurd naar medewerkers van de gemeente, die de telling kunnen gebruiken om het verkeer beter te reguleren. De beelden worden niet getoond, alleen de aantallen. Ook bewoners en bezoekers van de stad kunnen de informatie over het aantal aanwezige mensen inzien, via https://druktebeeld.amsterdam.nl/. Op dit moment kan dat alleen voor de locatie Marineterrein. De ambitie is om dit voor alle Public Eye locaties te realiseren. De videobeelden worden – zodra het algoritme het aantal aanwezige mensen heeft geteld –onmiddellijk gewist. Bij elke nieuwe locatie waar Public Eye geplaatst wordt, wordt er een kleine hoeveelheid beeldmateriaal opgenomen waarvan er steekproefsgewijs ca. 300 beelden worden geannoteerd voor de training van het algoritme. Zo kan de drukte op die locatie ook goed geanalyseerd worden. Elke locatie is immers uniek en heeft bijvoorbeeld net een andere lichtinval of camerahoogte.",
       "id": "38748497",
       "impactassessment": "Ja",
@@ -5169,6 +5246,17 @@
       "status": "in_gebruik",
       "title": "iBurgerzaken e-diensten",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0770/41271357"
+    },
+    {
+      "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
+      "id": "41276828",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "1. WOO 2. WDO 3. UAVG 4. WEP 5. WDO",
+      "laatst_gewijzigd": "2026-05-20",
+      "organisatie": "Gemeente Schouwen-Duiveland",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm1676/41276828"
     },
     {
       "doel": "Het verbeteren van de bedrijfsvoering. De impact is laag vanwege het feit dat voor de besluitvorming altijd menselijke controle plaatsvindt.",
@@ -6590,6 +6678,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/zb000195/48553344"
     },
     {
+      "doel": "Het algoritme helpt medewerkers om snel en goed documenten te beoordelen. Dit gebeurt bij het openbaarmaken van informatie. Met slimme zoek- en filterfuncties kunnen reviewers beter zien welke documenten belangrijk zijn voor een verzoek. Hierdoor kunnen verzoeken sneller en beter worden behandeld. Burgers en bedrijven krijgen sneller antwoord op hun vragen.",
+      "id": "48565152",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De basis voor de processen is als volgt: 1. Voor openbaarmaking: de Wet open overheid (Woo). 2. Voor inzage: de Algemene Verordening Gegevensbescherming (AVG). 3. Voor bezwaar en beroep: de Algemene wet bestuursrecht (Awb). 4. Voor parlementaire onderzoeken: de Wet op de parlementaire enquête 2008 (WPE).",
+      "laatst_gewijzigd": "2026-06-04",
+      "organisatie": "Ministerie van Economische Zaken en Klimaat",
+      "status": "in_gebruik",
+      "title": "Zylab Ondersteuning bij openbaarmaking",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/mnre1045/48565152"
+    },
+    {
       "doel": "Het doel van Octobox Anonimiseren is om Staatsbosbeheer te ondersteunen bij het veilig en efficiënt lakken van privacygevoelige informatie in documenten. Octobox doet suggesties voor het lakken van te beschermen informatie. Medewerkers kunnen de voorstellen overnemen of afwijzen. Van automatische beslissingen is geen sprake, waardoor de impact laag is.",
       "id": "48617172",
       "impactassessment": "Onbekend",
@@ -6726,7 +6825,7 @@
       "id": "49428458",
       "impactassessment": "Onbekend",
       "juridische_basis": "De Wet Dieren Besluit houders van dieren",
-      "laatst_gewijzigd": "2026-01-26",
+      "laatst_gewijzigd": "2026-05-22",
       "organisatie": "Nederlandse Voedsel- en Warenautoriteit (NVWA)",
       "status": "in_gebruik",
       "title": "Nalevingsmodel Varkenswelzijn",
@@ -7083,6 +7182,17 @@
       "status": "in_gebruik",
       "title": "Betalingsbereidheid parkeren",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0344/51939364"
+    },
+    {
+      "doel": "Gemeente Waadhoeke wil transparant zijn naar haar inwoners en ondernemers en tegelijkertijd voldoen aan de Algemene Verordening Gegevensbescherming (AVG). De inzet van anonimiseringssoftware helpt medewerkers bij het anonimiseren van documenten.",
+      "id": "52147829",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Algemene Verordening Gegevensbescherming Wet open overheid Wet elektronische publicaties",
+      "laatst_gewijzigd": "2026-06-08",
+      "organisatie": "Gemeente Waadhoeke",
+      "status": "in_gebruik",
+      "title": "Anonimiseren - DigEplan",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm1949/52147829"
     },
     {
       "doel": "Het doel is een efficiëntere afhandeling van bezwaren, vermindering van de administratieve druk en kortere verwerkingstijd. AiBezwaar: Identificeert de aanvrager en hoofdbetrokkenen. Identificeert het WOZ-object van bezwaar. Identificeert of het bezwaarschrift een pro-forma bezwaar is. Identificeert de redenen van het bezwaar (ontgrieven). Identificeert of om hoorzitting wordt verzocht. Stelt een conceptreactie op gebaseerd op eerder gegeven antwoorden op bepaalde griefredenen. Op basis hiervan wordt direct een zaak aangemaakt in de bezwarenmodule. Wanneer niet alle benodigde gegevens automatisch herkend kunnen worden, wordt de e-mail gemarkeerd voor handmatige verwerking door een medewerker. Hierbij kan de medewerker snel en efficiënt de ontbrekende informatie aanvullen en het bezwaar correct registreren.",
@@ -7556,6 +7666,17 @@
       "status": "in_gebruik",
       "title": "Aanvraag uitkering Bijstand /Bbz Levensonderhoud",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0518/54281370"
+    },
+    {
+      "doel": "Het dient als een snelle nauwkeurige geautomatiseerde politieke monitor voor het gericht berichten ophalen van de Tweede Kamer, Eerste Kamer en Europa. Dit geeft snel inzicht in de informatie over de Tweede Kamer e.a. die voor de gemeente relevant is. Hiermee kan de gemeente vroegtijdig op de hoogte zijn van relevante politieke ontwikkelingen in de Tweede Kamer, Eerste Kamer en Europa. Ook draagt het bij aan het op orde houden van de informatievoorziening. De signaleringsfunctie heeft geen directe impact op burgers. De informatie uit Polpo gaat niet naar burgers toe en wordt enkel gebruikt als lobby naar de Tweede Kamer, Eerste Kamer en Europa.",
+      "id": "54377963",
+      "impactassessment": "Ja",
+      "juridische_basis": "",
+      "laatst_gewijzigd": "2026-06-02",
+      "organisatie": "Gemeente Oss",
+      "status": "in_gebruik",
+      "title": "Polpo",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0828/54377963"
     },
     {
       "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
@@ -8651,7 +8772,7 @@
       "id": "59347734",
       "impactassessment": "Onbekend",
       "juridische_basis": "landelijke verplichting ondertiteling raadsvergaderingen",
-      "laatst_gewijzigd": "2025-07-14",
+      "laatst_gewijzigd": "2026-05-28",
       "organisatie": "Gemeente Noardeast Fryslân",
       "status": "ontwikkeling",
       "title": "Humain'r ondertiteling raadsvergaderingen",
@@ -9153,6 +9274,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0363/62573812"
     },
     {
+      "doel": "De virtuele coach is exclusief ontwikkeld voor raadsleden met als doel hun debatvaardigheden te verbeteren. Burgers en bedrijven komen hiermee niet in aanraking. Het systeem biedt persoonlijke en op maat gemaakte adviezen om raadsleden te helpen hun standpunten krachtig over te brengen en effectief te discussiëren. De nadruk ligt op het verbeteren van presentatie-, vraag- en argumentatietechnieken, wat resulteert in een maximale impact tijdens raadsvergaderingen en andere formele bijeenkomsten.",
+      "id": "62633156",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "laatst_gewijzigd": "2025-12-18",
+      "organisatie": "Gemeente Waadhoeke",
+      "status": "in_gebruik",
+      "title": "Debatrijk - Coach",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm1949/62633156"
+    },
+    {
       "doel": "De KVB is in 2017 gelanceerd in het kader van de Participatiewet. Deze wet moet ervoor zorgen dat meer mensen werk vinden. Ook mensen met een arbeidsbeperking. Met de KVB kunnen werkgevers op werk.nl aangeven wat voor arbeidskrachten zij zoeken. Ze maken een zoekprofiel aan en kunnen vervolgens kijken of er mensen met een arbeidsbeperking zijn die hierbij passen.",
       "id": "62684529",
       "impactassessment": "Ja",
@@ -9648,6 +9780,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0855/65154348"
     },
     {
+      "doel": "Dit algoritme is bedoeld om de tijd van onze inspecteurs zo nuttig mogelijk te gebruiken. Op dit moment voeren we bijvoorbeeld controles uit bij Bedrijven die door het toeval zijn geselecteerd. Zo houden we goed zicht op hoe het gaat bij melkveebedrijven in het algemeen. Bedrijven waarover een melding is binnen gekomen, omdat er mogelijk dieren slecht behandeld worden. Deze meldingen kunnen door burgers, dierenartsen of andere bedrijven gedaan worden. Bedrijven die op basis van risicofactoren geselecteerd worden, zoals bijvoorbeeld een hoge kalversterfte. Verder willen we vooral bedrijven inspecteren waar de kans groter lijkt dat de regels niet gevolgd worden. Dit algoritme helpt zulke bedrijven te vinden. Daarna volgt een inspectie zoals we die altijd doen. Het leidt ertoe dat we meer inspecties doen bij bedrijven waar mogelijk iets aan de hand is, en minder bij bedrijven waar alles goed gaat. Inspecteren waar de risico's het grootst lijken moet van de wet; met dit algoritme kunnen we dat beter doen.",
+      "id": "65162646",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De Wet Dieren Besluit houders van dieren",
+      "laatst_gewijzigd": "2026-05-22",
+      "organisatie": "Nederlandse Voedsel- en Warenautoriteit (NVWA)",
+      "status": "in_gebruik",
+      "title": "Nalevingsmodel melkveewelzijn",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/oorg10102/65162646"
+    },
+    {
       "doel": "Doel van dit algoritme is ondersteuning van gebruikers met een visuele handicap. Er zijn veel mensen in Nederland die moeite hebben met lezen en dus problemen hebben met het begrijpen van de teksten op websites. Denk aan laaggeletterden, anderstaligen, mensen met een beperking, slecht zicht, concentratieproblemen etc. Op de website van de gemeente Woensdrecht kan een bezoeker gebruik maken van ReadSpeaker. Dit is software die tekst kan voorlezen. Iedereen kan ReadSpeaker gebruiken. De versie van deze voorleeshulp is toegankelijk, AVG-proof en uitgebreid met extra functionaliteiten, zoals voorlezen met muisselectie, vergrootfunctie, schermmaskering en nog veel meer.",
       "id": "65189274",
       "impactassessment": "Onbekend",
@@ -9967,11 +10110,11 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0777/66734970"
     },
     {
-      "doel": "Het doel om algoritmen te gebruiken is om de controle op echtheid en opmaak en afgifte van brondocumenten te versnellen. Deze algoritmen ondersteunen documentexperts door aan te geven of er afwijkingen zijn. Een ander doel is voor het bijhouden van aantekeningen over de gecontroleerde brondocumenten en het makkelijker maken van het proces door vergelijkingsmateriaal te bekijken.",
+      "doel": "Het doel van de algoritmes is om brondocumenten sneller te verwerken. De functie “documentherkenning” categoriseert brondocumenten. Hiermee wordt bepaald of een brondocument op een lijst staat die door een documentdeskundigen is opgesteld. Dit is een lijst met documenten die door laag risico op fraude niet verder worden onderzocht. De functie “detailherkenning” helpt om kenmerken van echtheid op brondocumenten te vinden.",
       "id": "66827551",
       "impactassessment": "Ja",
-      "juridische_basis": "In artikel 14, 20, 28, 33 en 45a van de Vreemdelingenwet is neergelegd dat de Minister bevoegd is verblijfsvergunningen te verlenen, te wijzigen en/of intrekken. In artikel 3:2 Algemene wet bestuursrecht is neergelegd dat het bestuursorgaan bij de voorbereiding van een besluit de nodige kennis omtrent de relevante feiten en af te wegen belangen vergaart. Een verplichting tot het doen van een onderzoek dus.",
-      "laatst_gewijzigd": "2024-06-26",
+      "juridische_basis": "In artikel 14, 20, 28 en 45a van de Vreemdelingenwet is neergelegd dat de Minister bevoegd is verblijfsvergunningen te verlenen, te wijzigen en/of intrekken. In artikel 3:2 Algemene wet bestuursrecht is neergelegd dat het bestuursorgaan bij de voorbereiding van een besluit de nodige kennis omtrent de relevante feiten en af te wegen belangen vergaart. Een verplichting tot het doen van een onderzoek dus.",
+      "laatst_gewijzigd": "2026-05-27",
       "organisatie": "IND",
       "status": "in_gebruik",
       "title": "Documentonderzoek",
@@ -10044,11 +10187,11 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/oorg10103/67311486"
     },
     {
-      "doel": "Het handmatig doorzoeken van complexe, gelaagde digitale omgevingsplannen in het Digitaal Stelsel Omgevingswet (DSO) is voor medewerkers een tijdrovend proces. Door de gelaagde juridische structuur is het voor niet-specialisten vaak een uitdaging om snel en accuraat vast te stellen welke specifieke regels op een bepaald perceel van kracht zijn. Struck verken omgevingsplannen heeft als doel deze informatie snel en in begrijpelijke taal te ontsluiten. Het systeem stelt gebruikers in staat om in natuurlijke taal vragen te stellen over de gebruiks- en bouwmogelijkheden op een specifieke locatie. Het algoritme analyseert de relevante planregels en vat deze direct samen, waardoor het handmatig navigeren door honderden juridische regels niet langer nodig is. De impact hiervan kan zijn dat de complexe structuur van de nieuwe Omgevingswet toegankelijker wordt voor een bredere groep medewerkers. Dit kan leiden tot aanzienlijk kortere doorlooptijden bij vooroverleggen en een snellere, kwalitatief betere informatievoorziening aan de balie voor zowel burgers als bedrijven.",
+      "doel": "Het is tijdrovend om complexe, gelaagde digitale omgevingsplannen in het Digitaal Stelsel Omgevingswet (DSO) handmatig te doorzoeken. Door de gelaagde juridische structuur is het voor niet-specialisten vaak lastig om snel en nauwkeurig vast te stellen welke specifieke regels op een bepaald perceel van kracht zijn. Het doel van Struck verken omgevingsplannen is om deze informatie snel en in begrijpelijke taal te ontsluiten. Het systeem stelt gebruikers in staat om in gewone taal vragen te stellen over de gebruiks- en bouwmogelijkheden op een specifieke locatie. Het algoritme analyseert de relevante planregels en vat ze direct samen, zodat je niet meer handmatig in honderden juridische regels hoeft te zoeken. Het gevolg hiervan is dat de complexe structuur van de nieuwe Omgevingswet toegankelijker wordt voor een bredere groep medewerkers. Dit kan zorgen voor aanzienlijk kortere doorlooptijden bij vooroverleggen en snellere en betere informatievoorziening aan de balie voor burgers en bedrijven.",
       "id": "67349731",
       "impactassessment": "Ja",
       "juridische_basis": "https://wetten.overheid.nl/BWBR0041297",
-      "laatst_gewijzigd": "2026-05-12",
+      "laatst_gewijzigd": "2026-05-19",
       "organisatie": "Gemeente Amsterdam",
       "status": "in_gebruik",
       "title": "Struck",
@@ -10279,7 +10422,7 @@
       "id": "68373955",
       "impactassessment": "Ja",
       "juridische_basis": "Algemene wet inzake rijksbelastingen: Uitvoeringsregeling Algemene wet inzake rijksbelastingen Algemene wet bestuursrecht: Wet op belastingen van rechtsverkeer Uitvoeringsbesluit belastingen van rechtsverkeer Algemene verordening gegevensbescherming Uitvoeringswet algemene verordening gegevensbescherming: Wet algemene bepalingen Burgerservicenummer: Archiefwet 1995: Registratiewet 1970 Uitvoeringsregeling Registratiewet 1970 Wet op de notarisambt Wet elektronische registratie notariële akten Verordening elektronische notariële akte Reglement elektronische notariële akte",
-      "laatst_gewijzigd": "2026-05-12",
+      "laatst_gewijzigd": "2026-06-03",
       "organisatie": "Belastingdienst",
       "status": "in_gebruik",
       "title": "Signaalmodel Overdrachtsbelasting voor aangiftes (OVB)",
@@ -11243,6 +11386,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/189378/74978856"
     },
     {
+      "doel": "Het concerndashboard toont bedrijfsvoeringsinformatie van het concern met als doel managers te informeren over de stand van zaken binnen de organisatie. Het dashboard wordt primair gebruikt voor personele bezetting en ziekteverzuim, maar ook voor onderwerpen zoals personele budgetten en beleidsgelden.",
+      "id": "75116356",
+      "impactassessment": "Ja",
+      "juridische_basis": "Gerechtvaardigd Belang (Artikel 6, lid 1 sub f AVG). Als werkgever heeft de Rijksoverheid een zorgplicht voor haar werknemers. Deze CDB voorziet in relevante informatie die nodig is om sturing te geven en maatregelen te treffen voor een effectief beleid.",
+      "laatst_gewijzigd": "2026-06-08",
+      "organisatie": "Ministerie van Economische Zaken en Klimaat",
+      "status": "in_gebruik",
+      "title": "Concerndashboard EZK",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/mnre1045/75116356"
+    },
+    {
       "doel": "De SCIL helpt Halt om inzichtelijk te maken of er mogelijk sprake kan zijn van een licht verstandelijke beperking bij een jongere. Dit is belangrijk om aan te kunnen sluiten bij hetgeen de jongere nodig heeft om de Halt-interventie zo goed mogelijk te doorlopen. Aanpassingen kunnen gedaan worden in onder andere de manier van omgaan met de jongere, taalgebruik en de behoefte aan (extra) ondersteuning tijdens het doorlopen van de Halt-interventie. Als een jongere en/of ouder/verzorger dat wenst kan de Halt-medewerker doorverwijzen voor verder onderzoek, te denken aan een intelligentieonderzoek.",
       "id": "75124452",
       "impactassessment": "Ja",
@@ -11606,6 +11760,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0281/76821149"
     },
     {
+      "doel": "Het belang van een correct geregistreerd adres gaat verder dan het op orde houden van de Basisregistratie Personen (BRP). Vindt er bijvoorbeeld een ramp plaats, dan wil je iedereen in de omgeving tijdig kunnen waarschuwen. Ook verstrek je als gemeente voorzieningen, uitkeringen of subsidies aan inwoners, op basis van het in de BRP geregistreerde adres. Dat maakt een correcte adresregistratie belangrijk voor zowel inwoners als overheid. Het algoritme controleert verschillende gegevens van de burger. Indien er geen bijzonderheden geconstateerd worden in de aanvraag of aangifte kan deze verwerkt worden zonder tussenkomst van een medewerker. Indien er wel een bijzonderheid geconstateerd wordt valt de aanvraag/aangifte in een wachtkamer waar deze gecontroleerd wordt door een medewerker. Het algoritme kan alleen automatisch een aanvraag/aangifte goedkeuren. Een aanvraag/aangifte afkeuren kan alleen de ambtenaar.",
+      "id": "76823190",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet basisregistratie personen Wet rechten burgerlijke stand",
+      "laatst_gewijzigd": "2026-05-20",
+      "organisatie": "Gemeente Schouwen-Duiveland",
+      "status": "in_gebruik",
+      "title": "Burgerzaken: eDiensten",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm1676/76823190"
+    },
+    {
       "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
       "id": "76837395",
       "impactassessment": "Onbekend",
@@ -11714,6 +11879,17 @@
       "status": "in_gebruik",
       "title": "Anonimiseren",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm1966/77357915"
+    },
+    {
+      "doel": "Doel: Schulinck AI-Desk is ontwikkeld om gemeentelijke professionals (zoals consulenten, juristen en beleidsmedewerkers) direct te voorzien van een helder antwoord op juridische vragen. Hiermee kunnen medewerkers efficiënter werken en sneller tot de juiste oplossing komen in lopende casussen. Impact: In het dagelijks gebruik ondersteunt AI-Desk professionals onder meer bij het behandelen van individuele hulpvragen en het intern borgen van juridische kwaliteit Dit leidt ertoe dat de dienstverlening richting de burger consistenter en zorgvuldiger wordt, terwijl de doorlooptijd afneemt.",
+      "id": "77424251",
+      "impactassessment": "Ja",
+      "juridische_basis": "",
+      "laatst_gewijzigd": "2026-04-16",
+      "organisatie": "Gemeente Zutphen",
+      "status": "in_gebruik",
+      "title": "Schulink AI-Desk",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0301/77424251"
     },
     {
       "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
@@ -12112,6 +12288,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0402/79627157"
     },
     {
+      "doel": "Het doel hiervan is om zowel raadsleden als inwoners te voorzien van duidelijke samenvattingen en grondige analyses van raadsdocumenten, zodat zij beter geïnformeerd beslissingen kunnen nemen en betrokken kunnen raken bij lokale kwesties.",
+      "id": "79647263",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "laatst_gewijzigd": "2025-12-18",
+      "organisatie": "Gemeente Waadhoeke",
+      "status": "in_gebruik",
+      "title": "Debatrijk - Samenvattingen en analyses raadsinformatie",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm1949/79647263"
+    },
+    {
       "doel": "Het doel is mutaties (veranderingen) in de buitenruimte - in het bijzonder panden - gemakkelijker te kunnen detecteren. Luchtfoto's worden geanalyseerd en de toepassing geeft middels een kleurenvlak op de foto aan waar mutaties ten opzichte van de kaart plaats hebben gevonden. Het gaat hier bijvoorbeeld om een schuurtje dat in het afgelopen jaar geplaatst is. Een medewerker controleert altijd de resultaten die worden opgeleverd en of de geometrie aangepast moet worden in de Basisregistratie Adressen en Gebouwen en de Basisregistratie Grootschalige Topografie.",
       "id": "79654643",
       "impactassessment": "Ja",
@@ -12453,6 +12640,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm1954/82294957"
     },
     {
+      "doel": "Hulp om snel duidelijke en goed gestructureerde teksten te maken. Dit helpt om beter te communiceren met mensen en bedrijven.",
+      "id": "82319377",
+      "impactassessment": "Ja",
+      "juridische_basis": "",
+      "laatst_gewijzigd": "2026-05-28",
+      "organisatie": "Gemeente Noardeast Fryslân",
+      "status": "ontwikkeling",
+      "title": "Slimtaal",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm1970/82319377"
+    },
+    {
       "doel": "Het doel van dit algoritme is het efficiënt, betrouwbaar en op uniforme wijze berekenen van belastingbedragen voor verschillende lokale heffingen (zoals afvalstoffenheffing, rioolheffing en OZB). De impact op burgers en bedrijven is beperkt: het algoritme bepaalt uitsluitend het verschuldigde bedrag op basis van wettelijke tarieven en vastgestelde maatstaven. De uiteindelijke vaststelling van de aanslag gebeurt altijd door een heffingsambtenaar.",
       "id": "82411640",
       "impactassessment": "Onbekend",
@@ -12717,6 +12915,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0518/83779930"
     },
     {
+      "doel": "Het belang van een correct geregistreerd adres gaat verder dan het op orde houden van de Basisregistratie Personen (BRP). Vindt er bijvoorbeeld een ramp plaats, dan wil je iedereen in de omgeving tijdig kunnen waarschuwen. Ook verstrek je als gemeente voorzieningen, uitkeringen of subsidies aan inwoners, op basis van het in de BRP geregistreerde adres. Dat maakt een correcte adresregistratie belangrijk voor zowel inwoners als overheid. Het algoritme controleert verschillende gegevens van de burger. Indien er geen bijzonderheden geconstateerd worden in de aanvraag of aangifte kan deze verwerkt worden zonder tussenkomst van een medewerker. Indien er wel een bijzonderheid geconstateerd wordt valt de aanvraag/aangifte in een wachtkamer waar deze gecontroleerd wordt door een medewerker. Het algoritme kan alleen automatisch een aanvraag/aangifte goedkeuren. Een aanvraag/aangifte afkeuren kan alleen de ambtenaar.",
+      "id": "83881217",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet basisregistratie personen Wet rechten burgerlijke stand",
+      "laatst_gewijzigd": "2025-12-18",
+      "organisatie": "Gemeente Waadhoeke",
+      "status": "in_gebruik",
+      "title": "Burgerzaken: eDiensten",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm1949/83881217"
+    },
+    {
       "doel": "De ACM doet regelmatig onderzoek om in te schatten wat de mogelijke gevolgen zijn van een fusie of overname. Daarbij wordt bijvoorbeeld met een vraag- of aanbodmodel voorspeld wat de prijs kan worden na de fusie. De onderzoeker bepaalt zelf welke modellen worden gebruikt en hoe de relaties tussen de gegevens eruitzien, dit doet het algoritme niet automatisch. De uitkomsten van zo’n simulatie zijn belangrijk voor hoe het onderzoek verder verloopt en hebben een hoge impact op de overname- of ​fusiebeoordeling. De gemaakte keuzes worden vastgelegd en onderbouwd binnen het dossier van de zaak en partijen kunnen dit bekijken.",
       "id": "83885453",
       "impactassessment": "Onbekend",
@@ -12748,6 +12957,17 @@
       "status": "in_gebruik",
       "title": "Bepalen hotspots onderhoud Openbare Ruimte",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0983/83936630"
+    },
+    {
+      "doel": "Het algoritme helpt medewerkers om snel en goed grote hoeveelheden documenten te beoordelen. Het maakt het makkelijker om te zoeken, te filteren en te clusteren. Ook kan het voorstellen om bepaalde informatie te verbergen en het vindt dubbele documenten. Hierdoor kunnen reviewers beter zien welke documenten belangrijk zijn voor een verzoek. Het algoritme zorgt ervoor dat de organisatie informatie volgens de wet kan delen. Dit helpt ook om persoonsgegevens te beschermen. Voor mensen wiens gegevens in documenten staan, helpt het algoritme om privacyschendingen te voorkomen. Dit geldt ook voor persoonsgegevens van medewerkers, zodat de organisatie zich aan de AVG houdt. De impact van het algoritme is laag voor betrokken personen en bedrijven. Het algoritme zoekt naar persoonsgegevens en markeert of verbergt deze, ongeacht de inhoud van het document. De medewerker maakt altijd de uiteindelijke beslissing. Er is dus geen automatische besluitvorming. Daarnaast kunnen medewerkers handmatig informatie markeren of verbergen die niet openbaar mag zijn, zoals vertrouwelijke informatie. De reden voor het verbergen wordt ook vastgelegd.",
+      "id": "83985427",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Algemene verordening gegevensbescherming (AVG) Omgevingswet Algemene Wet Bestuursrecht (AWB) Bekendmakingswet Wet Open Overheid (WOO) Wet Elektronische Publicaties (WEP)",
+      "laatst_gewijzigd": "2026-06-04",
+      "organisatie": "Ministerie van Economische Zaken en Klimaat",
+      "status": "buiten_gebruik",
+      "title": "Octobox Anonimiseren",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/mnre1045/83985427"
     },
     {
       "doel": "De anonimiseringssoftware wordt ingezet om invulling te geven aan enerzijds transparantie en anderzijds aan de noodzakelijke bescherming van de personen en bedrijven op wie de documenten betrekking hebben.",
@@ -13212,6 +13432,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/pv30/85816259"
     },
     {
+      "doel": "De software van Level heet LEVEL en is een uitgebreid ICT-systeem speciaal ontworpen voor gemeenten en lokale belastingorganisaties om de processen rondom WOZ-waardebepaling, taxatie, belastingheffing en invordering volledig te digitaliseren en te automatiseren. Het systeem ondersteunt en automatiseert op basis van een algortime de processen rondom WOZ‑waardebepaling, taxatie, belastingheffing en invordering. Binnen de gemeente Almere wordt deze software ingezet om op geautomatiseerde en uniforme wijze de WOZ‑waarde van woningen te berekenen. Het doel van deze verwerking is om tot een consistente en objectieve waardebepaling te komen, die vervolgens wordt gebruikt als grondslag voor het vaststellen van de hoogte van de gemeentelijke belastingen (WOZ‑heffing).",
+      "id": "85844953",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet waardering onroerende zaken (Wet WOZ)",
+      "laatst_gewijzigd": "2026-05-20",
+      "organisatie": "Gemeente Almere",
+      "status": "in_gebruik",
+      "title": "WOZ-taxatie met modelmatige waardebepaling",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0034/85844953"
+    },
+    {
       "doel": "Goed voorrang geven aan fietsverkeer zodat al het verkeer beter doorstroomt.",
       "id": "85883462",
       "impactassessment": "Ja",
@@ -13619,6 +13850,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0453/88273828"
     },
     {
+      "doel": "Verbeter teksten zodat ze duidelijk en begrijpelijk zijn. Dit helpt om beter te communiceren met mensen en bedrijven.",
+      "id": "88456515",
+      "impactassessment": "Ja",
+      "juridische_basis": "",
+      "laatst_gewijzigd": "2026-05-28",
+      "organisatie": "Gemeente Noardeast Fryslân",
+      "status": "in_gebruik",
+      "title": "Klinkende taal",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm1970/88456515"
+    },
+    {
       "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
       "id": "88471378",
       "impactassessment": "Onbekend",
@@ -13837,6 +14079,17 @@
       "status": "in_gebruik",
       "title": "Beveiligd mailen",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0453/89788455"
+    },
+    {
+      "doel": "Het concerndashboard toont bedrijfsvoeringsinformatie van het concern met als doel managers te informeren over de stand van zaken binnen de organisatie. Het dashboard wordt primair gebruikt voor personele bezetting en ziekteverzuim, maar ook voor onderwerpen zoals personele budgetten en beleidsgelden.",
+      "id": "89791224",
+      "impactassessment": "Ja",
+      "juridische_basis": "Gerechtvaardigd Belang (Artikel 6, lid 1 sub f AVG). Als werkgever heeft de Rijksoverheid een zorgplicht voor haar werknemers. Deze CDB voorziet in relevante informatie die nodig is om sturing te geven en maatregelen te treffen voor een effectief beleid.",
+      "laatst_gewijzigd": "2026-06-08",
+      "organisatie": "Ministerie van Landbouw, Natuur en Voedselkwaliteit",
+      "status": "in_gebruik",
+      "title": "Concerndashboard LVVN",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/mnre1153/89791224"
     },
     {
       "doel": "Provinciemedewerkers kunnen Copilot Chat gebruiken voor het stellen van vragen, het genereren van teksten en afbeeldingen en het maken van vertalingen en samenvattingen. Copilot Chat kan gebruikt worden om dagelijkse werkzaamheden efficiënter te laten verlopen. Daarnaast is het van belang dat provinciemedewerkers kennis en ervaring opdoen met deze nieuwe technologie. Wel is het essentieel dat provinciemedewerkers kennis hebben van de risico's van het gebruik van generatieve AI-tools. Richtlijnen hieromtrent zijn vastgesteld en worden voortdurend uitgedragen.",
@@ -14378,6 +14631,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/mnre1090/93176978"
     },
     {
+      "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
+      "id": "93184465",
+      "impactassessment": "Ja",
+      "juridische_basis": "1. WOO 2. WDO 3. UAVG 4. WEP 5. WDO",
+      "laatst_gewijzigd": "2026-06-04",
+      "organisatie": "Gemeente Hof van Twente",
+      "status": "in_gebruik",
+      "title": "Datamask",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm1735/93184465"
+    },
+    {
       "doel": "De Haagse Pandbrigade controleert gebouwde reclames. Deze werden voor deze pilot altijd handmatig uitgevoerd door inspecteurs die de straat op gaan om te controleren of alle reclame's wel voldoen aan de vergunningsplicht. Beeldherkenning heeft de potentie om een tool te zijn met hoog rendement tegen kleine investering, die gericht ingezet kan worden op gebieden. Het doel van de pilot is om de potentie van de tool te onderzoeken. Het doel van deze pilot is niet om overtredingen te beëindigen, en daarom zullen ondernemers geen impact ervaren van de pilot.",
       "id": "93192327",
       "impactassessment": "Onbekend",
@@ -14697,6 +14961,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm1966/94412143"
     },
     {
+      "doel": "Het algoritme maakt persoonlijke informatie in documenten anoniem. Hierdoor blijven de gegevens van mensen beschermd en blijft hun privacy veilig.",
+      "id": "94412765",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
+      "laatst_gewijzigd": "2026-05-26",
+      "organisatie": "Gemeente Dalfsen",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0148/94412765"
+    },
+    {
       "doel": "Als u door een ongeval niet meer kunt werken, heeft u vaak recht op een uitkering van UWV. Soms kunnen wij een ander aansprakelijk stellen voor de kosten van deze uitkering. Bijvoorbeeld als het ongeval door een ander is veroorzaakt. Om snel te kunnen zien of dit kosten kan verminderen, gebruiken wij het algoritme ‘Vaststellingsmodel regres’.",
       "id": "94414194",
       "impactassessment": "Ja",
@@ -14906,6 +15181,17 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/oorg10249/94971369"
     },
     {
+      "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
+      "id": "95128333",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
+      "laatst_gewijzigd": "2024-04-12",
+      "organisatie": "Gemeente Gorinchem",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0512/95128333"
+    },
+    {
       "doel": "Efficiënt en uniform innemen van en besluiten op aanvragen voor bijstand, bijzondere bijstand, Bbz, IIT en minimaregelingen. Het algoritme wordt ingezet in een applicatie voor inwoners van de ca. 50 aangesloten gemeenten en controleert gedurende de aanvraag of de aanvrager voldoet aan verschillende (wettelijke) criteria. De uitkomst wordt gedeeld met de aanvrager.",
       "id": "95245469",
       "impactassessment": "Onbekend",
@@ -14926,6 +15212,17 @@
       "status": "in_gebruik",
       "title": "IGJ risico-signaleringssyteem (IRiS dashboards)",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/oorg12354/95279897"
+    },
+    {
+      "doel": "Gemeente Almere maakt gebruik van documentscanners van Securitech om de identiteit vast te stellen. Door middel van software controleert de scannner het identiteitsdocument om vervalsingen of onregelmatigheden in het documenten te herkennen. Bij twijfel brandt er een oranje lampje en gaat het document naar de fraudedesk waarbij een fysiek persoon het document beoordeeld. Indien het document door de scanner als 'echt' wordt gezien, brandt er een groen lampje waarmee de identiteit is vastgesteld. Bij rood is het document vals of niet geldig. Dit kan zowel door de scanner als de fraudedesk worden bepaald.",
+      "id": "95324412",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet algemene bepalingen burgerservicenummer (Wabb) Paspoortwet Algemene Verordening Gegevensbescherming (AVG) Gemeentewet",
+      "laatst_gewijzigd": "2026-05-20",
+      "organisatie": "Gemeente Almere",
+      "status": "in_gebruik",
+      "title": "Documentscanners balie Burgerzaken",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0034/95324412"
     },
     {
       "doel": "Het zo transparant, humaan en respectvol faciliteren van de terugkeer van vreemdelingen die niet in Nederland mogen blijven, is het kerndoel van DTenV. Om dit te realiseren, worden er gesprekken gevoerd tussen vreemdeling en regievoerder. Op deze manier wordt informatie verzameld om een zo concreet mogelijk beeld te krijgen van de mogelijkheden tot vertrek. Deze gegevens worden in het primair processystem van DtenV (ISTV) bijgehouden. In een data warehouse wordt een deel van de gegevens met elkaar gecombineerd om de kansrijkheid op vertrek te indiceren. De indicatie wordt dan weer gepresenteerd in ISTV. Het doel hiervan is simpelweg het vergemakkelijken van het vertrekproces voor de vreemdeling en voor de regievoerder. Zo kan DTenV haar wettelijke taak zo goed mogelijk blijven uitvoeren. De impact op mensen die in het bezit zijn van reisdocumenten en die meewerken aan hun vertrek – en hierdoor dus kansrijker zijn – houdt in dat zij bij hoge instroom met voorrang door het proces worden geholpen. Het kan ook zijn dat mensen wiens kansrijkheid lager wordt ingeschat bijvoorbeeld langer gebruik maken van opvangvoorzieningen, omdat diens proces langzamer verloopt.",
@@ -14965,9 +15262,9 @@
       "id": "95642143",
       "impactassessment": "Ja",
       "juridische_basis": "1. WOO 2. WDO 3. UAVG 4. WEP 5. WDO",
-      "laatst_gewijzigd": "2025-02-12",
+      "laatst_gewijzigd": "2026-05-27",
       "organisatie": "Gemeente Dalfsen",
-      "status": "in_gebruik",
+      "status": "buiten_gebruik",
       "title": "Anonimiseren",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/gm0148/95642143"
     },
@@ -15047,6 +15344,17 @@
       "status": "ontwikkeling",
       "title": "(intelligente) VerkeersRegelInstallatie (iVRI)",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/pv31/95988753"
+    },
+    {
+      "doel": "Het doel van de inzet van het algoritme is om het proces rondom de beoordeling van gedupeerde ouders zo efficiënt en uitvoerbaar mogelijk te maken. Het hoofddoel is om tijdig en zorgvuldig vast te stellen of een ouder als gedupeerde moet worden aangemerkt en om behandelaars hierbij op een consistente en ondersteunende wijze te faciliteren. Als subdoelen gelden dat het algoritme een alternatief biedt voor volledige handmatige beoordeling van alle dossiers, wat gezien het grote aantal aanmeldingen (meer dan 70.000) niet binnen redelijke termijn uitvoerbaar zou zijn. Door algoritmische ondersteuning kunnen processen aanzienlijk efficiënter verlopen. Daarnaast draagt het systeem bij aan beter inzicht in de voortgang van dossiers, waardoor toezicht op het proces en rapportage over de afhandeling worden versterkt. Daarbij zorgen de algoritmes dat dit op een consistente manier wordt gedaan en ook uitzonderingsgroepen, zoals wanneer er sprake is van strafrecht, de juiste hulp wordt gegeven.",
+      "id": "96125351",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet hersteloperatie toeslagen · Uitvoeringswet algemene verordening gegevensbescherming · Wet algemene bepalingen burgerservicenummer · Archiefwet 1995 · Selectielijsten Dienst Toeslagen",
+      "laatst_gewijzigd": "2026-06-08",
+      "organisatie": "Dienst Toeslagen",
+      "status": "in_gebruik",
+      "title": "KOT-regeling",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/117418/96125351"
     },
     {
       "doel": "Ondersteuning gebruikers met visuele handicap. Er zijn veel mensen in Nederland die moeite hebben met lezen en dus problemen hebben met het begrijpen van de teksten op websites. Denk aan laaggeletterden, anderstaligen, mensen met een beperking, slecht zicht, concentratieproblemen etc. Op de website van de Samenwerking Kempengemeenten kun je gebruik maken van ReadSpeaker. Dit is software die tekst kan voorlezen, vertalen en uitleggen. Iedereen kan ReadSpeaker direct gebruiken. Je hoeft hier niks voor te downloaden of installeren.",
@@ -15742,7 +16050,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/189378/99734350"
     }
   ],
-  "count": 1431,
-  "fetched_at": "2026-05-13T14:57:46Z",
+  "count": 1459,
+  "fetched_at": "2026-06-08T19:00:48Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
