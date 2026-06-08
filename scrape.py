@@ -280,6 +280,20 @@ def write_output(data: dict[str, Any]) -> None:
     DATA_PATH.write_text(serialized, encoding="utf-8")
 
 
+def substantive_part(data: dict[str, Any]) -> dict[str, Any]:
+    return {key: value for key, value in data.items() if key != "fetched_at"}
+
+
+def is_unchanged(data: dict[str, Any]) -> bool:
+    if not DATA_PATH.exists():
+        return False
+    try:
+        existing = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return False
+    return substantive_part(existing) == substantive_part(data)
+
+
 def main() -> int:
     configure_logging()
     args = parse_args()
@@ -294,6 +308,10 @@ def main() -> int:
     if args.dry_run:
         preview = output["algoritmes"][:3]
         print(json.dumps(preview, indent=2, ensure_ascii=False))
+        return 0
+
+    if is_unchanged(output):
+        logging.info("Geen inhoudelijke wijziging; %s ongewijzigd gelaten", DATA_PATH)
         return 0
 
     write_output(output)

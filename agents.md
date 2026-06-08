@@ -25,6 +25,8 @@ This repository is a standalone git-scraping worker for the Dutch Algoritmeregis
   - serialize with `json.dumps(..., sort_keys=True, indent=2, ensure_ascii=False)`
   - end file with a trailing newline
 - Keep `fetched_at` only at top level, never per record.
+- Skip rewriting the file when only `fetched_at` would change, so unchanged
+  runs produce no commit (git history stays substantive).
 - Stable IDs:
   - prefer `lars` (the register's numeric record id, used in public URLs)
   - otherwise fall back to `uuid`
