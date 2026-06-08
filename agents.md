@@ -27,6 +27,10 @@ This repository is a standalone git-scraping worker for the Dutch Algoritmeregis
 - Keep `fetched_at` only at top level, never per record.
 - Skip rewriting the file when only `fetched_at` would change, so unchanged
   runs produce no commit (git history stays substantive).
+- `toegevoegd` is the date an id was first observed; carry it forward from the
+  previous output (immutable per id) and stamp new ids with the current date.
+- Build detail URLs as `/nl/algoritme/{lars}`; the frontend redirects to the
+  canonical URL. Do not prefix with `org_id` (that 404s).
 - Stable IDs:
   - prefer `lars` (the register's numeric record id, used in public URLs)
   - otherwise fall back to `uuid`

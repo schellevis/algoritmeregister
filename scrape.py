@@ -167,10 +167,10 @@ def extract_stable_id(item: dict[str, Any]) -> str:
     return "".join(allowed).strip("-")
 
 
-def build_url(item: dict[str, Any], stable_id: str) -> str:
-    org_id = normalize_whitespace(str(item.get("org_id", "")))
-    if org_id:
-        return f"{BASE_URL}/nl/algoritme/{org_id}/{stable_id}"
+def build_url(stable_id: str) -> str:
+    # The register's frontend resolves /nl/algoritme/{lars} and redirects to the
+    # canonical URL. Prefixing with org_id 404s, because the canonical org segment
+    # (e.g. gm1949) differs from org_id.
     return f"{BASE_URL}/nl/algoritme/{stable_id}"
 
 
@@ -183,7 +183,7 @@ def build_detail(item: dict[str, Any]) -> AlgorithmDetail:
     return AlgorithmDetail(
         id=stable_id,
         title=normalize_whitespace(str(item.get("name", ""))),
-        url=build_url(item, stable_id),
+        url=build_url(stable_id),
         organisatie=normalize_whitespace(str(item.get("organization", ""))),
         doel=html_fragment_to_text(item.get("goal")),
         juridische_basis=html_fragment_to_text(item.get("lawful_basis")),
@@ -248,7 +248,26 @@ def collect_algorithms(limit: int | None) -> list[AlgorithmDetail]:
     return details
 
 
-def build_output(algoritmes: list[AlgorithmDetail]) -> dict[str, Any]:
+def load_existing() -> dict[str, Any]:
+    if not DATA_PATH.exists():
+        return {}
+    try:
+        return json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def first_seen_map(existing: dict[str, Any]) -> dict[str, str]:
+    """Map id -> date the id was first observed, from the previous output."""
+    return {
+        item["id"]: item["toegevoegd"]
+        for item in existing.get("algoritmes", [])
+        if isinstance(item, dict) and item.get("id") and item.get("toegevoegd")
+    }
+
+
+def build_output(algoritmes: list[AlgorithmDetail], first_seen: dict[str, str]) -> dict[str, Any]:
+    today = datetime.now(UTC).date().isoformat()
     sorted_records = sorted(
         (
             {
@@ -261,6 +280,7 @@ def build_output(algoritmes: list[AlgorithmDetail]) -> dict[str, Any]:
                 "impactassessment": item.impactassessment,
                 "status": item.status,
                 "laatst_gewijzigd": item.laatst_gewijzigd,
+                "toegevoegd": first_seen.get(item.id, today),
             }
             for item in algoritmes
         ),
@@ -284,12 +304,8 @@ def substantive_part(data: dict[str, Any]) -> dict[str, Any]:
     return {key: value for key, value in data.items() if key != "fetched_at"}
 
 
-def is_unchanged(data: dict[str, Any]) -> bool:
-    if not DATA_PATH.exists():
-        return False
-    try:
-        existing = json.loads(DATA_PATH.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
+def is_unchanged(data: dict[str, Any], existing: dict[str, Any]) -> bool:
+    if not existing:
         return False
     return substantive_part(existing) == substantive_part(data)
 
@@ -298,9 +314,11 @@ def main() -> int:
     configure_logging()
     args = parse_args()
 
+    existing = load_existing()
+
     try:
         algoritmes = collect_algorithms(limit=args.limit)
-        output = build_output(algoritmes)
+        output = build_output(algoritmes, first_seen_map(existing))
     except ScrapeError as exc:
         logging.error("%s", exc)
         return 1
@@ -310,7 +328,7 @@ def main() -> int:
         print(json.dumps(preview, indent=2, ensure_ascii=False))
         return 0
 
-    if is_unchanged(output):
+    if is_unchanged(output, existing):
         logging.info("Geen inhoudelijke wijziging; %s ongewijzigd gelaten", DATA_PATH)
         return 0
 
