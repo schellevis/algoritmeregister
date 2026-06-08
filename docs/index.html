@@ -113,14 +113,31 @@
       empty.hidden = true;
       for (const item of items) {
         const tr = document.createElement("tr");
-        tr.innerHTML = `
-          <td><a href="${item.url}" target="_blank" rel="noreferrer">${item.title}</a></td>
-          <td>${item.organisatie || ""}</td>
-          <td class="status">${item.status || ""}</td>
-          <td>${item.impactassessment || ""}</td>
-          <td>${item.juridische_basis || ""}</td>
-          <td class="status">${item.laatst_gewijzigd || ""}</td>
-        `;
+
+        const titleCell = document.createElement("td");
+        const link = document.createElement("a");
+        link.textContent = item.title || "";
+        if (/^https?:\/\//i.test(item.url || "")) {
+          link.href = item.url;
+          link.target = "_blank";
+          link.rel = "noreferrer";
+        }
+        titleCell.appendChild(link);
+        tr.appendChild(titleCell);
+
+        for (const [field, className] of [
+          ["organisatie", ""],
+          ["status", "status"],
+          ["impactassessment", ""],
+          ["juridische_basis", ""],
+          ["laatst_gewijzigd", "status"]
+        ]) {
+          const td = document.createElement("td");
+          if (className) td.className = className;
+          td.textContent = item[field] || "";
+          tr.appendChild(td);
+        }
+
         rows.appendChild(tr);
       }
       document.getElementById("count").textContent = `${items.length} zichtbare records`;
