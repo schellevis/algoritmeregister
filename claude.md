@@ -28,6 +28,5 @@ Before you hand work back:
 
 1. `python scrape.py --dry-run` returns plausible records.
 2. Two dry-runs produce stable IDs for the same entries.
-3. `python alert.py --dry-run` still classifies severities correctly.
-4. Workflow `uses:` lines remain SHA-pinned.
-5. README still matches the implementation.
+3. Workflow `uses:` lines remain SHA-pinned.
+4. README still matches the implementation.

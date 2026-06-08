@@ -1,6 +1,6 @@
 # algoritmeregister
 
-Dit project houdt het Nederlandse Algoritmeregister (`algoritmes.overheid.nl`) als git-geschiedenis bij. Een dagelijkse GitHub Actions workflow draait `scrape.py`, schrijft de actuele stand naar `data/algoritmes.json`, commit alleen bij inhoudelijke wijzigingen en gebruikt daarmee git als changelog. Een tweede workflow draait op push naar dat bestand, berekent wat er veranderde en kan relevante wijzigingen naar `ntfy` sturen via `alert.py`.
+Dit project houdt het Nederlandse Algoritmeregister (`algoritmes.overheid.nl`) als git-geschiedenis bij. Een dagelijkse GitHub Actions workflow draait `scrape.py`, schrijft de actuele stand naar `data/algoritmes.json`, commit alleen bij inhoudelijke wijzigingen en gebruikt daarmee git als changelog.
 
 ## Bron
 
@@ -42,7 +42,6 @@ Daarna:
 
 ```bash
 python scrape.py --dry-run
-python alert.py --since HEAD~1 --dry-run
 ```
 
 Voor debuggen:
@@ -57,18 +56,13 @@ python scrape.py --dry-run --limit 3
 - `.github/workflows/scrape.yml`
   - draait dagelijks en via `workflow_dispatch`
   - commit en push alleen als `data/algoritmes.json` inhoudelijk wijzigt
-- `.github/workflows/alert.yml`
-  - draait op push naar `data/algoritmes.json` op `main`
-  - leest `HEAD~1` en de nieuwe file, classificeert events en post naar `ntfy`
 
 Alle `uses:` regels zijn gepind op volledige 40-char commit-SHA's.
 
 ## Zelf draaien in een fork
 
 1. Fork deze repo
-2. Zet `NTFY_TOPIC` in `Settings -> Secrets and variables -> Actions`
-3. Optioneel: zet `NTFY_AUTH` als je topic authenticatie gebruikt
-4. Trigger de scrape handmatig via `Actions -> Scrape algoritmeregister -> Run workflow`
+2. Trigger de scrape handmatig via `Actions -> Scrape algoritmeregister -> Run workflow`
 
 ## GitHub Pages
 

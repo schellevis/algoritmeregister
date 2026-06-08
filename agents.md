@@ -4,7 +4,7 @@ This repository is a standalone git-scraping worker for the Dutch Algoritmeregis
 
 ## Scope
 
-- Keep this repo simple: one scraper, one alert script, two GitHub Actions workflows, one static viewer.
+- Keep this repo simple: one scraper, one GitHub Actions workflow, one static viewer.
 - Do not add a database, backend service, API layer, queue, or extra infrastructure.
 - Git history is the changelog. `data/algoritmes.json` is the dataset.
 
@@ -37,20 +37,13 @@ This repository is a standalone git-scraping worker for the Dutch Algoritmeregis
 - On 5xx: retry with backoff.
 - On 4xx, parse error, or empty response: exit non-zero and do not overwrite `data/algoritmes.json`.
 
-## Alerts
-
-- `alert.py` is stateless.
-- Diff git history, classify added/changed/removed, and post to `ntfy`.
-- Do not introduce extra persistence.
-
 ## Local Validation
 
 Run these before finishing changes:
 
 ```bash
 python scrape.py --dry-run
-python alert.py --since HEAD~1 --dry-run
-python -m py_compile scrape.py alert.py
+python -m py_compile scrape.py
 ```
 
 If you touch workflows, also verify:
