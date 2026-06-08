@@ -26,8 +26,8 @@ This repository is a standalone git-scraping worker for the Dutch Algoritmeregis
   - end file with a trailing newline
 - Keep `fetched_at` only at top level, never per record.
 - Stable IDs:
-  - prefer `uuid`
-  - otherwise use `lars`
+  - prefer `lars` (the register's numeric record id, used in public URLs)
+  - otherwise fall back to `uuid`
   - never use timestamps or content hashes in IDs
 
 ## Failure Handling

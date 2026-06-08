@@ -154,7 +154,7 @@ def normalize_impactassessment(item: dict[str, Any]) -> str:
 
 
 def extract_stable_id(item: dict[str, Any]) -> str:
-    for key in ("uuid", "lars"):
+    for key in ("lars", "uuid"):
         value = item.get(key)
         if value is not None and normalize_whitespace(str(value)):
             return normalize_whitespace(str(value))
