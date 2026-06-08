@@ -113,6 +113,7 @@
     <section id="logboek">
       <h2>Logboek <span class="meta">— nieuwste toevoegingen per dag</span></h2>
       <div class="log" id="logboek-list"></div>
+      <div style="margin-top:4px"><button class="linkbtn" id="log-toggle" hidden></button></div>
     </section>
 
     <section id="insights">
@@ -171,7 +172,9 @@
     let sortDirection = 1;
     let orgFilter = null;
     let showAllOrgs = false;
+    let showAllLog = false;
     let orgCounts = [];
+    const LOG_DAYS = 14;
 
     function dataUrl() {
       if (location.hostname.endsWith(".github.io")) {
@@ -313,7 +316,8 @@
       const wrap = document.getElementById("logboek-list");
       wrap.replaceChildren();
 
-      dates.forEach((date, index) => {
+      const visibleDates = showAllLog ? dates : dates.slice(0, LOG_DAYS);
+      visibleDates.forEach((date, index) => {
         const items = byDate.get(date);
         const det = document.createElement("details");
         if (index === 0) det.open = true;
@@ -361,6 +365,16 @@
         det.appendChild(ul);
         wrap.appendChild(det);
       });
+
+      const toggle = document.getElementById("log-toggle");
+      if (dates.length > LOG_DAYS) {
+        toggle.hidden = false;
+        toggle.textContent = showAllLog
+          ? `Toon recentste ${LOG_DAYS} dagen`
+          : `Toon alle ${dates.length} dagen`;
+      } else {
+        toggle.hidden = true;
+      }
     }
 
     function renderOrgs() {
@@ -522,6 +536,10 @@
     document.getElementById("orgs-toggle").addEventListener("click", () => {
       showAllOrgs = !showAllOrgs;
       renderOrgs();
+    });
+    document.getElementById("log-toggle").addEventListener("click", () => {
+      showAllLog = !showAllLog;
+      renderLogboek();
     });
     main().catch((error) => {
       document.getElementById("meta").textContent = `Laden mislukt: ${error.message}`;
