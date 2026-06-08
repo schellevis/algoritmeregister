@@ -91,6 +91,16 @@
     a { color: var(--accent); text-decoration: none; }
     .status { white-space: nowrap; }
     .empty { padding: 24px; color: var(--muted); }
+    .log details { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; margin-bottom: 8px; padding: 2px 14px; }
+    .log summary { cursor: pointer; display: flex; gap: 12px; align-items: center; padding: 10px 0; list-style-position: inside; }
+    .log .log-date { font-weight: 600; }
+    .log .log-count { color: var(--accent); font-variant-numeric: tabular-nums; }
+    .log .log-tag { color: var(--muted); font-size: 12px; border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; margin-left: auto; }
+    .log ul.log-items { margin: 2px 0 12px; padding-left: 18px; columns: 2; }
+    .log ul.log-items li { margin: 3px 0; break-inside: avoid; }
+    .log .log-org { color: var(--muted); }
+    .log .log-more { list-style: none; color: var(--muted); margin-left: -18px; }
+    @media (max-width: 700px) { .log ul.log-items { columns: 1; } }
   </style>
 </head>
 <body>
@@ -99,6 +109,11 @@
       <h1>Algoritmeregister</h1>
       <div class="meta" id="meta">Laden…</div>
     </header>
+
+    <section id="logboek">
+      <h2>Logboek <span class="meta">— nieuwste toevoegingen per dag</span></h2>
+      <div class="log" id="logboek-list"></div>
+    </section>
 
     <section id="insights">
       <h2>Kerncijfers</h2>
@@ -142,6 +157,14 @@
       ontwikkeling: "In ontwikkeling",
       uitgefaseerd: "Uitgefaseerd"
     };
+    const MONTHS = ["januari", "februari", "maart", "april", "mei", "juni",
+      "juli", "augustus", "september", "oktober", "november", "december"];
+
+    function formatDate(iso) {
+      const parts = (iso || "").split("-").map(Number);
+      if (parts.length !== 3 || parts.some(Number.isNaN)) return iso || "";
+      return `${parts[2]} ${MONTHS[parts[1] - 1]} ${parts[0]}`;
+    }
 
     let records = [];
     let sortKey = "organisatie";
@@ -275,6 +298,69 @@
       }
 
       renderOrgs();
+      renderLogboek();
+    }
+
+    function renderLogboek() {
+      const byDate = new Map();
+      for (const r of records) {
+        if (!r.toegevoegd) continue;
+        if (!byDate.has(r.toegevoegd)) byDate.set(r.toegevoegd, []);
+        byDate.get(r.toegevoegd).push(r);
+      }
+      const dates = [...byDate.keys()].sort().reverse();
+      const baseline = dates.length ? dates[dates.length - 1] : null;
+      const wrap = document.getElementById("logboek-list");
+      wrap.replaceChildren();
+
+      dates.forEach((date, index) => {
+        const items = byDate.get(date);
+        const det = document.createElement("details");
+        if (index === 0) det.open = true;
+
+        const summary = document.createElement("summary");
+        const dateEl = document.createElement("span");
+        dateEl.className = "log-date";
+        dateEl.textContent = formatDate(date);
+        const countEl = document.createElement("span");
+        countEl.className = "log-count";
+        countEl.textContent = `+${items.length} algoritme${items.length === 1 ? "" : "s"}`;
+        summary.append(dateEl, countEl);
+        if (date === baseline && dates.length > 1) {
+          const tag = document.createElement("span");
+          tag.className = "log-tag";
+          tag.textContent = "startmeting";
+          summary.appendChild(tag);
+        }
+        det.appendChild(summary);
+
+        const ul = document.createElement("ul");
+        ul.className = "log-items";
+        const shown = items.slice(0, 60);
+        for (const item of shown) {
+          const li = document.createElement("li");
+          const a = document.createElement("a");
+          a.textContent = item.title || item.id;
+          if (/^https?:\/\//i.test(item.url || "")) {
+            a.href = item.url;
+            a.target = "_blank";
+            a.rel = "noreferrer";
+          }
+          const org = document.createElement("span");
+          org.className = "log-org";
+          org.textContent = ` — ${item.organisatie || ""}`;
+          li.append(a, org);
+          ul.appendChild(li);
+        }
+        if (items.length > shown.length) {
+          const more = document.createElement("li");
+          more.className = "log-more";
+          more.textContent = `…en ${items.length - shown.length} meer`;
+          ul.appendChild(more);
+        }
+        det.appendChild(ul);
+        wrap.appendChild(det);
+      });
     }
 
     function renderOrgs() {
