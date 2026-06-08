@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Algoritmeregister viewer</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, sans-serif;
+      --bg: #f4f6f8;
+      --panel: #ffffff;
+      --line: #d8dde3;
+      --text: #15202b;
+      --muted: #5c6773;
+      --accent: #0066cc;
+      --accent-soft: #e8f1fb;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); }
+    main { max-width: 1440px; margin: 0 auto; padding: 20px; }
+    header { display: grid; gap: 12px; margin-bottom: 16px; }
+    h1 { margin: 0; font-size: 28px; }
+    .meta { color: var(--muted); font-size: 14px; }
+    .toolbar { display: grid; gap: 12px; grid-template-columns: minmax(240px, 1fr) auto; align-items: center; }
+    input {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel);
+      font: inherit;
+    }
+    .table-wrap {
+      overflow: auto;
+      border: 1px solid var(--line);
+      background: var(--panel);
+    }
+    table { width: 100%; border-collapse: collapse; min-width: 1120px; }
+    th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; font-size: 14px; }
+    th { position: sticky; top: 0; background: var(--panel); z-index: 1; }
+    th button {
+      border: 0;
+      background: transparent;
+      color: inherit;
+      font: inherit;
+      cursor: pointer;
+      padding: 0;
+    }
+    tr:hover { background: var(--accent-soft); }
+    a { color: var(--accent); text-decoration: none; }
+    .status { white-space: nowrap; }
+    .empty { padding: 24px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Algoritmeregister</h1>
+      <div class="meta" id="meta">Laden…</div>
+      <div class="toolbar">
+        <input id="filter" type="search" placeholder="Filter op naam, organisatie, status of juridische basis">
+        <div class="meta" id="count"></div>
+      </div>
+    </header>
+    <section class="table-wrap">
+      <table>
+        <thead>
+          <tr id="head"></tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <div class="empty" id="empty" hidden>Geen resultaten.</div>
+    </section>
+  </main>
+  <script>
+    const columns = [
+      ["title", "Titel"],
+      ["organisatie", "Organisatie"],
+      ["status", "Status"],
+      ["impactassessment", "Impactassessment"],
+      ["juridische_basis", "Juridische basis"],
+      ["laatst_gewijzigd", "Laatst gewijzigd"]
+    ];
+
+    let records = [];
+    let sortKey = "organisatie";
+    let sortDirection = 1;
+
+    function dataUrl() {
+      if (location.hostname.endsWith(".github.io")) {
+        const owner = location.hostname.split(".")[0];
+        const repo = location.pathname.split("/").filter(Boolean)[0];
+        return `https://raw.githubusercontent.com/${owner}/${repo}/refs/heads/main/data/algoritmes.json`;
+      }
+      return "../data/algoritmes.json";
+    }
+
+    function compare(a, b) {
+      const left = (a[sortKey] || "").toString().toLowerCase();
+      const right = (b[sortKey] || "").toString().toLowerCase();
+      return left.localeCompare(right, "nl") * sortDirection;
+    }
+
+    function renderTable(items) {
+      const rows = document.getElementById("rows");
+      const empty = document.getElementById("empty");
+      rows.innerHTML = "";
+      if (!items.length) {
+        empty.hidden = false;
+        return;
+      }
+      empty.hidden = true;
+      for (const item of items) {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td><a href="${item.url}" target="_blank" rel="noreferrer">${item.title}</a></td>
+          <td>${item.organisatie || ""}</td>
+          <td class="status">${item.status || ""}</td>
+          <td>${item.impactassessment || ""}</td>
+          <td>${item.juridische_basis || ""}</td>
+          <td class="status">${item.laatst_gewijzigd || ""}</td>
+        `;
+        rows.appendChild(tr);
+      }
+      document.getElementById("count").textContent = `${items.length} zichtbare records`;
+    }
+
+    function applyFilter() {
+      const query = document.getElementById("filter").value.trim().toLowerCase();
+      const filtered = records
+        .filter((item) => {
+          if (!query) return true;
+          return [item.title, item.organisatie, item.status, item.juridische_basis, item.impactassessment]
+            .join(" ")
+            .toLowerCase()
+            .includes(query);
+        })
+        .sort(compare);
+      renderTable(filtered);
+    }
+
+    function renderHead() {
+      const head = document.getElementById("head");
+      head.innerHTML = "";
+      for (const [key, label] of columns) {
+        const th = document.createElement("th");
+        const button = document.createElement("button");
+        button.textContent = sortKey === key ? `${label} ${sortDirection === 1 ? "▲" : "▼"}` : label;
+        button.addEventListener("click", () => {
+          if (sortKey === key) sortDirection *= -1;
+          else { sortKey = key; sortDirection = 1; }
+          renderHead();
+          applyFilter();
+        });
+        th.appendChild(button);
+        head.appendChild(th);
+      }
+    }
+
+    async function main() {
+      const response = await fetch(dataUrl(), { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const payload = await response.json();
+      records = payload.algoritmes || [];
+      document.getElementById("meta").textContent =
+        `${payload.count || records.length} algoritmes | opgehaald op ${payload.fetched_at || "onbekend"}`;
+      renderHead();
+      applyFilter();
+    }
+
+    document.getElementById("filter").addEventListener("input", applyFilter);
+    main().catch((error) => {
+      document.getElementById("meta").textContent = `Laden mislukt: ${error.message}`;
+    });
+  </script>
+</body>
+</html>

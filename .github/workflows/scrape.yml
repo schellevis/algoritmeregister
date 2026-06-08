@@ -1,0 +1,32 @@
+name: Scrape algoritmeregister
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: python scrape.py
+      - name: Commit if changed
+        run: |
+          git config user.name  "algoritmeregister-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/algoritmes.json
+          if git diff --staged --quiet; then
+            echo "No changes — skipping commit."
+            exit 0
+          fi
+          git commit -m "Update $(date -uI)"
+          git push
