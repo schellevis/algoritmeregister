@@ -51,6 +51,16 @@ python scrape.py --limit 5
 python scrape.py --dry-run --limit 3
 ```
 
+## Codespace / dev container
+
+`.devcontainer/` bevat een kant-en-klare omgeving (GitHub Codespaces of lokaal via VS Code Dev Containers):
+
+- Python 3.12 met `requirements.txt` voorgeinstalleerd
+- Node LTS + `gh` CLI
+- Claude Code CLI (`claude`) en Codex CLI (`codex`) globaal geinstalleerd
+
+Open via `Code -> Codespaces -> Create codespace on main`. Authenticeer de CLI's daarna zelf (`claude` start de login-flow; `codex` gebruikt je OpenAI-key).
+
 ## Workflows
 
 - `.github/workflows/scrape.yml`
