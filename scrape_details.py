@@ -36,6 +36,7 @@ DATA_PATH = Path("data/algoritmes.json")
 OUT_DIR = Path("detail")
 BACKOFF_SECONDS = (1, 4, 16)
 REQUEST_PAUSE = 0.15  # vriendelijk voor de bron
+NOT_FOUND: Any = object()  # sentinel: 404 is "verdwenen uit register", geen scrape-fout
 
 
 def configure_logging() -> None:
@@ -66,7 +67,7 @@ def request_json(client: httpx.Client, method: str, path: str, *, json_body: Any
                 continue
             if response.status_code == 404:
                 logging.warning("404 voor %s; overslaan", path)
-                return None
+                return NOT_FOUND
             response.raise_for_status()
             return response.json()
         except httpx.HTTPError as exc:
@@ -94,15 +95,17 @@ def ids_from_listing(client: httpx.Client) -> list[str]:
         if not results:
             break
         ids.extend(str(r["lars"]) for r in results if r.get("lars"))
-        total = payload.get("total_count", 0)
-        if len(ids) >= total or len(results) < 100:
+        total = payload.get("total_count")
+        if (isinstance(total, int) and len(ids) >= total) or len(results) < 100:
             break
         page += 1
     return ids
 
 
-def fetch_detail(client: httpx.Client, algoritme_id: str) -> dict[str, Any] | None:
+def fetch_detail(client: httpx.Client, algoritme_id: str) -> Any:
     payload = request_json(client, "GET", DETAIL_PATH.format(id=algoritme_id))
+    if payload is NOT_FOUND:
+        return NOT_FOUND
     if not isinstance(payload, dict):
         return None
     return {
@@ -135,14 +138,16 @@ def main() -> int:
             ids = ids[: args.limit]
         logging.info("%s id's te verwerken naar %s/", len(ids), out_dir)
 
-        ok = skipped = failed = 0
+        ok = skipped = missing = failed = 0
         for index, algoritme_id in enumerate(ids, start=1):
             target = out_dir / f"{algoritme_id}.json"
             if target.exists() and not args.force:
                 skipped += 1
                 continue
             record = fetch_detail(client, algoritme_id)
-            if record is None:
+            if record is NOT_FOUND:
+                missing += 1
+            elif record is None:
                 failed += 1
             else:
                 write_detail(out_dir, record)
@@ -150,7 +155,10 @@ def main() -> int:
                 logging.info("[%s/%s] %s", index, len(ids), record["detail"].get("name", algoritme_id))
             time.sleep(REQUEST_PAUSE)
 
-    logging.info("Klaar: %s opgehaald, %s overgeslagen (bestond al), %s mislukt.", ok, skipped, failed)
+    logging.info(
+        "Klaar: %s opgehaald, %s overgeslagen (bestond al), %s niet gevonden (404), %s mislukt.",
+        ok, skipped, missing, failed,
+    )
     return 1 if failed and ok == 0 else 0
 
 

@@ -44,11 +44,10 @@ Daarna:
 python scrape.py --dry-run
 ```
 
-Voor debuggen:
+Voor debuggen (`--limit` werkt alleen samen met `--dry-run`, zodat een testrun nooit een onvolledige dataset wegschrijft):
 
 ```bash
-python scrape.py --limit 5
-python scrape.py --dry-run --limit 3
+python scrape.py --dry-run --limit 5
 ```
 
 ## Codespace / dev container

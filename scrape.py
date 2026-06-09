@@ -38,7 +38,7 @@ class AlgorithmDetail:
     juridische_basis: str
     impactassessment: str
     status: str
-    laatst_gewijzigd: str
+    geregistreerd: str
 
 
 def configure_logging() -> None:
@@ -49,8 +49,11 @@ def configure_logging() -> None:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Scrape het Algoritmeregister.")
     parser.add_argument("--dry-run", action="store_true", help="Print eerste 3 records, schrijf niets.")
-    parser.add_argument("--limit", type=int, default=None, help="Beperk het aantal records.")
-    return parser.parse_args()
+    parser.add_argument("--limit", type=int, default=None, help="Beperk het aantal records (alleen met --dry-run).")
+    args = parser.parse_args()
+    if args.limit is not None and not args.dry_run:
+        parser.error("--limit zou een onvolledige dataset naar data/algoritmes.json schrijven; combineer met --dry-run.")
+    return args
 
 
 def parse_retry_after(value: str | None) -> int | None:
@@ -131,24 +134,44 @@ def normalize_status(value: Any) -> str:
     mapping = {
         "in gebruik": "in_gebruik",
         "in ontwikkeling": "ontwikkeling",
-        "uitgefaseerd": "uitgefaseerd",
+        "buiten gebruik": "buiten_gebruik",
     }
     return mapping.get(normalized, normalized.replace(" ", "_"))
 
 
+IMPACT_TEXT_KEYS = ("impacttoetsen", "iama", "iama_description", "dpia", "dpia_description")
+IMPACT_DENIAL_PREFIXES = (
+    "geen", "nee", "nvt", "n.v.t", "niet", "nog geen", "nog niet",
+    "er is geen", "er zijn geen",
+)
+
+
+def impact_fragments(item: dict[str, Any]) -> list[str]:
+    # impacttoetsen_grouping is een lijst van {"title": ..., "link": ...}-dicts;
+    # de overige velden zijn (HTML-)strings of None.
+    fragments: list[str] = []
+    grouping = item.get("impacttoetsen_grouping")
+    if isinstance(grouping, list):
+        for entry in grouping:
+            if isinstance(entry, dict):
+                fragments.append(html_fragment_to_text(entry.get("title")))
+            else:
+                fragments.append(html_fragment_to_text(entry))
+    elif grouping is not None:
+        fragments.append(html_fragment_to_text(grouping))
+    fragments.extend(html_fragment_to_text(item.get(key)) for key in IMPACT_TEXT_KEYS)
+    return [fragment for fragment in fragments if fragment]
+
+
+def is_impact_denial(fragment: str) -> bool:
+    return fragment.lower().startswith(IMPACT_DENIAL_PREFIXES)
+
+
 def normalize_impactassessment(item: dict[str, Any]) -> str:
-    candidates = [
-        html_fragment_to_text(item.get("impacttoetsen")),
-        html_fragment_to_text(item.get("impacttoetsen_grouping")),
-        html_fragment_to_text(item.get("iama")),
-        html_fragment_to_text(item.get("iama_description")),
-        html_fragment_to_text(item.get("dpia")),
-        html_fragment_to_text(item.get("dpia_description")),
-    ]
-    joined = " ".join(candidate for candidate in candidates if candidate).strip().lower()
-    if not joined:
+    fragments = impact_fragments(item)
+    if not fragments:
         return "Onbekend"
-    if joined == "geen":
+    if all(is_impact_denial(fragment) for fragment in fragments):
         return "Nee"
     return "Ja"
 
@@ -158,13 +181,7 @@ def extract_stable_id(item: dict[str, Any]) -> str:
         value = item.get(key)
         if value is not None and normalize_whitespace(str(value)):
             return normalize_whitespace(str(value))
-    organisatie = normalize_whitespace(str(item.get("organization", "")))
-    naam = normalize_whitespace(str(item.get("name", "")))
-    if not organisatie or not naam:
-        raise ScrapeError("Kon geen stabiele id afleiden")
-    slug_source = f"{organisatie}-{naam}".lower()
-    allowed = [character if character.isalnum() else "-" for character in slug_source]
-    return "".join(allowed).strip("-")
+    raise ScrapeError("Kon geen stabiele id afleiden (lars en uuid ontbreken)")
 
 
 def build_url(stable_id: str) -> str:
@@ -189,7 +206,7 @@ def build_detail(item: dict[str, Any]) -> AlgorithmDetail:
         juridische_basis=html_fragment_to_text(item.get("lawful_basis")),
         impactassessment=normalize_impactassessment(item),
         status=normalize_status(item.get("status", "")),
-        laatst_gewijzigd=create_dt[:10],
+        geregistreerd=create_dt[:10],
     )
 
 
@@ -240,8 +257,13 @@ def collect_algorithms(limit: int | None) -> list[AlgorithmDetail]:
         if limit is not None:
             records = records[:limit]
 
+        seen_ids: set[str] = set()
         for index, item in enumerate(records, start=1):
             detail = build_detail(item)
+            if detail.id in seen_ids:
+                logging.warning("Dubbel id %s overgeslagen (paginering verschoven tijdens scrape?)", detail.id)
+                continue
+            seen_ids.add(detail.id)
             logging.info("Record %s/%s: %s", index, len(records), detail.title)
             details.append(detail)
 
@@ -279,7 +301,7 @@ def build_output(algoritmes: list[AlgorithmDetail], first_seen: dict[str, str]) 
                 "juridische_basis": item.juridische_basis,
                 "impactassessment": item.impactassessment,
                 "status": item.status,
-                "laatst_gewijzigd": item.laatst_gewijzigd,
+                "geregistreerd": item.geregistreerd,
                 "toegevoegd": first_seen.get(item.id, today),
             }
             for item in algoritmes

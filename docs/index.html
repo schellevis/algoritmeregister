@@ -151,12 +151,12 @@
       { key: "impactassessment", label: "Impactassessment" },
       { key: "juridische_basis", label: "Juridische basis" },
       { key: "toegevoegd", label: "Toegevoegd", cls: "status" },
-      { key: "laatst_gewijzigd", label: "Laatst gewijzigd", cls: "status" }
+      { key: "geregistreerd", label: "Geregistreerd", cls: "status" }
     ];
     const STATUS_LABELS = {
       in_gebruik: "In gebruik",
       ontwikkeling: "In ontwikkeling",
-      uitgefaseerd: "Uitgefaseerd"
+      buiten_gebruik: "Buiten gebruik"
     };
     const MONTHS = ["januari", "februari", "maart", "april", "mei", "juni",
       "juli", "augustus", "september", "oktober", "november", "december"];
@@ -245,7 +245,7 @@
       cards.replaceChildren();
       addCard(cards, total.toLocaleString("nl"), "Algoritmes");
       addCard(cards, orgCounts.length.toLocaleString("nl"), "Organisaties");
-      for (const key of ["in_gebruik", "ontwikkeling", "uitgefaseerd"]) {
+      for (const key of ["in_gebruik", "ontwikkeling", "buiten_gebruik"]) {
         const c = statusCount[key] || 0;
         addCard(cards, c.toLocaleString("nl"), statusLabel(key), `${pct(c, total)}% van totaal`);
       }
@@ -297,7 +297,7 @@
       if (dated.length) {
         const newest = dated.reduce((a, b) => (b.toegevoegd > a.toegevoegd ? b : a)).toegevoegd;
         const newestCount = dated.filter((r) => r.toegevoegd === newest).length;
-        addFact(facts, "Laatste aanwas", `${newestCount} algoritme(s) toegevoegd op ${newest}`);
+        addFact(facts, "Laatste aanwas", `${newestCount} algoritme(s) toegevoegd op ${formatDate(newest)}`);
       }
 
       renderOrgs();
@@ -490,7 +490,7 @@
         .filter((item) => !orgFilter || item.organisatie === orgFilter)
         .filter((item) => {
           if (!query) return true;
-          return [item.title, item.organisatie, item.status, item.juridische_basis, item.impactassessment]
+          return [item.title, item.organisatie, item.status, statusLabel(item.status), item.juridische_basis, item.impactassessment]
             .join(" ")
             .toLowerCase()
             .includes(query);
