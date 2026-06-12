@@ -313,6 +313,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/12751163"
     },
     {
+      "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, twee-factorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van kandidaten, medewerkers of bedrijven.",
+      "geregistreerd": "2026-06-11",
+      "id": "12796540",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Modulaire gemeenschappelijke regeling Rijk van Nijmegen",
+      "status": "in_gebruik",
+      "title": "Veilig mailen",
+      "toegevoegd": "2026-06-12",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/12796540"
+    },
+    {
       "doel": "Het doel van het algoritme is de werkwijze van de gemeente sneller, efficiënter en goedkoper te maken. We denken dat de impact op burgers en bedrijven niet heel groot is, omdat het resultaat er niet anders van wordt. De werkzaamheden van het anonimiseren van documenten gaan vooral sneller.",
       "geregistreerd": "2024-03-05",
       "id": "12816718",
@@ -10381,6 +10393,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/63834967"
     },
     {
+      "doel": "Van 1 januari 2020 tot en met 31 december 2024 hebben we niet alle WIA-uitkeringen goed berekend. Het gaat om fouten bij het berekenen van het dagloon. In een aantal situaties zijn mogelijk fouten gemaakt. Het algoritme Situaties fout WIA-dagloon zoekt deze situaties in WIA-uitkeringen. We gebruiken dit algoritme omdat het beter werkt dan handmatige controle van alle WIA-uitkeringen tussen 2020 en 2024. Ook geeft het algoritme duidelijke en betrouwbare resultaten.",
+      "geregistreerd": "2026-06-10",
+      "id": "63853168",
+      "impactassessment": "Ja",
+      "juridische_basis": "De wettelijke basis wordt gevormd door de Wet SUWI, Besluit SUWI, Regeling SUWI, Wet WIA, Dagloonbesluit werknemersverzekeringen, AVG en Awb.",
+      "organisatie": "Uitvoeringsinstituut Werknemersverzekeringen",
+      "status": "buiten_gebruik",
+      "title": "Situaties fout WIA-dagloon",
+      "toegevoegd": "2026-06-12",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/63853168"
+    },
+    {
       "doel": "De gemeente Asten gebruikt Copilot Chat als generatieve AI-chatassistent ter ondersteuning van medewerkers bij cognitieve taken binnen de kantooromgeving. Het doel is om creativiteit, efficiëntie en digitale vaardigheden te bevorderen door middel van ondersteuning bij brainstormsessies, het structureren van informatie en het opstellen van teksten. Copilot Chat wordt uitsluitend gebruikt op basis van gebruikersinvoer en heeft geen toegang tot interne gegevens of systemen binnen de Microsoft 365-omgeving van de gemeente. Er worden geen geautomatiseerde besluiten genomen en Copilot Chat wordt niet ingezet voor processen die directe impact hebben op burgers of beleidsvorming. De impact van het gebruik is beperkt tot individuele ondersteuning van medewerkers. Om het gebruik van Copilot Chat op een verantwoorde manier te borgen, heeft de gemeente Asten zeven uitgangspunten opgesteld.",
       "geregistreerd": "2025-10-17",
       "id": "63919963",
@@ -13223,6 +13247,18 @@
       "title": "Detecteren risico's op onjuistheden in douaneaangiften voor verbruiksbelasting",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/78714289"
+    },
+    {
+      "doel": "Ondersteuning gebruikers met visuele handicap. Er zijn veel mensen in Nederland die moeite hebben met lezen en dus problemen hebben met het begrijpen van de teksten op websites. Denk aan laaggeletterden, anderstaligen, mensen met een beperking, slecht zicht, concentratieproblemen etc. Op de website van WerkBedrijf Rijk van Nijmegen kun je gebruik maken van ReadSpeaker. Dit is software die tekst kan voorlezen, vertalen en uitleggen. Iedereen kan ReadSpeaker gebruiken. De versie van deze voorleeshulp is toegankelijk, AVG-proof en uitgebreid met extra functionaliteiten, zoals voorlezen met muisselectie, vergrootfunctie, schermmaaskering en nog veel meer.",
+      "geregistreerd": "2026-06-11",
+      "id": "78772931",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet digitale overheid met de WCAG 2.2 A en AA",
+      "organisatie": "Modulaire gemeenschappelijke regeling Rijk van Nijmegen",
+      "status": "in_gebruik",
+      "title": "Readspeaker",
+      "toegevoegd": "2026-06-12",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/78772931"
     },
     {
       "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
@@ -17521,7 +17557,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1460,
-  "fetched_at": "2026-06-09T18:05:03Z",
+  "count": 1463,
+  "fetched_at": "2026-06-12T07:50:41Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
