@@ -10753,6 +10753,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/65256972"
     },
     {
+      "doel": "De Belastingdienst en Dienst Toeslagen werken samen met tien gemeenten om mensen met een betalingsachterstand en mogelijk (dreigende) problematische schuld eerder in beeld te krijgen en te helpen om te voorkomen dat de betalingsachterstand verder oploopt. Het is een experiment voor de duur van twee jaar. Het experiment betreft het delen van informatie (onder voorwaarden) op basis van de Wgs. Het doel van het experiment is om burgers met (dreigende) problematische schulden te bereiken die eerder niet in beeld waren bij de gemeente en een hulpaanbod te doen. Met het experiment wordt onderzocht of signalen van betalingsachterstanden een goede indicatie vormen voor (dreigende) problematische schulden. Voor de uitvoering van het experiment wordt het algoritme Experiment Vroegsignalering WGS1 gebruikt om de juiste selecties te maken van betalingsachterstanden die voldoen aan de criteria. Gemeenten hebben een maximum aantal signalen dat zij kunnen verwerken, daarom vindt een random selectie plaats in de eindfase van het algoritme. Het algoritme voor het Experiment Vroegsignalering WGS1 zorgt voor de selectie van mensen met een betalingsachterstand vanaf een bepaald bedrag nadat een aanmaning is verstuurd. Zij wonen in één van de tien deelnemende gemeenten. Deze mensen krijgen eerst hulp aangeboden door de Belastingdienst of Dienst Toeslagen en als dat hulpaanbod geen effect heeft, kunnen de gegevens van deze mensen worden gedeeld met hun gemeente voor verdere hulpverlening. Het algoritme betreft de uitvoering van de ministeriële regeling die voor dit experiment is opgesteld onder de Wgs. De link naar deze regeling: https://zoek.officielebekendmakingen.nl/stcrt-2025-17636.html",
+      "geregistreerd": "2026-05-19",
+      "id": "65267787",
+      "impactassessment": "Ja",
+      "juridische_basis": "De wettelijke grondslag en het gebruik en verzamelen van gegevens is geregeld in de ministeriële regeling, opgesteld in het kader van het experimenteerartikel in de Wet gemeentelijke schuldhulpverlening https://zoek.officielebekendmakingen.nl/stcrt-2025-17636.html",
+      "organisatie": "Dienst Toeslagen",
+      "status": "in_gebruik",
+      "title": "Experiment Vroegsignalering WGS1",
+      "toegevoegd": "2026-06-13",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/65267787"
+    },
+    {
       "doel": "Een van de taken van de reclassering, is het uitbrengen van een advies. In dit advies beschrijft de reclasseringswerker welke factoren samenhangen met het delinquente gedrag en schat onder andere het risico op recidive in. In het advies staat of interventies volgens de reclassering nodig zijn om het recidiverisico te beïnvloeden, te beheersen, en bij te dragen aan het resocialiseren van de cliënt en/of bescherming van de maatschappij/het slachtoffer. Zo kan een (deels) voorwaardelijke straf worden geadviseerd met de bijzondere voorwaarde van een behandeling door een zorgverlener, het volgen van een gedragsinterventie en/of een alcoholverbod. De reclassering moet toezicht houden op de naleving van deze voorwaarden. De voorgestelde interventies sluiten aan bij het door de reclassering vastgestelde recidiverisico en de belangen van het slachtoffer, de verdachte of dader en de maatschappij. Om het risico op recidive in te schatten, onderzoekt de reclassering welke risicofactoren en beschermende factoren er aanwezig zijn. Uit wetenschappelijke literatuur blijkt dat deze risico- en beschermende factoren een versterkend of juist verkleinend effect hebben op risicovol (delict)gedrag. De reclassering doet hiervoor uitgebreid onderzoek naar de cliënt en diens omgeving. Dit doet zij door bijvoorbeeld met de cliënt te praten, referenten te raadplegen en uit justitiële gegevens informatie op te halen. De reclassering werkt binnen een digitale werkomgeving met meerdere onderdelen en vragenlijsten waarmee de oordeelsvorming van de reclasseringswerker gestructureerd wordt (een gestructureerd professioneel oordeel). Deze omgeving begeleidt de reclasseringswerker in het proces dat leidt tot een risico-inschatting en ondersteunt bij de onderbouwing van adviezen aan de partners in de strafrechtketen. Binnen deze omgeving vult de reclassering als onderdeel ook de vragen van de OxRec in. Doel hiervan is om op gestructureerde wijze te komen tot een onderbouwd oordeel in bijvoorbeeld het advies. Dit schrijft de reclassering op in een rapport waarin de uitkomsten van het advies en eventueel gebruikte instrumenten, waaronder die van de OxRec, uitgelegd worden. Dit adviesrapport krijgen de cliënt, officier van justitie en rechter. De reclasseringsorganisaties in Nederland maken allemaal gebruik van de OxRec. Het gaat daarbij om de instellingen van Stichting Verslavingsreclassering GGZ, Reclassering Nederland en Stichting Leger des Heils Jeugdbescherming & Reclassering.",
       "geregistreerd": "2026-02-11",
       "id": "65346844",
@@ -17557,7 +17569,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1463,
-  "fetched_at": "2026-06-12T07:50:41Z",
+  "count": 1464,
+  "fetched_at": "2026-06-13T07:30:02Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
