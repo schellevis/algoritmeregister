@@ -1717,6 +1717,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/21579514"
     },
     {
+      "doel": "PolitieGPT helpt medewerkers om hun werk sneller en makkelijker te doen. Medewerkers kunnen documenten bevragen en verbeteren. Ook kan PolitieGPT helpen bij het schrijven en herschrijven van teksten, het maken van tekstvoorstellen, het samenvatten van documenten en het vertalen van informatie. PolitieGPT is bedoeld als ondersteuning bij interne bedrijfsvoering en politietaken. De chatbot is niet bedoeld voor het verwerken van politiegegevens die onder de WPG vallen. De focus ligt volledig op interne processen binnen de politie.",
+      "geregistreerd": "2026-06-14",
+      "id": "21714421",
+      "impactassessment": "Ja",
+      "juridische_basis": "De Europese AI-verordening vormt de basis van het politiebeleid rondom de verantwoorde ontwikkeling en inzet van AI & Algortimen.",
+      "organisatie": "Politie",
+      "status": "in_gebruik",
+      "title": "PolitieGPT",
+      "toegevoegd": "2026-06-15",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/21714421"
+    },
+    {
       "doel": "Het algoritme automatische gezichtsbeeldvergelijking ondersteunt de beslissingen die door deskundigen worden genomen. Het wordt ingezet naast het onderzoek dat alleen door de deskundigen wordt gedaan. Het algoritme wordt ingezet om het eindoordeel nog objectiever te maken omdat van een algoritme goed kan worden gemeten op welke manier en hoe goed het werkt.",
       "geregistreerd": "2024-06-25",
       "id": "21725917",
@@ -17569,7 +17581,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1464,
-  "fetched_at": "2026-06-13T07:30:02Z",
+  "count": 1465,
+  "fetched_at": "2026-06-15T08:17:55Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
