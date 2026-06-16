@@ -2965,6 +2965,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/27439816"
     },
     {
+      "doel": "Doel De eDiensten van de gemeente Venlo helpen inwoners om digitaal voorzieningen aan te vragen. Dit zijn dingen zoals de Individuele Inkomenstoeslag, de Meedoenregeling en Bijstand voor Levensonderhoud. Het algoritme helpt de inwoner tijdens het aanvraagproces. Het kijkt of de aanvraag voldoet aan de voorwaarden op basis van de gegevens die zijn ingevoerd. Impact Door het algoritme kunnen aanvragen sneller en beter worden verwerkt. Inwoners krijgen hulp bij het goed indienen van hun aanvraag. Afhankelijk van het type aanvraag kan deze automatisch worden afgehandeld of naar een medewerker van de gemeente worden gestuurd. Dit verbetert de dienstverlening en vermindert administratieve taken.",
+      "geregistreerd": "2026-06-09",
+      "id": "27451713",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Participatiewet",
+      "organisatie": "Gemeente Venlo",
+      "status": "in_gebruik",
+      "title": "E-Diensten voor aanvragen",
+      "toegevoegd": "2026-06-16",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/27451713"
+    },
+    {
       "doel": "GitHub Copilot is een AI-ondersteunde code-assistent die ontwikkelaars helpt door automatisch codevoorstellen te doen tijdens het programmeren. Het doel van Copilot is om de productiviteit te verhogen, routinematige taken te verminderen en het leerproces te versnellen. Copilot werkt als een plug-in in populaire ontwikkelomgevingen en analyseert de context van de huidige code, het project en de gebruikte programmeertaal. Op basis hiervan genereert het relevante suggesties, variërend van kleine codefragmenten tot complete functies of algoritmes. De suggesties van Copilot zijn gebaseerd op een groot aantal publiek beschikbare codevoorbeelden en best practices. Hierdoor kan het niet alleen standaardoplossingen bieden, maar ook alternatieve benaderingen en optimalisaties voorstellen. Ontwikkelaars kunnen de voorgestelde code direct overnemen, aanpassen of negeren. Copilot ondersteunt veel verschillende programmeertalen en frameworks, waardoor het breed inzetbaar is in diverse softwareprojecten. Het helpt bij het schrijven van boilerplate code, het ontdekken van nieuwe programmeerpatronen en het sneller oplossen van problemen. Ondanks de slimme suggesties blijft de ontwikkelaar verantwoordelijk voor het controleren, testen en beveiligen van de uiteindelijke code. Copilot is daarmee een krachtig hulpmiddel dat het ontwikkelproces efficiënter en leerzamer maakt, zonder de controle uit handen te nemen.",
       "geregistreerd": "2026-05-13",
       "id": "27483480",
@@ -17581,7 +17593,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1465,
-  "fetched_at": "2026-06-15T08:17:55Z",
+  "count": 1466,
+  "fetched_at": "2026-06-16T08:11:18Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
