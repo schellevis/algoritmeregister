@@ -1765,6 +1765,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/21765126"
     },
     {
+      "doel": "Cody is ontwikkeld voor ontwikkelaars binnen de politie. Wereldwijd komen er steeds meer hulpmiddelen voor softwareontwikkeling, met als doel om het werk sneller te maken. Cody wordt gebruikt bij het ontwikkelen van politiesystemen. Het wordt niet gebruikt om informatie van burgers te verwerken.",
+      "geregistreerd": "2026-06-15",
+      "id": "21814176",
+      "impactassessment": "Ja",
+      "juridische_basis": "Cody wordt ingezet als ondersteuning bij verschillende taken van de politie. Het kan worden gebruikt bij de algemene politietaak, zoals beschreven in artikel 3 van de Politiewet. Het kan ook worden ingezet ter ondersteuning van opsporingsactiviteiten.",
+      "organisatie": "Politie",
+      "status": "ontwikkeling",
+      "title": "Cody",
+      "toegevoegd": "2026-06-17",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/21814176"
+    },
+    {
       "doel": "Het doel van dit algoritme is om persoons- en bedrijfsgegevens te beschermen bij publicatie van documenten. De impact is laag.",
       "geregistreerd": "2024-03-04",
       "id": "21926192",
@@ -11017,6 +11029,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/66453169"
     },
     {
+      "doel": "DOEL: Het doel van de algoritmetoepassing is om zaken automatisch te verdelen aan werkcoaches bij W&I en MO. Dit is sneller dan handmatig verdelen. IMPACT: Door de algoritmetoepassing hoeven we minder tijd te besteden aan het handmatig verdelen van zaken.",
+      "geregistreerd": "2026-06-16",
+      "id": "66453941",
+      "impactassessment": "Nee",
+      "juridische_basis": "participatiewet",
+      "organisatie": "Gemeente Rotterdam",
+      "status": "in_gebruik",
+      "title": "Werkverdeling coaches in Thomas DUP",
+      "toegevoegd": "2026-06-17",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/66453941"
+    },
+    {
       "doel": "Het doel is een efficiëntere afhandeling van bezwaren, vermindering van de administratieve druk en kortere verwerkingstijd. AiBezwaar: Identificeert de aanvrager en hoofdbetrokkenen. Identificeert het WOZ-object van bezwaar. Identificeert of het bezwaarschrift een pro-forma bezwaar is. Identificeert de redenen van het bezwaar (ontgrieven). Identificeert of om hoorzitting wordt verzocht. Stelt een conceptreactie op gebaseerd op eerder gegeven antwoorden op bepaalde griefredenen. Op basis hiervan wordt direct een zaak aangemaakt in de bezwarenmodule. Wanneer niet alle benodigde gegevens automatisch herkend kunnen worden, wordt de e-mail gemarkeerd voor handmatige verwerking door een medewerker. Hierbij kan de medewerker snel en efficiënt de ontbrekende informatie aanvullen en het bezwaar correct registreren.",
       "geregistreerd": "2025-06-06",
       "id": "66518929",
@@ -17593,7 +17617,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1466,
-  "fetched_at": "2026-06-16T08:11:18Z",
+  "count": 1468,
+  "fetched_at": "2026-06-17T08:05:52Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
