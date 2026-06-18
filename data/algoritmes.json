@@ -2425,6 +2425,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/24889328"
     },
     {
+      "doel": "Het doel van de parkeerscanauto is het uitvoeren van toezicht en handhaving in het kader van fiscaal parkeren, met name ter controle op de naleving van de verplichting tot betaling van parkeerbelasting en het opleggen van naheffingsaanslagen. In het kader van de uitvoering en handhaving van digitaal kentekenparkeren worden uitsluitend de persoonsgegevens verwerkt die noodzakelijk zijn voor het mogelijk maken van toezicht op de betaling van parkeerbelasting, alsmede voor de heffing en invordering daarvan, waaronder begrepen het opleggen en afhandelen van naheffingsaanslagen.",
+      "geregistreerd": "2026-06-17",
+      "id": "24913733",
+      "impactassessment": "Ja",
+      "juridische_basis": "Artikel 225 Gemeentewet; Verordening Parkeerbelasting 2026",
+      "organisatie": "Gemeente Harlingen",
+      "status": "in_gebruik",
+      "title": "Parkeercontrole",
+      "toegevoegd": "2026-06-18",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/24913733"
+    },
+    {
       "doel": "",
       "geregistreerd": "2025-07-08",
       "id": "24996567",
@@ -5483,6 +5495,18 @@
       "title": "Anonimiseren",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/38959194"
+    },
+    {
+      "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
+      "geregistreerd": "2026-06-17",
+      "id": "38969658",
+      "impactassessment": "Ja",
+      "juridische_basis": "1. WOO 2. WDO 3. UAVG 4. WEP 5. WDO",
+      "organisatie": "Gemeente Harlingen",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-06-18",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/38969658"
     },
     {
       "doel": "Het belang van een correct geregistreerd adres gaat verder dan het op orde houden van de Basisregistratie Personen (BRP). Vindt er bijvoorbeeld een ramp plaats, dan wil je iedereen in de omgeving tijdig kunnen waarschuwen. Ook verstrek je als gemeente voorzieningen, uitkeringen of subsidies aan inwoners, op basis van het in de BRP geregistreerde adres. Dat maakt een correcte adresregistratie belangrijk voor zowel inwoners als overheid. Het algoritme controleert verschillende gegevens van de burger. Indien er geen bijzonderheden geconstateerd worden in de aanvraag of aangifte kan deze verwerkt worden zonder tussenkomst van een medewerker. Indien er wel een bijzonderheid geconstateerd wordt valt de aanvraag/aangifte in een wachtkamer waar deze gecontroleerd wordt door een medewerker. Het algoritme kan alleen automatisch een aanvraag/aangifte goedkeuren. Een aanvraag/aangifte afkeuren kan alleen de ambtenaar.",
@@ -12398,7 +12422,7 @@
     },
     {
       "doel": "De geautomatiseerde gezichtsvergelijking heeft twee doelen, namelijk: 1. Het vaststellen van de identiteit van de aanvrager van een identiteitsbewijs ter voorkoming van identiteitsfraude; en 2. Het betrouwbaar houden van de informatie in de Basisregistratie Personen (BRP).",
-      "geregistreerd": "2025-07-22",
+      "geregistreerd": "2026-06-17",
       "id": "74398195",
       "impactassessment": "Ja",
       "juridische_basis": "Wet BRP art. 2.67 lid 4; Besluit BRP art. 35; UAVG art. 29 – inzet van biometrie is toegestaan bij noodzakelijke authenticatie.",
@@ -17617,7 +17641,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1468,
-  "fetched_at": "2026-06-17T08:05:52Z",
+  "count": 1470,
+  "fetched_at": "2026-06-18T07:55:37Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
