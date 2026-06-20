@@ -6745,6 +6745,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/45443116"
     },
     {
+      "doel": "Dit algoritme heeft geen directe impact op burgers en bedrijven. Het doel van de toepassing is om medewerkers van Defensie te helpen sneller en veiliger informatie te verwerken en gebruiken. De tool ondersteunt bij dagelijkse werkzaamheden, zoals het samenvatten van teksten, zoeken van informatie en opstellen van documenten. Daarnaast zorgt de interne omgeving ervoor dat gevoelige informatie van Defensie beschermd blijft en niet terechtkomt bij openbare AI-diensten.",
+      "geregistreerd": "2026-06-19",
+      "id": "45462867",
+      "impactassessment": "Ja",
+      "juridische_basis": "",
+      "organisatie": "Ministerie van Defensie",
+      "status": "in_gebruik",
+      "title": "DefGPT",
+      "toegevoegd": "2026-06-20",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/45462867"
+    },
+    {
       "doel": "Het primaire doel is burgers die in aanmerking komen voor specifieke gemeentelijke regelingen, zoals \"Isolatie en Nij Begun\" (Maatregel 29), eenvoudig inzicht te geven in hun rechten en plichten zonder dat zij zelf juridische teksten hoeven te ontcijferen.",
       "geregistreerd": "2026-02-03",
       "id": "45463512",
@@ -17713,7 +17725,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1476,
-  "fetched_at": "2026-06-19T08:06:02Z",
+  "count": 1477,
+  "fetched_at": "2026-06-20T07:31:38Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
