@@ -11293,11 +11293,11 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/67141757"
     },
     {
-      "doel": "De gemeente wil graag transparant zijn naar haar inwoners en ondernemers maar ze moet ook voldoen aan o.a. privacy-wetgeving. De inzet van anonimiseringssoftware maakt dit mogelijk door medewerkers te ondersteunen bij het anonimiseren van documenten.",
-      "geregistreerd": "2024-01-25",
+      "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
+      "geregistreerd": "2026-06-22",
       "id": "67253382",
       "impactassessment": "Onbekend",
-      "juridische_basis": "",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
       "organisatie": "Gemeente Ameland",
       "status": "in_gebruik",
       "title": "Anonimiseringssoftware",
@@ -17726,6 +17726,6 @@
     }
   ],
   "count": 1477,
-  "fetched_at": "2026-06-20T07:31:38Z",
+  "fetched_at": "2026-06-22T08:18:36Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
