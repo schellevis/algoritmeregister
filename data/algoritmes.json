@@ -2089,6 +2089,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/23372779"
     },
     {
+      "doel": "Met het algoritme kan DUO op een efficiënte manier debiteuren selecteren voor openbaar betekenen. Het algoritme versnelt de administratieve verwerking door medewerkers. Het laat zien welke debiteuren de grootste financiële impact hebben voor DUO en het Rijk als totaal. Openbaar betekenen is een middel om verjaring van vorderingen te voorkomen en te zorgen dat DUO de vordering niet hoeft af te boeken, als het adres van de debiteur niet bekend is bij DUO en DUO dus geen aanmaning kan versturen. Het algoritme maakt een selectie van debiteuren bij wie vorderingen dreigen te verjaren. De medewerker stelt vervolgens handmatig vast of openbaar betekenen een passend middel is voor een debiteur. Als dit het geval is, dan publiceert DUO een kennisgeving in de Staatscourant.",
+      "geregistreerd": "2026-06-23",
+      "id": "23386411",
+      "impactassessment": "Ja",
+      "juridische_basis": "Openbaar betekenen is toegestaan op basis van de wet. Dit is vastgelegd in artikel 54 van het Wetboek van Burgerlijke Rechtsvordering en in hoofdstuk 6 en 10a van de Wet studiefinanciering 2000. De verwerking gebeurt omdat DUO een taak van algemeen belang uitvoert, zoals bedoeld in artikel 6, lid 1, sub e van de Algemene Verordening Gegevensbescherming.",
+      "organisatie": "Dienst Uitvoering Onderwijs",
+      "status": "in_gebruik",
+      "title": "Openbaar betekenen",
+      "toegevoegd": "2026-06-24",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/23386411"
+    },
+    {
       "doel": "Het product Bedrijfsvergelijkingstool beschikt over databases met informatie over bedrijfsgegevens om vergelijkingen tussen bedrijven te kunnen maken. De uitkomsten van het product Bedrijfsvergelijkingstool worden gebruikt voor het beoordelen van, aan de medewerkers van de Belastingdienst overgelegde, waarderingsrapporten en/of -memo’s (hierna: rapporten).",
       "geregistreerd": "2025-07-16",
       "id": "23439232",
@@ -5137,6 +5149,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/37358424"
     },
     {
+      "doel": "",
+      "geregistreerd": "2026-06-23",
+      "id": "37454627",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente 's-Hertogenbosch",
+      "status": "in_gebruik",
+      "title": "Parkeercontrole - scanauto",
+      "toegevoegd": "2026-06-24",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/37454627"
+    },
+    {
       "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
       "geregistreerd": "2024-06-26",
       "id": "37543697",
@@ -5342,7 +5366,7 @@
     },
     {
       "doel": "De geautomatiseerde documentcheck en gezichtsvergelijker dienen drie doelen, te weten: 1. Het vaststellen van de identiteit van de aanvrager van een identiteitsbewijs ter voorkoming van identeitsfraude; 2. Het vaststellen van de echtheid van de aangeleverde brondocumenten uit het land van herkomst ter voorkoming van vervalsing; 3. Het betrouwbaar houden van de informatie in de Basisregistratie Personen (BRP). Als de applicaties met gebruik van het algoritme aangeven dat de persoon wiens identiteitsdocument en gezicht gescand zijn niet de persoon is die aan de balie staat, dan betrekt de baliemedewerker Publieke Dienstverlening een collega om deze bevinding te toetsen. Een aantal aanvragen wordt afgehandeld door buitenlandspecialisten. Deze specialisten passen ook het 'vier-ogen-principe' toe bij twijfel over de bevinding van de document- en/of gezichtsscan. Als zij tot de conclusie komen dat de bevinding van de documentcheck en/of gezichtsvergelijker correct is en de identiteit van de aanvrager niet overeenkomst met de identiteit op de brondocumenten en/of foto, dan wordt de aanvraag tot inschrijving in de BRP of het aanvragen van een identiteitsbewijs afgewezen. Bij deze afwijzing kan aangegeven worden of er een vermoeden is van fraude. In dat geval worden Politie en/of Marechausse ingeschakeld voor nader onderzoek.",
-      "geregistreerd": "2024-02-02",
+      "geregistreerd": "2026-06-23",
       "id": "38325188",
       "impactassessment": "Onbekend",
       "juridische_basis": "Wettelijke verplichting tot deugdelijke identiteitsvaststelling: Wet BRP art. 2.67 4de lid, Besluit BRP art.35 Toelaatbaarheid van biometrie: UAVG art. 29, in voorliggende situatie is authenticatie noodzakelijk.",
@@ -8413,6 +8437,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/53773698"
     },
     {
+      "doel": "Het doel is om in de gerichte steekproef vooral de aanvragen te selecteren die een hoge kans hebben om niet te voldoen aan de wettelijke eisen. De aanvragers die waarschijnlijk wel voldoen, moeten juist zoveel mogelijk administratief ontlast worden. Daarmee wordt gepoogd zowel tegemoet te komen aan de wens van een effectieve bescherming van patiëntbelangen als het belang van beroepsbeoefenaren om de administratieve en financiële belasting voor hen beperkt te houden.",
+      "geregistreerd": "2026-06-23",
+      "id": "53819778",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet BIG en het Besluit periodieke registratie Wet BIG. In de nota van toelichting is hierover het volgende opgenomen: De aanvragen tot periodieke registratie zullen niet standaard met bewijsstukken hoeven te worden onderbouwd. De eigen verklaringen zullen aan de hand van een willekeurige of gerichte steekproef op inhoud worden gecontroleerd.",
+      "organisatie": "CIBG",
+      "status": "in_gebruik",
+      "title": "Selectiemodel BIG herregistratie",
+      "toegevoegd": "2026-06-24",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/53819778"
+    },
+    {
       "doel": "Het doel van de e-diensten met het onderliggende algoritme is inwoners en ondernemers maximaal ondersteunen/begeleiden bij een digitale aanvraag. Daardoor kan deze aanvraag juist en volledig worden ingediend. Het algoritme controleert verschillende gegevens van de inwoner. Als er geen aanvullende gegevens nodig zijn van de inwoner en er geen handmatige acties of controles van de gemeente zijn vereist (zoals bijvoorbeeld ondertekening) om de aanvraag te verwerken, dan kan deze verwerkt worden zonder tussenkomst van een burgerzakenmedewerker. Zijn er wel aanvullende gegevens, controles of acties nodig, dan komt de aanvraag/aangifte altijd terecht in een werklijst. Daar wordt deze gecontroleerd door een burgerzakenmedewerker. Het algoritme kan alleen automatisch een aanvraag/aangifte goedkeuren. Een aanvraag/aangifte afkeuren kan alleen de burgerzakenmedewerker. De impact is dat een dergelijke aanvraag efficiënt kan worden afgehandeld door de gemeente; een inwoner/bedrijf heeft namelijk diverse stappen (werkzaamheden) al uitgevoerd, waardoor de ambtenaar meer tijd overhoudt voor de bijzondere en/of ingewikkelde aangiften/aanvragen die de gemeente ontvangt. In een aantal gevallen kan deze aanvraag zelfs volledig automatisch worden verwerkt. De kwaliteit van de dienstverlening gaat door deze diensten omhoog, net als de kwaliteit van de gegevens in de BRP.",
       "geregistreerd": "2025-01-27",
       "id": "53897914",
@@ -9947,18 +9983,6 @@
       "title": "Anonimiseren",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/59891417"
-    },
-    {
-      "doel": "Het doel is om in de gerichte steekproef vooral de aanvragen te selecteren die een hoge kans hebben om niet te voldoen aan de wettelijke eisen. De aanvragers die waarschijnlijk wel voldoen, moeten juist zoveel mogelijk administratief ontlast worden. Daarmee wordt gepoogd zowel tegemoet te komen aan de wens van een effectieve bescherming van patiëntbelangen als het belang van beroepsbeoefenaren om de administratieve en financiële belasting voor hen beperkt te houden.",
-      "geregistreerd": "2024-06-17",
-      "id": "59917797",
-      "impactassessment": "Ja",
-      "juridische_basis": "Wet BIG en het Besluit periodieke registratie Wet BIG. In de nota van toelichting is hierover het volgende opgenomen: De aanvragen tot periodieke registratie zullen niet standaard met bewijsstukken hoeven te worden onderbouwd. De eigen verklaringen zullen aan de hand van een willekeurige of gerichte steekproef op inhoud worden gecontroleerd.",
-      "organisatie": "CIBG",
-      "status": "in_gebruik",
-      "title": "Selectiemodel BIG herregistratie",
-      "toegevoegd": "2026-05-13",
-      "url": "https://algoritmes.overheid.nl/nl/algoritme/59917797"
     },
     {
       "doel": "In de praktijk komt het voor dat Utrechtse panden worden gebruikt voor hennepkwekerijen en synthetische drugslabs. Met de toepassing van dit algoritme willen we inzicht krijgen in het risico dat vastgoed wordt gebruik voor drugscriminaliteit, op buurtniveau. Met als doel om drugscriminaliteit zoveel mogelijk te voorkomen en te handhaven.",
@@ -15097,6 +15121,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/86726997"
     },
     {
+      "doel": "De overheid wil het aantal mensen met betalingsproblemen verminderen. Daarom heeft de minister aan DUO gevraagd om samen met de gemeente Amsterdam een pilot 'Vroegsignalering' uit te voeren. Door mensen met een betalingsachterstand vroeg hulp aan te bieden, kan de gemeente Amsterdam voorkomen dat financiële problemen groter worden. DUO geeft hiervoor signalen door aan de gemeente Amsterdam over debiteuren met een betalingsachterstand. DUO gebruikt het algoritme op basis van criteria uit de tijdelijke regeling Signaal Betalingsachterstanden (hierna: Regeling), om te bepalen wie voor vroegsignalering in aanmerking komt. Daarnaast moet een debiteur in de gemeente Amsterdam wonen. Op die manier kan de gemeente Amsterdam gericht hulp bieden aan deze debiteuren. De debiteuren krijgen van DUO vooraf een aankondigingsbrief dat er een signaal aan de gemeente Amsterdam wordt gestuurd. Ze hebben dan al één of meerdere betalingsherinneringen van DUO ontvangen. Debiteuren hebben het recht om op elk moment aan te geven dat ze niet willen meedoen aan de vroegsignalering (ze maken dan gebruik van een opt-out). In dat geval stopt het proces voordat het signaal wordt verstuurd.",
+      "geregistreerd": "2026-06-23",
+      "id": "86798945",
+      "impactassessment": "Ja",
+      "juridische_basis": "DUO geeft gegevens door aan het college van burgemeester en wethouders van de gemeente Amsterdam. Dit doet DUO voor de uitvoering van de taak die staat in artikel 3, eerste lid, onderdeel b, van de Wet gemeentelijke schuldhulpverlening. In artikel 2.3. van de Regeling staat beschreven wat als een signaal wordt aangeduid en welke persoonsgegevens DUO daarbij aan de gemeente Amsterdam moet doorgeven.",
+      "organisatie": "Dienst Uitvoering Onderwijs",
+      "status": "in_gebruik",
+      "title": "Vroegsignalering",
+      "toegevoegd": "2026-06-24",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/86798945"
+    },
+    {
       "doel": "De gemeente Waalwijk besteedt veel aandacht aan toegankelijkheid, gebruiksgemak en vindbaarheid. Wij proberen alle informatie zo aan te bieden dat iedereen deze eenvoudig kan vinden en gebruiken. Wij streven ernaar dat onze webomgevingen voor iedereen toegankelijk zijn. ReadSpeaker leest tekst van de website voor (tekst-naar-spraak). Iedere bezoeker van de website kan ReadSpeaker direct gebruiken. Met ReadSpeaker maakt Waalwijk de informatie op de website toegankelijk voor personen met een visuele handicap of personen die moeite hebben met het lezen en begrijpen van teksten.",
       "geregistreerd": "2024-09-05",
       "id": "86825711",
@@ -17725,7 +17761,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1477,
-  "fetched_at": "2026-06-22T08:18:36Z",
+  "count": 1480,
+  "fetched_at": "2026-06-24T07:23:39Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
