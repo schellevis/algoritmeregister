@@ -5041,6 +5041,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/36779938"
     },
     {
+      "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
+      "geregistreerd": "2026-06-24",
+      "id": "36785793",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Meierijstad",
+      "status": "in_gebruik",
+      "title": "Zivver",
+      "toegevoegd": "2026-06-25",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/36785793"
+    },
+    {
       "doel": "De anonimiseringssoftware wordt ingezet om invulling te geven aan enerzijds transparantie en anderzijds aan de noodzakelijke bescherming van de personen en bedrijven op wie de documenten betrekking hebben.",
       "geregistreerd": "2024-04-10",
       "id": "36851818",
@@ -5881,6 +5893,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/41388541"
     },
     {
+      "doel": "GovChat-NL is ontwikkeld als een veilig, open-source AI-platform dat dient als alternatief voor openbare chatbots (zoals ChatGPT en DeepSeek) en commerciële oplossingen (Zoals Copilot). Het platform stelt overheden in staat om overheidsspecifieke AI-toepassingen in te zetten, met volledige controle over de gegevensverwerking, privacy en integratie binnen bestaande IT-omgevingen (centraal beheer vs decentrale vrijheid). Met GovChat-NL/GAIMS beschikken ambtenaren over een digitale assistent die hen ondersteunt bij het efficiënt uitvoeren van hun dagelijkse taken.",
+      "geregistreerd": "2026-06-24",
+      "id": "41395468",
+      "impactassessment": "Ja",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Meierijstad",
+      "status": "in_gebruik",
+      "title": "GovChat-NL/GAIMS",
+      "toegevoegd": "2026-06-25",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/41395468"
+    },
+    {
       "doel": "Het beoogde doel dat met het gebruik van deze tool bereikt moet worden betreft het inzicht krijgen in de wensen van Groningers en ze hierdoor te kunnen betrekken bij de besluitvorming. Er is geen direct gevolg voor burgers en bedrijven.",
       "geregistreerd": "2025-01-28",
       "id": "41422827",
@@ -6575,6 +6599,18 @@
       "title": "Belastingen: Berekening belastingbedrag lokale heffingen",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/44211732"
+    },
+    {
+      "doel": "Ondersteuning voor gebruikers met een visuele handicap. In Nederland zijn er veel mensen die moeite hebben met lezen. Dit kan problemen geven bij het begrijpen van teksten op websites. De Gemeente Gorinchem heeft een oplossing: ReadSpeaker. Dit is een programma dat teksten kan voorlezen en vertalen. Iedereen kan ReadSpeaker gebruiken. Het is veilig en heeft extra functies, zoals het voorlezen in 6 talen, waaronder Oekraïens. Je kunt ook teksten vergroten en het scherm maskeren.",
+      "geregistreerd": "2026-06-24",
+      "id": "44298962",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De wettelijke basis voor het gebruik van ReadSpeaker ligt vooral in de verplichting om digitale overheidsinformatie toegankelijk te maken en in de publieke taak van de gemeente om informatie voor alle inwoners begrijpelijk en bruikbaar aan te bieden, binnen de kaders van privacywetgeving. Web Content Accessibility Guidelines (WCAG) 2.1: niveau A en AA",
+      "organisatie": "Gemeente Gorinchem",
+      "status": "in_gebruik",
+      "title": "Readspeaker",
+      "toegevoegd": "2026-06-25",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/44298962"
     },
     {
       "doel": "Het doel van de e-diensten met het onderliggende algoritme is inwoners en ondernemers maximaal ondersteunen/begeleiden bij een digitale aanvraag. Daardoor kan deze aanvraag juist en volledig worden ingediend. Het algoritme controleert verschillende gegevens van de inwoner. Daarna wordt deze gecontroleerd door een burgerzakenmedewerker. De impact is dat een dergelijke aanvraag efficiënt kan worden afgehandeld door de gemeente; een inwoner/bedrijf heeft namelijk diverse stappen (werkzaamheden) al uitgevoerd, waardoor de ambtenaar meer tijd overhoudt voor de bijzondere en/of ingewikkelde aangiften/aanvragen die de gemeente ontvangt. De kwaliteit van de dienstverlening gaat door deze diensten omhoog, net als de kwaliteit van de gegevens in de BRP.",
@@ -7643,6 +7679,18 @@
       "title": "Objectherkenning straatafval",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/49489486"
+    },
+    {
+      "doel": "Ondersteuning voor gebruikers met een visuele handicap. In Nederland zijn er veel mensen die moeite hebben met lezen. Dit kan problemen geven bij het begrijpen van teksten op websites. De oplossing die gemeente Borne hiervoor gebruikt is ReadSpeaker. Dit is een programma dat teksten kan voorlezen en vertalen. Iedereen kan ReadSpeaker gebruiken. Het is veilig en heeft extra functies, zoals het voorlezen in meerdere talen, waaronder Oekraïens. Je kunt ook teksten vergroten en het scherm maskeren.",
+      "geregistreerd": "2026-06-24",
+      "id": "49657890",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De wettelijke basis voor het gebruik van ReadSpeaker ligt vooral in de verplichting om digitale overheidsinformatie toegankelijk te maken en in de publieke taak van de gemeente om informatie voor alle inwoners begrijpelijk en bruikbaar aan te bieden, binnen de kaders van privacywetgeving.",
+      "organisatie": "Gemeente Borne",
+      "status": "in_gebruik",
+      "title": "ReadSpeaker",
+      "toegevoegd": "2026-06-25",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/49657890"
     },
     {
       "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
@@ -11543,6 +11591,18 @@
       "title": "Beeldherkenning reclamebelasting",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/67971871"
+    },
+    {
+      "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
+      "geregistreerd": "2026-06-24",
+      "id": "67989443",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Vanuit de BIO-richtlijnen voor de overheid wordt veilig mailen als een geadviseerde maatregel gezien, wanneer er met enige regelmaat persoonsgegevens of andere gevoelige informatie via mail verstuurd wordt.",
+      "organisatie": "Gemeente Gorinchem",
+      "status": "in_gebruik",
+      "title": "Veilig e-mailen",
+      "toegevoegd": "2026-06-25",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/67989443"
     },
     {
       "doel": "De gemeente Amsterdam past sinds 2003 de Wet Bibob toe. De Wet Bibob geeft de gemeente Amsterdam de mogelijkheid om met een Bibob-onderzoek (integriteitsonderzoek) te voorkomen dat we criminele activiteiten faciliteren bij het verlenen van vergunningen, het verstrekken van subsidies, het gunnen van overheidsopdrachten of het aangaan van vastgoedtransacties. Het dashboard Bibob geeft inzicht en overzicht van de dossiers waar een Bibob-toets op wordt toegepast. Dit gebruiken we voor het aanleveren van managementcijfers op stedelijk, stadsdeel- en brancheniveau. Het kan bijvoorbeeld een overzicht geven van: Het aantal open en afgesloten dossiers de resultaten van de toetsingen het aantal dossiers per branche de (gemiddelde) doorlooptijden de soorten documenten in de dossiers de datakwaliteit van dossiers. Hiermee kan de gemeente het proces monitoren en waar nodig verbeteren.",
@@ -16765,6 +16825,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/94845785"
     },
     {
+      "doel": "Het doel van dit algoritme is om eraan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
+      "geregistreerd": "2026-06-24",
+      "id": "94846515",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Borne",
+      "status": "in_gebruik",
+      "title": "Zivver",
+      "toegevoegd": "2026-06-25",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/94846515"
+    },
+    {
       "doel": "Persoonsgegevens worden beschermd door ze onherkenbaar te maken. Dit gebeurt als de gegevens opnieuw worden gebruikt, bijvoorbeeld voor beleid, rapporten of het delen van open data.",
       "geregistreerd": "2025-06-12",
       "id": "94888124",
@@ -17761,7 +17833,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1480,
-  "fetched_at": "2026-06-24T07:23:39Z",
+  "count": 1486,
+  "fetched_at": "2026-06-25T07:24:08Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
