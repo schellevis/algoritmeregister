@@ -889,6 +889,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/15888639"
     },
     {
+      "doel": "De gemeente Zwolle controleert op een parkeerrecht, zoals een betaling voor parkeren of een parkeervergunning. Als dat niet zo is, kan de gemeente een boete geven. Voor deze controle gebruikt de gemeente een scanauto en mobiele apparaten. Deze maken foto’s van geparkeerde auto’s. Daarbij worden het kenteken, de plek en het tijdstip vastgelegd. Het systeem controleert of een auto daar mag staan. Als de uitkomst van de controle is dat een auto daar niet mag staan, krijgen de handhavers een signaal zodat zij de situatie kunnen beoordelen. Zo kunnen handhavers snel en goed controleren.",
+      "geregistreerd": "2026-06-29",
+      "id": "15897972",
+      "impactassessment": "Ja",
+      "juridische_basis": "De gemeente mag deze controles doen volgens de Gemeentewet. Daarin staat dat de gemeente regels maakt over de controles. Zulke regels heten een ‘verordening’. Elk jaar stelt de gemeenteraad de 'Verordening op de heffing en de invordering van parkeerbelastingen', inclusief de parkeertarieven. In de ‘Wet administratiefrechtelijke handhaving verkeersvoorschriften (WAHV)’ staan regels over verkeersboetes.",
+      "organisatie": "Gemeente Zwolle",
+      "status": "in_gebruik",
+      "title": "Parkeercontrole",
+      "toegevoegd": "2026-06-30",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/15897972"
+    },
+    {
       "doel": "Met dit algoritme bieden we een dienst aan aan vrijwilligers door middel van maatwerk aanbod locaties, functies en trainingen. Het gevolg van het algoritme is dat vrijwilligers eerst bepaalde ervaring moeten hebben opgedaan, voordat ze bepaalde verantwoordelijkere functies mogen vervullen. Ook de eerder gevolgde training is van invloed op het huidige wel/niet verplichte trainingsaanbod. De Stembureaumanager helpt hiermee de kwaliteit van de verkiezingen te waarborgen.",
       "geregistreerd": "2025-01-14",
       "id": "15939252",
@@ -4777,6 +4789,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/35672180"
     },
     {
+      "doel": "Om in te burgeren doen veel inburgeraars een cursus en/of examen. Soms kunnen ze hiervoor geld lenen bij DUO. Zes maanden nadat inburgeraars klaar zijn met inburgeren, moeten ze de lening terugbetalen. Bij de start van de aflossing toetst DUO automatisch of een inburgeraar naar draagkracht kan aflossen. Als DUO aflossen naar draagkracht toepast, betaalt de inburgeraar een lager maandbedrag dan het wettelijke maandbedrag. Het algoritme automatiseert het proces dat bepaalt welk maandbedrag een debiteur moet terugbetalen op basis van (partner)inkomen en gezinssituatie. Hierbij kijkt het algoritme naar het toetsingsinkomen (bruto jaarinkomen) van twee jaar geleden. De inburgeraar wordt op de hoogte gesteld dat het inkomen wordt opgevraagd bij de Belastingdienst. Zonder tegenbericht vindt deze opvraag geautomatiseerd plaats. DUO vraagt de gegevens ook automatisch op wanneer er een nieuw kalenderjaar begint. Het principe is dat inburgeraars binnen 10 jaar hun hele schuld aflossen. Als dit niet lukt vanwege de toegekende draagkracht, wordt de resterende schuld na 10 jaar aflossen kwijtgescholden.",
+      "geregistreerd": "2026-06-29",
+      "id": "35739845",
+      "impactassessment": "Ja",
+      "juridische_basis": "De wettelijke basis voor het proces staat in de Wet inburgering en in de regelgeving die daarbij hoort. Voor inburgeraars die vóór 1 januari 2022 al inburgeringsplichtig waren, geldt de Wet inburgering 2013. In artikel 6.10 van het Besluit inburgering 2021 staat dat debiteuren die het vastgestelde termijnbedrag niet kunnen betalen, een aanvraag kunnen indienen om hun draagkracht vast te stellen. De berekening daarvan gebeurt volgens het Besluit inburgering 2021, artikel 6.11 en de Regeling inburgering artikel 6.8. De hoogte van de maandelijkse termijn wordt vastgesteld volgens de Regeling inburgering 2021, artikel 6.5.",
+      "organisatie": "Dienst Uitvoering Onderwijs",
+      "status": "in_gebruik",
+      "title": "Toekennen of afwijzen recht aflossing naar draagkracht",
+      "toegevoegd": "2026-06-30",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/35739845"
+    },
+    {
       "doel": "De gemeente Apeldoorn controleert geparkeerde auto’s met een scanauto. Deze auto leest automatisch de kentekens van geparkeerde voertuigen en controleert of er een geldig parkeerkaartje of vergunning is.",
       "geregistreerd": "2026-03-24",
       "id": "35842893",
@@ -5747,6 +5771,18 @@
       "title": "Readspeaker",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/39628291"
+    },
+    {
+      "doel": "Doel: het digitaal handhaven van het parkeerbeleid. We controleren of mensen parkeerbelasting betalen volgens de regels. Dit zorgt voor een betere en snellere controle bij het parkeren. Mensen zijn hierdoor eerder bereid om te betalen. Impact: Een camera leest het kenteken van de auto. Een toezichthouder controleert altijd de foto van de mogelijke overtreding. Deze persoon beslist of er een naheffingsaanslag komt omdat de parkeerbelasting niet is betaald.",
+      "geregistreerd": "2026-06-25",
+      "id": "39734121",
+      "impactassessment": "Ja",
+      "juridische_basis": "Gemeentewet: Artikel 149, 156 lid 1 en 2 aanhef en onderdeel h, 225 en 228 Reglement Verkeersregels en Verkeerstekens 1990 Wegenverkeerswet 1994: Artikel 2 Verordening Parkeerregulering en Parkeerbelastingen 2022",
+      "organisatie": "Gemeente Maastricht",
+      "status": "in_gebruik",
+      "title": "Parkeercontrole met scanauto",
+      "toegevoegd": "2026-06-30",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/39734121"
     },
     {
       "doel": "Het algoritme helpt om de jaarlijkse subsidieaanvraag voor het GLB beter te maken. Het kijkt of de informatie van de aanvrager klopt. Als er iets niet klopt, krijgt de aanvrager een melding.",
@@ -6779,6 +6815,18 @@
       "title": "iBurgerzaken e-diensten",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/45327184"
+    },
+    {
+      "doel": "Om in te burgeren doen veel inburgeraars een cursus en/of examen. Soms kunnen ze hiervoor geld lenen bij DUO. Zes maanden nadat inburgeraars klaar zijn met inburgeren of na einde maximale leentermijn, moeten ze de lening terugbetalen. Daarnaast kan bij het niet tijdig voldoen aan een opgelegde inburgeringsplicht een bestuurlijke boete opgelegd worden. Het algoritme helpt DUO bij het signaleren van betalingsachterstanden bij de aflossing van een lening of het betalen van een bestuurlijke boete. Het algoritme controleert op vaste momenten of er een betalingsachterstand is die voldoet aan de voorwaarden van de Regeling inburgering 2021. Ook controleert het algoritme of er structureel niet op de betalingsherinneringen en aanmaningen van DUO wordt gereageerd. Het resultaat is een lijst met vorderingen die DUO kan doorzetten naar het CJIB. Het CJIB gaat dan de schuld innen namens DUO. De lijst met betalingsachterstanden die automatisch gesignaleerd zijn voor overdracht aan het CJIB wordt door DUO aanvullend gecontroleerd met zowel handmatige als automatische controles. Bij de handmatige controles kijkt een DUO-medewerker of er personen op de lijst staan die niet mogen worden overgedragen. Dit kan bijvoorbeeld gaan om mensen die bezwaar hebben gemaakt of een net ingediend verzoek voor draagkracht of schuldhulp ondersteuning. Bij de automatische controles wordt er gekeken of betalingsachterstanden worden uitgesloten van overdracht vanwege recent binnengekomen betalingen, verblijf in het buitenland of een gestarte stopzetting van incasso. Alle betalingsachterstanden die niet worden uitgesloten, worden samengevoegd tot een dwangbevel. Deze worden daarna handmatig overgedragen aan het CJIB door een DUO-medewerker. De betalingsachterstanden die wel worden uitgesloten, worden apart gezet en individueel beoordeeld door een DUO-medewerker.",
+      "geregistreerd": "2026-06-29",
+      "id": "45381977",
+      "impactassessment": "Ja",
+      "juridische_basis": "Volgens de Wet inburgering 2021 en de Algemene wet bestuursrecht, artikel 5.10 kan DUO de betalingsachterstand invorderen met een dwangbevel. Artikel 6.11 van het Besluit inburgering 2021 beschrijft wat er gebeurt als iemand een inburgeringslening niet terugbetaalt. Artikel 6.12 van het Besluit inburgering bepaalt dat DUO de schuld die een inburgeraar heeft bij DUO (door een boete of lening) in zijn geheel mag terugvragen. Dit gebeurt als de inburgeringsplichtige niet binnen de wettelijke termijn voldoet aan de eisen.",
+      "organisatie": "Dienst Uitvoering Onderwijs",
+      "status": "in_gebruik",
+      "title": "Signaleren aanmaningen voor overdracht CJIB",
+      "toegevoegd": "2026-06-30",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/45381977"
     },
     {
       "doel": "ICTU ziet AI als het begin van een systeemverandering. In deze technologie komen diverse kennisgebieden samen waardoor een multidisciplinaire aanpak nodig is om verantwoord om te kunnen gaan met zowel de enorme kansen als de risico’s van deze technologie. Vanwege de diverse invalshoeken is besloten 6 perspectieven nader te verkennen. Een van de perspectieven is het experimenteren met generatieve AI met behulp van copilot om medewerkers te ondersteunen bij onder andere documentcreatie, notuleren en informatieanalyse. Het doel is ervaring op te doen met genAI en inzicht te krijgen in de impact en mogelijkheden ervan op de werkvloer. Ook wordt bewustwording van de risico's van AI benadrukt voor verantwoord gebruik.",
@@ -17833,7 +17881,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1486,
-  "fetched_at": "2026-06-25T07:24:08Z",
+  "count": 1490,
+  "fetched_at": "2026-06-30T07:30:53Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
