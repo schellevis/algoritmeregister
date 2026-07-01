@@ -313,6 +313,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/12751163"
     },
     {
+      "doel": "Het algoritme helpt DUO om het innen van schulden te verbeteren. Het algoritme verdeelt debiteuren in gedragsgroepen, op basis van hun betaalgedrag en betaalstatus. Het belangrijkste doel van het algoritme is om debiteuren die een achterstand hebben met betalen op een passende manier te benaderen. Hiermee hoopt DUO dat deze debiteuren contact opnemen met DUO. Dan kan DUO afspraken maken met de debiteuren over wat ze nog wel en niet kunnen betalen en ervoor zorgen dat er daarna geen aflosproblemen meer ontstaan. Als DUO eenmaal contact heeft met de debiteuren, heeft de groep waarin ze zijn ingedeeld geen invloed op hoe DUO hen behandelt. DUO gebruikt de groepen ook om te beslissen welke schulden (tijdelijk) niet geïnd kunnen worden. Ten slotte gebruikt DUO het algoritme om een totaalbeeld te krijgen van het betaalgedrag van alle debiteuren. Die informatie helpt DUO om strategische keuzes te maken over het totaal van alle schulden. Dat zijn dus geen keuzes voor individuele debiteuren.",
+      "geregistreerd": "2026-06-30",
+      "id": "12766794",
+      "impactassessment": "Ja",
+      "juridische_basis": "De gegevensverwerking voor gedragsgroepen gebeurt binnen het proces van persoonsgericht innen. Dit proces is gebaseerd op specifieke wetten, zoals de Wet studiefinanciering 2000 en de Algemene wet bestuursrecht. Het innen van schulden is een wettelijke en een maatschappelijke taak van DUO. In de Wet studiefinanciering 2000 staat onder meer hoe oud-studenten hun lening moeten terugbetalen. In artikel 6.6 en 6.9 van de wet staat informatie over het begin van de aflosperiode en over de maandelijkse bedragen. In hoofdstuk 8 staat belangrijke informatie over het innen aangegeven.",
+      "organisatie": "Dienst Uitvoering Onderwijs",
+      "status": "in_gebruik",
+      "title": "Gedragsgroepen",
+      "toegevoegd": "2026-07-01",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/12766794"
+    },
+    {
       "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, twee-factorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van kandidaten, medewerkers of bedrijven.",
       "geregistreerd": "2026-06-11",
       "id": "12796540",
@@ -2977,6 +2989,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/27184484"
     },
     {
+      "doel": "Het algoritme ondersteunt DUO bij het selecteren en rangschikken van debiteuren die mogelijk in aanmerking komen voor registratie in het Register paspoortsignaleringen. Dit betreft debiteuren met een Nederlandse nationaliteit, een betalingsachterstand van €5000 of meer bij DUO en geen bij DUO bekende woonplaats of inschrijving in het Koninkrijk der Nederlanden. Omdat het aantal debiteuren dat mogelijk aan deze voorwaarden voldoet groter is dan de personele capaciteit bij DUO, ondersteunt het algoritme bij het aanbrengen van prioriteit. Daarvoor kijkt het algoritme of de debiteur een Nederlands paspoort heeft en hoe lang dat nog geldig is (normaal is dat tien jaar).",
+      "geregistreerd": "2026-06-30",
+      "id": "27233867",
+      "impactassessment": "Ja",
+      "juridische_basis": "In artikel 22 van de Paspoortwet is opgenomen welke instanties in welke situaties mogen verzoeken om een nieuw paspoort te weigeren (lees: een registratie doen in het Register paspoortsignalering). Voor DUO is lid b van dit artikel van belang, namelijk nalatigheid bij de nakoming van de verplichting tot terugbetaling van de door de overheid verstrekte geldleningen.",
+      "organisatie": "Dienst Uitvoering Onderwijs",
+      "status": "in_gebruik",
+      "title": "Paspoortsignalering",
+      "toegevoegd": "2026-07-01",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/27233867"
+    },
+    {
       "doel": "DOEL: Op een snelle, eenvoudige en minst dure manier in contact komen met Rotterdammers met een belastingschuld voor een passende manier van belastinggeld innen. IMPACT: De doelgroepcode die wordt toegewezen door het algoritme heeft invloed op het soort dwangbevel. Namelijk: per post of met belastingdeurwaarder. Een belastingdeurwaarder zorgt ervoor dat er eerder contact is, zodat de Rotterdammer met belastingschuld hulp kan krijgen. Dat noemen we sociaal incasseren.",
       "geregistreerd": "2025-03-06",
       "id": "27237784",
@@ -3347,6 +3371,18 @@
       "title": "Anonimiseren documenten",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/28544265"
+    },
+    {
+      "doel": "Het doel van de parkeerscanauto is het controleren op betaald parkeren en parkeervergunningen. En zo waar nodig, boetes te kunnen uitdelen. Gemeente Rijswijk heeft een scanauto die in de gemeente Rijswijk foto's maakt van geparkeerde voertuigen. Daarbij worden het kenteken, het voertuig, de omgeving van het voertuig, het tijdstip en de locatie vastgelegd.",
+      "geregistreerd": "2026-06-30",
+      "id": "28646671",
+      "impactassessment": "Ja",
+      "juridische_basis": "De Gemeentewet geeft aan dat de gemeenteraad regels mag vaststellen voor het laten betalen van parkeerbelastingen. Zulke regels heten een ‘verordening’. De gemeente Rijswijk heeft een parkeerverordening opgesteld. Daarnaast geldt de Wet administratiefrechtelijke handhaving verkeersvoorschriften (WAHV).",
+      "organisatie": "Gemeente Rijswijk",
+      "status": "in_gebruik",
+      "title": "Scanauto kentekenherkenning",
+      "toegevoegd": "2026-07-01",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/28646671"
     },
     {
       "doel": "Het algoritme is gemaakt om het proces van kwijtschelding van belastingen makkelijker en sneller te maken voor de burger en ondernemer. Het voorspelt welke verzoeken waarschijnlijk toch in aanmerking komen voor kwijtschelding. Hierdoor kan de gemeente efficiënter werken en wordt de dienstverlening voor Amsterdammers moderner en klantvriendelijker. Amsterdammers krijgen te maken met het algoritme wanneer ze een verzoek tot kwijtschelding indienen. Als het algoritme voorspelt dat het verzoek waarschijnlijk zal worden goedgekeurd, geeft het dit advies aan de behandelend ambtenaar. Deze neemt dit advies mee in zijn afweging. Als het advies wordt opgevolgd, hoeft de burger geen extra informatie op te sturen. Dit maakt het proces voor de burger sneller en eenvoudiger. Als het algoritme geen advies kan geven, wordt het verzoek op de normale manier door een medewerker beoordeeld. Het algoritme zorgt ervoor dat burgers minder administratieve lasten hebben en sneller een antwoord krijgen. Voor de gemeente betekent dit een efficiënter proces en minder werk. Een medewerker neemt altijd de uiteindelijke beslissing, zodat het proces betrouwbaar blijft. Het algoritme wordt gebruikt binnen de gemeente.",
@@ -8474,12 +8510,12 @@
     },
     {
       "doel": "De Hittestress module biedt inzicht in de gevoelstemperatuur (PET), wind en schaduwwerking op verschillende momenten van de dag. De module wordt gebruikt om de hittestress in stedelijk gebied op warme dagen in kaart te brengen, bijvoorbeeld voor klimaatstresstesten. Zowel de huidige als een mogelijke toekomstige situatie op baiss van bijvoorbeeld een stedenbouwkundig plan kunnen worden doorgerekend. Het betreft een fysisch model, de aanpak berust niet op kunstmatige intelligentie. De Hittemodule draait op een breder platform voor data-integratie en simulaties waarmee de leefomgeving op hyperresolutie integraal kan worden doorgerekend op aspecten als wateroverlast, hittestress, luchtkwaliteit en geluid. De Hittemodule is gebouwd volgens de richtlijnen van het Deltaplan Ruimtelijke Adaptatie (DPRA).",
-      "geregistreerd": "2025-12-10",
+      "geregistreerd": "2026-06-30",
       "id": "53624651",
       "impactassessment": "Onbekend",
       "juridische_basis": "De software kan door o.a. gemeenten en provincies worden gebruikt voor: *Omgevingswet: vergunningverlening, planvorming *AWB (algemene wet bestuursrecht): Het monitoren van gevaarlijke situaties waarbij bevoegd gezag zorg draagt voor de Algemene beginselen van behoorlijk bestuur - Zorgvuldigheid - Transparantie - Evenredige afweging",
       "organisatie": "Gemeente Breda",
-      "status": "in_gebruik",
+      "status": "buiten_gebruik",
       "title": "Modelleringssoftware Hittestress",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/53624651"
@@ -11183,6 +11219,18 @@
       "title": "Burgerzaken e-diensten",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/65735246"
+    },
+    {
+      "doel": "Handhaving betaald parkeren & parkeren met parkeervergunning of -ontheffing De scanauto maakt foto’s van het kenteken van het motorvoertuig en controleert het parkeerrecht in het Nationaal Parkeer Register (NPR) en de lijst van voertuigen met ontheffing (hierna: whitelist) van ARS T&TT. In deze registers staan de betalingen van parkeergelden geregistreerd en welke kentekens beschikken over een parkeervergunning of -ontheffing. Wanneer uit het NPR blijkt dat er geen geldig parkeerrecht aanwezig is, wordt de foto doorgestuurd naar de gemeente Breda. Een toezichthouder controleert deze foto dan. Wanneer er sprake is van een overtreding ontvang je van Invoned binnen 2 weken een naheffingsaanslag voor het parkeren zonder parkeerrecht. Handhaving foutparkeren De scanauto maakt foto’s van het kenteken van het motorvoertuig dat zich op de stoep bevindt en controleert in de whitelist van ARS T&TT of deze een ontheffing heeft voor het verbod op stilstaan op de stoep. Wanneer uit de whitelist blijkt dat er geen ontheffing aanwezig is wordt de foto doorgestuurd naar de gemeente Breda. Een Buitengewoon Opsporingsambtenaar (BOA) controleert vervolgens deze foto. Wanneer er sprake is van een overtreding ontvang je binnen 3 weken een verkeersboete die verstuurd wordt vanuit het Centraal Justitieel Incassobureau (CJIB).",
+      "geregistreerd": "2026-06-30",
+      "id": "65888360",
+      "impactassessment": "Ja",
+      "juridische_basis": "De Gemeentewet geeft aan dat de gemeenteraad verordeningen mag vaststellen inzake de heffing en invordering van parkeerbelastingen. Die zijn vastgelegd in de vigerende verordening op de heffing en invordering van parkeerbelastingen. Deze belastingverordening geeft aan dat er belasting betaald moet worden voor het gebruik van de openbare ruimte en waar er belasting betaald moet worden. De wettelijke basig van de Mulderhandhaving is de wet administratiefrechtelijke handhaving verkeersvoorschriften, beter bekend als de wet Mulder.",
+      "organisatie": "Gemeente Breda",
+      "status": "in_gebruik",
+      "title": "Scanauto",
+      "toegevoegd": "2026-07-01",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/65888360"
     },
     {
       "doel": "Efficient en uniform behandelen van en besluiten op aanvragen, mutaties en heronderzoeken voor bijstand, bijzondere bijstand, IIT, verhaal op onderhoudsplichtigen en terugvordering van te veel ontvangen bijstand. Het algoritme wordt ingezet in een applicatie voor inwoners van de ca. 80 aangesloten gemeenten en controleert gedurende het proces of wordt voldaan aan verschillende (wettelijke) criteria . De consulent krijgt gedurende de hele behandeling de mogelijkheid om af te wijken van de voorgestelde keuzes van het kennissysteem.",
@@ -15145,6 +15193,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/86447472"
     },
     {
+      "doel": "Het doel van het algoritme is dat inwoners, raadsleden en medewerkers van de gemeente gemakkelijk vergaderingen en informatie van de gemeenteraad kunnen vinden. Dit zorgt voor meer openheid en maakt democratische processen makkelijker. In het raadsinformatiesysteem is informatie te vinden over raadsvergaderingen en besluiten van de raad. De Videosearch & AI module werkt als een zoekmachine. Hiermee kun je eenvoudig de informatie vinden die je zoekt. De zoekmachine is toegankelijk voor raadsleden, inwoners en ambtenaren. Gebruikers stellen vragen aan de zoekmachine en krijgen relevante informatie als antwoord.",
+      "geregistreerd": "2026-06-30",
+      "id": "86466716",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Artikel 23 van de Gemeentewet zegt dat raadsvergaderingen voor iedereen toegankelijk zijn. De zoekmachine helpt mensen om deze vergaderingen te vinden.",
+      "organisatie": "Gemeente Waalwijk",
+      "status": "in_gebruik",
+      "title": "NotuBiz Videosearch",
+      "toegevoegd": "2026-07-01",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/86466716"
+    },
+    {
       "doel": "Het doel van dit algoritme is het meten van geluid, stikstofverpreiding en geur d.m.v. een standaard meet- en rekenschrift. De resultaten kunnen vervolgens op diverse manieren gebruikt worden en door verschillende organisaties, aangezien de software werkt op basis van de huidige wet- en regelgeving.",
       "geregistreerd": "2025-02-12",
       "id": "86544144",
@@ -17881,7 +17941,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1490,
-  "fetched_at": "2026-06-30T07:30:53Z",
+  "count": 1495,
+  "fetched_at": "2026-07-01T07:43:01Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
