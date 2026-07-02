@@ -5353,8 +5353,8 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/37937573"
     },
     {
-      "doel": "Met een tool maskeren wij persoonsgegevens. Dit doen wij bij het ter inzage leggen van besluiten en bij opgevraagde documenten voor bijvoorbeeld bezwaren, Woo-verzoeken en andere informatieverzoeken. Impact is laag: Het algoritme zoekt specifiek naar persoonsgegevens en maskeert deze ongeacht de verdere inhoud van documenten.",
-      "geregistreerd": "2024-05-30",
+      "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
+      "geregistreerd": "2026-07-01",
       "id": "37997944",
       "impactassessment": "Onbekend",
       "juridische_basis": "Wet algemene bepalingen omgevingsrecht (Wabo) Wet Open Overheid (WOO) Algemene wet bestuursrecht (Abw)",
@@ -6863,6 +6863,18 @@
       "title": "Signaleren aanmaningen voor overdracht CJIB",
       "toegevoegd": "2026-06-30",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/45381977"
+    },
+    {
+      "doel": "Het vaststellen van voertuigen zonder geldig parkeerrecht en het opleggen van een naheffing aan de eigenaar van het voertuig. De camera's, en daarmee het algoritme, worden ingezet ten behoeve van het handhaven van de gereguleerde gebieden voor voertuigen. De impact van het algoritme op de burger is laag. Enkel het lezen van de kentekenplaat wordt door het algoritme uitgevoerd. De kentekenbeelden van de vermeende overtreders worden door een geautoriseerde BOA handmatig gecontroleerd om te bepalen of er daadwerkelijk sprake is van een strafbare gedraging. Als hier geen sprake van is, wordt dit gecorrigeerd in het systeem en worden de beelden binnen 72 uur verwijderd.",
+      "geregistreerd": "2026-06-25",
+      "id": "45394759",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wegenverkeerswet 1994",
+      "organisatie": "Gemeente Delft",
+      "status": "in_gebruik",
+      "title": "Parkeerhandhaving met scanauto's",
+      "toegevoegd": "2026-07-02",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/45394759"
     },
     {
       "doel": "ICTU ziet AI als het begin van een systeemverandering. In deze technologie komen diverse kennisgebieden samen waardoor een multidisciplinaire aanpak nodig is om verantwoord om te kunnen gaan met zowel de enorme kansen als de risico’s van deze technologie. Vanwege de diverse invalshoeken is besloten 6 perspectieven nader te verkennen. Een van de perspectieven is het experimenteren met generatieve AI met behulp van copilot om medewerkers te ondersteunen bij onder andere documentcreatie, notuleren en informatieanalyse. Het doel is ervaring op te doen met genAI en inzicht te krijgen in de impact en mogelijkheden ervan op de werkvloer. Ook wordt bewustwording van de risico's van AI benadrukt voor verantwoord gebruik.",
@@ -17941,7 +17953,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1495,
-  "fetched_at": "2026-07-01T07:43:01Z",
+  "count": 1496,
+  "fetched_at": "2026-07-02T07:18:27Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
