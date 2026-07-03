@@ -6433,6 +6433,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/43114825"
     },
     {
+      "doel": "De scanauto (Brickyard/Arvoo) helpt om te controleren of parkeerbelasting is betaald waar dat moet in Gouda. Deze controle is geautomatiseerd. De auto leest het kenteken van een voertuig en stuurt deze informatie met de locatie en de tijd naar het Nationaal Parkeer Register (NPR). De database van het NPR antwoordt of je wel of geen geldig parkeerrecht hebt. De communicatie met het NPR is beveiligd. De scanapplicatie (Brickyard) controleert het bestaan van het parkeerrecht maximaal twee keer. Als er geen parkeerrecht lijkt te zijn, wordt de gemaakte foto geblurd aangeboden voor handmatige controle op de parkeeractie. Als er geen parkeerrecht bestaat, krijg je een boete (naheffingsaanslag parkeerbelasting).",
+      "geregistreerd": "2026-07-02",
+      "id": "43159752",
+      "impactassessment": "Ja",
+      "juridische_basis": "Op grond van artikelen 225, 234 en 235 van de Gemeentewet kan parkeerbelasting worden geheven. In de gemeente Gouda is hiervoor de Parkeerverordening Gouda 2024 en de Verordening op de heffing en de invordering van parkeerbelastingen 2026 relevant.",
+      "organisatie": "Gemeente Gouda",
+      "status": "in_gebruik",
+      "title": "Parkeercontrole",
+      "toegevoegd": "2026-07-03",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/43159752"
+    },
+    {
       "doel": "De taakstraf is een van de drie hoofdstraffen, naast de celstraf en de geldboete en wordt ook wel werkstraf genoemd. Het betekent dat iemand zinvolle onbetaalde arbeid in vrije tijd moet uitvoeren, gericht op genoegdoening naar de samenleving. Het dient samenleving en werkgestrafte omdat het de kans op recidive vermindert en resocialisatie vergroot. Deze straf wordt door de rechter of de Officier van Justitie opgelegd en wordt uitgevoerd door de Reclassering. Wanneer een persoon een taakstraf opgelegd gekregen heeft, neemt de reclassering contact op met die persoon. In een eerste gesprek (een intake) wordt het proces uitgelegd waarna een werkstrafproject toegekend wordt. De persoon zelf mag de eigen wensen bespreken in dit gesprek. De reclassering beslist uiteindelijk waar en wanneer het werk uitgevoerd gaat worden. Er zijn een heel aantal plekken waar de werkstraf uitgevoerd kan worden (dit noemen we werkstafprojecten). Op basis van een aantal vooraf bepaalde variabelen geeft de planhulp een advies voor een geschikt werkstrafproject voor de taakgestrafte. Elk extern werkstrafproject is getoetst door het ministerie van Justitie en Veiligheid aan de hand van de criteria zoals opgenomen in artikel 3 van het Besluit tenuitvoerlegging strafrechtelijke beslissingen (https://wetten.overheid.nl/BWBR0042962/2024-07-01#Hoofdstuk3). De reclasseringsorganisaties in Nederland maken allemaal gebruik van de matchtool. Het gaat daarbij om de instellingen van Stichting Verslavingsreclassering GGZ, Reclassering Nederland en Stichting Leger des Heils Jeugdbescherming & Reclassering.",
       "geregistreerd": "2025-12-15",
       "id": "43325290",
@@ -9647,6 +9659,18 @@
       "title": "Kentekenherkenning parkeergarage",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/58493843"
+    },
+    {
+      "doel": "Doel: het digitaal handhaven van de autoluwe binnenstad. Controle hierop gebeurt met camera's die kentekens kunnen lezen. Het doel van het algoritme is om efficiënt te kunnen handhaven. Het algoritme heeft alleen impact op voertuigen die niet in de gebieden mogen zijn. Alleen het overtredende voertuig wordt in beeld gebracht. Niet-overtreders worden buiten beschouwing gelaten. De camera's, en daarmee het algoritme, worden ingezet ten behoeve van het handhaven van de Autoluwe Binnenstad voor voertuigen. De impact van het algoritme op de burger is laag. Enkel het lezen van de kentekenplaat wordt door het algoritme uitgevoerd. Vermeende overtreders worden door een BOA handmatig gecontroleerd om te bepalen of er sprake is van een strafbare gedraging, waarbij de BOA ook de kentekenplaat zelf nog controleert op camerabeelden.",
+      "geregistreerd": "2026-07-02",
+      "id": "58518595",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wegenverkeerswet 1994",
+      "organisatie": "Gemeente Rijswijk",
+      "status": "in_gebruik",
+      "title": "Kentekencamerahandhaving Autoluwe Binnenstad",
+      "toegevoegd": "2026-07-03",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/58518595"
     },
     {
       "doel": "De gemeente wil graag transparant zijn naar haar inwoners en ondernemers maar ze moet ook voldoen aan o.a. privacy-wetgeving. De inzet van anonimiseringssoftware maakt dit mogelijk door medewerkers te ondersteunen bij het anonimiseren van documenten.",
@@ -15229,6 +15253,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/86544144"
     },
     {
+      "doel": "Het doel van het systeem is om minder administratief werk te doen. Het helpt medewerkers om informatie beter vast te leggen. Hierdoor hebben ze meer tijd voor de zorg van cliënten. Het systeem maakt het sneller om verslagen te maken. De medewerker blijft verantwoordelijk voor de inhoud van het rapport.",
+      "geregistreerd": "2026-07-03",
+      "id": "86575850",
+      "impactassessment": "Ja",
+      "juridische_basis": "Uitvoering van een taak in de publieke gezondheidszorg en dossiervorming. Dit heeft te maken met WGBO (Wet op de geneeskundige behandelingsovereenkomst) en Wet publieke gezondheid (Wpg).",
+      "organisatie": "GGD IJsselland",
+      "status": "in_gebruik",
+      "title": "Spraakgestuurd Rapporteren",
+      "toegevoegd": "2026-07-03",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/86575850"
+    },
+    {
       "doel": "Het doel van Microsoft 365 CoPilot is om medewerkers te ondersteunen bij hun dagelijkse werk. Microsoft 365 CoPilot helpt bijvoorbeeld bij het schrijven van teksten, het maken van samenvattingen, het opstellen van e-mails of het voorbereiden van vergaderingen. Dit gebeurt met behulp van kunstmatige intelligentie (AI). De impact is dat medewerkers sneller en makkelijker hun werk kunnen doen. Ze hoeven minder tijd te besteden aan standaardtaken en kunnen zich beter richten op inhoud en samenwerking. Burgers en bedrijven merken dit indirect, bijvoorbeeld doordat brieven duidelijker zijn, antwoorden sneller komen of vergaderingen beter zijn voorbereid.",
       "geregistreerd": "2025-11-11",
       "id": "86638281",
@@ -17953,7 +17989,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1496,
-  "fetched_at": "2026-07-02T07:18:27Z",
+  "count": 1499,
+  "fetched_at": "2026-07-03T07:14:39Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
