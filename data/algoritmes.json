@@ -8665,6 +8665,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/54191613"
     },
     {
+      "doel": "Het principe van algoritme heeft als doel om inkomensvoorzieningen en subsidies geautomatiseerd te kunnen berekenen. Zodat rechthebbenden de juiste verstrekking ontvangen. Deze berekeningen gebeuren op basis van businesslogica. Deze bestaat uit variabelen die zijn gebaseerd op geldende wet- en regelgeving.",
+      "geregistreerd": "2026-07-06",
+      "id": "54217140",
+      "impactassessment": "Ja",
+      "juridische_basis": "Algoritmen bevinden zich uitsluitend in onze ondersteuning van de Participatiewet, Ioaw, Ioaz en Bbz2004. De wetgeving hieromtrent is leidend voor onze businesslogica. Zowel voor inkomensregelingen als subsidies die worden verstrekt in het werkdomein.",
+      "organisatie": "Gemeente Emmen",
+      "status": "in_gebruik",
+      "title": "CiVision Samenlevingszaken",
+      "toegevoegd": "2026-07-07",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/54217140"
+    },
+    {
       "doel": "Er zijn drie algoritmes die worden gebruikt bij de beoordeling van een waardedalingsaanvraag. Voor de leesbaarheid van deze pagina noemen wij deze algoritmes ''controle algoritmes''. Hieronder worden de verschillende controle algoritmes toegelicht: Duplicaat algoritme: dit algoritme controleert of een aanvraag voor waardedaling al eerder is ingediend. Als een aanvraag eerder is ingediend, dan wordt de aanvraag automatisch afgewezen. Postcodecontrole algoritme: Dit algoritme controleert of de postcode van het pand binnen het waardedalingsgebied valt. Dit is het gebied waarin panden kunnen liggen die in waarde gedaald zijn vanwege de gaswinning. Als het pand niet binnen het waardedalingsgebied ligt, dan wordt de aanvraag automatisch afgewezen. NAM algoritme: dit algoritme controleert of er in het verleden door de Nederlandse Aardolie Maatschappij (NAM) een vergoeding aan voor een pand is toegekend. Als dit het geval is, dan wordt een nieuwe aanvraag afgewezen. De impact van alle algoritmes is dat een aanvraag wordt afgewezen wanneer deze niet aan de voorwaarden van het algoritme voldoet. Het automatisch afwijzen van een aanvraag is dus gebaseerd op feiten.",
       "geregistreerd": "2026-04-30",
       "id": "54241871",
@@ -17989,7 +18001,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1499,
-  "fetched_at": "2026-07-03T07:14:39Z",
+  "count": 1500,
+  "fetched_at": "2026-07-07T07:20:38Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
