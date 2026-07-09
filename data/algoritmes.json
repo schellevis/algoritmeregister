@@ -793,6 +793,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/15583895"
     },
     {
+      "doel": "Het doel van de stoepparkeermodule is om mogelijk stoepparkeren te signaleren en de handhaving daarop te ondersteunen. Inwoners kunnen hiermee in aanraking komen doordat scanauto’s voertuigen in de openbare ruimte registreren. Als het systeem een mogelijke overtreding signaleert, beoordeelt een boa de beelden voordat verdere handhaving plaatsvindt.",
+      "geregistreerd": "2026-06-11",
+      "id": "15733766",
+      "impactassessment": "Ja",
+      "juridische_basis": "Het gebruik van camera’s op, in of aan scanvertuigen worden ingezet door buitengewoon opsporingsambtenaren ten behoeve van de handhaving van feitcode R 315 b, zoals genoemd in de Bijlage als bedoeld in artikel 2, eerste lid van de Wet administratiefrechtelijke handhaving verkeersvoorschriften, zijnde het zich niet houden aan de bepalingen uit artikel 10, eerste lid van het Reglement verkeersregels en verkeerstekens 1990 (als bestuurder van een motorvoertuig niet de rijbaan gebruiken door stil te staan op het trottoir, het voetpad, het fietspad, het fiets/bromfietspad of het ruiterpad).",
+      "organisatie": "Gemeente Den Haag",
+      "status": "in_gebruik",
+      "title": "Module Mulderhandhaving stoepparkeren",
+      "toegevoegd": "2026-07-09",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/15733766"
+    },
+    {
       "doel": "Als er op straat of in een park iets gemaakt of opgeruimd moet worden, dan kan dat bij de gemeente worden gemeld via Signalen, het open source meldingensysteem van voor en door gemeenten. Ook een gevaarlijke verkeerssituatie, woonoverlast of overlast van personen en horeca kan gemeld worden. Voorheen moesten mensen zelf kiezen bij welke categorie hun melding het beste paste (bijvoorbeeld ‘overlast’ of ‘straatmeubilair’), zodat de melding bij de juiste afdeling van de gemeente terecht kwam. Maar de gemeente is een complexe organisatie en de lijst met categorieën is lang. Daardoor koos men niet altijd de juiste categorie. Dat zorgde soms voor vertraging in de afhandeling van meldingen. Daarom gebruiken we nu een algoritme dat woorden herkent, bijvoorbeeld ‘afval’ en ‘stoep’. Op basis daarvan wordt bepaald bij welke categorie de melding het best past en welke afdeling de melding moet afhandelen. De melder hoeft dus geen categorie meer te kiezen, en de melding wordt sneller afgehandeld omdat hij bij de juiste afdeling terecht komt.",
       "geregistreerd": "2026-06-08",
       "id": "15734974",
@@ -14197,6 +14209,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/82166739"
     },
     {
+      "doel": "Doel: Digitaal handhaven van geldende Milieuzone. Controle hierop gebeurt met camera's die kentekens kunnen lezen. Het doel van het algoritme is om efficiënt te kunnen handhaven. Het algoritme heeft alleen impact op voertuigen die niet in de gebieden mogen zijn. Alleen het overtredende voertuig wordt in beeld gebracht. Niet-overtreders worden buiten beschouwing gelaten. De camera's, en daarmee het algoritme, worden ingezet ten behoeve van het handhaven van de milieuzone voor voertuigen. De impact van het algoritme op de burger is laag. Enkel het lezen van de kentekenplaat wordt door het algoritme uitgevoerd. Vermeende overtreders worden door een BOA handmatig gecontroleerd om te bepalen of er sprake is van een strafbare gedraging, waarbij de BOA ook de kentekenplaat zelf nog controleert op camerabeelden.",
+      "geregistreerd": "2026-07-08",
+      "id": "82176512",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wegenverkeerswet 1994",
+      "organisatie": "Gemeente Rijswijk",
+      "status": "in_gebruik",
+      "title": "Kentekencamerahandhaving Milieuzone",
+      "toegevoegd": "2026-07-09",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/82176512"
+    },
+    {
       "doel": "Voorheen moesten melders zelf kiezen bij welke hoofd- en subcategorie hun melding het beste paste, zodat de melding bij de juiste afdeling van de gemeente terecht kwam. Door het algoritme hoeft dit niet meer; de (sub)categorie wordt bepaald op basis van de meldingstekst en de melding wordt automatisch ingedeeld. Dit scheelt de melder (de inwoner) werk en de medewerker ook, aangezien (meestal) zonder tussenstappen de melding direct doorgaat naar het team dat deze moet afhandelen.",
       "geregistreerd": "2025-10-19",
       "id": "82222723",
@@ -18001,7 +18025,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1500,
-  "fetched_at": "2026-07-07T07:20:38Z",
+  "count": 1502,
+  "fetched_at": "2026-07-09T07:22:08Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
