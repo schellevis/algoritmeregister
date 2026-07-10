@@ -1333,6 +1333,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/17768245"
     },
     {
+      "doel": "Doel: Het belang van een correct geregistreerd adres gaat verder dan het op orde houden van de BRP. Vindt er een ramp plaats, dan wil je iedereen in de omgeving tijdig kunnen waarschuwen. Ook worden voorzieningen, uitkeringen of subsidies verstrekt op basis van het in de BRP geregistreerde adres. Impact: Het algoritme controleert gegevens van de burger. Indien er geen bijzonderheden worden geconstateerd, wordt de aanvraag of aangifte verwerkt zonder tussenkomst van een medewerker. Indien er wel een bijzonderheid wordt geconstateerd, valt de aanvraag/aangifte in een wachtkamer. Het algoritme kan alleen automatisch goedkeuren; afkeuren kan alleen de ambtenaar.",
+      "geregistreerd": "2026-07-09",
+      "id": "17849412",
+      "impactassessment": "Ja",
+      "juridische_basis": "De Wet basisregistratie personen (Wet BRP) regelt de registratie van persoonsgegevens door gemeenten. Het Burgerlijk Wetboek bevat de wettelijke basis voor aangiften van burgerlijke stand.",
+      "organisatie": "Gemeente Emmen",
+      "status": "in_gebruik",
+      "title": "eDiensten Burgerzaken",
+      "toegevoegd": "2026-07-10",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/17849412"
+    },
+    {
       "doel": "Het rechtmatig verlenen van vergunningen voor het splitsen van woningen",
       "geregistreerd": "2025-10-31",
       "id": "18113668",
@@ -5783,6 +5795,18 @@
       "title": "WOZ taxatiemodel",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/39519623"
+    },
+    {
+      "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
+      "geregistreerd": "2026-07-09",
+      "id": "39546643",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "1. WOO 2. WDO 3. UAVG 4. WEP 5. WDO",
+      "organisatie": "Gemeente Emmen",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-07-10",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/39546643"
     },
     {
       "doel": "Het is de taak van de Dienst Toeslagen om ervoor te zorgen dat burgers die een aanvraag doen de zorgtoeslag krijgen waar zij recht op hebben. Het doel van het algoritme is: Snel, efficiënt en consistent toekennen van het recht op zorgtoeslag voor ongeveer 4,6 miljoen huishoudens; Dat de aanvrager gelijk het besluit en, de hoogte van de zorgtoeslag kan bekijken. Het besluit wordt helemaal automatisch over het recht op en hoogte van de zorgtoeslag gedaan door het algoritme. Door het jaar heen wordt er een voorschot gegeven. Na afloop van het jaar wordt op basis van de inkomens- en vermogensgegevens de toeslag definitief berekend. Als het niet lukt om de beoordeling automatisch uit te voeren via het algoritme, kan het algoritme om hulp vragen van een ambtenaar.",
@@ -18025,7 +18049,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1502,
-  "fetched_at": "2026-07-09T07:22:08Z",
+  "count": 1504,
+  "fetched_at": "2026-07-10T07:20:06Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
