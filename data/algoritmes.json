@@ -7514,7 +7514,7 @@
     },
     {
       "doel": "Er worden samenvattingen gemaakt van bestaande bezwaaradviezen. Met deze samenvattingen kan de Zaakbibliotheek worden verrijkt. Dit kan door op de homepage eerst de kern van de zaak weer te geven. De Zaakbibliotheek is de interne databank voor de juristen van het Juridisch Bureau (JB). De databank bevat bezwaaradviezen en ondersteunt de juristen bij het behandelen van nieuwe bezwaren. De samenvatting bevat de essentie van het bezwaaradvies. Met behulp hiervan kunnen juristen sneller beoordelen of het bezwaaradvies aansluit bij de informatie die zij zoeken. Het probleem dat hiermee wordt opgelost is het lange zoeken naar het juiste bezwaaradvies, dit levert tijdswinst op.",
-      "geregistreerd": "2026-05-04",
+      "geregistreerd": "2026-07-13",
       "id": "47842380",
       "impactassessment": "Ja",
       "juridische_basis": "",
@@ -13658,7 +13658,7 @@
     },
     {
       "doel": "Om Amsterdam leefbaar en toegankelijk te houden, mag er maar een beperkt aantal auto’s in de stad parkeren. De gemeente controleert of een geparkeerde auto het recht heeft om geparkeerd te staan, dus of iemand parkeergeld heeft betaald of een parkeervergunning heeft. Om efficiënter te werken doen we die controle met scanauto’s. Daarmee controleren we momenteel meer dan 190.000 officiële parkeerplaatsen in Amsterdam. De scanauto’s zijn uitgerust met camera’s en rijden langs parkeerplaatsen in de stad. De camera’s leggen kentekens van auto’s vast en gebruiken een beeldherkenningsalgoritme om kentekens te identificeren. Eventuele omstanders, ongerelateerde kentekens en andere privacygevoelige gegevens worden al in de scanauto onherkenbaar gemaakt op de foto's. Het kentekennummer wordt naar het Nationaal Parkeerregister gestuurd waar gecontroleerd wordt of de auto het recht heeft om geparkeerd te staan. Als blijkt dat iemand geen parkeergeld heeft betaald, dan beoordeelt een controleur aan de hand van omgevingsfoto’s of er sprake is van een bijzondere situatie (laden of lossen, stilstaande auto’s voor een verkeerslicht). Bij twijfel bekijkt een parkeercontroleur de situatie ter plaatse. Als er geen sprake is van een bijzondere situatie, volgt een parkeerbon (‘naheffingsaanslag parkeerbelasting’). Het verhogen van de pakkans vergroot de rechtvaardigheid ten opzichte van degenen die wel betalen of een geldige parkeervergunning hebben. Door te handhaven op de overtreding ‘stilstaan op de stoep’ wordt de overlast beperkt en de leefbaarheid vergroot voor diegenen die wel betaald of een geldige parkeervergunning hebben.",
-      "geregistreerd": "2025-09-17",
+      "geregistreerd": "2026-07-13",
       "id": "78451490",
       "impactassessment": "Ja",
       "juridische_basis": "",
@@ -18086,6 +18086,6 @@
     }
   ],
   "count": 1507,
-  "fetched_at": "2026-07-11T06:53:32Z",
+  "fetched_at": "2026-07-14T06:52:38Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
