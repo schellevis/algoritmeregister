@@ -1238,7 +1238,7 @@
     },
     {
       "doel": "Het doel van het systeem is het updaten van de registratie van lantaarnpalen. Deze registratie wordt gebruikt voor asset management (o.a. onderhoud) van openbare verlichting. Het systeem detecteert lantaarnpalen in 3D-puntenwolken. Vervolgens berekent het eigenschappen van de lantaarnpalen, zoals de exacte locatie van de onderkant en de top van de lantaarnpaal, en de hoek die deze maakt met de grond.",
-      "geregistreerd": "2025-09-10",
+      "geregistreerd": "2026-07-14",
       "id": "17364371",
       "impactassessment": "Onbekend",
       "juridische_basis": "",
@@ -2066,7 +2066,7 @@
     },
     {
       "doel": "Generatieve AI biedt veel mogelijkheden om het werk te verlichten zoals het vinden van informatie, het samenvatten van documenten, het analyseren van data of het helpen schrijven van stukken. Maar deze technologie heeft ook keerzijdes: het trainen van AI kost veel energie en natuurlijke grondstoffen, eigenaren van het bronmateriaal voor het trainen van de modellen worden niet betaald, en het model kan – afhankelijk van de bronnen – racistische of andere ethisch onwenselijke resultaten opleveren. Los van deze algemene kritiekpunten, zijn er ook risico’s voor de organisatie. Documenten die aangeboden worden aan een chatbot, kunnen door de leverancier gebruikt worden om het model verder te trainen. Wat als daar gevoelige informatie in staat? Of als een ambtenaar de bot raadpleegt om informatie te vinden om besluitvorming te ondersteunen, terwijl het model antwoord geeft op basis van gedateerde of ronduit onjuiste informatie? Om de waarde van Generatieve AI voor Amsterdam te verkennen en tegelijkertijd de praktijkrisico’s in kaart te brengen, is er onderzoek nodig. Medewerkers van Amsterdam gaan daarom gedurende een beperkte periode een interne Generatieve AI chatbot gebruiken: ChatAmsterdam. Deze chatbot is gebouwd met het GPT4o taalmodel van Open AI en is verder niet aangepast of aangevuld met (interne) trainingsdata. Gedurende de onderzoeksperiode worden gebruiksgedrag, waarde en risico’s in kaart gebracht om te bepalen of we deze technologie in de toekomst gaan gebruiken.",
-      "geregistreerd": "2025-09-10",
+      "geregistreerd": "2026-07-02",
       "id": "23189993",
       "impactassessment": "Ja",
       "juridische_basis": "",
@@ -2126,7 +2126,7 @@
     },
     {
       "doel": "Bijna alle informatie van de gemeente en de GGD is schriftelijk en in het Nederlands. Hierdoor komt veel belangrijke gemeentelijke informatie onvoldoende bij doelgroepen die geen Nederlands spreken en/of laaggeletterd zijn. We kunnen de communicatie verbeteren als we de informatie in hun eigen taal’ aanbieden en niet als tekst maar in een video. Op de website en in andere kanalen. Uit onderzoek blijkt dat video het middel met de hoogste informatieoverdracht is. Om de informatieoverdracht te verbeteren, hebben we in het EU-project CommuniCity een pilot gedaan waarin informatieve teksten over vaccinaties met behulp van AI zijn omgezet in video's in drie talen. In deze video's spreekt een mensgelijkende avatar de tekst uit. Ze, zijn te bekijken op de vaccinatiepagina van de GGD. De eerste resultaten zijn veelbelovend, de video’s worden veel bekeken. Laagdrempelig informatie over brengen bij anderstaligen en laaggeletterden. > betere informatie overdracht. Snel video’s in verschillende talen maken zonder hoge kosten. Multifunctioneel inzetbaar",
-      "geregistreerd": "2026-03-26",
+      "geregistreerd": "2026-07-02",
       "id": "23372779",
       "impactassessment": "Ja",
       "juridische_basis": "",
@@ -3578,7 +3578,7 @@
     },
     {
       "doel": "Doel: Om snel en correct de inkomensklasse (en de inkomenssoort en het totaalloon) van de aanvrager in een huishouden (in combinatie met de eventueel aanwezige partner in het huishouden) te bepalen bij een ingediende aanvraag voor een of meer Armoedevoorziening(en) voor een bepaald jaar, om te bepalen of de inkomensklasse voldoet aan de inkomenstoets (percentage van het WML voor het betreffende refertejaar), die voor de betreffende Armoedevoorziening geldt. Werking: Het algoritme berekent ‘onder water’ - via een technische koppeling tussen Suwinet en het automatiseringssysteem ZorgNed van de afdeling Armoedevoorzieningen, en op basis van de gegevens uit Suwinet, op basis van BSN - de betreffende jaarinkomsten uit arbeid en/of uitkering(en) van de individuele geselecteerde persoon, die een aanvraag heeft ingediend (met eventueel een partner als medeondertekenaar, en dan ook diens inkomen meebepaald) voor een of meer Armoedevoorziening(en) voor een bepaald jaar. Deze jaarinkomsten mogen in het betreffende refertejaar niet hoger zijn dan een voor Armoedevoorzieningen gestelde inkomensnorm op basis van het betreffende WML. Het resultaat van de berekening is het betreffende jaarinkomen middels de inkomensklasse waarin dat jaarinkomen valt ten opzichte van de betreffende WML, dus als een berekende percentageklasse ten opzichte van die WML. Behalve de Inkomensklasse wordt ook de inkomenssoort weergegeven. De samenstellende inkomenscomponenten en de onderlinge hoogte van de componenten geven een omschrijving van de inkomenssituatie, bijvoorbeeld: Inkomenssoort = ‘Inkomen uit werk’, ‘Uitkering’, ‘Samengesteld inkomen’, en dergelijke. Deze omschrijving wordt op dezelfde wijze (rekenkundig de grootste inkomenscomponent) bepaald als bij de handmatige opvraging. De inkomenssoort geeft de behandelaar nader inzicht in de inkomenssituatie van het betreffende huishouden. Deze informatie is nodig voor het bepalen van 'zekere' en 'onzekere' minima. Ook kan dit gegeven gebruikt worden ten behoeve van het bereik van de doelgroep. Deze informatie is nodig voor het bepalen van 'zekere' en 'onzekere' minima. Ook kan dit gegeven gebruikt worden ten behoeve van het bereik van de doelgroep.",
-      "geregistreerd": "2025-11-06",
+      "geregistreerd": "2026-07-02",
       "id": "29355466",
       "impactassessment": "Ja",
       "juridische_basis": "Uitvoering wettelijke taken, zoals Participatiewet (Pwet), Wet maatschappelijke ondersteuning (Wmo) en Gemeentewet (GW). Zie relevante DPIA Armoedevoorzieningen en/of verwerkingen.",
@@ -3650,7 +3650,7 @@
     },
     {
       "doel": "Civinc is een nieuwe toepassing waarmee medewerkers op een veilige manier van gedachten wisselen over belangrijke organisatievraagstukken met collega’s die een ander perspectief hebben . Dit gebeurt in anonieme 1-op-1 chatgesprekken. In afgebakende sessies kunnen medewerkers met uiteenlopende perspectieven op grote schaal met elkaar in gesprek worden gebracht, zonder sociale wenselijkheid of groepsdruk. Enerzijds geeft de toepassing grote groepen medewerkers een stem en stelt de organisatie in staat om op een veilige en inclusieve manier belangrijke (en soms gevoelige) thema’s bespreekbaar te maken. Anderzijds geeft de toepassing inzicht in het sentiment van medewerkers, zodat de organisatie voeling houdt met wat er leeft en zo ‘blinde vlekken’ voorkomt. Een AI-analyse van de anonieme chats brengt in kaart hoe medewerkers naar bepaalde thema’s kijken, welke ideeën daarbij naar boven komen, en waar het spanningsveld tussen verschillende perspectieven zit.",
-      "geregistreerd": "2025-09-09",
+      "geregistreerd": "2026-07-02",
       "id": "29564213",
       "impactassessment": "Ja",
       "juridische_basis": "",
@@ -5294,7 +5294,7 @@
     },
     {
       "doel": "De doelen van het verwerken van een persoonsgegeven en voor de inzet van rekenregels binnen het Langzaam Verkeer Monitoringssysteem Amsterdam zijn: - Het vermijden en beheersen van onveilige situaties (veiligheid); - Een goede voetgangersbereikbaarheid van publieksfuncties en goede doorstroming van het verkeer in een groter gebied rond de drukke locaties (bereikbaarheid en doorstroming); - Een kwalitatief hoogwaardige openbare ruimte waarin voetgangers zich welkom, veilig en comfortabel voelen (kwaliteit en comfort).",
-      "geregistreerd": "2026-04-28",
+      "geregistreerd": "2026-07-02",
       "id": "37686130",
       "impactassessment": "Ja",
       "juridische_basis": "De gemeente Amsterdam voert Langzaam Verkeer monitoring in de openbare ruimte uit in het kader van artikel 2 van de Wegenverkeerswet 1994 (Wvw 1994). De gemeente Amsterdam is wegbeheerder. Vanuit die rol is er een verantwoordelijkheid voor een verkeersveilige, vlotte doorstroming van verkeer alsmede het bereikbaar houden van publieksfuncties. Dit geldt ook voor langzaam verkeer en voetgangersstromen. De gemeente verwerkt deze gegevens voor de uitvoering van een taak van algemeen belang, namelijk het bevorderen van een veilige, bereikbare en comfortabele openbare ruimte.",
@@ -5306,7 +5306,7 @@
     },
     {
       "doel": "Het doel van het dashboard demonstraties is het maken van een overzicht van alle aangemelde demonstraties. Dit wordt gebruikt voor de voorbereiding van het faciliteren van demonstraties en voor het signaleren van ontwikkelingen waarop de gemeente moet anticiperen. Hiermee kan de gemeente demonstraties beter faciliteren met in achtneming van de openbare orde.",
-      "geregistreerd": "2026-05-04",
+      "geregistreerd": "2026-07-02",
       "id": "37694526",
       "impactassessment": "Onbekend",
       "juridische_basis": "Wet openbare manifestaties",
@@ -5558,7 +5558,7 @@
     },
     {
       "doel": "Amsterdam is een drukke stad. Dit kan soms leiden tot verkeersonveilige situaties. Door data te verzamelen over de aantallen voetgangers is het mogelijk om maatregelen te treffen, waardoor de drukte in goede banen geleid kan worden. Hierdoor blijft de stad comfortabel, bereikbaar en verkeersveilig. Als een situatie door te grote drukte onveilig wordt, kan de gemeente ingrijpen. Dit gebeurt bijvoorbeeld door digitale informatieborden te plaatsen, zodat mensen weten welke routes ze moeten nemen. Of er wordt éénrichtingsverkeer ingesteld. Met het crowdmonitoring systeem ‘Public Eye’ brengen we op een paar plekken in Amsterdam de drukte in kaart. In het verleden was het systeem actief op de Arena Boulevard, op het Marineterrein en op de Dam. Op deze plekken hangen camera’s die zijn gekoppeld aan een server van de gemeente. Op de server analyseert een algoritme hoeveel mensen er op de beelden staan. De informatie over het aantal aanwezige personen wordt doorgestuurd naar medewerkers van de gemeente, die de telling kunnen gebruiken om het verkeer beter te reguleren. De beelden worden niet getoond, alleen de aantallen. Ook bewoners en bezoekers van de stad kunnen de informatie over het aantal aanwezige mensen inzien, via https://druktebeeld.amsterdam.nl/. Op dit moment kan dat alleen voor de locatie Marineterrein. De ambitie is om dit voor alle Public Eye locaties te realiseren. De videobeelden worden – zodra het algoritme het aantal aanwezige mensen heeft geteld –onmiddellijk gewist. Bij elke nieuwe locatie waar Public Eye geplaatst wordt, wordt er een kleine hoeveelheid beeldmateriaal opgenomen waarvan er steekproefsgewijs ca. 300 beelden worden geannoteerd voor de training van het algoritme. Zo kan de drukte op die locatie ook goed geanalyseerd worden. Elke locatie is immers uniek en heeft bijvoorbeeld net een andere lichtinval of camerahoogte.",
-      "geregistreerd": "2025-09-10",
+      "geregistreerd": "2026-07-02",
       "id": "38748497",
       "impactassessment": "Ja",
       "juridische_basis": "De doelstelling van het publieke cameratoezicht is primair gebaseerd op artikel 151c van de Gemeentewet, de Politiewet en de Wet politiegegevens. Publiek uitkijken van camerabeelden is gebaseerd op de wettelijke taak van de (lokale) overheid om de openbare orde te handhaven.",
@@ -5714,7 +5714,7 @@
     },
     {
       "doel": "Het doel van groen spoor in het Bbz aanvraagformulier is om de aanvrager zo snel mogelijk duidelijkheid te geven over zijn aanvraag voor een Bbz uitkering. Dit draagt bij aan de bestaanszekerheid. De aanvragen in groen spoor worden zonder tussenkomst van een medewerker toegekend, waarmee de aanvrager binnen twee weken een (positief) besluit op zijn aanvraag ontvangt. De overige aanvragen in rood spoor volgen de gebruikelijke route van een handmatige beoordeling door de professional. Hierbij worden wel de aandachtspunten voor de verdere beoordeling van de Bbz aanvraag meegegeven. Het aanleveren van de aandachtspunten draagt bij aan snellere besluitvorming. In groen spoor wordt circa 5% van de aanvragen zonder tussenkomst van een medewerker toegekend. Uitgangspunt is dat we de klant vertrouwen en dat we de antwoorden in het aanvraagformulier gebruiken als input om het recht op een Bbz-uitkering te bepalen. De antwoorden van de klant worden vergeleken met de data die we uit andere bronnen kunnen raadplegen. Feitelijk dezelfde controle die de medewerkers handmatig doen. Als de antwoorden van de klant overeenkomen met de bronnen én als de ondernemer verklaart binnen 6 maanden weer voldoende inkomsten te genereren wordt de uitkering automatisch toegekend. Een ondernemer kan bij de gemeente Amsterdam vragen om een tijdelijke aanvulling op het inkomen (uitkering), een lening om schulden te betalen of investeringen te doen (bedrijfskapitaal) of beide. De ondernemer vraagt ondersteuning aan vanuit Besluit bijstand zelfstandigen (Bbz). In het aanvraagformulier zit een beslisboom die op basis van de antwoorden van de aanvrager bepaalt of de aanvrager een automatische toekenning van de Bbz uitkering krijgt (=groen spoor). Als er op basis van de antwoorden van de aanvrager verder onderzoek nodig is (= rood spoor) wordt de aanvraag in onderzoek gegeven bij een medewerker en vindt de afhandeling handmatig plaats.",
-      "geregistreerd": "2025-09-17",
+      "geregistreerd": "2026-07-02",
       "id": "39231781",
       "impactassessment": "Ja",
       "juridische_basis": "Uitvoering Besluit bijstandsverlening zelfstandigen (Bbz), uitvoering wettelijke taak. · Artikel 7,9, 11,53a Participatiewet · Besluit bijstandverlening zelfstandigen 2004 (BBZ) · Wet Inkomensvoorziening oudere en gedeeltelijke arbeidsongeschikte werkloze werknemers (IOAZ)",
@@ -6134,7 +6134,7 @@
     },
     {
       "doel": "De Glasgow Coma Schaal (GCS) wordt gebruikt om het bewustzijnsniveau van cliënten met een verlaagd bewustzijn ten gevolge van een mogelijk schedel-hersenletsel vast te stellen en te bewaken. Het meten van het bewustzijn is belangrijk voor het stellen van de diagnose, de prognose en voor het volgen van de toestand van de cliënt. De schaal meet drie reacties waaronder het openen van de ogen (E), de motorische reactie (M) en de verbale reactie (V).",
-      "geregistreerd": "2026-04-21",
+      "geregistreerd": "2026-07-02",
       "id": "41839733",
       "impactassessment": "Ja",
       "juridische_basis": "https://wetten.overheid.nl/BWBR0024705/2026-01-01/0",
@@ -6650,7 +6650,7 @@
     },
     {
       "doel": "Het algoritme vergelijkt het gezicht van degene die aan de balie staat met de foto in zijn identiteitsdocument en geeft aan hoe zeker het is dat de persoon op de foto van het gescande identiteitsdocument dezelfde persoon is. Dit algoritme helpt de RNI-medewerker aan de balie om met meer zekerheid vast te stellen of de persoon aan de balie overeenkomt met degene van wie het identiteitsdocument gescand is. Amsterdam is een van de gemeenten die is aangewezen om de RNI bij te houden. Hiervoor heeft de gemeente op een aantal locaties een loket ingericht waar de beschreven technologie wordt gebruikt.",
-      "geregistreerd": "2025-09-10",
+      "geregistreerd": "2026-07-02",
       "id": "43981944",
       "impactassessment": "Onbekend",
       "juridische_basis": "De ambtenaar van de gemeente Amsterdam doet de werkzaamheden onder verantwoordelijkheid van het ministerie van Binnenlandse zaken. Wetsartikelen: https://wetten.overheid.nl/jci1.3:c:BWBR0033715&hoofdstuk=2&afdeling=2¶graaf=2&artikel=2.67&z=2025-02-12&g=2025-02-12 https://wetten.overheid.nl/jci1.3:c:BWBR0034306&hoofdstuk=2&afdeling=2¶graaf=2&artikel=35&z=2025-01-01&g=2025-01-01 https://wetten.overheid.nl/jci1.3:c:BWBR0040940&hoofdstuk=3¶graaf=3.1&artikel=29&z=2018-05-25&g=2018-05-25",
@@ -7115,6 +7115,18 @@
       "title": "Vaststellen verrekenbeslissing",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/46275888"
+    },
+    {
+      "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
+      "geregistreerd": "2026-07-15",
+      "id": "46286299",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
+      "organisatie": "Gemeente Hellendoorn",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-07-16",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/46286299"
     },
     {
       "doel": "Het toekennen van een uitkering aan bewoners die daar recht op hebben",
@@ -8689,8 +8701,8 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/53969675"
     },
     {
-      "doel": "Bij het doen van een gezamenlijke aangifte inkomstenbelasting moeten fiscale partners gemeenschappelijke inkomsten en aftrekposten onderling verdelen. In de praktijk blijkt dat veel belastingplichtigen hierbij geen optimaal belastingvoordeel behalen. Dit kan leiden tot een hogere belastingdruk dan nodig. Het algoritme ondersteunt belastingplichtigen bij het bepalen van de fiscaal meest voordelige verdeling. Het doet dit door op basis van de ingevoerde gegevens automatisch een verdeelvoorstel te berekenen. De gebruiker kan dit voorstel accepteren of handmatig aanpassen. Hiermee helpt het algoritme burgers om gemakkelijker tot een juiste en voordelige aangifte te komen. De uitkomst van het algoritme betreft altijd een fiscale optimalisatie, waarbij geen rekening wordt gehouden met mogelijke effecten op andere inkomensafhankelijke regelingen zoals toeslagen.",
-      "geregistreerd": "2025-06-03",
+      "doel": "Bij het doen van een gezamenlijke aangifte inkomstenbelasting moeten fiscale partners gemeenschappelijke inkomsten en aftrekposten onderling verdelen. In de praktijk blijkt dat veel belastingplichtigen hierbij geen optimaal belastingvoordeel behalen. Dit kan leiden tot een hogere belastingdruk dan nodig. Het algoritme is niet op iedere gezamenlijke aangifte van toepassing. Het wordt alleen gebruikt wanneer de fiscale situatie zich leent voor het automatisch berekenen van een fiscaal optimale verdeling van de gemeenschappelijke inkomsten en aftrekposten. Bij aangiften met bepaalde complexe fiscale situaties of bijzondere fiscale regelingen, zoals ondernemingsinkomen, een aanmerkelijk belang of bepaalde vermogens- en eigenwoningsituaties, wordt daarom geen automatisch verdeelvoorstel gedaan. Het algoritme ondersteunt belastingplichtigen bij het bepalen van de fiscaal meest voordelige verdeling. Het doet dit door op basis van de ingevoerde gegevens automatisch een verdeelvoorstel te berekenen. De gebruiker kan dit voorstel accepteren of handmatig aanpassen. Hiermee helpt het algoritme burgers om gemakkelijker tot een juiste en voordelige aangifte te komen. De uitkomst van het algoritme betreft altijd een fiscale optimalisatie, waarbij geen rekening wordt gehouden met mogelijke effecten op andere inkomensafhankelijke regelingen zoals toeslagen.",
+      "geregistreerd": "2026-07-15",
       "id": "54142288",
       "impactassessment": "Ja",
       "juridische_basis": "Algemene wet inzake rijksbelastingen: Algemene wet bestuursrecht: Algemene verordening gegevensbescherming: Uitvoeringswet algemene verordening gegevensbescherming: Wet Inkomstenbelasting 2001: Wet algemene bepalingen Burgerservicenummer: Archiefwet 1995:",
@@ -8834,7 +8846,7 @@
     },
     {
       "doel": "Het doel van de adviestool Gripvol is om te komen tot snellere besluitvorming, kostenreductie en meer uniformiteit bij de beoordeling van de levensvatbaarheid van een onderneming.",
-      "geregistreerd": "2026-01-28",
+      "geregistreerd": "2026-07-02",
       "id": "54438848",
       "impactassessment": "Ja",
       "juridische_basis": "",
@@ -9866,7 +9878,7 @@
     },
     {
       "doel": "Cameratoezicht kan ingesteld worden om de openbare orde te handhaven als dit noodzakelijk is. Cameratoezicht heeft verschillende functies. - Cameratoezicht vergroot de efficiëntie en effectiviteit van het optreden van de politie, gemeentelijke handhavers en hulpdiensten. Het helpt politie, handhaving en toezichthouders om sneller ter plaatse te zijn; - Daarnaast werkt cameratoezicht preventief: het draagt bij aan het voorkomen van openbare ordeproblemen en strafbare feiten. - Cameratoezicht heeft ook een repressieve functie: politie en justitie kunnen de camerabeelden gebruiken voor opsporingsdoeleinden; - Tot slot zorgt cameratoezicht ervoor dat burgers en ondernemers zich veiliger voelen. Aan iedereen die een cameratoezichtgebied betreedt, moet dit op duidelijke wijze kenbaar zijn gemaakt. Dit gebeurt door borden te plaatsen en omwonenden en ondernemers in het betreffende gebied te informeren. Het besluit waarin de burgemeester bekendmaakt dat er een cameratoezichtgebied wordt aangewezen, wordt gepubliceerd. De opgenomen camerabeelden worden live bekeken en/of opgeslagen. Het live bekijken gebeurt alleen op de dagen en tijdstippen dat dit noodzakelijk is, onder regie van de politie. De politie is de enige instantie die vrij toegang heeft tot de servers waar de beelden opgeslagen zijn. De gemeente heeft zelf geen toegang tot de servers. De camera’s staan altijd aan maar de beelden worden niet altijd live bekeken.",
-      "geregistreerd": "2025-09-09",
+      "geregistreerd": "2026-07-02",
       "id": "58953176",
       "impactassessment": "Ja",
       "juridische_basis": "",
@@ -10130,7 +10142,7 @@
     },
     {
       "doel": "Directie Toezicht en Handhaving Openbare Ruimte (THOR) heeft het Computer Vision Team van de gemeente Amsterdam (hierna: CVT) opdracht gegeven om te verkennen hoe objectherkenning kan helpen om te voorkomen dat kwetsbare bruggen en kademuren instorten, doordat hier zware objecten op worden geplaatst. Het gaat daarbij om containers, bouwketen, mobiele toiletten en bouwsteigers. Momenteel is er geen duidelijk zicht op waar deze objecten zich bevinden in (kwetsbare) delen van de stad. Tijdens de Pilot is getest of deze objecten succesvol kunnen worden herkend in de openbare ruimte met een scanvoertuig dat is voorzien van een camera. Na het herkennen van objecten in de openbare ruimte, kan een signaal worden gegenereerd. Door dit signaal te voorzien van aanvullende informatie uit (gemeentelijke) bronnen, kan het werk van toezichthouders beter worden uitgevoerd. Dit kan bijvoorbeeld door in een melding informatie op te nemen over hoe urgent het signaal is op basis van de kwetsbaarheid van de betreffende kade waar het object op is geplaatst. Daardoor kan prioriteit worden gegeven aan urgente situaties. Naast het genereren van een signaal kunnen medewerkers gebruik maken van een digitale kaart waarop de aangetroffen objecten worden weergeven. De pilot is in 2024 succesvol afgerond. Het is gebleken dat objecten succesvol kunnen worden herkend en dat de technologie kan worden ingezet om doelgerichter verkeerd geplaatste objecten te identificeren. Update 2025: Deze techniek is in productie genomen en wordt wekelijks toegepast voor roulerende wijken in de stadsdelen Centrum, Zuid, Noord, West en Weesp.",
-      "geregistreerd": "2025-12-11",
+      "geregistreerd": "2026-07-14",
       "id": "59759977",
       "impactassessment": "Ja",
       "juridische_basis": "",
@@ -10526,7 +10538,7 @@
     },
     {
       "doel": "Het dashboard gebiedsverboden geeft inzicht en overzicht van de dossiers waar de bestuurlijke maatregel van een gebiedsverbod kan worden toegepast. Het dashboard gebruiken we om managementcijfers aan te leveren op stedelijk, overlastgebied-, type bevel-, juridische grondslagniveau en de duur van de maatregel. Het kan bijvoorbeeld een overzicht geven van het type maatregel de tijdsbestekken waarin ze worden opgelegd de duur van de maatregelen de verschillende soorten antecedenten die ten grondslag liggen aan het opleggen van de maatregel het type resultaat de wettelijke grondslagen waarop het besluit kan worden genomen de datakwaliteit van dossiers. Ook monitoren we hiermee de overlastgebieden waar deze bestuurlijke maatregel wordt genomen, bijvoorbeeld om te kunnen zien of het probleem niet verschuift. Hiermee kan de gemeente het proces monitoren en waar nodig verbeteringen aanbrengen.",
-      "geregistreerd": "2025-09-09",
+      "geregistreerd": "2026-07-02",
       "id": "62573812",
       "impactassessment": "Ja",
       "juridische_basis": "De burgemeester heeft de wettelijke bevoegdheid om iemand een gebiedsverbod op te leggen als die zorgt voor overlast en/of (dreigende) verstoring van de openbare orde. Het gebiedsverbod moet verdere overlast/openbare ordeverstoring voorkomen. De politie informeert de burgemeester over de overlast of ordeverstoring via een bestuurlijke rapportage of een voordracht. De burgemeester heeft vier wettelijke bevoegdheden. De APV geeft de bevoegdheid om overlastgebieden aan te wijzen waar de politie een kortdurend gebiedsverbod kan geven en personen bij de burgemeester kan aandragen voor een langer durend gebiedsverbod. De Overlastwet geeft de burgemeester de bevoegdheid om gebiedsverboden te geven voor een nader te bepalen gebied (dit is niet verbonden aan een reeds aangewezen overlastgebied). Het Noodbevel geeft de burgemeester de bevoegdheid om een gebiedsverbod te geven, waar ook de woning van de betrokkene staat. Dit gebeurt alleen als het leven van de betrokkene bedreigd wordt. De lichte bevelsbevoegdheid geeft de burgemeester de bevoegdheid om in urgente situaties een gebiedsverbod op te leggen. Dit is een aanvulling op de hierboven genoemde bevoegdheden. Een gebiedsverbod wordt na een belangenafweging opgelegd. Daarbij houdt de gemeente ook rekening met de belangen van de betrokkene (zoals woonrecht, zorg en werk). Als dat mogelijk is, zorgt de gemeente voor een vrije doorgang (corridor) naar de woning, werk en noodzakelijke zorg.",
@@ -11822,7 +11834,7 @@
     },
     {
       "doel": "De gemeente Amsterdam past sinds 2003 de Wet Bibob toe. De Wet Bibob geeft de gemeente Amsterdam de mogelijkheid om met een Bibob-onderzoek (integriteitsonderzoek) te voorkomen dat we criminele activiteiten faciliteren bij het verlenen van vergunningen, het verstrekken van subsidies, het gunnen van overheidsopdrachten of het aangaan van vastgoedtransacties. Het dashboard Bibob geeft inzicht en overzicht van de dossiers waar een Bibob-toets op wordt toegepast. Dit gebruiken we voor het aanleveren van managementcijfers op stedelijk, stadsdeel- en brancheniveau. Het kan bijvoorbeeld een overzicht geven van: Het aantal open en afgesloten dossiers de resultaten van de toetsingen het aantal dossiers per branche de (gemiddelde) doorlooptijden de soorten documenten in de dossiers de datakwaliteit van dossiers. Hiermee kan de gemeente het proces monitoren en waar nodig verbeteren.",
-      "geregistreerd": "2025-09-11",
+      "geregistreerd": "2026-07-02",
       "id": "68126546",
       "impactassessment": "Onbekend",
       "juridische_basis": "wetten.nl - Regeling - Wet bevordering integriteitsbeoordelingen door het openbaar bestuur - BWBR0013798 (overheid.nl)",
@@ -11906,7 +11918,7 @@
     },
     {
       "doel": "Het digitaal toegankelijk en doorzoekbaar maken van historische handgeschreven documenten voor onderzoekers en andere geïnteresseerden. Geen impact.",
-      "geregistreerd": "2025-09-10",
+      "geregistreerd": "2026-07-02",
       "id": "68547699",
       "impactassessment": "Onbekend",
       "juridische_basis": "",
@@ -11978,7 +11990,7 @@
     },
     {
       "doel": "Er is tot uiterlijk 31 december 2031 de tijd om meer dan 500 bestemmingsplannen om te zetten tot één omgevingsplan. Om de transitie te versnellen, met hogere kwaliteit en met een hoger werkplezier uit te voeren is er een AI-vraagverkenning uitgevoerd. Uit deze vraagverkenning zijn een aantal scenario's vormgegeven, waaronder een totaaloplossing. Deze totaaloplossing gaat o.a. in op de mogelijkheid om kennisdeling en samenwerking te versterken, om automatisering met betrekking tot het invullen van de omzettabellen mogelijk te maken en consistentie te borgen door regels her te gebruiken. Een werkend prototype, genaamd PlanGids, is gerealiseerd en getest en heeft aangetoond dat er tijdswinst geboekt wordt, dat de collega’s enthousiast zijn om het prototype te gebruiken en dat het prototype technisch realiseerbaar is. Vervolgens is er een minimum viable product (MVP) ontwikkeld dat na een pilot opgeschaald kan worden naar alle gebruikers.",
-      "geregistreerd": "2026-04-20",
+      "geregistreerd": "2026-07-02",
       "id": "68912459",
       "impactassessment": "Onbekend",
       "juridische_basis": "",
@@ -15986,7 +15998,7 @@
     },
     {
       "doel": "Erfpachtkosten baseren we op de grondwaarde van de woning. We gebruiken de buurtstraatquote (BSQ) om de grondwaarde te bepalen voor bestaande erfpachtrechten met een woonbestemming. Dit is het percentage van de WOZ-waarde van een woning dat bestaat uit de waarde van de grond. Een BSQ doet recht aan de verschillen die er in een buurt zijn. De grondwaarde wordt bepaald door de WOZ-waarde in de WOZ-beschikking van het vorig belastingjaar te vermenigvuldigen met de zogenaamde buurtstraatquote. Voor meergezins- en eengezinswoningen worden verschillende buurtstraatquotes gebruikt. Het bepalen van de grondwaarde op basis van een eenduidige, objectieve wijze ten behoeve van het beheer van gemeentelijke erfpachtcontracten. Berekening individuele grondquote en buurtstraatquote De buurtstraatquote wordt berekend door individuele grondquotes van eengezins- of meergezinswoningen in een buurtstraat te middelen. De individuele grondquotes zijn bepaald door de WOZ-waarde te verminderen met de genormeerde opstalwaarde, waardoor de individuele grondwaarde wordt verkregen. De individuele grondwaarde gedeeld door de WOZ-waarde is de individuele grondquote. Omdat de grond altijd een waarde vertegenwoordigt, wordt de minimale individuele grondquote op 5% van de WOZ-waarde gesteld. De buurtstraatquote is hierdoor ook minimaal 5% van de WOZ-waarde. Daarnaast wordt een maximale buurtstraatquote van 49% van de WOZ-waarde gehanteerd.",
-      "geregistreerd": "2025-12-11",
+      "geregistreerd": "2026-07-02",
       "id": "89936652",
       "impactassessment": "Ja",
       "juridische_basis": "Vaststellen van de Verordening gronduitgifte met gebruikmaking van erfpacht Amsterdam 2017. (2017, NR. 199/425) https://zoek.officielebekendmakingen.nl/gmb-2017-140580.pdf",
@@ -18097,7 +18109,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1508,
-  "fetched_at": "2026-07-15T06:53:51Z",
+  "count": 1509,
+  "fetched_at": "2026-07-16T06:57:32Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
