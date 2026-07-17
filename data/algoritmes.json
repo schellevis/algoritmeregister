@@ -6937,14 +6937,14 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/45381977"
     },
     {
-      "doel": "Het vaststellen van voertuigen zonder geldig parkeerrecht en het opleggen van een naheffing aan de eigenaar van het voertuig. De camera's, en daarmee het algoritme, worden ingezet ten behoeve van het handhaven van de gereguleerde gebieden voor voertuigen. De impact van het algoritme op de burger is laag. Enkel het lezen van de kentekenplaat wordt door het algoritme uitgevoerd. De kentekenbeelden van de vermeende overtreders worden door een geautoriseerde BOA handmatig gecontroleerd om te bepalen of er daadwerkelijk sprake is van een strafbare gedraging. Als hier geen sprake van is, wordt dit gecorrigeerd in het systeem en worden de beelden binnen 72 uur verwijderd.",
-      "geregistreerd": "2026-06-25",
+      "doel": "Het doel van de scanauto is het controleren van geparkeerde voertuigen in gebieden waar betaald parkeren geldt of een parkeervergunning vereist is. Door de inzet van de scanauto kunnen meer auto's efficiënt worden gecontroleerd. Burgers komen ermee in aanraking wanneer zij hun voertuig parkeren in de zones waar de scanauto actief is. De camera's, en daarmee het algoritme, worden ingezet ten behoeve van het handhaven van de gereguleerde parkeergebieden voor voertuigen. De impact van het algoritme op de burger is laag. Enkel het lezen van de kentekenplaat wordt door het algoritme uitgevoerd. De kentekenbeelden van de vermeende overtreders worden door een geautoriseerde BOA handmatig gecontroleerd om te bepalen of er daadwerkelijk sprake is van een strafbare gedraging. Als hier geen sprake van is, wordt dit gecorrigeerd in het systeem en worden de beelden binnen 72 uur verwijderd.",
+      "geregistreerd": "2026-07-14",
       "id": "45394759",
       "impactassessment": "Ja",
-      "juridische_basis": "Wegenverkeerswet 1994",
+      "juridische_basis": "Het parkeerbeleid (betaald parkeren en parkeervergunningen) regelt het parkeergedrag van bewoners en bezoekers in de aangewezen zones van de stad. In de praktijk zijn er 2 vormen: 1. Betaald parkeren op daarvoor aangewezen plaatsen. 2. Een afgegeven/betaalde vergunning om te parkeren op daarvoor aangewezen plaatsen. Dat is vastgelegd in artikel 225, 234 en 235 van de Gemeentewet en het Besluit gemeentelijke parkeerbelastingen.",
       "organisatie": "Gemeente Delft",
       "status": "in_gebruik",
-      "title": "Parkeerhandhaving met scanauto's",
+      "title": "Parkeerhandhaving door middel van een scanauto",
       "toegevoegd": "2026-07-02",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/45394759"
     },
@@ -14174,12 +14174,12 @@
     },
     {
       "doel": "Snel en accuraat vertalen van gemeentelijke informatie in een zeer groot aantal talen. Contentredacteuren hoeven niet meer zelfstandig teksten te schrijven in andere talen.",
-      "geregistreerd": "2026-02-05",
+      "geregistreerd": "2026-03-19",
       "id": "81764857",
       "impactassessment": "Onbekend",
       "juridische_basis": "",
       "organisatie": "Gemeente Delft",
-      "status": "ontwikkeling",
+      "status": "in_gebruik",
       "title": "Weglot",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/81764857"
@@ -16982,7 +16982,7 @@
     },
     {
       "doel": "Het Ministerie van Buitenlandse Zaken (BZ) is verantwoordelijk voor de behandeling en beoordeling van Kort verblijf-visumaanvragen (KVV) voor de Schengenlanden. Hiermee vervult BZ de taak op het gebied van toelating (regulier) voor de migratieketen. Voordat een KVV verstrekt mag worden, dient BZ te beoordelen of aan alle verplichte voorwaarden ingevolge de Europese wet- en regelgeving wordt voldaan. Vanwege de grote hoeveelheid aanvragen, maar ook om deze taak zo objectief en zorgvuldig mogelijk uit te kunnen voeren, ondersteunt BZ dit proces met een algoritme ten behoeve van een op data-analyse gebaseerde werkwijze. Dit wordt het Informatie Ondersteund Behandelen (IOB) genoemd. Met behulp van het IOB wordt er een inschatting gemaakt van de te verwachten intensiteit van de behandeling van een visumaanvraag. Met de inschatting van de te verwachten intensiteit, wordt de te verwachten capaciteitsinzet bedoeld. Bijvoorbeeld het afnemen van een extra interview of het opvragen van aanvullende benodigde informatie. Deze inschatting wordt aan de consulaire medewerker aangeboden in de vorm van een zogeheten track (fast, regular of intensive), met daarbij aanvullende relevante informatie. De voorwaarden voor het verkrijgen van een visum zijn en blijven voor iedereen gelijk, ongeacht eerdere aanvragen of die waarvoor een referent garant heeft gestaan. Deze voorwaarden zijn afgesproken tussen Schengenlanden en vastgelegd in de EU-Visumcode. Het gebruik van het algoritme is ondersteunend voor het behandelen van een visumaanvraag, maar nooit een grond om een visum te weigeren. De impact van het gebruik van het algoritme is daarmee minimaal. Factsheet Informatie Ondersteunend Beslissen",
-      "geregistreerd": "2026-02-23",
+      "geregistreerd": "2026-07-16",
       "id": "94596537",
       "impactassessment": "Ja",
       "juridische_basis": "Uitvoering van overheidstaak (art. 6 lid 1 sub e AVG, art. 21 Visumcode art. 2 lid 2 Rijkswet)",
@@ -18110,6 +18110,6 @@
     }
   ],
   "count": 1509,
-  "fetched_at": "2026-07-16T06:57:32Z",
+  "fetched_at": "2026-07-17T06:55:29Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
