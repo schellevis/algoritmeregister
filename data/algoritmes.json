@@ -3373,6 +3373,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/28389965"
     },
     {
+      "doel": "Het doel van de e-diensten met het onderliggende algoritme is inwoners en ondernemers maximaal ondersteunen/begeleiden bij een digitale aanvraag. Daardoor kan deze aanvraag juist en volledig worden ingediend. Het algoritme controleert verschillende gegevens van de inwoner. Als er geen aanvullende gegevens nodig zijn van de inwoner en er geen handmatige acties of controles van de gemeente zijn vereist (zoals bijvoorbeeld ondertekening) om de aanvraag te verwerken, dan kan deze verwerkt worden zonder tussenkomst van een burgerzakenmedewerker. Zijn er wel aanvullende gegevens, controles of acties nodig, dan komt de aanvraag/aangifte altijd terecht in een werklijst. Daar wordt deze gecontroleerd door een burgerzakenmedewerker. Het algoritme kan alleen automatisch een aanvraag/aangifte goedkeuren. Een aanvraag/aangifte afkeuren kan alleen de burgerzakenmedewerker. De impact is dat een dergelijke aanvraag efficiënt kan worden afgehandeld door de gemeente; een inwoner/bedrijf heeft namelijk diverse stappen (werkzaamheden) al uitgevoerd, waardoor de ambtenaar meer tijd overhoudt voor de bijzondere en/of ingewikkelde aangiften/aanvragen die de gemeente ontvangt. In een aantal gevallen kan deze aanvraag zelfs volledig automatisch worden verwerkt. De kwaliteit van de dienstverlening gaat door deze diensten omhoog, net als de kwaliteit van de gegevens in de BRP.",
+      "geregistreerd": "2026-07-16",
+      "id": "28447492",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet basisregistratie personen Wet rechten burgerlijke stand",
+      "organisatie": "Gemeente Vaals",
+      "status": "in_gebruik",
+      "title": "iBurgerzaken e-diensten",
+      "toegevoegd": "2026-07-22",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/28447492"
+    },
+    {
       "doel": "Het doel van dit algoritme is om de identiteit van personen die zich inschrijven in de Registratie Niet-Ingezetenen (RNI) te verifiëren. Het vergelijkt het gezicht van de persoon aan de balie met de afbeelding in het gescande identiteitsdocument en geeft aan met welke zekerheid het om dezelfde persoon gaat. Dit ondersteunt de RNI-medewerker bij het vaststellen van de identiteit en helpt \"look-alike-fraude\" te voorkomen. De impact is dat het de betrouwbaarheid van het RNI-inschrijfproces verhoogt en de RNI-medewerker ondersteunt bij het nemen van beslissingen over identiteitsvaststelling.",
       "geregistreerd": "2024-11-01",
       "id": "28514321",
@@ -3383,6 +3395,18 @@
       "title": "Geautomatiseerde gezichtsvergelijking bij het RNI-inschrijfproces",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/28514321"
+    },
+    {
+      "doel": "Het doel van het gebruik van de documentscanners is beter te kunnen controleren of ingeleverde of getoonde identificatiedocumenten echt zijn. De echtheidskenmerken van een identificatiedocument kunnen door een algoritme beter worden beoordeeld dan door een mens met het blote oog. Als een document als niet echt wordt aangemerkt door het algoritme wordt een tweede check gedaan, waarbij de gegevens worden vergeleken met gegevens uit de BRP. Vervolgens wordt bij vaststelling of twijfel conform 4-ogenprincipe het document op echtheid beoordeeld. Uiteindelijk kan constatering van niet echt zijn van een document resulteren in aangifte bij de politie.",
+      "geregistreerd": "2026-06-04",
+      "id": "28537957",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet BRP art. 2.67 lid 4; Besluit BRP art. 35; UAVG art. 29 – inzet van biometrie is toegestaan bij noodzakelijke authenticatie.",
+      "organisatie": "Gemeente Gorinchem",
+      "status": "in_gebruik",
+      "title": "Documentscanners burgerzaken (Gezichtsvergelijking)",
+      "toegevoegd": "2026-07-22",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/28537957"
     },
     {
       "doel": "DOEL: De anonimiseringssoftware wordt ingezet om invulling te geven aan enerzijds transparantie en anderzijds aan de noodzakelijk bescherming van de personen en bedrijven op wie documenten betrekking hebben. IMPACT: De impact van het algoritme op burger en bedrijven is laag. Het algoritme zoekt specifiek naar (persoons)gegevens en maskeert c.q. verwijdert deze ongeacht de verdere inhoud van de documenten.",
@@ -9313,6 +9337,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/56421457"
     },
     {
+      "doel": "Het doel van onze chatbot is om burgers sneller en 24/7 antwoorden te geven op hun algemene vragen. Dit ontlast de medewerkers op de livechat, zodat zij zich kunnen richten op complexere taken waarvoor menselijke tussenkomst nodig is. De impact is verbeterde dienstverlening en efficiëntere inzet van gemeentelijke middelen.",
+      "geregistreerd": "2026-07-21",
+      "id": "56443833",
+      "impactassessment": "Ja",
+      "juridische_basis": "Het leveren van betrouwbare overheidsinformatie over producten en diensten van gemeente Gorinchem.",
+      "organisatie": "Gemeente Gorinchem",
+      "status": "in_gebruik",
+      "title": "Chatbot",
+      "toegevoegd": "2026-07-22",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/56443833"
+    },
+    {
       "doel": "Vaarverkeersmodel: Het model “Drukte per rak” telt de actuele en historische passages per uur per rak op. Zo berekenen we de verkeersintensiteit per rak, maar niet de maximale capaciteit van een rak. Het model “Drukte per rak” kan ook geen voorspellingen doen over veranderingen in het gebruik van het water. Een vaarverkeersmodel wordt ontwikkeld om veranderingen zoals de toe- of afname van de pleziervaart en het effect na ingrepen als een stremming of een verkeersmaatregel in kaart te brengen. Het vaarverkeersmodel is sinds 2022 in ontwikkeling en zal de capaciteit per rak weergeven. Hoeveel vaartuigen kunnen er per uur passeren? Indicatoren voor filevorming (zoals afname van de snelheid) worden gebruikt om de maximale capaciteit per rak, per uur te berekenen. De voorspellingen worden op basis van gemiddelde verplaatsingspatronen per gebruikersgroep gemaakt. De gebruikersgroepen zijn de pleziervaarders, passagiersvaarders en transportvaarders. De gegevens worden mogelijk aangevuld met gegevens over logistieke stromen, toeristische locaties en geaggregeerde demografische gegevens. In het model wordt alleen gewerkt met geaggregeerde gegevens.",
       "geregistreerd": "2025-09-10",
       "id": "56528956",
@@ -11099,6 +11135,18 @@
       "title": "Velma",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/64911524"
+    },
+    {
+      "doel": "Het algoritme ondersteunt de medewerker aan de balie bij het vergelijken van een live vastgelegde gezichtsopname met de afbeelding op een identiteitsdocument. De medewerker krijgt een indicatie en eventueel vergelijkingsscore te zien, op basis waarvan hij of zij de inschatting kan maken dat persoon en document bij elkaar horen. Het doel is om identiteitsfraude (zoals look-alike-fraude) te voorkomen en de betrouwbaarheid van gegevens in de BRP te versterken.",
+      "geregistreerd": "2026-07-17",
+      "id": "65144288",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet BRP art. 2.67 lid 4; Besluit BRP art. 35; UAVG art. 29 – inzet van biometrie is toegestaan bij noodzakelijke authenticatie.",
+      "organisatie": "Gemeente Vaals",
+      "status": "in_gebruik",
+      "title": "Gezichtsvergelijking - Hulpmiddel voor identiteitsvaststelling bij gemeentelijke balie",
+      "toegevoegd": "2026-07-22",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/65144288"
     },
     {
       "doel": "Gemeente Tilburg zet het algoritme in om te controleren of de inwoner is wie hij zegt dat hij is. Zo kan gemeente Tilburg de beste dienstverlening geven aan de juiste inwoners zonder hier fouten in te maken.",
@@ -14845,6 +14893,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/84598732"
     },
     {
+      "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
+      "geregistreerd": "2026-07-16",
+      "id": "84651440",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "1. WOO 2. WDO 3. UAVG 4. WEP 5. WDO",
+      "organisatie": "Gemeente Vaals",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-07-22",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/84651440"
+    },
+    {
       "doel": "Bijna elke ondernemer doet aangifte voor de omzetbelasting (OB). Dat wordt ook wel btw-aangifte genoemd. Een deel van de ondernemers die aangifteplichtig is voor de OB in Nederland, is gevestigd in het buitenland. Deze ondernemers kunnen hun aangifte doen via de One-Stop-Shop-regeling. Dit is een regeling waarbij een ondernemer via één land zijn OB aangifte kan doen voor alle Europese landen waarin hij aangifteplichtig is. Via deze regeling kan alleen omzetbelasting worden afgedragen en niet worden teruggevraagd. Als ondernemers niet mee willen doen aan deze regeling of btw terug willen vragen, gaat dat via de reguliere manier (via het ondernemersportaal van de Belastingdienst). De OB aangiftes die via deze reguliere manier binnenkomen worden buitenlandse aangiftes genoemd. De medewerkers van de Belastingdienst worden sinds 2022 ondersteund door het algoritme OBB bij de beoordeling van aangiftes omzetbelasting van niet in Nederland gevestigde belastingplichtigen. Het algoritme detecteert mogelijke afwijkingen in de aangifte op basis van relevante gegevens waar de Belastingdienst de beschikking over heeft. Voor aangiftes waarbij een handmatige controle nodig is, krijgen de medewerkers een signaal. Deze aangiftes worden vervolgens handmatig beoordeeld en vastgesteld, zo nodig na aanpassing in overleg met de ondernemer.",
       "geregistreerd": "2025-03-04",
       "id": "84713719",
@@ -15467,6 +15527,18 @@
       "title": "Voorleessoftware gemeentelijke website (ReadSpeaker)",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/86825711"
+    },
+    {
+      "doel": "Het algoritme controleert verschillende gegevens van de burger. Indien er geen bijzonderheden geconstateerd worden in de aanvraag of aangifte kan deze verwerkt worden zonder tussenkomst van een medewerker. Indien er wel een bijzonderheid geconstateerd wordt valt de aanvraag/aangifte in een wachtkamer waar deze gecontroleerd wordt door een medewerker. Het algoritme kan alleen automatisch een aanvraag/aangifte goedkeuren. Een aanvraag/aangifte afkeuren kan alleen de ambtenaar.",
+      "geregistreerd": "2026-07-21",
+      "id": "86998811",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet basisregistratie personen Wet rechten burgerlijke stand",
+      "organisatie": "Gemeente Gorinchem",
+      "status": "in_gebruik",
+      "title": "Burgerzaken: eDiensten",
+      "toegevoegd": "2026-07-22",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/86998811"
     },
     {
       "doel": "Het doel van de brieven is het voorspellen van de uitgaven in het kader van de Wlz van het betreffende jaar (jaar t). Het resultaat is een brief waarin we deze prognose toelichten en laten zien in hoeverre wij verwachten dat het budgettair kader toereikend is. Belangrijk element van de brief is de rapportage waarin we de uitgebreide resultaten van de verschillende scenario’s op Wlz uitvoerderniveau laten zien. De impact is dat mede op basis van de brief die naar de minister wordt gestuurd, de minister besluit over de inzet van herverdelingsmiddelen. Daarnaast kan de minister besluiten mede op basis van onze prognoses om eventueel andere extra middelen aan (deel-)kaders toe te voegen.",
@@ -18109,7 +18181,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1509,
-  "fetched_at": "2026-07-18T06:46:09Z",
+  "count": 1515,
+  "fetched_at": "2026-07-22T07:01:10Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
