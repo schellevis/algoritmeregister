@@ -2857,6 +2857,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/26391999"
     },
     {
+      "doel": "Uitvoeringsorganisatie Herstel Toeslagen (UHT) van Dienst Toeslagen zet zich in om gedupeerden van de problemen met de kinderopvangtoeslag zo goed mogelijk te helpen. We herstellen de fouten uit het verleden. En we repareren de financiële gevolgen van die fouten zo goed als mogelijk. Naast de hulp van UHT kunnen gedupeerden ook ondersteuning krijgen van andere (overheids)organisaties, zoals gemeenten en Sociale Banken Nederland (SBN). Voor een efficiënte samenwerking met deze organisaties is het belangrijk dat er vanuit UHT effectief wordt afgestemd en samengewerkt met deze organisaties. Daarvoor is het van belang dat de juiste en de benodigde informatie wordt gedeeld met deze organisaties. Daarbij wordt niet alleen de benodigde informatie over gedupeerden gedeeld maar ook over niet-gedupeerden, om bijvoorbeeld gemeenten te ondersteunen bij het stoppen van brede hulpverlening aan deze ouders. Om het proces te versnellen en de hulp aan gedupeerden te verbeteren, automatiseert UHT bepaalde taken met behulp van algoritmes. Het algoritme selecteert voor hen snel de -relevante informatie waarover UHT beschikt, zodat ouders sneller en beter de hulp ontvangen die zij nodig hebben. Op deze manier worden gedupeerden zo efficiënt mogelijk geholpen en krijgen zij de juiste ondersteuning. Wanneer uit de informatie blijkt dat iemand niet gedupeerd is, stopt de verdere hulpverlening.",
+      "geregistreerd": "2026-07-22",
+      "id": "26426310",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet hersteloperatie toeslagen Voor meer informatie zie: https://wetten.overheid.nl en wetten.nl - Regeling - Wet hersteloperatie toeslagen",
+      "organisatie": "Dienst Toeslagen",
+      "status": "in_gebruik",
+      "title": "Informatiedeling tussen UHT en hulporganisaties",
+      "toegevoegd": "2026-07-23",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/26426310"
+    },
+    {
       "doel": "Voorheen moesten melders zelf kiezen bij welke hoofd- en subcategorie hun melding het beste paste, zodat de melding bij de juiste afdeling van de gemeente terecht kwam. Door het algoritme hoeft dit niet meer; de (sub)categorie wordt bepaald op basis van de meldingstekst en de melding wordt automatisch ingedeeld. Dit scheelt de melder (de inwoner) werk en de medewerker ook, aangezien (meestal) zonder tussenstappen de melding direct doorgaat naar het team dat deze moet afhandelen.",
       "geregistreerd": "2024-04-08",
       "id": "26433598",
@@ -3431,6 +3443,18 @@
       "title": "Scanauto kentekenherkenning",
       "toegevoegd": "2026-07-01",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/28646671"
+    },
+    {
+      "doel": "Het algoritme dat Uitvoeringsorganisatie Herstel Toeslagen (UHT) heeft ontwikkeld voor de problemen met de kinderopvangtoeslag heeft een duidelijk en belangrijk doel: het bieden van effectieve ondersteuning aan de bijna 70.000 mensen die zich als mogelijk gedupeerde hebben aangemeld voor herstel. Door de complexiteit en omvang van de situatie was het noodzakelijk om een gestructureerde aanpak te ontwikkelen die ervoor zorgt dat iedereen de hulp krijgt die nodig is, of het nu gaat om financiële compensatie, schuldhulp, of nazorg. Vanaf het moment dat een ouder zich aanmeldt, begint het systeem met het verzamelen en analyseren van essentiële gegevens. Het doel is om een helder beeld te krijgen van hun situatie. Bijvoorbeeld, het systeem kijkt of een ouder onder bewind staat, wat invloed heeft op de manier waarop hun schulden worden behandeld. Een ander voorbeeld is als een ouder in het buitenland woont. Hier wordt dan rekening mee gehouden, zodat ook die ouder de passende hulp ontvangt. Een belangrijk onderdeel van het algoritme is dat het naar verschillende dingen kijkt om het proces te verbeteren voor de mensen die gedupeerd zijn. Zo kijkt het onder andere naar: • wie als gedupeerden worden gezien aan de hand van de uitkomst van de eerste toets en de integrale beoordeling, • of er dubbele aanvragen zijn, • of mensen onterecht in de wacht staan, • of ze wel of geen bepaalde brieven zouden moeten krijgen en • welke ouders zich hebben afgemeld. Op deze manier verzamelt het algoritme informatie en kijkt het naar de beste manier om de gedupeerden te helpen, zodat ze de juiste ondersteuning krijgen. Dit kan snel of met meer details zijn, afhankelijk van wat nodig is. Bovendien ondersteunt het algoritme bij het maken en beheren van stuurinformatie, zoals dashboards en cijfers op de website. Verder helpt het bij het koppelen van nieuwe regelingen aan ouders die gedupeerd zijn. Ook zorgt het algoritme ervoor dat ouders die niet gedupeerd zijn, goed worden behandeld. Kortom, het algoritme is een cruciaal instrument in de inspanningen om de gedupeerden van de problemen met de kinderopvangtoeslag te ondersteunen. Het zorgt ervoor dat hulpverlening niet alleen sneller en efficiënter verloopt, maar ook dat deze nauwkeurig is afgestemd op de unieke behoeften van elke ouder. Deze aanpak draagt bij aan het herstellen van vertrouwen en biedt gedupeerden een route naar herstel en ondersteuning in een uitdagende periode.",
+      "geregistreerd": "2026-07-22",
+      "id": "28676629",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet hersteloperatie toeslagen Voor meer informatie zie: https://wetten.overheid.nl en https://wetten.overheid.nl/BWBR0047436/2026-01-01/0",
+      "organisatie": "Dienst Toeslagen",
+      "status": "in_gebruik",
+      "title": "Overzicht status gedupeerden",
+      "toegevoegd": "2026-07-23",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/28676629"
     },
     {
       "doel": "Het algoritme is gemaakt om het proces van kwijtschelding van belastingen makkelijker en sneller te maken voor de burger en ondernemer. Het voorspelt welke verzoeken waarschijnlijk toch in aanmerking komen voor kwijtschelding. Hierdoor kan de gemeente efficiënter werken en wordt de dienstverlening voor Amsterdammers moderner en klantvriendelijker. Amsterdammers krijgen te maken met het algoritme wanneer ze een verzoek tot kwijtschelding indienen. Als het algoritme voorspelt dat het verzoek waarschijnlijk zal worden goedgekeurd, geeft het dit advies aan de behandelend ambtenaar. Deze neemt dit advies mee in zijn afweging. Als het advies wordt opgevolgd, hoeft de burger geen extra informatie op te sturen. Dit maakt het proces voor de burger sneller en eenvoudiger. Als het algoritme geen advies kan geven, wordt het verzoek op de normale manier door een medewerker beoordeeld. Het algoritme zorgt ervoor dat burgers minder administratieve lasten hebben en sneller een antwoord krijgen. Voor de gemeente betekent dit een efficiënter proces en minder werk. Een medewerker neemt altijd de uiteindelijke beslissing, zodat het proces betrouwbaar blijft. Het algoritme wordt gebruikt binnen de gemeente.",
@@ -6121,6 +6145,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/41574850"
     },
     {
+      "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
+      "geregistreerd": "2026-07-22",
+      "id": "41626333",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
+      "organisatie": "Gemeente Waadhoeke",
+      "status": "in_gebruik",
+      "title": "Anonimiseren - eData",
+      "toegevoegd": "2026-07-23",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/41626333"
+    },
+    {
       "doel": "Het doel van dit rekenprogramma is het berekenen van geluid d.m.v. een standaard wettelijk vastgelegd meet- en rekenschrift. De resultaten worden door de provincie gebruikt: bij het maken van geluidskaarten (wegen en trams), als input voor het doelmatigheidscriterium bij het Omgevingsprogramma Actieplan geluid, het treffen van geluidreducerende maatregelen bij wegenprojecten, de vaststelling en monitoring van geluidproductieplafonds bij provinciale wegen, het bepalen van mogelijke geluidoverlast vanwege verkeerslawaai, onderzoeken naar noodzaak van geluidisolatie van gevels van woningen, voor tramlawaai en monitoren van het geluid in stiltegebieden.",
       "geregistreerd": "2026-02-11",
       "id": "41659797",
@@ -6218,12 +6254,12 @@
     },
     {
       "doel": "Het doel van dit algoritme (het risicomodel) is om het Ministerie van SZW te ondersteunen bij het kiezen welke NOW-aanvragen verder moeten worden onderzocht op de juistheid van het opgegeven omzetverlies. Het risicomodel vergelijkt informatie die de aanvrager heeft opgegeven in de NOW-aanvraag met informatie uit openbare bronnen en met informatie van andere overheidsorganisaties. Er zijn heel veel NOW-aanvragen ingediend. Door de inzet van het risicomodel kunnen er sneller keuzes gemaakt worden. Dit heeft als resultaat dat werkgevers zo snel mogelijk een beslissing ontvangen. De impact voor veruit de meeste aanvragers is dat zij snel een beslissing op hun NOW-aanvraag ontvangen zonder dat er verder onderzoek hoeft plaats te vinden. Voor de aanvragers die wel geselecteerd worden, betekent dit dat mede met behulp van het risicomodel het opgegeven omzetverlies verder onderzocht zal worden. Als een NOW-aanvraag wordt onderzocht dan duurt het langer om een beslissing te nemen dan wanneer een NOW-aanvraag niet wordt onderzocht. Uiteindelijk kan uit het onderzoek een ander omzetverliespercentage komen dan de aanvrager in de NOW-aanvraag heeft opgegeven. Het uiteindelijke subsidiebedrag kan daardoor afwijken van het subsidiebedrag dat de aanvrager had verwacht op basis van de NOW-aanvraag.",
-      "geregistreerd": "2024-06-10",
+      "geregistreerd": "2026-07-22",
       "id": "42117256",
       "impactassessment": "Onbekend",
       "juridische_basis": "Tijdelijke noodmaatregel overbrugging voor behoud van werkgelegenheid (eerste, tweede, derde, vierde, vijfde, zesde)",
       "organisatie": "Ministerie van Sociale Zaken en Werkgelegenheid",
-      "status": "in_gebruik",
+      "status": "buiten_gebruik",
       "title": "Risicomodel omzetdaling NOW",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/42117256"
@@ -8713,6 +8749,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/53897914"
     },
     {
+      "doel": "De anonimiseringstool helpt de organisatie bij twee dingen tegelijk. Aan de ene kant: open zijn over wat de organisatie doet. Aan de andere kant: de privacy beschermen van personen, bedrijven en instellingen die in de documenten staan. Open zijn betekent dat de organisatie informatie kan delen. Dat moet bijvoorbeeld op grond van de Wet open overheid (Woo). Voor de burger in de documenten is dit goed nieuws: hun privacy wordt niet geschonden. Zo houdt de organisatie zich aan de privacywet (de AVG/Wpg). Dat geldt ook voor de privacy van de eigen medewerkers. Iemand die een Woo-verzoek doet, krijgt de gevraagde informatie. De persoonsgegevens zijn eruit gehaald. Soms zijn ook andere delen onleesbaar gemaakt om een andere reden. Organisaties die Woo-verzoeken behandelen, voldoen zo aan de wet. Het programma maakt het werk efficiënter. Daardoor lukt het beter om binnen de wettelijke termijn te antwoorden. De impact van het systeem op mensen is laag. Dat geldt voor burgers, medewerkers, bedrijven en instellingen. Het programma zoekt alleen naar (persoons)gegevens en markeert die. Het maakt zelf geen beslissingen. Het doet een voorstel aan een medewerker. Die medewerker beslist. Je kunt ook handmatig stukken tekst onleesbaar maken om een andere reden. Bijvoorbeeld om strategische informatie van de eigen organisatie of een partner te beschermen. In het programma staat altijd de reden waarom iets onleesbaar is gemaakt.",
+      "geregistreerd": "2026-07-22",
+      "id": "53947550",
+      "impactassessment": "Ja",
+      "juridische_basis": "Woo: Bescherming van gevoelige informatie conform uitzonderingsgronden Woo (artikelen 5.1 en 5.2 Woo) AVG: Bescherming van privacy gevoelige informatie. WPG: Bescherming van informatie die in het kader van de politietaak is opgesteld.",
+      "organisatie": "Politie",
+      "status": "in_gebruik",
+      "title": "Anonimiseringstool",
+      "toegevoegd": "2026-07-23",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/53947550"
+    },
+    {
       "doel": "Informatiegestuurd handhaven: Binnen de Digitale Gracht worden vier algoritmen ontwikkeld voor informatiegestuurde handhaving. Tot nu toe hebben vaarweginspecteurs geen sancties opgelegd op basis van deze algoritmen. De algoritmen zijn nog niet in gebruik omdat ze eerst moeten worden beoordeeld op wettelijke en gemeentelijke voorschriften en toepasbaarheid. Een uitgebreide beschrijving wordt toegevoegd aan het register als de algoritmen in gebruik worden genomen. Rapportage snelheidsoverschrijdingen passagiersvaart: Op de Amsterdamse binnenwateren geldt een maximumsnelheid om onveilige situaties en overlast te voorkomen. Overschrijding van de maximumsnelheid zorgt voor onveilige situaties en overlast, vooral door golfslag. Het algoritme gebruikt AIS-data van passagiersvaartuigen om snelheidsoverschrijdingen te meten. Het model werkt met een rekenregel die bepaald of een vaartuig minimaal twee opeenvolgende momenten sneller vaart dan de geldende maximumsnelheid (plus onzekerheidsmarge). Het model is in ontwikkeling en niet in gebruik. Het algoritme wordt toegepast voor het maken van een heatmap. Anders gezegd, een overzicht te geven van de ruimtelijke verdeling van snelheidsoverschrijdingen en specifieke vaartuigen uit te lichten. De rapportage is bedoeld om toezicht en handhaving efficiënter te maken en kan leiden tot aanspreken van rederijen op geconstateerde overtredingen. Er wordt geen gebruik gemaakt van geautomatiseerde besluitvorming.",
       "geregistreerd": "2025-09-10",
       "id": "53969675",
@@ -9494,12 +9542,12 @@
     },
     {
       "doel": "Zodra er een online verhuizing binnenkomt, controleert de Module Inzicht of de aangifte afwijkende eigenschappen bevat. Zijn er geen bijzonderheden? Dan wordt de verhuizing automatisch verwerkt. Leveren de controles van de modules een signaal op? Dan zet de module de aangifte voor de ambtenaar klaar in de wachtkamer van Centric Burgerzaken. Daar beoordeelt de ambtenaar of aanvullende vragen of onderzoek nodig zijn. Is de conclusie dat de aangifte in orde is, dan verwerkt de ambtenaar deze alsnog. De module Inzicht toetst de online aangiften aan de hand van controles van de Landelijke Aanpak Adreskwaliteit (LAA) én controles die de ambtenaar zal herkennen uit de dagelijkse praktijk. Denk bijvoorbeeld aan controle op veelverhuizers, het gebruiksdoel van een woning, overbewoning van een adres of een adres waar veel verhuisbewegingen op plaatsvinden. Het belang van een correct geregistreerd adres gaat verder dan het op orde houden van de Basisregistratie Personen (BRP). Vindt er bijvoorbeeld een ramp plaats, dan wil je iedereen in de omgeving tijdig kunnen waarschuwen. Ook verstrek je als gemeente voorzieningen, uitkeringen of subsidies aan inwoners, op basis van het in de BRP geregistreerde adres. Dat maakt een correcte adresregistratie belangrijk voor zowel inwoners als overheid. Het algoritme controleert verschillende gegevens van de burger. Indien er geen bijzonderheden geconstateerd worden in de aangifte kan deze verwerkt worden zonder tussenkomst van een medewerker. Indien er wel een bijzonderheid geconstateerd wordt valt de aangifte in een wachtkamer waar deze gecontroleerd wordt door een medewerker. Het algoritme kan alleen automatisch een aangifte goedkeuren. Een aangifte afkeuren kan alleen de ambtenaar.",
-      "geregistreerd": "2025-09-10",
+      "geregistreerd": "2026-07-21",
       "id": "57585475",
-      "impactassessment": "Ja",
+      "impactassessment": "Onbekend",
       "juridische_basis": "Wet basisregistratie personen",
       "organisatie": "Gemeente Nissewaard",
-      "status": "ontwikkeling",
+      "status": "in_gebruik",
       "title": "Burgerzaken: Module Inzicht",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/57585475"
@@ -10598,12 +10646,12 @@
     },
     {
       "doel": "De KVB is in 2017 gelanceerd in het kader van de Participatiewet. Deze wet moet ervoor zorgen dat meer mensen werk vinden. Ook mensen met een arbeidsbeperking. Met de KVB kunnen werkgevers op werk.nl aangeven wat voor arbeidskrachten zij zoeken. Ze maken een zoekprofiel aan en kunnen vervolgens kijken of er mensen met een arbeidsbeperking zijn die hierbij passen.",
-      "geregistreerd": "2025-11-05",
+      "geregistreerd": "2026-07-22",
       "id": "62684529",
       "impactassessment": "Nee",
       "juridische_basis": "",
       "organisatie": "Uitvoeringsinstituut Werknemersverzekeringen",
-      "status": "in_gebruik",
+      "status": "buiten_gebruik",
       "title": "Kandidatenverkenner banenafspraak (KVB)",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/62684529"
@@ -18181,7 +18229,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1515,
-  "fetched_at": "2026-07-22T07:01:10Z",
+  "count": 1519,
+  "fetched_at": "2026-07-23T06:59:12Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
