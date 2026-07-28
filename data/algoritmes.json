@@ -1238,7 +1238,7 @@
     },
     {
       "doel": "Het doel van het systeem is het updaten van de registratie van lantaarnpalen. Deze registratie wordt gebruikt voor asset management (o.a. onderhoud) van openbare verlichting. Het systeem detecteert lantaarnpalen in 3D-puntenwolken. Vervolgens berekent het eigenschappen van de lantaarnpalen, zoals de exacte locatie van de onderkant en de top van de lantaarnpaal, en de hoek die deze maakt met de grond.",
-      "geregistreerd": "2026-07-14",
+      "geregistreerd": "2026-07-23",
       "id": "17364371",
       "impactassessment": "Onbekend",
       "juridische_basis": "",
@@ -9503,6 +9503,18 @@
       "title": "Signaal ondersteuning inkomstenverrekening bijstand",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/57371245"
+    },
+    {
+      "doel": "Het algoritme herkent direct personen en voorwerpen in de beelden. Het doet dit op basis van vorm. Bij het bouwen van het algoritme is elke vorm gekoppeld aan een voorwerp. Een mens zou dit langzamer doen, en het zou meer moeite kosten. De politie maakt deze beelden met een drone in de noodhulp. Bijvoorbeeld om hulp te verlenen of om verdachten aan te houden. Het effect op mensen in het algemeen is klein. Het algoritme gebruikt geen gezichtsherkenning of andere lichaamskenmerken. De politie maakt en bekijkt door het algoritme niet meer beelden dan zonder het algoritme. Het algoritme helpt de politie om beter te kijken naar de beelden die er echt toe doen. Voor de mensen die in beeld zijn, is het effect wel groot. De hulp van de politie komt sneller op gang. En verdachten kunnen makkelijker worden aangehouden.",
+      "geregistreerd": "2026-07-27",
+      "id": "57398440",
+      "impactassessment": "Ja",
+      "juridische_basis": "De wettelijke basis is artikel 3 van de Politiewet. De politie gebruikt het algoritme bij beelden die zij tijdens haar werk maakt. Bijvoorbeeld bij het helpen van slachtoffers, het bewaren van de orde en het aanhouden van verdachten op heterdaad. De beelden worden verwerkt volgens artikel 8 van de Wet politiegegevens.",
+      "organisatie": "Politie",
+      "status": "ontwikkeling",
+      "title": "Personen en voorwerpen detecteren in live dronebeelden",
+      "toegevoegd": "2026-07-28",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/57398440"
     },
     {
       "doel": "De taakstraf is een van de drie hoofdstraffen, naast de celstraf en de geldboete en wordt ook wel werkstraf genoemd. Het betekent dat iemand zinvolle onbetaalde arbeid in vrije tijd moet uitvoeren, gericht op genoegdoening naar de samenleving. Het dient samenleving en werkgestrafte omdat het de kans op recidive vermindert en resocialisatie vergroot. Deze straf wordt door de rechter of de Officier van Justitie opgelegd en wordt uitgevoerd door de Reclassering. Wanneer een persoon een taakstraf opgelegd gekregen heeft, neemt de reclassering contact op met die persoon. In een eerste gesprek (een intake) wordt het proces uitgelegd waarna een werkstrafproject toegekend wordt. De persoon zelf mag de eigen wensen bespreken in dit gesprek. De reclassering beslist uiteindelijk waar en wanneer het werk uitgevoerd gaat worden. Er zijn een heel aantal plekken waar de werkstraf uitgevoerd kan worden (dit noemen we werkstafprojecten). Op basis van een aantal vooraf bepaalde variabelen geeft de planhulp een advies voor een geschikt werkstrafproject voor de taakgestrafte. Elk extern werkstrafproject is getoetst door het ministerie van Justitie en Veiligheid aan de hand van de criteria zoals opgenomen in artikel 3 van het Besluit tenuitvoerlegging strafrechtelijke beslissingen (https://wetten.overheid.nl/BWBR0042962/2024-07-01#Hoofdstuk3). De reclasseringsorganisaties in Nederland maken allemaal gebruik van de matchtool. Het gaat daarbij om de instellingen van Stichting Verslavingsreclassering GGZ, Reclassering Nederland en Stichting Leger des Heils Jeugdbescherming & Reclassering.",
@@ -18229,7 +18241,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1519,
-  "fetched_at": "2026-07-23T06:59:12Z",
+  "count": 1520,
+  "fetched_at": "2026-07-28T07:01:17Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
