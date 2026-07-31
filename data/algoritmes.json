@@ -16513,6 +16513,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/92588110"
     },
     {
+      "doel": "Het doel van Microsoft 365 Copilot is om medewerkers te ondersteunen bij hun dagelijkse werk. Microsoft 365 Copilot helpt bijvoorbeeld bij het schrijven van teksten, het maken van samenvattingen, het opstellen van e-mails of het voorbereiden van vergaderingen. Dit gebeurt met behulp van kunstmatige intelligentie (AI). Inzet van generatieve AI leidt tot het verbeteren van dienstverlening door het ondersteunen van snellere, duidelijkere en toegankelijkere communicatie met inwoners. Tevens wordt de uitvoeringskracht versterkt door verminderen van administratieve lasten en ondersteunen bij tekst intensieve werkzaamheden. Ook wordt ondersteuning gegeven aan maatschappelijke en bestuurlijke opgaven als hulpmiddel voor analyse, formulering en efficiëntie. Als laatste biedt het ondersteuning van ambtelijk vakmanschap door hulpmiddel voor analyse, formulering en overzicht; geen vervanging van menselijk oordeel. Het gebruik draagt bij aan het vergroten van digitale vaardigheden en het vertrouwd raken met generatieve AI. Tegelijkertijd vraagt dit om bewust en verantwoord gebruik. De gemeente ziet de kansen van AI en volgt de technologische ontwikkelingen met aandacht. Er is een duidelijke ambitie om mee te bewegen met deze vooruitgang, zolang dit gebeurt op een zorgvuldige en verantwoorde manier. Om medewerkers hierin te begeleiden, zijn er spelregels opgesteld voor de omgang met generatieve AI.",
+      "geregistreerd": "2026-07-30",
+      "id": "92594366",
+      "impactassessment": "Ja",
+      "juridische_basis": "De Europese AI-verordening vormt de basis van het gemeentelijke beleid rondom de verantwoorde ontwikkeling en inzet van AI en algoritmen.",
+      "organisatie": "Gemeente Oss",
+      "status": "in_gebruik",
+      "title": "Microsoft CoPilot",
+      "toegevoegd": "2026-07-31",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/92594366"
+    },
+    {
       "doel": "Het doel van de parkeerscanauto is handhaven voor fiscaal (‘betaald’) parkeren (naheffingsaanslag (nha) parkeerbelasting). Voor de verwerking van persoonsgegevens, in het kader van de uitvoering en handhaving van digitaal kentekenparkeren, wordt strikt de daartoe noodzakelijke informatie verzameld welke tot doel heeft het volgende mogelijk te maken: a) de controle op het betalen van parkeerbelasting; b) de heffing en invordering van parkeerbelasting (inclusief naheffingsaanslagen);",
       "geregistreerd": "2024-07-12",
       "id": "92637261",
@@ -18241,7 +18253,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1520,
-  "fetched_at": "2026-07-28T07:01:17Z",
+  "count": 1521,
+  "fetched_at": "2026-07-31T07:08:15Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
