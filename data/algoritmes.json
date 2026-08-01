@@ -7333,6 +7333,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/46641276"
     },
     {
+      "doel": "Het algoritme zet geschreven tekst op de gemeentelijke website om naar natuurlijke spraak. Hiermee wordt de toegankelijkheid van informatie voor inwoners met een visuele of leesbeperking verbeterd. Het algoritme heeft geen invloed op besluitvorming; het betreft uitsluitend een ondersteunende toegankelijkheidsfunctie.",
+      "geregistreerd": "2026-07-31",
+      "id": "46645395",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De wettelijke basis voor het gebruik van ReadSpeaker ligt vooral in de verplichting om digitale overheidsinformatie toegankelijk te maken en in de publieke taak van de gemeente om informatie voor alle inwoners begrijpelijk en bruikbaar aan te bieden, binnen de kaders van privacywetgeving.",
+      "organisatie": "Gemeente Rijswijk",
+      "status": "in_gebruik",
+      "title": "ReadSpeaker",
+      "toegevoegd": "2026-08-01",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/46645395"
+    },
+    {
       "doel": "Het doel van de applicatie is het ondersteunen van besluitvorming tijdens - en in voorbereiding op - crisis. De app is te downloaden via de diverse app stores. Men kan dan crisisgerelateerde vragen stellen. Dit in het kader van weerbaarheid. Primair is de app bedoeld voor professionals die aan crisisbeheersing werken. Het kan richtlijnen en ideeën geven over hoe te handelen tijdens een crisis en je daarmee ondersteunen. Het is belangrijk dat de gebruiker uiteindelijk zelf beslist.",
       "geregistreerd": "2025-06-12",
       "id": "46726621",
@@ -18253,7 +18265,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1521,
-  "fetched_at": "2026-07-31T07:08:15Z",
+  "count": 1522,
+  "fetched_at": "2026-08-01T06:57:32Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
