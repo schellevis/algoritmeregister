@@ -16561,6 +16561,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/92638958"
     },
     {
+      "doel": "De Omgevingsdienst Midden-Holland (ODMH) gebruikt Microsoft 365 Copilot onder andere om ingewikkelde teksten te versimpelen, zoals standaardbrieven, beleidsstukken en teksten op de website. Copilot functioneert uitsluitend op basis van de invoer van gebruikers en heeft geen toegang tot interne gegevens of systemen binnen de Microsoft 365-omgeving van ODMH. Er worden geen geautomatiseerde besluiten genomen en de toepassing wordt niet ingezet voor processen die directe gevolgen hebben voor inwoners, bedrijven of beleidsvorming.",
+      "geregistreerd": "2026-08-03",
+      "id": "92648252",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Het gebruik van Microsoft 365 Copilot binnen Omgevingsdienst Midden-Holland vindt plaats binnen de kaders van de Algemene verordening gegevensbescherming (AVG). Copilot wordt uitsluitend gebruikt als ondersteunend hulpmiddel en verwerkt in deze toepassing geen persoonsgegevens, omdat medewerkers volgens de interne richtlijnen geen vertrouwelijke of privacygevoelige informatie invoeren. Daardoor is er ook geen sprake van geautomatiseerde besluitvorming in de zin van de AVG (artikel 22). Doordat Copilot alleen werkt met informatie die medewerkers vrijwillig en binnen de gestelde kaders invoeren, en doordat persoonsgegevens niet worden gedeeld met of opgeslagen buiten de Microsoft‑tenant, blijft het gebruik in overeenstemming met deze wettelijke vereisten.",
+      "organisatie": "Omgevingsdienst Midden-Holland",
+      "status": "in_gebruik",
+      "title": "Microsoft 365 Copilot",
+      "toegevoegd": "2026-08-04",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/92648252"
+    },
+    {
       "doel": "Het doel van dit algoritme is om WBSO-aanvragen sneller te beoordelen. Het gaat vooral om eenvoudige aanvragen met een laag financieel risico. Door deze aanvragen sneller te behandelen, zijn R&D-bedrijven meer tevreden. Zij kunnen zo eerder gebruikmaken van hun (belasting) voordeel en hun middelen sneller inzetten voor innovatie. Het algoritme helpt ook om technische experts binnen de Rijksdienst voor Ondernemend Nederland in te zetten waar zij het hardst nodig zijn. Zo blijft de kwaliteit van het werk hoog en krijgen bedrijven meer maatwerk.",
       "geregistreerd": "2025-02-20",
       "id": "92711248",
@@ -18265,7 +18277,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1522,
-  "fetched_at": "2026-08-01T06:57:32Z",
+  "count": 1523,
+  "fetched_at": "2026-08-04T07:00:39Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
