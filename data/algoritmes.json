@@ -10657,6 +10657,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/62573812"
     },
     {
+      "doel": "STAIR Assist helpt medewerkers van Gemeente Amsterdam om binnen het groeiende landschap van geïntegreerde wetgeving (zoals bijvoorbeeld AVG, AI Verordening, BIO 2.0, NIS2, Archiefwet, WOO) snel en correct de juiste compliance-procedure te vinden. De medewerker stelt een vraag in natuurlijke taal en het algoritme stelt op basis van die vraag een geschikte Use Case-route voor, met daarbij de verplichte instrumenten (DPIA, IAMA, DRAAI, QuickScan), betrokken rollen en compliance-kaders. De medewerker bepaalt zelf of de voorgestelde route wordt gevolgd; het algoritme legt op, vervangt of automatiseert geen besluit. Het beoogde effect is dat compliance toegankelijk wordt voor niet-juridisch geschoolde medewerkers, dat experts (Privacy Officers, ISO) tijd terugkrijgen voor inhoudelijk werk, en dat alle compliance-trajecten auditeerbaar worden vastgelegd. Burgers ondervinden geen directe interactie met dit algoritme; het effect op burgers verloopt indirect via consistentere naleving van privacy-, veiligheid- en transparantie-eisen door de gemeente.",
+      "geregistreerd": "2026-08-04",
+      "id": "62595764",
+      "impactassessment": "Ja",
+      "juridische_basis": "Artikel 6 lid 1 sub e AVG (taak van algemeen belang) jo. Gemeentewet artikel 160. Het algoritme ondersteunt naleving van BIO 2.0, AVG, AI Verordening, NIS2, Archiefwet en WOO.",
+      "organisatie": "Gemeente Amsterdam",
+      "status": "ontwikkeling",
+      "title": "STAIR Assist",
+      "toegevoegd": "2026-08-05",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/62595764"
+    },
+    {
       "doel": "De virtuele coach is exclusief ontwikkeld voor raadsleden met als doel hun debatvaardigheden te verbeteren. Burgers en bedrijven komen hiermee niet in aanraking. Het systeem biedt persoonlijke en op maat gemaakte adviezen om raadsleden te helpen hun standpunten krachtig over te brengen en effectief te discussiëren. De nadruk ligt op het verbeteren van presentatie-, vraag- en argumentatietechnieken, wat resulteert in een maximale impact tijdens raadsvergaderingen en andere formele bijeenkomsten.",
       "geregistreerd": "2025-12-18",
       "id": "62633156",
@@ -17953,6 +17965,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/98137321"
     },
     {
+      "doel": "Copilot dient als AI-assistent die onze medewerkers ondersteunt in hun dagelijkse werkzaamheden. De assistent kan bij verschillende taken helpen. Een van de belangrijkste toepassingen is tekstredactie. Teksten kunnen verbeterd, vertaald of aangepast worden naargelang de doelgroep. De kwaliteit van onze teksten wordt hierdoor beter. Bovendien besparen medewerkers tijd die ze kunnen besteden aan hun kerntaken, zodat ook de kwaliteit van die taken verhoogt. Andere mogelijke toepassingen zijn het samenvatten van rapporten, dienen als digitale sparringpartner of gespreksstarter zijn bij een brainstorm. Copilot Chat is er om individuele medewerkers te ondersteunen. Er is geen geautomatiseerde besluitvorming, we houden vast aan de \"human in the loop\".",
+      "geregistreerd": "2026-05-19",
+      "id": "98139499",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De Europese AI-verordening vormt de basis van het gemeentelijke beleid rondom de verantwoorde ontwikkeling en inzet van AI & Algortimen.",
+      "organisatie": "Gemeente Terneuzen",
+      "status": "in_gebruik",
+      "title": "Microsoft 365 Copilot Chat",
+      "toegevoegd": "2026-08-05",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/98139499"
+    },
+    {
       "doel": "Leges zijn feitelijk vergoedingen voor gemeentelijke dienstverlening. De tarieven worden vastgesteld door de gemeenteraad en staan in de Legesverordening. Om leges te kunnen heffen moeten gemeenten grondslagsoorten en legessoorten specificeren. Leges worden berekend over een grondslag. De grondslagsoort bepaalt waar de grondslag voor de legesberekening gevonden moet worden. De legessoort bepaalt de berekening om tot het legesbedrag te komen. Initiatiefnemers (burgers en organisaties) betalen voor de diensten van de gemeente zoals is uitgewerkt in de legesverordening van iedere gemeente.",
       "geregistreerd": "2024-09-20",
       "id": "98144453",
@@ -18277,7 +18301,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1523,
-  "fetched_at": "2026-08-04T07:00:39Z",
+  "count": 1525,
+  "fetched_at": "2026-08-05T07:02:21Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
