@@ -7549,6 +7549,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/47482483"
     },
     {
+      "doel": "Het doel is de verkeersveiligheid, doorstroom en bereikbaarheid te verbeteren. Daarnaast moet het ook bijdragen aan minder CO2-uitstoot doordat het verkeer soepeler doorrijdt. De inzet van de iVRI's draagt bij aan een efficiënte doorstroming en bereikbaarheid op kruispunten op een veilige manier (zonder dat mensen voor niks staan te wachten en een logische volgorde). Het draagt bij aan de opgave mobiliteit van de gemeente. Ook is de inzet van de iVRI's noodzakelijk om de taak als wegbeheerder van gemeentelijke wegen op een efficiënte manier uit te kunnen voeren. Het algoritme heeft invloed op verkeersdeelnemers (automobilisten, wandelaars, fietsers, vrachtwagens, OV, nood- en hulpdiensten, etc) omdat het de kleur van de verkeerslichten bepaalt en hoe lang iedere verkeersdeelnemer moet wachten.",
+      "geregistreerd": "2026-08-05",
+      "id": "47551930",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De Wegenverkeerswet 1994 (WVW) vormt de basis voor alle verkeersregels. Uitgangspunt daarbij is de vlotheid en doorstroming van het verkeer en dat niemand hinder of gevaar op de weg mag veroorzaken. Daarnaast is het gebruik gepromoot vanuit het landelijk project Talking Traffic en opgenomen in het Gemeentelijk Beleidsplan.",
+      "organisatie": "Gemeente Rijswijk",
+      "status": "in_gebruik",
+      "title": "Intelligente Verkeersregel Installatie (iVRI) bij verkeerslichten",
+      "toegevoegd": "2026-08-07",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/47551930"
+    },
+    {
       "doel": "De gemeente wil graag transparant zijn naar haar inwoners en ondernemers maar ze moet ook voldoen aan o.a. privacy-wetgeving. De inzet van anonimiseringssoftware maakt dit mogelijk door medewerkers te ondersteunen bij het anonimiseren van documenten.",
       "geregistreerd": "2024-01-25",
       "id": "47554913",
@@ -10933,6 +10945,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/63853168"
     },
     {
+      "doel": "Dit algoritme ondersteunt bij het tijdig informeren van ouders die gedupeerd zijn door de problemen met de kinderopvangtoeslag over ontwikkelingen in hun zaak of dossier bij UHT. Het algoritme kijkt wie in dit kader een brief of contactkaart nodig heeft. Het algoritme wordt ook gebruikt om ouders een brief te kunnen sturen als iemand niet per telefoon te bereiken is. Dankzij het algoritme blijven ouders op de hoogte en kunnen zij zelf, als dat nodig is, tijdig actie ondernemen. Zo kunnen zij zo goed en snel mogelijk worden geholpen.",
+      "geregistreerd": "2026-08-06",
+      "id": "63883321",
+      "impactassessment": "Ja",
+      "juridische_basis": "· Wet hersteloperatie toeslagen · Uitvoeringswet algemene verordening gegevensbescherming · Wet algemene bepalingen burgerservicenummer · Archiefwet 1995 · Selectielijsten Dienst Toeslagen Voor meer informatie zie: https://wetten.overheid.nl en wetten.nl - Regeling - Wet hersteloperatie toeslagen",
+      "organisatie": "Dienst Toeslagen",
+      "status": "in_gebruik",
+      "title": "Attenderen UHT",
+      "toegevoegd": "2026-08-07",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/63883321"
+    },
+    {
       "doel": "De gemeente Asten gebruikt Copilot Chat als generatieve AI-chatassistent ter ondersteuning van medewerkers bij cognitieve taken binnen de kantooromgeving. Het doel is om creativiteit, efficiëntie en digitale vaardigheden te bevorderen door middel van ondersteuning bij brainstormsessies, het structureren van informatie en het opstellen van teksten. Copilot Chat wordt uitsluitend gebruikt op basis van gebruikersinvoer en heeft geen toegang tot interne gegevens of systemen binnen de Microsoft 365-omgeving van de gemeente. Er worden geen geautomatiseerde besluiten genomen en Copilot Chat wordt niet ingezet voor processen die directe impact hebben op burgers of beleidsvorming. De impact van het gebruik is beperkt tot individuele ondersteuning van medewerkers. Om het gebruik van Copilot Chat op een verantwoorde manier te borgen, heeft de gemeente Asten zeven uitgangspunten opgesteld.",
       "geregistreerd": "2025-10-17",
       "id": "63919963",
@@ -14243,6 +14267,18 @@
       "title": "Legen van ondergrondse afvalcontainers",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/81411867"
+    },
+    {
+      "doel": "Het algoritme ondersteunt ouders bij het snel en duidelijk inzichtelijk maken van hun financiële situatie. Ouders kunnen bij UHT een betaal- en verrekenoverzicht aanvragen. In dat overzicht staan alle betalingen en schulden. Zo weten ouders precies wat al betaald is en wat nog betaald moet worden. Het proces is sneller en duidelijker dan wanneer dit handmatig wordt gedaan. Het overzicht biedt ouders inzicht om hun geldzaken beter te begrijpen, regie te houden en de mogelijkheid om actie te ondernemen bij onduidelijkheden of eventuele onjuistheden.",
+      "geregistreerd": "2026-08-06",
+      "id": "81541414",
+      "impactassessment": "Ja",
+      "juridische_basis": "· Wet hersteloperatie toeslagen · Uitvoeringswet algemene verordening gegevensbescherming · Wet algemene bepalingen Burgerservicenummer · Archiefwet 1995 · Selectielijsten Dienst Toeslagen Voor meer informatie zie: https://wetten.overheid.nl en https://wetten.overheid.nl/BWBR0047436/2026-01-01/0",
+      "organisatie": "Dienst Toeslagen",
+      "status": "in_gebruik",
+      "title": "Schuldenoverzicht en betalingen van UHT",
+      "toegevoegd": "2026-08-07",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/81541414"
     },
     {
       "doel": "Door combineren van inkomstengegevens, voertuiggegevens, financiële informatie en huishouden bepalen of we automatisch schulden mogen kwijtschelden. Voor de burger betekent dit een administratieve lasten verlichting, omdat kwijtschelding niet jaarlijks aangevraagd hoeft te worden. Indien kwijtschelding niet automatisch wordt toegekend door geconstateerde belemmeringen, ontvangt de burger bericht daarover met het verzoek aanvullende informatie te verstrekken waarna alsnog beoordeling plaatsvindt. Deze beoordeling vindt handmatig plaats.",
@@ -18217,6 +18253,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99464527"
     },
     {
+      "doel": "Het doel van het onderzoek is om te kijken of DeepWaive sneller en beter overstromingsbeelden kan maken dan traditionele modellen. Deze beelden kunnen experts helpen om overstromingsrisico's te beoordelen en maatregelen voor te bereiden. Het model wordt nu alleen getest. De resultaten worden nog niet gebruikt om beslissingen te nemen of om mensen en bedrijven te waarschuwen. Daarom hebben mensen en bedrijven nu geen directe gevolgen van het algoritme. Dit onderzoek is gepositioneerd binnen het programma WRL waarvan de Provincie Limburg, cluster Ruimte, formeel de opdrachtgever is. Mocht Deepwave in de toekomst in een productie worden genomen dan wordt de opdracht verleend door het Water Management Centrum van het Waterschap Limburg.",
+      "geregistreerd": "2026-08-06",
+      "id": "99467265",
+      "impactassessment": "Ja",
+      "juridische_basis": "",
+      "organisatie": "Provincie Limburg",
+      "status": "ontwikkeling",
+      "title": "Voorspellen van overstromingen in het stroomgebied van de Selzerbeek met DeepWaive",
+      "toegevoegd": "2026-08-07",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/99467265"
+    },
+    {
       "doel": "Ondersteunende AI-tool voor de beoordeling van lozingsmeldingen (grondwater). Is de aanvraag compleet en bevat deze alle wettelijk voorgeschreven gegevens? Bij het beoordelen van lozingsmeldingen door een AI-bot wordt gebruik gemaakt van een LLM en het toetsingskader uit het Omgevingsplan. Het eindoordeel of een melding Goedgekeurd óf Afgekeurd wordt is aan de behandelaar.",
       "geregistreerd": "2026-04-23",
       "id": "99484574",
@@ -18301,7 +18349,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1525,
-  "fetched_at": "2026-08-05T07:02:21Z",
+  "count": 1529,
+  "fetched_at": "2026-08-07T06:30:18Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
