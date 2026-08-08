@@ -493,6 +493,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/13765343"
     },
     {
+      "doel": "We gebruiken het computerprogramma voor anonimiseren. Dit doet Landsmeer om te voldoen aan de openbaarmaking in het kader van de WOO. Ook helpt het algoritme om personen, bedrijven en organisaties die in de documenten worden genoemd te beschermen. Het algoritme helpt ons om het anonimiseren efficiënt en zorgvuldig uit te voeren. Het algoritme zoekt in de documenten naar (persoons)gegevens en doet een voorstel voor het anonimiseren. Een medewerker beoordeelt het voorstel. Het algoritme maakt dus geen automatische beslissingen. De medewerker kan ook bepalen om aanvullende gegevens te verbergen. In het document staat altijd de reden voor het verbergen van tekst.",
+      "geregistreerd": "2026-05-01",
+      "id": "13949684",
+      "impactassessment": "Ja",
+      "juridische_basis": "De gemeente is verplicht om alle officiële publicaties te publiceren vanuit de Wet elektronische publicaties (WEP). Deze wet moet de toegankelijkheid van (voorgenomen) overheidsbesluiten vergroten, doordat je alle (voorgenomen) besluiten kan terugvinden op Link naar externe paginahttps://officielebekendmakingen.nl. De Wet Open Overheid (WOO) regelt het recht op informatie over alles wat de overheid doet. De Algemene verordening gegevensbescherming (AVG) legt vast hoe er om moet worden gegaan met persoonsgegevens, zoals adresgegevens en burgerservicenummers. Deze mogen niet zomaar vastgelegd en gedeeld worden.",
+      "organisatie": "Gemeente Landsmeer",
+      "status": "in_gebruik",
+      "title": "Anonimiseren documenten",
+      "toegevoegd": "2026-08-08",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/13949684"
+    },
+    {
       "doel": "De applicatie heeft als doel om een bijdrage te leveren aan de verbetering van de verkeersveiligheid in de provincie Utrecht. Het algoritme is hierbij een hulpmiddel om op basis van uiteenlopende indicatoren te komen tot meer, betere en snellere inzichten m.b.t. verkeersveiligheid. De uitkomsten van de applicatie worden ter advisering gebruikt door verkeerskundige experts voor (beleids)keuzes die de kans op verkeersongevallen verminderen. Zo kunnen risicovolle locaties worden gedetecteerd, geprioriteerd en gemonitoord. Aan de hand hiervan kunnen uiteenlopende maatregelen worden getroffen, zowel infrastructurele verbeteringen als gedragsgerelateerde interventies.",
       "geregistreerd": "2025-08-25",
       "id": "13962829",
@@ -18349,7 +18361,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1529,
-  "fetched_at": "2026-08-07T06:30:18Z",
+  "count": 1530,
+  "fetched_at": "2026-08-08T06:20:11Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
