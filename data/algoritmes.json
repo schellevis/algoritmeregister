@@ -7046,7 +7046,7 @@
     },
     {
       "doel": "Dit algoritme heeft geen directe impact op burgers en bedrijven. Het doel van de toepassing is om medewerkers van Defensie te helpen sneller en veiliger informatie te verwerken en gebruiken. De tool ondersteunt bij dagelijkse werkzaamheden, zoals het samenvatten van teksten, zoeken van informatie en opstellen van documenten. Daarnaast zorgt de interne omgeving ervoor dat gevoelige informatie van Defensie beschermd blijft en niet terechtkomt bij openbare AI-diensten.",
-      "geregistreerd": "2026-06-19",
+      "geregistreerd": "2026-08-10",
       "id": "45462867",
       "impactassessment": "Ja",
       "juridische_basis": "",
@@ -10139,6 +10139,18 @@
       "title": "Anonimiseren",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/59293330"
+    },
+    {
+      "doel": "Het doel van het algoritme is het faciliteren in de beantwoording van specialistische zoekvragen over historische informatie van missies, Woo-verzoeken en kamervragen.",
+      "geregistreerd": "2026-08-10",
+      "id": "59328650",
+      "impactassessment": "Ja",
+      "juridische_basis": "De grondslag voor de verwerking is artikel 6, lid 1, sub e AVG: de verwerking is noodzakelijk voor de vervulling van een taak van algemeen belang die aan de verwerkingsverantwoordelijke is opgedragen. Het betreft hier de wettelijke verplichting van artikel 2.4 en artikel 4.4. Woo en artikel 3 van de Archiefwet 1995.",
+      "organisatie": "Ministerie van Defensie",
+      "status": "ontwikkeling",
+      "title": "PRIMA Zoeken - Missie archieven",
+      "toegevoegd": "2026-08-11",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/59328650"
     },
     {
       "doel": "Lage impact, Deze AI-gebaseerde spraakherkenningssoftware is nodig om te kunnen voldoen aan de toegankelijkheidseisen.",
@@ -13235,6 +13247,18 @@
       "title": "Parkeercontrole",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/75752819"
+    },
+    {
+      "doel": "AI wordt ingezet om documenten/data in missie archieven te classificeren en verrijken (met labels/metadata). Het doel hiervan is om het beter doorzoekbaar te maken.",
+      "geregistreerd": "2026-08-10",
+      "id": "75854788",
+      "impactassessment": "Ja",
+      "juridische_basis": "De grondslag voor de verwerking is artikel 6, lid 1, sub e AVG: de verwerking is noodzakelijk voor de vervulling van een taak van algemeen belang die aan de verwerkingsverantwoordelijke is opgedragen. Het betreft hier de wettelijke verplichting van artikel 2.4 en artikel 4.4. Woo en artikel 3 van de Archiefwet 1995.",
+      "organisatie": "Ministerie van Defensie",
+      "status": "ontwikkeling",
+      "title": "PRIMA Verrijken - Missie Archieven",
+      "toegevoegd": "2026-08-11",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/75854788"
     },
     {
       "doel": "Om de stad veiliger te maken coördineert de gemeente, samen met haar maatschappelijke partners, vanuit het Actiecentrum Veiligheid en Zorg (AcVZ) verschillende aanpakken op het snijvlak van veiligheid, zorg en het sociaal domein. De kenmerken van deze aanpakken zijn maatwerk binnen een persoonsgerichte benadering. Het AcVZ voert de programmaregie over een aantal grote integrale persoonsgerichte aanpakken, waaronder Veilig Alternatief en Top 600. De Top 600 en Veilig Alternatief zijn twee programma’s die als doel hebben om het aantal delicten met een hoge impact, ook wel High Impact Crime of HIC genoemd (overvallen, straatroof, inbraak, zwaar geweld, moord/doodslag) en drugshandel-gerelateerde drugs- en geweldsdelicten terug te dringen. Dat gebeurt met behulp van een integrale persoonsgebonden aanpak (maatwerk) gericht op mensen die meermaals verdacht zijn van en veroordeeld zijn voor dergelijke strafbare feiten. De aanpak is erop gericht om de criminaliteit te stoppen, de kansen en de kwaliteit van leven van deze personen te verbeteren, om de negatieve invloed van deze personen op hun eventueel aanwezige minderjarige broers en zussen, en hun minderjarige kinderen te voorkomen, en om de slachtoffers en de omgeving van deze personen te beschermen tegen alles wat uit het criminele gedrag voortkomt. Het verschil tussen de Top 600 en de Top 400 is dat de Veilig Alternatief zich richt op de groep van 12 t/m 23 jaar oud, die strafrechtelijk nog minder ver is (bv. minder veroordelingen) maar met duidelijke zorg(elijke) signalen. De Top 600 richt zich op personen met een stevige criminele (HIC) achtergrond, en die niet (meer) op de Veilig Alternatief lijst voorkomen. De Top 600 en Veilig Alternatief zijn twee programma’s van het Actiecentrum Veiligheid en Zorg (AcVZ), waar een netwerk van (overheids)partijen gezamenlijk maatschappelijke problemen op het gebied van veiligheid en zorg aanpakken. Welke problemen dit zijn, wordt gezamenlijk bepaald door de organisaties die samen het AcVZ vormen, onder regie van de Gemeente Amsterdam.",
@@ -18361,7 +18385,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1530,
-  "fetched_at": "2026-08-08T06:20:11Z",
+  "count": 1532,
+  "fetched_at": "2026-08-11T06:24:42Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
