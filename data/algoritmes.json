@@ -13453,6 +13453,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/76486672"
     },
     {
+      "doel": "De RPA ondersteunt het werkproces binnen het RIEC door geautomatiseerd gegevens op te halen uit het datawarehouse (DWH), deze te verwerken in een Excelbestand en het bestand op te slaan in een SharePoint-omgeving. Hiermee wordt een handmatig en repeterend proces geautomatiseerd, waardoor de verwerking sneller, consistenter en minder foutgevoelig verloopt. De RPA voert uitsluitend vooraf vastgelegde handelingen uit en neemt geen autonome beslissingen of inhoudelijke beoordelingen over personen of dossiers. De gegenereerde bestanden worden gebruikt als ondersteuning van de werkzaamheden van medewerkers, die verantwoordelijk blijven voor de verdere beoordeling en verwerking van de informatie. De inzet van de RPA draagt bij aan een efficiëntere uitvoering van de werkzaamheden en vermindert de administratieve belasting voor medewerkers.",
+      "geregistreerd": "2026-08-10",
+      "id": "76551752",
+      "impactassessment": "Ja",
+      "juridische_basis": "https://wetten.overheid.nl/BWBR0049962/2025-03-01?g=2025-03-08&z=2025-03-08",
+      "organisatie": "Gemeente Amsterdam",
+      "status": "in_gebruik",
+      "title": "RPA -Verwerken RIEC informatieverzoeken",
+      "toegevoegd": "2026-08-12",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/76551752"
+    },
+    {
       "doel": "Het systeem herkent fietsen in de fietsenstallingen. Het systeem maakt een paar keer per dag foto’s die het met elkaar vergelijkt. Op die manier ziet het systeem wat de bezetting in de stalling is en hoe lang een fiets op dezelfde plek staat. Met deze informatie kunnen we weesfietsen verwijderen als deze te lang blijven staan. Voor de termijnen zie algemene voorwaarden.",
       "geregistreerd": "2025-09-17",
       "id": "76679272",
@@ -15206,7 +15218,7 @@
     },
     {
       "doel": "Door efficiënter en frequenter monitoren van natuur, in dit specifieke geval heide, het gerichter bepalen van bron- en effectmaatregelen.",
-      "geregistreerd": "2024-06-04",
+      "geregistreerd": "2026-08-11",
       "id": "85175538",
       "impactassessment": "Ja",
       "juridische_basis": "",
@@ -18385,7 +18397,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1532,
-  "fetched_at": "2026-08-11T06:24:42Z",
+  "count": 1533,
+  "fetched_at": "2026-08-12T06:36:01Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
