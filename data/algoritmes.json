@@ -14401,6 +14401,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/81764857"
     },
     {
+      "doel": "Het algoritme heeft als doel om een dataset te genereren om vast te stellen welke ex-toeslagpartners mogelijk recht hebben op de ex-toeslagpartnerregeling. Daarnaast ondersteunt het algoritme behandelaars bij het beoordelen van dit recht op deze regeling. Ex-toeslagpartners die in aanmerking komen voor de regeling ontvangen een vaste vergoeding van €10.000. Daarnaast kunnen zij brede ondersteuning van de gemeente krijgen waar zij wonen, inclusief hulp bij schulden en ondersteuning bij aanvullende schade. Door het algoritme te gebruiken worden ex-toeslagpartners van gedupeerde ouders efficiënt, nauwkeurig en consistent herkend. Op deze manier kunnen ex-toeslagpartners die recht hebben op de ex-toeslagpartnerregeling zo snel mogelijk geholpen worden. Ex-toeslagpartners moeten zichzelf voor deze regeling aanmelden. Het algoritme wordt ook ingezet bij de uitvoering van de ex-toeslagpartnerregeling. Zo helpt het algoritme dat een ex-toeslagpartner van gedupeerde ouders de tegemoetkoming, de juiste brieven en verdere hulp krijgt.",
+      "geregistreerd": "2026-08-13",
+      "id": "81765166",
+      "impactassessment": "Ja",
+      "juridische_basis": "De wettelijke grondslag en het gebruik en verzamelen van gegevens is geregeld in de: - Wet hersteloperatie toeslagen, Afdeling 2.3 (artikelen 2.14g – 2.14i ) en artikel 6.12 lid 3, 4 en 6 onder c, 12 t/m 17 Wht - Uitvoeringswet Algemene verordening gegevensbescherming - Wet algemene bepalingen Burgerservicenummer - Archiefwet 1995",
+      "organisatie": "Dienst Toeslagen",
+      "status": "in_gebruik",
+      "title": "Ex-toeslagpartnerregeling",
+      "toegevoegd": "2026-08-14",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/81765166"
+    },
+    {
       "doel": "Het doel hiervan is om zowel bestuursleden als inwoners te voorzien van duidelijke samenvattingen en grondige analyses van bestuursdocumenten, zodat zij beter geïnformeerd beslissingen kunnen nemen en betrokken kunnen raken bij lokale kwesties.",
       "geregistreerd": "2025-08-04",
       "id": "81767380",
@@ -18397,7 +18409,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1533,
-  "fetched_at": "2026-08-12T06:36:01Z",
+  "count": 1534,
+  "fetched_at": "2026-08-14T06:36:06Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
