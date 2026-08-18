@@ -2533,6 +2533,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/24913733"
     },
     {
+      "doel": "Doel: Schulinck AI-Desk is ontwikkeld om gemeentelijke professionals (zoals consulenten, administratief juridisch medewerkers en kwaliteitsmedewerkers) direct te voorzien van een helder antwoord op juridische vraagstukken. Hiermee kunnen medewerkers efficiënter werken en sneller tot de juiste oplossing komen in lopende casussen.Impact: In het dagelijks gebruik ondersteunt AI-Desk professionals onder meer bij het behandelen van individuele hulpvragen en het intern borgen van juridische kwaliteit. Dit leidt ertoe dat de dienstverlening richting de inwoner consistenter en zorgvuldiger wordt.",
+      "geregistreerd": "2026-08-17",
+      "id": "24937867",
+      "impactassessment": "Ja",
+      "juridische_basis": "De AI-desk wordt alleen gebruikt in interne processen en neemt geen beslissingen zonder menselijke tussenkomst. Een wettelijke grondslag is daarom niet vereist.",
+      "organisatie": "Gemeente Oss",
+      "status": "in_gebruik",
+      "title": "Schulinck AI Desk",
+      "toegevoegd": "2026-08-18",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/24937867"
+    },
+    {
       "doel": "",
       "geregistreerd": "2025-07-08",
       "id": "24996567",
@@ -18421,7 +18433,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1535,
-  "fetched_at": "2026-08-15T06:11:36Z",
+  "count": 1536,
+  "fetched_at": "2026-08-18T06:13:29Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
