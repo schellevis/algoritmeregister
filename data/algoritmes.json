@@ -2077,11 +2077,11 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/22949530"
     },
     {
-      "doel": "Generatieve AI biedt veel mogelijkheden om het werk te verlichten zoals het vinden van informatie, het samenvatten van documenten, het analyseren van data of het helpen schrijven van stukken. Maar deze technologie heeft ook keerzijdes: het trainen van AI kost veel energie en natuurlijke grondstoffen, eigenaren van het bronmateriaal voor het trainen van de modellen worden niet betaald, en het model kan – afhankelijk van de bronnen – racistische of andere ethisch onwenselijke resultaten opleveren. Los van deze algemene kritiekpunten, zijn er ook risico’s voor de organisatie. Documenten die aangeboden worden aan een chatbot, kunnen door de leverancier gebruikt worden om het model verder te trainen. Wat als daar gevoelige informatie in staat? Of als een ambtenaar de bot raadpleegt om informatie te vinden om besluitvorming te ondersteunen, terwijl het model antwoord geeft op basis van gedateerde of ronduit onjuiste informatie? Om de waarde van Generatieve AI voor Amsterdam te verkennen en tegelijkertijd de praktijkrisico’s in kaart te brengen, is er onderzoek nodig. Medewerkers van Amsterdam gaan daarom gedurende een beperkte periode een interne Generatieve AI chatbot gebruiken: ChatAmsterdam. Deze chatbot is gebouwd met het GPT4o taalmodel van Open AI en is verder niet aangepast of aangevuld met (interne) trainingsdata. Gedurende de onderzoeksperiode worden gebruiksgedrag, waarde en risico’s in kaart gebracht om te bepalen of we deze technologie in de toekomst gaan gebruiken.",
-      "geregistreerd": "2026-07-02",
+      "doel": "Generatieve AI biedt medewerkers van de gemeente Amsterdam ondersteuning bij werkzaamheden zoals schrijven, samenvatten, structureren, vertalen, brainstormen en tekstverbetering. ChatAmsterdam is ontwikkeld om medewerkers gebruik te laten maken van generatieve AI binnen een veilige omgeving waar de gemeente grip en regie heeft op de toepassing. ChatAmsterdam is een intern hulpmiddel voor medewerkers en is niet bedoeld als zoekmachine, actuele feitenbron of zelfstandig adviesinstrument. Het vervult geen officiële stap in bedrijfsprocessen. De toepassing heeft geen directe impact op burgers of bedrijven. Het human/expert in the loop principe is te allen tijde van toepassing.",
+      "geregistreerd": "2026-08-25",
       "id": "23189993",
       "impactassessment": "Ja",
-      "juridische_basis": "",
+      "juridische_basis": "ChatAmsterdam wordt ingezet als intern ondersteunend hulpmiddel voor medewerkers van de gemeente Amsterdam. De toepassing neemt geen besluiten en voert geen geautomatiseerde besluitvorming uit. De inzet vindt plaats binnen de kaders van de geldende wet- en regelgeving voor informatiebeveiliging, privacy en verantwoord gebruik van AI.",
       "organisatie": "Gemeente Amsterdam",
       "status": "in_gebruik",
       "title": "ChatAmsterdam",
@@ -17713,6 +17713,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/96472646"
     },
     {
+      "doel": "Youforce is een HR-platform en dus niet per definitie een AI-systeem. Het bevat wel enkele AI-features om repetitieve taken te automatiseren, data te analyseren en processen efficiënter te maken. De gemeente Terneuzen gebruikt Youforce voor de salarisadministratie. Daarbij wordt gebruik gemaakt van de declaratietool met AI-parser.",
+      "geregistreerd": "2026-08-25",
+      "id": "96578966",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Terneuzen",
+      "status": "in_gebruik",
+      "title": "Youforce",
+      "toegevoegd": "2026-08-26",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/96578966"
+    },
+    {
       "doel": "Een goed algoritme zorgt ervoor dat we minder klantdossiers met de hand hoeven te verwerken. Dit bespaart kosten en onze medewerkers kunnen zich richten op maatwerk waar dat nodig is. Automatisering zorgt er ook voor dat we sneller kunnen werken, waardoor burgers eerder geholpen worden. Het maakt voor de uitkomst van de beoordeling niet uit of een mens of een algoritme de beoordeling doet: beiden volgen de wet.",
       "geregistreerd": "2024-10-28",
       "id": "96585577",
@@ -18433,7 +18445,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1536,
-  "fetched_at": "2026-08-19T06:14:12Z",
+  "count": 1537,
+  "fetched_at": "2026-08-26T06:15:48Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
