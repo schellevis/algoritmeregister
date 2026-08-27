@@ -4657,6 +4657,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/34637669"
     },
     {
+      "doel": "Facturen ontvangen en automatisch verwerken. Door facturen automatisch in te lezen en te verwerken, worden onze processen efficiënter en gebeuren er minder manuele fouten.",
+      "geregistreerd": "2026-08-26",
+      "id": "34647484",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Terneuzen",
+      "status": "in_gebruik",
+      "title": "Factuurportal",
+      "toegevoegd": "2026-08-27",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/34647484"
+    },
+    {
       "doel": "Betere en goed onderbouwde besluitvorming om interventies van de leefbaarheid in de wijken te verbeteren. Subdoelen Effectiever en efficiënter analyseren van wat er aan data binnen een wijk beschikbaar is en welke verbanden mogelijk (correlatie) het meeste effect gaan hebben. Met een AI-analyse maken we de beoordeling van de data persoonsonafhankelijker. Transparantie en herleidbaarheid van de analyse. Ervaring opdoen met de (on)mogelijkheden van AI.",
       "geregistreerd": "2025-04-15",
       "id": "34665376",
@@ -18445,7 +18457,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1537,
-  "fetched_at": "2026-08-26T06:15:48Z",
+  "count": 1538,
+  "fetched_at": "2026-08-27T09:14:55Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
