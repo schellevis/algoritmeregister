@@ -12229,14 +12229,14 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/68976385"
     },
     {
-      "doel": "De doelen zijn: 1. De inschrijving van een eenmanszaak voor de starters is uitgebreid met de Invoerhulp. Hierdoor kan de starter zelfstandig een eenduidige, gestructureerde activiteitenomschrijving opstellen door middel van vraag en antwoord met kunstmatige intelligentie. 2. De vertaling van de bedrijfsactiviteiten naar SBI codes voor de KVK medewerker vereenvoudigen. Doordat de aangeleverde teksten van hogere kwaliteit zijn en voorstellen voor passende SBI codes gedaan wordt, kan er sneller en eenvoudiger geclassificeerd worden en kan het inschrijfgesprek over het starten van de onderneming gaan.",
-      "geregistreerd": "2024-11-18",
+      "doel": "De doelen zijn: De inschrijving van een eenmanszaak voor starters is verbeterd met de Invoerhulp. Hierdoor kan de starter zelf een duidelijke en gestructureerde beschrijving van zijn activiteiten maken met behulp van vragen en antwoorden van kunstmatige intelligentie. De vertaling van de bedrijfsactiviteiten naar SBI-codes voor de KVK-medewerker is eenvoudiger. De teksten zijn van betere kwaliteit en er worden voorstellen gedaan voor geschikte SBI-codes. Dit maakt het sneller en makkelijker om te classificeren.",
+      "geregistreerd": "2026-08-31",
       "id": "68982775",
       "impactassessment": "Ja",
       "juridische_basis": "Handelsregisterwet artikel 13, Handelsregisterwet 2007",
       "organisatie": "Kamer van Koophandel",
       "status": "in_gebruik",
-      "title": "Invoerhulp Bedrijfsactiviteiten 2.0",
+      "title": "Invoerhulp Bedrijfsactiviteiten 3.0 (LLM)",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/68982775"
     },
@@ -18458,6 +18458,6 @@
     }
   ],
   "count": 1538,
-  "fetched_at": "2026-08-27T09:14:55Z",
+  "fetched_at": "2026-09-01T06:30:37Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
