@@ -4609,6 +4609,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/34493944"
     },
     {
+      "doel": "Het doel van deze applicatie is om digitale post gemakkelijk te versturen. Dit past bij onze visie op digitalisering. De applicatie heeft enkele functies met kunstmatige intelligentie. Er is bijvoorbeeld een functie die met kunstmatige intelligentie een brief kan samenvatten in een andere taal. Zo kunnen mensen die een andere taal spreken de inhoud van de brief begrijpen. Het is duidelijk dat het om een samenvatting door AI gaat en dat het niet de exacte inhoud van de brief is. Met deze functie verbeteren we onze dienstverlening voor anderstalige inwoners.",
+      "geregistreerd": "2026-09-02",
+      "id": "34495650",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Terneuzen",
+      "status": "in_gebruik",
+      "title": "Postex",
+      "toegevoegd": "2026-09-03",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/34495650"
+    },
+    {
       "doel": "Het doel van de e-diensten met het onderliggende algoritme is inwoners en ondernemers maximaal ondersteunen/begeleiden bij een digitale aanvraag. Daardoor kan deze aanvraag juist en volledig worden ingediend. Het algoritme controleert verschillende gegevens van de inwoner. Als er geen aanvullende gegevens nodig zijn van de inwoner en er geen handmatige acties of controles van de gemeente zijn vereist (zoals bijvoorbeeld ondertekening) om de aanvraag te verwerken, dan kan deze verwerkt worden zonder tussenkomst van een burgerzakenmedewerker. Zijn er wel aanvullende gegevens, controles of acties nodig, dan komt de aanvraag/aangifte altijd terecht in een werklijst. Daar wordt deze gecontroleerd door een burgerzakenmedewerker. Het algoritme kan alleen automatisch een aanvraag/aangifte goedkeuren. Een aanvraag/aangifte afkeuren kan alleen de burgerzakenmedewerker. De impact is dat een dergelijke aanvraag efficiënt kan worden afgehandeld door de gemeente; een inwoner/bedrijf heeft namelijk diverse stappen (werkzaamheden) al uitgevoerd, waardoor de ambtenaar meer tijd overhoudt voor de bijzondere en/of ingewikkelde aangiften/aanvragen die de gemeente ontvangt. In een aantal gevallen kan deze aanvraag zelfs volledig automatisch worden verwerkt. De kwaliteit van de dienstverlening gaat door deze diensten omhoog, net als de kwaliteit van de gegevens in de BRP.",
       "geregistreerd": "2025-11-03",
       "id": "34541917",
@@ -15949,6 +15961,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/88146342"
     },
     {
+      "doel": "Het algoritme helpt om telefoongesprekken met het Klantcontactcentrum sneller en beter vast te leggen. Medewerkers hoeven minder aantekeningen te maken tijdens en na het gesprek. Hierdoor kunnen zij beter luisteren naar de beller. De manier van werken blijft hetzelfde voor inwoners en bedrijven. De beller merkt niets van het algoritme. Als het gesprek wordt opgenomen, maakt de software na het gesprek een korte samenvatting van wat er is besproken. Deze samenvatting is alleen voor de medewerker die het gesprek heeft gevoerd. Het helpt om het contact in de systemen van de gemeente goed vast te leggen. Het algoritme neemt geen beslissingen over de beller en geeft geen adviezen. Een goed vastgelegd gesprek helpt de beller bij een volgend contact. De gemeente kan dan beter zien wat er eerder is besproken.",
+      "geregistreerd": "2026-09-02",
+      "id": "88226327",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Noordwijk",
+      "status": "in_gebruik",
+      "title": "Automatisch samenvatten van telefoongesprekken (Klantcontactcentrum)",
+      "toegevoegd": "2026-09-03",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/88226327"
+    },
+    {
       "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
       "geregistreerd": "2024-09-12",
       "id": "88251468",
@@ -18457,7 +18481,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1538,
-  "fetched_at": "2026-09-01T06:30:37Z",
+  "count": 1540,
+  "fetched_at": "2026-09-03T06:28:42Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
