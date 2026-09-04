@@ -11485,6 +11485,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/65464579"
     },
     {
+      "doel": "Dit algoritme is gemaakt om foto's met herkenbare mensen in bezwaren tegen de WOZ automatisch te verbergen. Hierdoor kunnen bezwaren sneller en beter worden behandeld, zonder dat de indiener opnieuw documenten hoeft in te leveren.",
+      "geregistreerd": "2026-09-03",
+      "id": "65569883",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Meierijstad",
+      "status": "in_gebruik",
+      "title": "Foto’s in WOZ-bezwaren anonimiseren",
+      "toegevoegd": "2026-09-04",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/65569883"
+    },
+    {
       "doel": "Verkeersinformatiesystemen winnen informatie in óver het verkeer, of verstrekken informatie áán het verkeer. Ook reguleren zij verkeer met kantelwalsen, pollers, slagbomen, e.d.",
       "geregistreerd": "2025-09-10",
       "id": "65572593",
@@ -17497,6 +17509,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/95128333"
     },
     {
+      "doel": "Tolkie helpt inwoners die moeite hebben met lezen. Tolkie maakt teksten op de website bijvoorbeeld gemakkelijker. Zo begrijpen inwoners de teksten beter en zijn zij zelfredzamer.",
+      "geregistreerd": "2026-09-03",
+      "id": "95197324",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Privacy: Algemene Verordening Persoonsgegevens (AVG). Tolkie werkt alleen met bestaande openbare teksten op de gemeentelijke website, geen persoonsgegevens. Toegankelijkheid: Besluit Digitale Toegankelijkheid. Overheidswebsites moeten goed leesbaar zijn. Regels voor duidelijke online diensten: EU Accessibility Act. VN-verdrag Handicap: Iedereen heeft recht op begrijpelijke digitale informatie.",
+      "organisatie": "Gemeente Meierijstad",
+      "status": "in_gebruik",
+      "title": "Leeshulp website",
+      "toegevoegd": "2026-09-04",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/95197324"
+    },
+    {
       "doel": "Efficiënt en uniform innemen van en besluiten op aanvragen voor bijstand, bijzondere bijstand, Bbz, IIT en minimaregelingen. Het algoritme wordt ingezet in een applicatie voor inwoners van de ca. 50 aangesloten gemeenten en controleert gedurende de aanvraag of de aanvrager voldoet aan verschillende (wettelijke) criteria. De uitkomst wordt gedeeld met de aanvrager.",
       "geregistreerd": "2025-08-19",
       "id": "95245469",
@@ -18481,7 +18505,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1540,
-  "fetched_at": "2026-09-03T06:28:42Z",
+  "count": 1542,
+  "fetched_at": "2026-09-04T06:28:29Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
