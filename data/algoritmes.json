@@ -6985,6 +6985,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/45171996"
     },
     {
+      "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd. Het algoritme herkent (persoons)gegevens en anderszins vertrouwelijke informatie in een document en doet een voorstel om dit te anonimiseren. Een medewerker beoordeelt het voorstel en voert de aanpassing definitief door, zodat het document geschikt is voor publicatie.",
+      "geregistreerd": "2026-09-09",
+      "id": "45212778",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
+      "organisatie": "Gemeente Midden-Drenthe",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-09-10",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/45212778"
+    },
+    {
       "doel": "​Het algoritme heeft als doel om de tarieven voor het uitvoeren van wettelijke taken voor ​alle netbeheerders (landelijk en regionaal) vast te stellen voor het komende kalenderjaar. Het gaat om tarieven voor de uitvoering van transport, balancering, kwaliteitsconversie en aansluitingen.",
       "geregistreerd": "2026-05-04",
       "id": "45234398",
@@ -18505,7 +18517,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1542,
-  "fetched_at": "2026-09-04T06:28:29Z",
+  "count": 1543,
+  "fetched_at": "2026-09-10T06:28:58Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
