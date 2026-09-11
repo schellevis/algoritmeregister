@@ -301,6 +301,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/12678378"
     },
     {
+      "doel": "Het doel van de e-diensten met het onderliggende algoritme is inwoners en ondernemers van gemeente Raalte te ondersteunen bij het digitaal indienen van een aanvraag. Het systeem controleert verschillende gegevens die nodig zijn voor de aanvraag. Soms zijn er geen aanvullende gegevens nodig en zijn er geen handmatige acties of controles door gemeente Raalte vereist. In dat geval kan een eenvoudige aanvraag automatisch worden verwerkt. Zijn er wel aanvullende gegevens, controles of acties nodig, dan komt de aanvraag of aangifte altijd terecht in een werklijst. Deze wordt beoordeeld door een medewerker van burgerzaken. Het algoritme kan alleen automatisch een aanvraag of aangifte goedkeuren. Een aanvraag of aangifte afwijzen kan alleen door een medewerker burgerzaken. De e-diensten dragen eraan bij dat gemeente Raalte digitale aanvragen efficiënter kan afhandelen. Een inwoner of ondernemer heeft zelf al een deel van de benodigde stappen uitgevoerd. Hierdoor kunnen medewerkers meer tijd besteden aan bijzondere of ingewikkelde aanvragen. In een aantal gevallen kan een aanvraag volledig automatisch worden verwerkt. Dit draagt bij aan een betere dienstverlening en aan de kwaliteit van de gegevens in de BasisRegistratie Personen (BRP).",
+      "geregistreerd": "2026-09-01",
+      "id": "12683169",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet basisregistratie personen Wet rechten burgerlijke stand",
+      "organisatie": "Gemeente Raalte",
+      "status": "in_gebruik",
+      "title": "iBurgerzaken e-diensten",
+      "toegevoegd": "2026-09-11",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/12683169"
+    },
+    {
       "doel": "Zo goed mogelijk de inwoner begrijpen en hem aan het juiste antwoord helpen. Dat kan soms een inhoudelijk of procedureel antwoord zijn, soms een doorverwijzing of een overdracht naar een (livechat-)medewerker. De virtuele assistent wordt alleen ingezet om meer hulp te kunnen bieden door landelijk vastgestelde antwoorden te geven op burger- en ondernemersvragen of doorverwijzing naar een medewerker.",
       "geregistreerd": "2025-02-10",
       "id": "12751163",
@@ -2075,6 +2087,18 @@
       "title": "iBurgerzaken e-diensten",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/22949530"
+    },
+    {
+      "doel": "Het algoritme helpt om meldingen te sorteren. Het herkent woorden in de tekst van de melding. Op basis van deze woorden kiest het de juiste categorie. De melding gaat dan naar de juiste afdeling. Hierdoor hoeft de inwoner minder keuzes te maken en kan de gemeente meldingen sneller verwerken.",
+      "geregistreerd": "2026-09-01",
+      "id": "23115822",
+      "impactassessment": "Nee",
+      "juridische_basis": "De verwerking vindt plaats in het kader van de gemeentelijke taak om meldingen over de openbare ruimte te ontvangen, te beoordelen en af te handelen.",
+      "organisatie": "Gemeente Raalte",
+      "status": "in_gebruik",
+      "title": "Meldingen openbare ruimte (Signalen)",
+      "toegevoegd": "2026-09-11",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/23115822"
     },
     {
       "doel": "Generatieve AI biedt medewerkers van de gemeente Amsterdam ondersteuning bij werkzaamheden zoals schrijven, samenvatten, structureren, vertalen, brainstormen en tekstverbetering. ChatAmsterdam is ontwikkeld om medewerkers gebruik te laten maken van generatieve AI binnen een veilige omgeving waar de gemeente grip en regie heeft op de toepassing. ChatAmsterdam is een intern hulpmiddel voor medewerkers en is niet bedoeld als zoekmachine, actuele feitenbron of zelfstandig adviesinstrument. Het vervult geen officiële stap in bedrijfsprocessen. De toepassing heeft geen directe impact op burgers of bedrijven. Het human/expert in the loop principe is te allen tijde van toepassing.",
@@ -4739,6 +4763,18 @@
       "title": "Anonimiseringsoftware",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/34788992"
+    },
+    {
+      "doel": "Het is moeilijk om ingewikkelde digitale omgevingsplannen in het Digitaal Stelsel Omgevingswet (DSO) handmatig te doorzoeken. Voor mensen die geen specialist zijn, is het vaak lastig om snel te zien welke regels gelden voor een bepaald stuk grond. Struck helpt medewerkers van de gemeente Olst-Wijhe om snel en duidelijk regels uit het omgevingsplan te vinden. Medewerkers kunnen in eenvoudige taal vragen stellen over wat ze kunnen bouwen of gebruiken op een bepaalde plek. Het systeem laat relevante regels zien, geeft een samenvatting en verwijst naar de broninformatie. Dit kan helpen om sneller informatie te geven aan inwoners en bedrijven.",
+      "geregistreerd": "2026-09-09",
+      "id": "34796737",
+      "impactassessment": "Ja",
+      "juridische_basis": "De Omgevingswet en het omgevingsplan van de gemeente Olst-Wijhe zijn belangrijke regels voor bouwen en wonen. Ze zorgen ervoor dat de omgeving goed wordt ingericht.",
+      "organisatie": "Gemeente Olst-Wijhe",
+      "status": "in_gebruik",
+      "title": "Struck",
+      "toegevoegd": "2026-09-11",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/34796737"
     },
     {
       "doel": "Doel: Het doel van het Geluidsmonitoringsysteem is om geluidsoverlast in de drukke centrumgebieden (evenementlocaties) van Almere effectiever te signaleren en aan te pakken. Door real-time inzicht in geluidsniveaus te verkrijgen, kan de gemeente gerichter handhaven. Impact: Het Geluidsmonitoringsysteem werkt voornamelijk met decibeldata, wat geen persoonsgegevens zijn. Incidenteel wordt audiostreaming ingezet voor handhaving, waarbij mogelijk wél persoonsgegevens worden verwerkt als deze te herleiden zijn via tijd, locatie of camerabeelden. Daarom is een DPIA uitgevoerd. Er zijn maatregelen genomen om de privacyrisico’s te beperken, zoals het niet opslaan van audio en het voorkomen van downloads van herleidbare geluidsopnames. Wanneer stemgeluiden worden herkend, wordt een melding gegeven: \"onbruikbaar geluidsfragment\".",
@@ -7657,6 +7693,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/47653623"
     },
     {
+      "doel": "De gemeente Raalte gebruikt M365 Copilot. Dit is een hulpmiddel binnen de M365-omgeving. Het helpt medewerkers om sneller informatie te verwerken en om teksten te maken. Het doel is om de interne werkprocessen te ondersteunen. M365 Copilot neemt geen beslissingen. De impact is vooral voor de medewerkers: zij kunnen sneller werken en makkelijker een eerste tekst of overzicht maken. Inwoners en ondernemers krijgen geen automatisch besluit van M365 Copilot. Het helpt alleen medewerkers met voorbereidende en administratieve taken. De kwaliteit van het werk hangt af van de controle door mensen.",
+      "geregistreerd": "2026-09-01",
+      "id": "47688849",
+      "impactassessment": "Ja",
+      "juridische_basis": "De inzet van M365 Copilot wordt beoordeeld binnen de kaders van de Europese AI-verordening, de Algemene Verordening Gegevensbescherming en het gemeentelijk beleid voor informatiebeveiliging en privacy. Voor deze toepassing is menselijk toezicht belangrijk, omdat de uitkomsten ondersteunend zijn en altijd door een medewerker beoordeeld moeten worden. Daarnaast gelden interne richtlijnen voor verantwoord gebruik van generatieve AI. Deze richtlijnen helpen medewerkers om zorgvuldig om te gaan met gegevens, bronnen te controleren en de uitkomsten van Copilot niet zonder beoordeling over te nemen.",
+      "organisatie": "Gemeente Raalte",
+      "status": "in_gebruik",
+      "title": "Microsoft M365 Copilot",
+      "toegevoegd": "2026-09-11",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/47688849"
+    },
+    {
       "doel": "Het doel van dit algoritme is om efficiënter te selecteren welke aangiften mogelijk een risico geven op het niet naleven van de vergunningsplicht voor gefluoreerde broeikasgassen. Dit algoritme richt zich op naleving van de vergunningsplicht voor gefluoreerde broeikasgas producten die de Europese Unie (via Nederland) binnenkomen of verlaten. De Douane controleert bedrijven op basis van de uitkomsten van dit algoritme.",
       "geregistreerd": "2025-04-02",
       "id": "47735792",
@@ -8171,6 +8219,18 @@
       "title": "Sociaal Domein: PKO Kennissystemen",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/51244529"
+    },
+    {
+      "doel": "Het doel van Octobox Anonimiseren is om de gemeente Olst-Wijhe te helpen. Dit doen we door privacygevoelige informatie in documenten te herkennen en te beschermen. Octobox geeft suggesties voor informatie die beschermd moet worden. Medewerkers van de gemeente kijken naar deze suggesties. Ze kunnen de suggesties goedkeuren, aanpassen of afwijzen. De software neemt geen automatische beslissingen. Het is aan de medewerkers om te bepalen welke informatie beschermd wordt. Octobox helpt hen bij deze beoordeling, maar neemt geen beslissingen voor inwoners, ondernemers of anderen.",
+      "geregistreerd": "2026-09-09",
+      "id": "51259134",
+      "impactassessment": "Ja",
+      "juridische_basis": "De Algemene verordening gegevensbescherming (AVG) en andere wetten zoals de Wet open overheid (Woo) zijn belangrijk voor de bescherming van persoonlijke gegevens en transparantie in de overheid. Deze wetten zorgen ervoor dat mensen weten hoe hun gegevens worden gebruikt.",
+      "organisatie": "Gemeente Olst-Wijhe",
+      "status": "in_gebruik",
+      "title": "Octobox Anonimiseren",
+      "toegevoegd": "2026-09-11",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/51259134"
     },
     {
       "doel": "Jaarlijks ontvangt de Belastingdienst meer dan 10 miljoen aangiften inkomstenbelasting, die binnen drie jaar definitief moeten worden vastgesteld. Daarom gebruikt de Belastingdienst een algoritme om aangiften met daarin mogelijke vergissingen door burgers te ontdekken. Dat gebeurt met relevante gegevens die al bij de Belastingdienst bekend zijn en de gegevens die door de belastingplichtige in de aangifte zijn opgenomen. De Belastingdienst herstelt deze vergissingen in aangiften inkomstenbelasting in een vroeg stadium in contact met burgers. Door dit herstel heeft een burger sneller duidelijkheid met een definitieve aanslag inkomstenbelasting met daarbij een juist verzamelinkomen.",
@@ -9194,7 +9254,7 @@
     },
     {
       "doel": "Voorkomen dat vertrouwelijke gegevens openbaar worden, in het bijzonder bij de uitvoering van de Woo. Hiermee beschermen we gegevens van onze burgers en bedrijven.",
-      "geregistreerd": "2024-06-11",
+      "geregistreerd": "2026-09-10",
       "id": "55278531",
       "impactassessment": "Onbekend",
       "juridische_basis": "Wet Open Overheid (Woo) en de Algemene verordening gegevensbescherming (AVG)",
@@ -9671,6 +9731,18 @@
       "title": "Overstapportaal Erfpacht",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/57623362"
+    },
+    {
+      "doel": "Het is tijdrovend om complexe, gelaagde digitale omgevingsplannen in het Digitaal Stelsel Omgevingswet (DSO) handmatig te doorzoeken. Door de gelaagde juridische structuur is het voor niet-specialisten vaak lastig om snel en nauwkeurig vast te stellen, welke specifieke regels op een bepaald perceel van kracht zijn. Het doel van Struck is om medewerkers van de gemeente Raalte te ondersteunen bij het snel en begrijpelijk raadplegen van regels uit het omgevingsplan. Medewerkers kunnen in gewone taal vragen stellen over gebruiks- en bouwmogelijkheden op een specifieke locatie. Het systeem toont relevante planregels, vat deze samen en verwijst naar de gebruikte broninformatie. Dit kan bijdragen aan kortere doorlooptijden en een snellere informatievoorziening aan inwoners en bedrijven.",
+      "geregistreerd": "2026-09-10",
+      "id": "57624815",
+      "impactassessment": "Ja",
+      "juridische_basis": "Besluit bouwwerken leefomgeving",
+      "organisatie": "Gemeente Raalte",
+      "status": "in_gebruik",
+      "title": "Struck (omgevingsplantoetsing)",
+      "toegevoegd": "2026-09-11",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/57624815"
     },
     {
       "doel": "Het doel is het efficient en uniform berekenen van belastingbedragen. De impact hangt samen met de belastingplicht van burgers en bedrijven. De uitkomst van de algoritmes is het belastbare bedrag. Dit wordt formeel door de heffingsambtenaar vastgesteld.",
@@ -10823,6 +10895,30 @@
       "title": "Premiedifferentiatie Werkloosheidswet (PDWW)",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/62767154"
+    },
+    {
+      "doel": "Mensen die in een schuldsituatie dreigen te raken, wil de gemeente Raalte zo vroeg mogelijk hulp aanbieden. Daarmee probeert de gemeente te voorkomen dat betalingsachterstanden uitgroeien tot ernstige schulden of leiden tot bijvoorbeeld huisuitzetting. Als problemen nog klein zijn, kan advies of een beperkte interventie al voldoende zijn. Om inwoners tijdig hulp te kunnen aanbieden, ontvangt de gemeente signalen van onder andere woningcorporaties, energieleveranciers, waterbedrijven en zorgverzekeraars wanneer sprake is van een betalingsachterstand. Dat deze partijen hiervoor noodzakelijke persoonsgegevens mogen delen met de gemeente, volgt uit de Wet gemeentelijke schuldhulpverlening.",
+      "geregistreerd": "2026-09-01",
+      "id": "62862947",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet gemeentelijke schuldhulpverlening (Wgs): sinds 1 januari 2021 is vroegsignalering voor gemeenten een wettelijke taak.",
+      "organisatie": "Gemeente Raalte",
+      "status": "in_gebruik",
+      "title": "Vroegsignalering gemeente Raalte",
+      "toegevoegd": "2026-09-11",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/62862947"
+    },
+    {
+      "doel": "De gemeente Olst-Wijhe gebruikt M365 Copilot om medewerkers te helpen. Deze toepassing maakt het makkelijker om informatie te verwerken en teksten te schrijven. Het doel is om de interne werkprocessen te ondersteunen, niet om beslissingen te nemen. Sommige medewerkers hebben extra functies in M365 Copilot. Ook kunnen er speciale agents worden gemaakt voor hulp binnen de organisatie. Deze agents helpen de gebruiker en respecteren de toegangsrechten. Ze nemen geen eigen beslissingen. De impact is vooral binnen de organisatie: medewerkers kunnen sneller werken en makkelijker een eerste versie of overzicht maken. Inwoners en ondernemers krijgen geen automatische beslissingen van M365 Copilot. De toepassing helpt alleen medewerkers met voorbereidende en administratieve taken. De kwaliteit hangt af van menselijke controle en zorgvuldig gebruik.",
+      "geregistreerd": "2026-09-09",
+      "id": "62914488",
+      "impactassessment": "Ja",
+      "juridische_basis": "De inzet van M365 Copilot wordt beoordeeld volgens de Europese regels voor kunstmatige intelligentie, de privacywetgeving en het gemeentelijk beleid voor informatiebeveiliging. Menselijk toezicht is belangrijk, omdat de resultaten van Copilot altijd door een medewerker moeten worden gecontroleerd. Ook zijn er richtlijnen voor het verantwoord gebruik van generatieve AI. Deze richtlijnen helpen medewerkers om goed om te gaan met gegevens en om de resultaten van Copilot niet zomaar over te nemen.",
+      "organisatie": "Gemeente Olst-Wijhe",
+      "status": "in_gebruik",
+      "title": "Microsoft; M365 Copilot",
+      "toegevoegd": "2026-09-11",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/62914488"
     },
     {
       "doel": "Protective Monitoring is een systeem dat de logbestanden van de politiesystemen controleert. Het systeem is bedoeld om snel afwijkend of risicovol gebruik van politiegegevens te vinden. Dit helpt om de politie, politiemedewerkers, burgers en de samenleving te beschermen tegen misbruik van gegevens. Protective Monitoring maakt het mogelijk om snel in te grijpen als er vermoedelijk misbruik is, zodat de schade beperkt blijft. Het is ook een preventief hulpmiddel, waarmee medewerkers op tijd gewaarschuwd en gecorrigeerd kunnen worden. Zo wordt voorkomen dat misbruik van politiesystemen structureel ontstaat.",
@@ -14279,6 +14375,18 @@
       "title": "Prestatiemonitor",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/79978718"
+    },
+    {
+      "doel": "De e-diensten helpen inwoners en ondernemers van de gemeente Olst-Wijhe om aanvragen digitaal in te dienen. Het systeem controleert de gegevens die nodig zijn voor de aanvraag. Als er geen extra gegevens of controles nodig zijn, kan een eenvoudige aanvraag automatisch worden verwerkt. Als er wel extra gegevens of controles nodig zijn, komt de aanvraag op een lijst en wordt deze bekeken door een medewerker van de gemeente. Het algoritme kan alleen aanvragen goedkeuren. Een aanvraag afwijzen kan alleen een medewerker doen. De e-diensten helpen de gemeente om aanvragen sneller te verwerken. Inwoners en ondernemers hebben al een deel van de stappen gedaan, zodat medewerkers meer tijd hebben voor moeilijke aanvragen. Soms kan een aanvraag helemaal automatisch worden verwerkt. Dit zorgt voor betere service en betere gegevens in de BRP.",
+      "geregistreerd": "2026-09-09",
+      "id": "81132876",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De Wet basisregistratie personen en de Wet rechten burgerlijke stand zijn belangrijke wetten in Nederland. Ze regelen hoe persoonsgegevens worden opgeslagen en hoe rechten van burgers worden beschermd.",
+      "organisatie": "Gemeente Olst-Wijhe",
+      "status": "in_gebruik",
+      "title": "iBurgerzaken e-diensten",
+      "toegevoegd": "2026-09-11",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/81132876"
     },
     {
       "doel": "De gemeente Almere strijdt tegen armoede. Met het algoritme krijgt de gemeente signalen over betaalachterstanden bij woningcorporaties, zorgverzekeraars, energie- en/of waterbedrijven. Er wordt geprobeerd om inwoners die een betalingsachterstand hebben en/of in schuldsituaties dreigen te geraken zo vroeg mogelijk te helpen en daarmee verdere armoedeproblemen te voorkomen. Als de financiële problemen nog klein zijn, kan advies soms al een goede oplossing zijn.",
@@ -17773,6 +17881,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/96289873"
     },
     {
+      "doel": "Het doel van Octobox Anonimiseren is om de gemeente Raalte te ondersteunen bij het veilig en efficiënt herkennen en lakken van privacygevoelige of vertrouwelijke informatie in documenten. Octobox doet voorstellen voor informatie die mogelijk beschermd moet worden. Medewerkers van de gemeente Raalte beoordelen deze voorstellen en kunnen ze overnemen, aanpassen of afwijzen. Er worden geen automatische besluiten genomen en de software bepaalt niet zelfstandig, welke informatie definitief wordt gelakt. De toepassing ondersteunt medewerkers bij hun beoordeling. Zij heeft daardoor geen zelfstandige beslissende werking richting inwoners, ondernemers of andere betrokkenen.",
+      "geregistreerd": "2026-09-01",
+      "id": "96428577",
+      "impactassessment": "Ja",
+      "juridische_basis": "Algemene verordening gegevensbescherming (AVG), Algemene Wet Bestuursrecht (AWB), Bekendmakingswet, Wet open Overheid (WOO), Wet Elektronische Publicaties (WEP).",
+      "organisatie": "Gemeente Raalte",
+      "status": "in_gebruik",
+      "title": "Octobox Anonimiseren",
+      "toegevoegd": "2026-09-11",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/96428577"
+    },
+    {
       "doel": "Als er op straat of in een park iets gemaakt of opgeruimd moet worden, dan kan dat bij de gemeente worden gemeld via de Fixi app, het meldingensysteem van de gemeente Oegstgeest. Ook een gevaarlijke verkeerssituatie, woonoverlast of overlast van personen en horeca kan gemeld worden. De melder kiest zelf welke hoofdcategorie bij de melding het beste past (bijvoorbeeld ‘overlast’ of ‘straatmeubilair’). Medewerkers van de gemeente controleren de ingediende meldingen en verdelen deze in subcategorieën, zodat de melding bij het juiste behandelteam van de gemeente terecht komt. Aan elke (sub-)categorie is een vooraf bepaalde afhandeltermijn gekoppeld.",
       "geregistreerd": "2026-01-15",
       "id": "96472646",
@@ -18517,7 +18637,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1543,
-  "fetched_at": "2026-09-10T06:28:58Z",
+  "count": 1553,
+  "fetched_at": "2026-09-11T06:28:12Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
