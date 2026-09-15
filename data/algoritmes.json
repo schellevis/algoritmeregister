@@ -3505,14 +3505,14 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/28676629"
     },
     {
-      "doel": "Het algoritme is gemaakt om het proces van kwijtschelding van belastingen makkelijker en sneller te maken voor de burger en ondernemer. Het voorspelt welke verzoeken waarschijnlijk toch in aanmerking komen voor kwijtschelding. Hierdoor kan de gemeente efficiënter werken en wordt de dienstverlening voor Amsterdammers moderner en klantvriendelijker. Amsterdammers krijgen te maken met het algoritme wanneer ze een verzoek tot kwijtschelding indienen. Als het algoritme voorspelt dat het verzoek waarschijnlijk zal worden goedgekeurd, geeft het dit advies aan de behandelend ambtenaar. Deze neemt dit advies mee in zijn afweging. Als het advies wordt opgevolgd, hoeft de burger geen extra informatie op te sturen. Dit maakt het proces voor de burger sneller en eenvoudiger. Als het algoritme geen advies kan geven, wordt het verzoek op de normale manier door een medewerker beoordeeld. Het algoritme zorgt ervoor dat burgers minder administratieve lasten hebben en sneller een antwoord krijgen. Voor de gemeente betekent dit een efficiënter proces en minder werk. Een medewerker neemt altijd de uiteindelijke beslissing, zodat het proces betrouwbaar blijft. Het algoritme wordt gebruikt binnen de gemeente.",
-      "geregistreerd": "2025-10-02",
+      "doel": "Het algoritme is ontwikkeld om medewerkers te ondersteunen bij het verwerken van kwijtscheldingsaanvragen. In sommige gevallen vraagt de gemeente aanvullende informatie op om een verzoek tot kwijtschelding te kunnen beoordelen. Het algoritme helpt om alle benodigde informatie uit de toegestuurde documenten te halen en overzichtelijk te presenteren aan medewerkers. Medewerkers controleren de gegevens en nemen de uiteindelijke beslissing of de gemeentelijke belastingen worden kwijtgescholden. De inzet van het algoritme heeft als impact dat medewerkers efficiënter kunnen werken, omdat zij minder tijd kwijt zijn aan het handmatig verzamelen en ordenen van informatie. Voor burgers betekent dit dat hun aanvragen sneller en nauwkeuriger worden verwerkt, wat kan bijdragen aan een betere dienstverlening. Het algoritme beoordeelt de aanvragen niet, maar ondersteunt het proces door overzicht en snelheid te bieden.",
+      "geregistreerd": "2026-09-14",
       "id": "28751641",
       "impactassessment": "Ja",
-      "juridische_basis": "De wettelijke basis voor het proces van kwijtschelding van gemeentelijke belastingen is vastgelegd in de Invorderingswet 1990 en het daarbij behorende Uitvoeringsbesluit Invorderingswet 1990. Deze wet- en regelgeving bepaalt onder welke voorwaarden burgers in aanmerking kunnen komen voor kwijtschelding van gemeentelijke belastingen, zoals de afvalstoffenheffing of rioolheffing. Gemeenten zijn verplicht om verzoeken tot kwijtschelding te beoordelen op basis van de financiële situatie van de aanvrager. Het algoritme wordt gebruikt als hulpmiddel in dit proces: het geeft advies over de waarschijnlijkheid van toekenning. De uiteindelijke beslissing is gebaseerd op de wettelijke kaders en wordt genomen door een medewerker.",
+      "juridische_basis": "De wettelijke basis voor het proces van kwijtschelding van gemeentelijke belastingen is vastgelegd in de Invorderingswet 1990 en het daarbij behorende Uitvoeringsbesluit Invorderingswet 1990. Deze wet- en regelgeving bepaalt onder welke voorwaarden burgers in aanmerking kunnen komen voor kwijtschelding van gemeentelijke belastingen, zoals de afvalstoffenheffing of rioolheffing. Gemeenten zijn verplicht om verzoeken tot kwijtschelding te beoordelen op basis van de financiële situatie van de aanvrager. Het algoritme wordt gebruikt als hulpmiddel in dit proces: informatie uit toegestuurde documenten halen. De uiteindelijke beslissing is gebaseerd op de wettelijke kaders en wordt genomen door een medewerker.",
       "organisatie": "Gemeente Amsterdam",
-      "status": "in_gebruik",
-      "title": "Adviestool kwijtschelding",
+      "status": "ontwikkeling",
+      "title": "Informatieverwerking Kwijtscheldingsaanvragen",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/28751641"
     },
@@ -4766,13 +4766,13 @@
     },
     {
       "doel": "Het is moeilijk om ingewikkelde digitale omgevingsplannen in het Digitaal Stelsel Omgevingswet (DSO) handmatig te doorzoeken. Voor mensen die geen specialist zijn, is het vaak lastig om snel te zien welke regels gelden voor een bepaald stuk grond. Struck helpt medewerkers van de gemeente Olst-Wijhe om snel en duidelijk regels uit het omgevingsplan te vinden. Medewerkers kunnen in eenvoudige taal vragen stellen over wat ze kunnen bouwen of gebruiken op een bepaalde plek. Het systeem laat relevante regels zien, geeft een samenvatting en verwijst naar de broninformatie. Dit kan helpen om sneller informatie te geven aan inwoners en bedrijven.",
-      "geregistreerd": "2026-09-09",
+      "geregistreerd": "2026-09-14",
       "id": "34796737",
       "impactassessment": "Ja",
       "juridische_basis": "De Omgevingswet en het omgevingsplan van de gemeente Olst-Wijhe zijn belangrijke regels voor bouwen en wonen. Ze zorgen ervoor dat de omgeving goed wordt ingericht.",
       "organisatie": "Gemeente Olst-Wijhe",
       "status": "in_gebruik",
-      "title": "Struck",
+      "title": "Struck (omgevingsplantoetsing)",
       "toegevoegd": "2026-09-11",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/34796737"
     },
@@ -10406,7 +10406,7 @@
     },
     {
       "doel": "Directie Toezicht en Handhaving Openbare Ruimte (THOR) heeft het Computer Vision Team van de gemeente Amsterdam (hierna: CVT) opdracht gegeven om te verkennen hoe objectherkenning kan helpen om te voorkomen dat kwetsbare bruggen en kademuren instorten, doordat hier zware objecten op worden geplaatst. Het gaat daarbij om containers, bouwketen, mobiele toiletten en bouwsteigers. Momenteel is er geen duidelijk zicht op waar deze objecten zich bevinden in (kwetsbare) delen van de stad. Tijdens de Pilot is getest of deze objecten succesvol kunnen worden herkend in de openbare ruimte met een scanvoertuig dat is voorzien van een camera. Na het herkennen van objecten in de openbare ruimte, kan een signaal worden gegenereerd. Door dit signaal te voorzien van aanvullende informatie uit (gemeentelijke) bronnen, kan het werk van toezichthouders beter worden uitgevoerd. Dit kan bijvoorbeeld door in een melding informatie op te nemen over hoe urgent het signaal is op basis van de kwetsbaarheid van de betreffende kade waar het object op is geplaatst. Daardoor kan prioriteit worden gegeven aan urgente situaties. Naast het genereren van een signaal kunnen medewerkers gebruik maken van een digitale kaart waarop de aangetroffen objecten worden weergeven. De pilot is in 2024 succesvol afgerond. Het is gebleken dat objecten succesvol kunnen worden herkend en dat de technologie kan worden ingezet om doelgerichter verkeerd geplaatste objecten te identificeren. Update 2025: Deze techniek is in productie genomen en wordt wekelijks toegepast voor roulerende wijken in de stadsdelen Centrum, Zuid, Noord, West en Weesp.",
-      "geregistreerd": "2026-07-14",
+      "geregistreerd": "2026-09-08",
       "id": "59759977",
       "impactassessment": "Ja",
       "juridische_basis": "",
@@ -18638,6 +18638,6 @@
     }
   ],
   "count": 1553,
-  "fetched_at": "2026-09-11T06:28:12Z",
+  "fetched_at": "2026-09-15T06:30:05Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
