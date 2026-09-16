@@ -3961,6 +3961,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/31561642"
     },
     {
+      "doel": "De anonimiseringstool wordt ingezet om te voorkomen dat persoonlijke of vertrouwelijke gegevens onbedoeld worden gedeeld of openbaar worden gemaakt.",
+      "geregistreerd": "2026-09-15",
+      "id": "31597539",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Algemene Verordening Gegevensbescherming (AVG): Anonimiseren is een effectieve manier om persoonsgegevens te beschermen en de risico's van de verwerking ervan te beperken. Wanneer gegevens goed zijn geanonimiseerd, vallen ze niet langer onder de reikwijdte van de AVG, omdat ze dan niet meer herleidbaar zijn tot een natuurlijk persoon. Daarom wordt anonimiseren vaak toegepast als beveiligingsmaatregel om te voldoen aan de AVG-beginselen. Hoewel de AVG geen specifiek artikel over anonimiseren bevat, verwijst overweging 26 wel naar \"de anonimisering van persoonsgegevens\" als een manier om de risico's voor de betrokkenen tot een aanvaardbaar niveau terug te brengen. Anonimiseren wordt dus gezien als een belangrijke techniek om persoonsgegevens effectief te beschermen in overeenstemming met de AVG. Wet Open Overheid (WOO): Op grond van artikel 5.1 lid 2 sub f van de Woo hoeft geen informatie openbaar gemaakt te worden voor zover het belang daarvan niet opweegt tegen het belang dat de persoonlijke levenssfeer wordt geëerbiedigd. Dit betekent dat als overheidsinformatie persoonsgegevens bevat, deze gegevens niet openbaar gemaakt hoeven te worden vanwege het belang van de bescherming van de persoonlijke levenssfeer. Anonimiseren van persoonsgegevens is dan een logische stap om deze informatie toch (gedeeltelijk) openbaar te kunnen maken",
+      "organisatie": "Gemeente Roermond",
+      "status": "in_gebruik",
+      "title": "Anonimiseringstool",
+      "toegevoegd": "2026-09-16",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/31597539"
+    },
+    {
       "doel": "Het algoritme controleert of de gegevens die in een persoonslijst zijn opgenomen voldoen aan de vereisten van het Logisch Ontwerp BRP voor wat betreft de structuur en de inhoud van de gegevens (Structuur- en Domeincontroles). Daarnaast zijn er controles die nagaan of de gegevens voldoen aan de wettelijke voorschriften zoals opgenomen in bijvoorbeeld de Wet BRP en het Burgerlijk Wetboek (Logische controles). Hiermee signaleren we mogelijke afwijkingen in de gegevens die opgenomen zijn in de persoonslijst. Afwijkingen geven we door aan gemeenten. Gemeenten zijn verantwoordelijk voor de kwaliteit en de inhoud van de opgenomen gegevens en alleen zij kunnen gegevens wijzigen (van de eigen ingezetenen). Resultaten van de BCM-run van eind november van elk jaar gebruiken gemeenten voor de (wettelijk verplichte) zelfevaluatie BRP.",
       "geregistreerd": "2025-06-19",
       "id": "31747325",
@@ -4309,6 +4321,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/33252995"
     },
     {
+      "doel": "Ondersteuning voor gebruikers met een visuele handicap. In Nederland zijn er veel mensen die moeite hebben met lezen. Dit kan problemen geven bij het begrijpen van teksten op websites. De oplossing die gemeente Borne hiervoor gebruikt is ReadSpeaker. Dit is een programma dat teksten kan voorlezen en vertalen. Iedereen kan ReadSpeaker gebruiken. Het is veilig en heeft extra functies, zoals het voorlezen in meerdere talen, waaronder Oekraïens. Je kunt ook teksten vergroten en het scherm maskeren.",
+      "geregistreerd": "2026-09-15",
+      "id": "33274834",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De wettelijke basis voor het gebruik van ReadSpeaker ligt vooral in de verplichting om digitale overheidsinformatie toegankelijk te maken en in de publieke taak van de gemeente om informatie voor alle inwoners begrijpelijk en bruikbaar aan te bieden, binnen de kaders van privacywetgeving.",
+      "organisatie": "Gemeente Roermond",
+      "status": "in_gebruik",
+      "title": "ReadSpeaker",
+      "toegevoegd": "2026-09-16",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/33274834"
+    },
+    {
       "doel": "Efficiënt en uniform innemen van en besluiten op aanvragen voor bijstand, bijzondere bijstand, Bbz, IIT en minimaregelingen. Het algoritme wordt ingezet in een applicatie voor inwoners en controleert gedurende de aanvraag of de aanvrager voldoet aan verschillende (wettelijke) criteria. De uitkomst wordt gedeeld met de aanvrager.",
       "geregistreerd": "2025-09-02",
       "id": "33327482",
@@ -4511,6 +4535,18 @@
       "title": "Parkeercontrole",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/33947772"
+    },
+    {
+      "doel": "Het doel van dit algoritme is bij te dragen aan de juiste beveiliging van informatie die per e-mail wordt verzonden. Het wordt gebruikt door gemeente Roermond bij het verzenden van e-mails naar ontvangers buiten de organisatie. Dat zijn bijvoorbeeld bedrijven en burgers. Het algoritme zorgt ervoor dat er niet te weinig, maar ook niet te veel beveiligingsmaatregelen worden genomen. Daarnaast is ook het veilig versturen van grote bestanden mogelijk. De impact van het gebruik: het verhoogt de informatiebeveiliging en draagt bij aan het voldoen aan wettelijke verplichtingen rondom gegevensbescherming. In bepaalde situaties kan het nodig zijn om het mobiele telefoonnummer van de ontvanger te hebben i.v.m het verzenden van een MFA-code.",
+      "geregistreerd": "2026-09-15",
+      "id": "33983918",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Algemene Verordening Gegevensbescherming Baseline Informatiebeveiliging Overheid (BIO)",
+      "organisatie": "Gemeente Roermond",
+      "status": "in_gebruik",
+      "title": "Veilig e-mailen",
+      "toegevoegd": "2026-09-16",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/33983918"
     },
     {
       "doel": "De inzet van de iVRI's draagt bij aan een efficiënte doorstroming en bereikbaarheid op kruispunten op een veilige en rechtvaardige manier (zonder dat mensen voor niks staan te wachten en een logische volgorde). Het draagt bij aan de opgave mobiliteit van de provincie. De inzet van verkeerslichten in hte algemeen is noodzakelijk om de taak als wegbeheerder van provinciale wegen op een efficiënte manier uit te kunnen voeren. Het algoritme heeft invloed op verkeersdeelnemers (automobilisten, voetgangers, fietsers, vrachtwagens, openbaar vervoer (OV), nood- en hulpdiensten, etc) omdat het de kleur van de verkeerslichten bepaalt en hoe lang iedere verkeersdeelnemer moet wachten. iVRI’s kunnen een vorm van prioriteit geven aan verkeersdeelnemers. Bijvoorbeeld als een ambulance met spoed aan komt rijden, maar ook aan bijvoorbeeld een groep fietsers of een colonne vrachtwagens. Er zijn verschillende vormen van prioriteit. Absolute prioriteit (afkappen van andere richtingen) wordt bijvoorbeeld gebruikt voor nood- en hulpdiensten en geconditioneerde prioriteit (het verkeerslicht probeert naar een weggebruiker “toe te regelen”) in andere gevallen. Het prioriteitenkader van de provincie en lokale omstandigheden bepalen de mate van prioriteit per verkeersdeelnemer.",
@@ -7369,6 +7405,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/46463483"
     },
     {
+      "doel": "Het doel van de e-diensten met het onderliggende algoritme is inwoners en ondernemers maximaal ondersteunen/begeleiden bij een digitale aanvraag. Daardoor kan deze aanvraag juist en volledig worden ingediend. Het algoritme controleert verschillende gegevens van de inwoner. Als er geen aanvullende gegevens nodig zijn van de inwoner en er geen handmatige acties of controles van de gemeente zijn vereist (zoals bijvoorbeeld ondertekening) om de aanvraag te verwerken, dan kan deze verwerkt worden zonder tussenkomst van een burgerzakenmedewerker. Zijn er wel aanvullende gegevens, controles of acties nodig, dan komt de aanvraag/aangifte altijd terecht in een werklijst. Daar wordt deze gecontroleerd door een burgerzakenmedewerker. Het algoritme kan alleen automatisch een aanvraag/aangifte goedkeuren. Een aanvraag/aangifte afkeuren kan alleen de burgerzakenmedewerker. De impact is dat een dergelijke aanvraag efficiënt kan worden afgehandeld door de gemeente; een inwoner/bedrijf heeft namelijk diverse stappen (werkzaamheden) al uitgevoerd, waardoor de ambtenaar meer tijd overhoudt voor de bijzondere en/of ingewikkelde aangiften/aanvragen die de gemeente ontvangt. In een aantal gevallen kan deze aanvraag zelfs volledig automatisch worden verwerkt. De kwaliteit van de dienstverlening gaat door deze diensten omhoog, net als de kwaliteit van de gegevens in de BRP.",
+      "geregistreerd": "2026-06-30",
+      "id": "46474894",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet basisregistratie personen (BRP): De BRP regelt welke persoonsgegevens van inwoners worden vastgelegd en hoe de overheid deze mag gebruiken. Wet rechten burgelijke stand: Kosten/leges voor diensten van de gemeente.",
+      "organisatie": "Gemeente Roermond",
+      "status": "in_gebruik",
+      "title": "I-Burgerzaken",
+      "toegevoegd": "2026-09-16",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/46474894"
+    },
+    {
       "doel": "Beschermen van bedrijfsgegevens",
       "geregistreerd": "2025-06-26",
       "id": "46487836",
@@ -9397,6 +9445,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/55697499"
     },
     {
+      "doel": "Het toezicht en handhaven van parkeerovertredingen. Hierbij gaat het alleen over het vaststellen van onbetaald parkeren in de daarvoor aangewezen vakken in de stad en het doorzetten van de overtreding naar BsGW voor het uitvoeren van de naheffing Overige parkeerovertredingen worden niet gesignaleerd door de scanauto. Het betreft: • Parkeren op laad- en loslocaties • Parkeren in vakken die specifiek voor parkeerkaartvergunninghouders zijn De scanauto’s zijn uitgerust met camera’s en rijden langs parkeerplaatsen in de stad. De camera’s leggen kentekens van auto’s vast en gebruiken een beeldherkenningsalgoritme om kentekens te identificeren. Eventuele omstanders, ongerelateerde kentekens en andere privacygevoelige gegevens worden al in de scanauto onherkenbaar gemaakt op de foto's. Het kentekennummer wordt naar het Nationaal Parkeerregister (NPR) gestuurd waar gecontroleerd wordt of de auto het recht heeft om geparkeerd te staan. Na 10 minuten wordt het NPR nogmaals gecontroleerd voor het kenteken. Als dan nog niet is betaald dan wordt de overtreding definitief vastgelegd en wordt de foto door middel van menselijke tussenkomst nogmaals gecontroleerd voordat het wordt doorgezet naar het BsGW voor het uitvoeren van de naheffing.",
+      "geregistreerd": "2026-09-15",
+      "id": "55698825",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wegenverkeerswet 1994 Gemeentewet Verordening op de heffing en de invordering van parkeerbelastingen 2026 Aanwijzingsbesluit betaald parkeren 2026",
+      "organisatie": "Gemeente Roermond",
+      "status": "in_gebruik",
+      "title": "Scanauto",
+      "toegevoegd": "2026-09-16",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/55698825"
+    },
+    {
       "doel": "De anonimiseringstool wordt ingezet om invulling te geven aan transparantie en aan de noodzakelijke bescherming van de personen en bedrijven op wie documenten betrekking hebben. De impact van het algoritme op burger en bedrijven is laag. Het algoritme zoekt specifiek naar (persoons)gegevens en maskeert deze ongeacht de verdere inhoud van documenten. OZHZ zet deze tool op dit moment met name in bij het anonimiseren van bodemrapporten. Op later moment maakt de tool onderdeel uit van het documentmanagementsysteem (DMS) en zal het vanuit dezelfde achtergrond breder worden toegepast.",
       "geregistreerd": "2024-07-03",
       "id": "55725558",
@@ -10751,6 +10811,18 @@
       "title": "Factuurverwerking",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/62386379"
+    },
+    {
+      "doel": "Het algoritme ondersteunt de medewerker aan de balie bij het vergelijken van een live vastgelegde gezichtsopname met de afbeelding op een identiteitsdocument. De medewerker krijgt een indicatie en eventueel vergelijkingsscore te zien, op basis waarvan hij of zij de inschatting kan maken dat persoon en document bij elkaar horen. Het doel is om identiteitsfraude (zoals look-alike-fraude) te voorkomen en de betrouwbaarheid van gegevens in de BRP te versterken.",
+      "geregistreerd": "2026-09-15",
+      "id": "62397937",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet BRP artikel 2.67 lid 4; Besluit BRP artikel 35; UAVG-artikel 29 - inzet van biometrie is toegestaan bij noodzakelijke authenticatie.",
+      "organisatie": "Gemeente Roermond",
+      "status": "in_gebruik",
+      "title": "Gezichtsvergelijking – hulpmiddel voor identiteitsvaststelling bij gemeentelijke balie",
+      "toegevoegd": "2026-09-16",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/62397937"
     },
     {
       "doel": "Doel van de gedragsinterventiestudie is om seksueel risicogedrag te verminderen en de kans op het oplopen van een hepatitis C-virus (HCV) herinfectie te verkleinen bij mannen die seks hebben met mannen die een HCV infectie hebben gehad. De studieevalueert in hoeverre twee interventies, afzonderlijk en gecombineerd, een gunstige invloed hebben op het risicogedrag. De doorlooptijd van de studie is 2,5 tot 3 jaar. Voor de studie wordt een overkoepelende website ontwikkeld. Deelnemers ontvangen vragenlijsten en krijgen, afhankelijk van de interventiestudiegroep waarin ze willekeurig zijn ingedeeld, toegang tot de online gedragsinterventie, testinterventie of beide interventies",
@@ -16477,6 +16549,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/89968970"
     },
     {
+      "doel": "Medewerkers kunnen Copilot Chat gebruiken voor veel verschillende taken. Je kunt de \"tool\" bijvoorbeeld vragen stellen, teksten of plaatjes laten maken, en teksten laten vertalen of samenvatten. Dit helpt om het dagelijkse werk sneller en makkelijker te doen. Ook leer je door het gebruik van Copilot Chat meer over hoe kunstmatige intelligentie (AI) werkt. Het is wel belangrijk dat medewerkers goed letten op de risico's van deze AI-hulpmiddelen. De gemeente ziet de voordelen van AI en volgt de ontwikkelingen op de voet. We willen graag gebruikmaken van deze nieuwe techniek, maar dat moet wel veilig en verstandig gebeuren. Daarom heeft de gemeente duidelijke spelregels gemaakt. In deze regels staat hoe je Copilot Chat op een goede manier gebruikt tijdens je werk.",
+      "geregistreerd": "2026-09-15",
+      "id": "91211734",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De Europese AI-verordening De Algmene Verordening Gegevensbescherming (AVG) Baseline Informatiebeveiliging Overheid (BIO)",
+      "organisatie": "Gemeente Roermond",
+      "status": "in_gebruik",
+      "title": "Copilot M365",
+      "toegevoegd": "2026-09-16",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/91211734"
+    },
+    {
       "doel": "Inzicht krijgen in alle vergunde adressen van toeristische verhuur en de gemelde verblijven, om adressen te kunnen selecteren voor inspectie op naleving van de regels voor toeristische verhuur. Bij overtredingen worden bestuurlijke maatregelen ingezet.",
       "geregistreerd": "2025-01-08",
       "id": "91243788",
@@ -18637,7 +18721,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1553,
-  "fetched_at": "2026-09-15T06:30:05Z",
+  "count": 1560,
+  "fetched_at": "2026-09-16T06:29:44Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
