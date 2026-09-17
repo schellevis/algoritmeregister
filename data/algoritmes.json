@@ -6109,6 +6109,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/39981992"
     },
     {
+      "doel": "Zo goed mogelijk de inwoner begrijpen en hem aan het juiste antwoord helpen. Dat kan soms een inhoudelijk of procedureel antwoord zijn, soms een doorverwijzing of een overdracht naar een (livechat-)medewerker. De virtuele assistent wordt alleen ingezet om meer hulp te kunnen bieden door landelijk vastgestelde antwoorden te geven op vragen of doorverwijzing naar een medewerker.",
+      "geregistreerd": "2026-09-15",
+      "id": "41158975",
+      "impactassessment": "Ja",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Roermond",
+      "status": "in_gebruik",
+      "title": "Virtuele gemeente assistent Gem",
+      "toegevoegd": "2026-09-17",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/41158975"
+    },
+    {
       "doel": "Een milieuzone is een gebied in een stad waar bepaalde vervoersmiddelen niet mogen rijden. Bewoners en bezoekers van de gemeente Arnhem hebben recht op schone lucht en een leefbaar klimaat. De lucht die bezoekers en bewoners nu inademen is niet schoon genoeg en dit komt grotendeels door het stadsverkeer. De gemeente Arnhem wil hiermee de luchtkwaliteit in de stad verbeteren en daarmee haar beleid op dit gebied nastreven. De milieuzone centrum ring is voor personenauto’s, vrachtauto’s, bestelauto’s, taxi’s, autobussen en brom- en snorfietsen in de gemeente Arnhem ingesteld met als doel om de meest vervuilende voertuigen te weren. Ieder voertuig met Nederlands kenteken die ongeoorloofd binnen de milieuzone rijdt krijgt een boete. Overige voertuigen merken niets van deze controle.",
       "geregistreerd": "2024-05-22",
       "id": "41181368",
@@ -6479,6 +6491,18 @@
       "title": "iBurgerzaken e-diensten",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/42292773"
+    },
+    {
+      "doel": "Als er op straat of in een park iets gemaakt of opgeruimd moet worden, dan kan dat bij de gemeente worden gemeld via SIA, het online meldingensysteem. Ook een gevaarlijke verkeerssituatie of overlast van personen en horeca kan gemeld worden. Voorheen moesten mensen zelf kiezen bij welke categorie hun melding het beste paste (bijvoorbeeld ‘overlast’ of ‘straatmeubilair’), zodat de melding bij de juiste afdeling van de gemeente terecht kwam. Maar de gemeente is een complexe organisatie en de lijst met categorieën is lang. Daardoor koos men niet altijd de juiste categorie. Dat zorgde soms voor vertraging in de afhandeling van meldingen. Daarom gebruiken we nu een algoritme dat woorden herkent, bijvoorbeeld ‘afval’ en ‘stoep’. Op basis daarvan wordt bepaald bij welke categorie de melding het best past en welke afdeling de melding moet afhandelen. De melder hoeft dus geen categorie meer te kiezen, en de melding wordt sneller afgehandeld omdat hij bij de juiste afdeling terecht komt.",
+      "geregistreerd": "2026-09-16",
+      "id": "42314989",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Roermond",
+      "status": "in_gebruik",
+      "title": "Signalen meldingen openbare ruimte",
+      "toegevoegd": "2026-09-17",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/42314989"
     },
     {
       "doel": "Snel en accuraat vertalen van gemeentelijke informatie en formulieren in een zeer groot aantal talen. Contentredacteuren hoeven niet meer zelfstandig teksten te schrijven in andere talen.",
@@ -18721,7 +18745,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1560,
-  "fetched_at": "2026-09-16T06:29:44Z",
+  "count": 1562,
+  "fetched_at": "2026-09-17T06:30:08Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
