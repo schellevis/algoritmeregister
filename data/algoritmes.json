@@ -3673,6 +3673,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/29338939"
     },
     {
+      "doel": "De gemeente wil dat iedereen de informatie op de websites kan begrijpen. Sommige inwoners hebben moeite met lezen. Dit komt bijvoorbeeld omdat zij niet goed kunnen lezen, slecht zien, dyslexie hebben of nog Nederlands leren. De Leeshulp helpt hen om de informatie van de gemeente zelf te lezen en te begrijpen. De gemeente wil digitaal toegankelijk zijn. De Leeshulp is een knop op de website. Bezoekers kunnen zelf kiezen of zij deze knop gebruiken. Als je de knop aanzet, kun je een tekst laten voorlezen, een moeilijk woord aanklikken voor uitleg, en een makkelijkere versie van een tekst vragen. De Leeshulp verandert niets aan de website of aan de besluiten van de gemeente. De officiële tekst blijft altijd op de pagina staan. Uitleg bij een woord of een makkelijkere versie van een tekst is hulp bij het lezen, maar is geen officiële tekst. Bezoekers hoeven niet in te loggen en hoeven geen gegevens achter te laten om de Leeshulp te gebruiken.",
+      "geregistreerd": "2026-09-17",
+      "id": "29344954",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De Leeshulp ondersteunt de wettelijke plicht van de gemeente om digitaal toegankelijk te zijn. Die plicht staat in het Tijdelijk besluit digitale toegankelijkheid overheid. Dat besluit voert de Europese richtlijn (EU) 2016/2102 uit en verplicht overheden om hun websites en apps te laten voldoen aan de standaard EN 301 549, waarin de WCAG-richtlijnen zijn opgenomen. Het doel van die regels is dat mensen met een beperking overheidsinformatie net zo goed kunnen gebruiken als anderen. Daarnaast past de inzet bij de eis dat de gemeente zorgvuldig en begrijpelijk communiceert met inwoners. Die eis volgt onder meer uit artikel 3:46 van de Algemene wet bestuursrecht, dat vraagt om een deugdelijke motivering van besluiten.",
+      "organisatie": "Gemeente Noordwijk",
+      "status": "in_gebruik",
+      "title": "Leeshulp op gemeente websites",
+      "toegevoegd": "2026-09-18",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/29344954"
+    },
+    {
       "doel": "Doel: Om snel en correct de inkomensklasse (en de inkomenssoort en het totaalloon) van de aanvrager in een huishouden (in combinatie met de eventueel aanwezige partner in het huishouden) te bepalen bij een ingediende aanvraag voor een of meer Armoedevoorziening(en) voor een bepaald jaar, om te bepalen of de inkomensklasse voldoet aan de inkomenstoets (percentage van het WML voor het betreffende refertejaar), die voor de betreffende Armoedevoorziening geldt. Werking: Het algoritme berekent ‘onder water’ - via een technische koppeling tussen Suwinet en het automatiseringssysteem ZorgNed van de afdeling Armoedevoorzieningen, en op basis van de gegevens uit Suwinet, op basis van BSN - de betreffende jaarinkomsten uit arbeid en/of uitkering(en) van de individuele geselecteerde persoon, die een aanvraag heeft ingediend (met eventueel een partner als medeondertekenaar, en dan ook diens inkomen meebepaald) voor een of meer Armoedevoorziening(en) voor een bepaald jaar. Deze jaarinkomsten mogen in het betreffende refertejaar niet hoger zijn dan een voor Armoedevoorzieningen gestelde inkomensnorm op basis van het betreffende WML. Het resultaat van de berekening is het betreffende jaarinkomen middels de inkomensklasse waarin dat jaarinkomen valt ten opzichte van de betreffende WML, dus als een berekende percentageklasse ten opzichte van die WML. Behalve de Inkomensklasse wordt ook de inkomenssoort weergegeven. De samenstellende inkomenscomponenten en de onderlinge hoogte van de componenten geven een omschrijving van de inkomenssituatie, bijvoorbeeld: Inkomenssoort = ‘Inkomen uit werk’, ‘Uitkering’, ‘Samengesteld inkomen’, en dergelijke. Deze omschrijving wordt op dezelfde wijze (rekenkundig de grootste inkomenscomponent) bepaald als bij de handmatige opvraging. De inkomenssoort geeft de behandelaar nader inzicht in de inkomenssituatie van het betreffende huishouden. Deze informatie is nodig voor het bepalen van 'zekere' en 'onzekere' minima. Ook kan dit gegeven gebruikt worden ten behoeve van het bereik van de doelgroep. Deze informatie is nodig voor het bepalen van 'zekere' en 'onzekere' minima. Ook kan dit gegeven gebruikt worden ten behoeve van het bereik van de doelgroep.",
       "geregistreerd": "2026-07-02",
       "id": "29355466",
@@ -18745,7 +18757,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1562,
-  "fetched_at": "2026-09-17T06:30:08Z",
+  "count": 1563,
+  "fetched_at": "2026-09-18T06:28:40Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
