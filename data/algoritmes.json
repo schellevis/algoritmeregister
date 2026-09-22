@@ -7021,6 +7021,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/44498375"
     },
     {
+      "doel": "Vragen.AI helpt inwoners om informatie te vinden op gemeente-websites. Deze websites hebben veel informatie, wat soms verwarrend kan zijn. Vragen.AI maakt het makkelijker voor inwoners om snel de informatie te vinden die zij nodig hebben.",
+      "geregistreerd": "2026-09-21",
+      "id": "44521279",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Tilburg",
+      "status": "in_gebruik",
+      "title": "Vragen.AI",
+      "toegevoegd": "2026-09-22",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/44521279"
+    },
+    {
       "doel": "De technische ontwikkeling inzake beeldherkenning uitbaten in het operationeel proces door gebruik te maken van de scanauto’s van parkeerhandhaving. Beeldherkenning kan een goede toevoeging zijn aan de verschillende manieren waarop bijplaatsingen worden gesignaleerd, aangezien scanauto’s nu ook al door de stad rijden. Het doel is het versterken van de MOR-keten en opvolging te versnellen. Reductie op herhaalmeldingen, dubbelmeldingen, handmatige handelingen en de opvolgtijd van opruimen is -naast de dienstverlening aan de burger- een significante verbetering van de bedrijfsvoering voor de ketenpartners. Met toepassing van scantechnologie wordt beoogd om met -uitbreiding van- bestaande middelen de meldingenketen extra te voeden. De opruiming van afval en de handhaving erop kunnen mogelijk nog sneller worden opgevolgd. Bijplaatsingen worden sneller gedetecteerd en opgeruimd (schone stad); De melder wordt sneller geïnformeerd (betere dienstverlening), wanneer een melding tevens m.b.v. de scantechnologie wordt gedetecteerd.",
       "geregistreerd": "2024-08-23",
       "id": "44714491",
@@ -18757,7 +18769,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1563,
-  "fetched_at": "2026-09-19T06:26:00Z",
+  "count": 1564,
+  "fetched_at": "2026-09-22T06:29:16Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
