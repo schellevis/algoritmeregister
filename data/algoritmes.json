@@ -6110,10 +6110,10 @@
     },
     {
       "doel": "De Belastingdienst en Dienst Toeslagen werken samen met tien gemeenten om mensen met een betalingsachterstand en mogelijk (dreigende) problematische schuld eerder in beeld te krijgen en te helpen om te voorkomen dat de betalingsachterstand verder oploopt. Het is een experiment voor de duur van twee jaar. Het experiment betreft het delen van informatie (onder voorwaarden) op basis van de Wgs. Het doel van het experiment is om burgers met (dreigende) problematische schulden te bereiken die eerder niet in beeld waren bij de gemeente en een hulpaanbod te doen. Met het experiment wordt onderzocht of signalen van betalingsachterstanden een goede indicatie vormen voor (dreigende) problematische schulden. Voor de uitvoering van het experiment wordt het algoritme Experiment Vroegsignalering WGS1 gebruikt om de juiste selecties te maken van betalingsachterstanden die voldoen aan de criteria. Gemeenten hebben een maximum aantal signalen dat zij kunnen verwerken, daarom vindt een random selectie plaats in de eindfase van het algoritme. Het algoritme voor het Experiment Vroegsignalering WGS1 zorgt voor de selectie van mensen met een betalingsachterstand vanaf een bepaald bedrag nadat een aanmaning is verstuurd. Zij wonen in één van de tien deelnemende gemeenten. Deze mensen krijgen eerst hulp aangeboden door de Belastingdienst of Dienst Toeslagen en als dat hulpaanbod geen effect heeft, kunnen de gegevens van deze mensen worden gedeeld met hun gemeente voor verdere hulpverlening. Het algoritme betreft de uitvoering van de ministeriële regeling die voor dit experiment is opgesteld onder de Wgs. De link naar deze regeling: https://zoek.officielebekendmakingen.nl/stcrt-2025-17636.html",
-      "geregistreerd": "2026-04-21",
+      "geregistreerd": "2026-09-23",
       "id": "39916815",
       "impactassessment": "Ja",
-      "juridische_basis": "Toepasselijke wet en URL Ministeriële regeling onder de Wet gemeentelijke schuldhulpverlening van SZW. Uit artikel 2.5 van de ministeriële regeling volgt de wettelijke verplichting (artikel 6 lid 1 sub f AVG) voor de Belastingdienst en Dienst Toeslagen om de gegevens te verstrekken. De gemeente ontvangt de gegevens voor de uitvoering van artikel 3 lid 1 sub b van de Wet gemeentelijke schuldhulpverlening. https://zoek.officielebekendmakingen.nl/stcrt-2025-17636.html",
+      "juridische_basis": "Toepasselijke wet en URL Ministeriële regeling onder de Wet gemeentelijke schuldhulpverlening van SZW. Uit artikel 2.5 van de ministeriële regeling volgt de wettelijke verplichting (artikel 6 lid 1 sub c AVG) voor de Belastingdienst en Dienst Toeslagen om de gegevens te verstrekken. De gemeente ontvangt de gegevens voor de uitvoering van artikel 3 lid 1 sub b van de Wet gemeentelijke schuldhulpverlening. https://zoek.officielebekendmakingen.nl/stcrt-2025-17636.html",
       "organisatie": "Belastingdienst",
       "status": "in_gebruik",
       "title": "Experiment Vroegsignalering WGS1",
@@ -7046,7 +7046,7 @@
     },
     {
       "doel": "Vragen.AI helpt inwoners om informatie te vinden op gemeente-websites. Deze websites hebben veel informatie, wat soms verwarrend kan zijn. Vragen.AI maakt het makkelijker voor inwoners om snel de informatie te vinden die zij nodig hebben.",
-      "geregistreerd": "2026-09-21",
+      "geregistreerd": "2026-09-24",
       "id": "44521279",
       "impactassessment": "Onbekend",
       "juridische_basis": "",
@@ -10007,6 +10007,18 @@
       "title": "Factuurverwerking",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/58118779"
+    },
+    {
+      "doel": "iBabs Debrief helpt je om transcripties, samenvattingen en concept-notulen van vergaderingen te maken. De applicatie verwerkt opnames van vergaderingen en zet gesproken tekst om in een conceptverslag. Een medewerker controleert en bewerkt altijd het resultaat voordat het wordt gebruikt.",
+      "geregistreerd": "2026-09-24",
+      "id": "58163258",
+      "impactassessment": "Ja",
+      "juridische_basis": "De AI-verordening en AVG ligt aan de basis van deze analyse samen met het gemeentelijk beleid en richtlijnen.",
+      "organisatie": "Gemeente De Fryske Marren",
+      "status": "ontwikkeling",
+      "title": "iBabs Debrief",
+      "toegevoegd": "2026-09-25",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/58163258"
     },
     {
       "doel": "Het doel van de Automatische Tekst Herkenning (ATH) software ’Loghi’ is het automatisch omzetten van tekst op scans van documenten naar digitale tekst (transcripties). Om zo de tekst digitaal te kunnen doorzoeken en verdere digitale verwerking mogelijk te maken. Digitale verwerking is bijvoorbeeld het herkennen van persoonsnamen in de digitale tekst.",
@@ -15853,6 +15865,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/86171797"
     },
     {
+      "doel": "Het doel van de ondersteuning is de snelheid te verhogen waarmee medewerkers de relevantie van informatie kunnen bepalen en (persoons)gegevens in documenten kunnen weglakken.",
+      "geregistreerd": "2026-09-24",
+      "id": "86188119",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet Open Overheid (WOO)",
+      "organisatie": "Provincie Noord-Holland",
+      "status": "in_gebruik",
+      "title": "Ondersteuning Openbaarmakingsverzoeken",
+      "toegevoegd": "2026-09-25",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/86188119"
+    },
+    {
       "doel": "De geautomatiseerde documentcheck en gezichtsvergelijker dienen drie doelen, te weten: 1. Het vaststellen van de identiteit van de aanvrager van een identiteitsbewijs ter voorkoming van identiteitsfraude; 2. Het vaststellen van de echtheid van de aangeleverde brondocumenten uit het land van herkomst ter voorkoming van vervalsing; 3. Het betrouwbaar houden van de informatie in de Basisregistratie Personen (BRP). Het vergelijkt het gezicht van de persoon aan de balie met de afbeelding in het gescande identiteitsdocument en geeft aan met welke zekerheid het om dezelfde persoon gaat. Dit ondersteunt de BRP-medewerker bij het vaststellen van de identiteit en helpt \"look-alike-fraude\" te voorkomen. Hier wordt gewerkt met het \"4-ogen principe\". De impact is dat het de betrouwbaarheid van het BRP-inschrijfproces verhoogt en de BRP-medewerker ondersteunt bij het nemen van beslissingen over identiteitsvaststelling.",
       "geregistreerd": "2025-05-08",
       "id": "86218229",
@@ -18805,7 +18829,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1567,
-  "fetched_at": "2026-09-23T06:30:05Z",
+  "count": 1569,
+  "fetched_at": "2026-09-25T06:30:01Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
