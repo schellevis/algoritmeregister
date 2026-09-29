@@ -7069,6 +7069,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/44714491"
     },
     {
+      "doel": "In de Wet open overheid (Woo) moet je soms informatie in documenten onleesbaar maken. Dit is om gevoelige zaken, zoals privacy en staatsgeheimen, te beschermen. De Wet open overheid zegt dat overheidsinformatie openbaar moet zijn, maar deze openheid mag niet ten koste gaan van andere rechten.",
+      "geregistreerd": "2026-09-28",
+      "id": "44851255",
+      "impactassessment": "Ja",
+      "juridische_basis": "Artikel 5.1, Uitzonderingen: Dit artikel gaat over de uitzonderingen in de Wet open overheid. Het legt uit welke informatie niet openbaar is.",
+      "organisatie": "Gemeente Amsterdam",
+      "status": "in_gebruik",
+      "title": "Anonimiseringssoftware",
+      "toegevoegd": "2026-09-29",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/44851255"
+    },
+    {
       "doel": "De provincie heeft een wettelijke verantwoordelijkheid om (delen van) de Basisregistratie Grootschalige Topografie (BGT) bij te houden en goed beheer en onderhoud van haar infrastructuur te organiseren. Het ChangeMapp-algoritme helpt om de BGT en het overzicht van de te beheren infrastructuur actueel te houden, en laat tegelijkertijd zien dat deze informatie actueel is. Vanaf 2024 vraagt toezichthouder BZK in de ENSIA BGT-zelfevaluatie om de inzet van mutatiedetectie. Het doel is mutaties (veranderingen) in de buitenruimte gemakkelijker te kunnen detecteren. Zijn er veranderingen geweest aan bouwwerken (BGT/BAG) of zijn er veranderingen in grijs/groen/blauw objecten (BGT)? Zijn er dakkapellen (WOZ) en zonnepanelen geplaatst? Met ChangeMapp krijgen we een geografisch of administratief bestand met de relevante veranderingen, of mutaties, ten opzichte van de huidige BGT, BAG of WOZ.",
       "geregistreerd": "2025-03-07",
       "id": "44865447",
@@ -16705,6 +16717,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/91295620"
     },
     {
+      "doel": "Het algoritme zorgt ervoor dat persoonlijke informatie anoniem wordt gemaakt. Dit beschermt de privacy van mensen.",
+      "geregistreerd": "2026-09-28",
+      "id": "91361439",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De Wet open overheid (WOO) en de Wet elektronische publicaties (WEP) zijn wetten die informatie toegankelijk maken voor iedereen.",
+      "organisatie": "Gemeente Hoorn",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-09-29",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/91361439"
+    },
+    {
       "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
       "geregistreerd": "2024-12-17",
       "id": "91386595",
@@ -18829,7 +18853,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1569,
-  "fetched_at": "2026-09-25T06:30:01Z",
+  "count": 1571,
+  "fetched_at": "2026-09-29T06:31:01Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
