@@ -6830,12 +6830,12 @@
     },
     {
       "doel": "De chatbot is onderdeel van onze gemeentelijke website. De bot biedt onze inwoners een extra digitaal kanaal. De chatbot helpt om informatie te vinden op de website. Ook beantwoordt de bot gemakkelijk en snel vragen op basis van informatie die op de website te vinden is.",
-      "geregistreerd": "2025-02-04",
+      "geregistreerd": "2026-09-29",
       "id": "43833636",
       "impactassessment": "Onbekend",
       "juridische_basis": "",
       "organisatie": "Gemeente Druten",
-      "status": "in_gebruik",
+      "status": "buiten_gebruik",
       "title": "Chatbot gemeentelijke website",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/43833636"
@@ -8702,12 +8702,12 @@
     },
     {
       "doel": "De chatbot is onderdeel van onze gemeentelijke website. De bot biedt onze inwoners een extra digitaal kanaal. De chatbot helpt om informatie te vinden op de website. Ook beantwoordt de bot gemakkelijk en snel vragen op basis van informatie die op de website te vinden is.",
-      "geregistreerd": "2025-02-04",
+      "geregistreerd": "2026-09-29",
       "id": "52517293",
       "impactassessment": "Onbekend",
       "juridische_basis": "",
       "organisatie": "Gemeente Wijchen",
-      "status": "in_gebruik",
+      "status": "buiten_gebruik",
       "title": "Chatbot gemeentelijke website",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/52517293"
@@ -11063,6 +11063,18 @@
       "title": "Premiedifferentiatie Werkloosheidswet (PDWW)",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/62767154"
+    },
+    {
+      "doel": "De chatbot is onderdeel van onze gemeentelijke website. De chatbot biedt onze inwoners een extra digitaal kanaal. De chatbot helpt om informatie te vinden op de website. Ook beantwoordt de chatbot gemakkelijk en snel vragen op basis van informatie die op de website te vinden is.",
+      "geregistreerd": "2026-09-29",
+      "id": "62823470",
+      "impactassessment": "Ja",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Wijchen",
+      "status": "in_gebruik",
+      "title": "AI Chatbot Robin",
+      "toegevoegd": "2026-09-30",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/62823470"
     },
     {
       "doel": "Mensen die in een schuldsituatie dreigen te raken, wil de gemeente Raalte zo vroeg mogelijk hulp aanbieden. Daarmee probeert de gemeente te voorkomen dat betalingsachterstanden uitgroeien tot ernstige schulden of leiden tot bijvoorbeeld huisuitzetting. Als problemen nog klein zijn, kan advies of een beperkte interventie al voldoende zijn. Om inwoners tijdig hulp te kunnen aanbieden, ontvangt de gemeente signalen van onder andere woningcorporaties, energieleveranciers, waterbedrijven en zorgverzekeraars wanneer sprake is van een betalingsachterstand. Dat deze partijen hiervoor noodzakelijke persoonsgegevens mogen delen met de gemeente, volgt uit de Wet gemeentelijke schuldhulpverlening.",
@@ -18781,6 +18793,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99484574"
     },
     {
+      "doel": "De chatbot is onderdeel van onze gemeentelijke website. De chatbot biedt onze inwoners een extra digitaal kanaal. De chatbot helpt om informatie te vinden op de website. Ook beantwoordt de chatbot gemakkelijk en snel vragen op basis van informatie die op de website te vinden is.",
+      "geregistreerd": "2026-09-29",
+      "id": "99535852",
+      "impactassessment": "Ja",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Druten",
+      "status": "in_gebruik",
+      "title": "AI Chatbot Robin",
+      "toegevoegd": "2026-09-30",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/99535852"
+    },
+    {
       "doel": "De meeste ondernemingen doen aangifte voor de omzetbelasting (ook wel btw genoemd). Aangifte voor de omzetbelasting wordt gedaan over een bepaald tijdvak, per maand, kwartaal of jaar. In sommige gevallen wordt de aangifte niet, of onjuist ingediend om minder belasting te betalen of onterecht belasting terug te vragen. In dat geval kan zijn sprake van fraude. Een bekende vorm van btw-fraude is carrouselfraude. Bij Carrouselfraude draagt een ondernemer geen btw af aan de Belastingdienst, terwijl deze ondernemer zijn afnemers die btw wel in rekening brengt. De fraude gaat over verschillende EU-landen heen via een ingewikkelde handelsketen met meerdere bedrijven. Minstens één bedrijf draagt de ontvangen BTW niet af. Doordat de fraude zo ingewikkeld is opgezet, worden de Belastingdienst en goedwillende ondernemers misleid. De ondernemer houdt de ontvangen BTW zelf en benadeelt zo de overheid en de maatschappij. Omdat de goederen of diensten vaak in een cirkel worden verhandeld, wordt dit carrouselfraude genoemd. De Belastingdienst wil mogelijke carrouselfraude zo vroeg mogelijk signaleren zodat tijdig kan worden ingegrepen om schade te voorkomen. Daarvoor wordt onder andere gebruik gemaakt van het algoritme OBCF. De uitkomsten van het algoritme worden gebruikt door ervaren medewerkers als hulpmiddel om te beoordelen of er mogelijk sprake is van carrouselfraude. Overigens vindt het misbruik niet altijd zoals in het bovenstaande plaats in een cirkel. Met behulp van het algoritme kunnen ook andere vormen van Intracommunautaire BTW-fraude worden gedetecteerd.",
       "geregistreerd": "2026-05-12",
       "id": "99577647",
@@ -18853,7 +18877,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1571,
-  "fetched_at": "2026-09-29T06:31:01Z",
+  "count": 1573,
+  "fetched_at": "2026-09-30T06:30:57Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
