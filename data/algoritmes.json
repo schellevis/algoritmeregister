@@ -17761,6 +17761,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/94782820"
     },
     {
+      "doel": "De anonimiseringstool wordt ingezet om te voorkomen dat persoonlijke of vertrouwelijke gegevens onbedoeld worden gedeeld of openbaar worden gemaakt.",
+      "geregistreerd": "2026-10-01",
+      "id": "94784767",
+      "impactassessment": "Ja",
+      "juridische_basis": "1. WOO 2. WDO 3. UAVG 4. WEP 5. WDO",
+      "organisatie": "Gemeente Amstelveen",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-10-03",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/94784767"
+    },
+    {
       "doel": "Het doel van dit algoritme is om efficiënter te selecteren welke aangiften mogelijk risicogevoelig zijn in het kader van Wet voorkoming misbruik chemicaliën. Dit algoritme richt zich op de invoer en uitvoer van chemicaliën en kijkt naar aangiften van goederen die van buiten de Europese Unie binnenkomen op het grondgebied van Nederland. Het geeft aan bij welke aangiften een vergunningplicht geldt voor chemicaliën. De Douane controleert bedrijven op basis van de uitkomsten van dit algoritme. Door gebruik te maken van dit algoritme worden aangiften efficiënter behandeld, waardoor de aangiften sneller worden gecontroleerd en eventueel sneller worden vrijgegeven.",
       "geregistreerd": "2025-04-02",
       "id": "94829280",
@@ -18877,7 +18889,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1573,
-  "fetched_at": "2026-09-30T06:30:57Z",
+  "count": 1574,
+  "fetched_at": "2026-10-03T06:29:52Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
