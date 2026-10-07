@@ -15673,6 +15673,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/85262661"
     },
     {
+      "doel": "IDA is bedoeld om bezoekers te helpen om sneller informatie te vinden. Dat kan informatie over gepubliceerde algoritmes zijn, of over de onderwerpen in het Algoritmekader. Bezoekers hoeven niet zelf door de website te navigeren of de juiste zoekterm te kennen. IDA geeft geen persoonlijk advies.",
+      "geregistreerd": "2026-10-06",
+      "id": "85273997",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "IDA ontsluit alleen openbare informatie en neemt geen besluiten over personen of hun rechten en plichten. Er is daarom geen aparte wettelijke grondslag nodig.",
+      "organisatie": "ICTU",
+      "status": "in_gebruik",
+      "title": "IDA",
+      "toegevoegd": "2026-10-07",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/85273997"
+    },
+    {
       "doel": "PZH-Assist is ontwikkeld als veilig alternatief voor ChatGPT en soortgelijke chatbots. PZH-Assist is alleen beschikbaar voor ambtenaren van provincie Zuid-Holland. PZH-Assist is bedoeld als assistent en heeft geen directe impact op bedrijven en burgers. PZH-assist heeft niet noodzakelijk een directe en grote impact op inwoners, omdat het voornamelijk intern wordt gebruikt. De gebruiker bepaalt echter zelf het specifieke doel waarvoor PZH-assist wordt ingezet. Het experiment is afgerond. PZH-Assist blijft tot eind 2024 beschikbaar.",
       "geregistreerd": "2024-11-08",
       "id": "85298529",
@@ -17965,6 +17977,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/95382151"
     },
     {
+      "doel": "Doel: Medewerkers helpen om vragen en verzoeken snel te beantwoorden. Dit doen we door automatisch een antwoord voor te stellen. Zo hoeven medewerkers minder routinewerk te doen en kunnen ze sneller reageren op vragen. Impact: Het systeem maakt een voorstel voor een antwoord. Een medewerker kijkt altijd het antwoord na, past het aan als dat nodig is en verstuurt het. Er is geen automatische beslissing zonder menselijke controle.",
+      "geregistreerd": "2026-10-06",
+      "id": "95413541",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Almere",
+      "status": "in_gebruik",
+      "title": "Jonas",
+      "toegevoegd": "2026-10-07",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/95413541"
+    },
+    {
       "doel": "Doel: Leges zijn vergoedingen voor gemeentelijke dienstverlening. De tarieven worden vastgesteld door de gemeenteraad en staan in de Legesverordening. Om leges te kunnen heffen bepalen wij grondslagsoorten en legessoorten. Leges worden berekend over een grondslag. De grondslagsoort bepaalt waar de grondslag voor de legesberekening gevonden kan worden. Wij gebruiken de software Centric Leefomgeving om al onze vergunning aanvragen (inclusief toezicht en handhaving) mee te verwerken. Denk hierbij aan een (vergunning plichtige) verbouwing, een milieuvergunning of bijvoorbeeld een parkeervergunning. Impact : De legesbedragen voor deze aanvragen worden aan de hand van door de gemeente in Centric Leefomgeving ingevoerde rekenregels berekent.",
       "geregistreerd": "2024-06-25",
       "id": "95471150",
@@ -18925,7 +18949,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1577,
-  "fetched_at": "2026-10-06T06:31:00Z",
+  "count": 1579,
+  "fetched_at": "2026-10-07T06:30:17Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
