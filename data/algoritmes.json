@@ -86,6 +86,18 @@
     },
     {
       "doel": "Zo goed mogelijk de inwoner begrijpen en hem aan het juiste antwoord helpen. Dat kan soms een inhoudelijk of procedureel antwoord zijn, soms een doorverwijzing of een overdracht naar een (livechat-)medewerker. De virtuele assistent wordt alleen ingezet om meer hulp te kunnen bieden door landelijk vastgestelde antwoorden te geven op burger- en ondernemersvragen of doorverwijzing naar een medewerker.",
+      "geregistreerd": "2026-10-07",
+      "id": "11595944",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Het leveren van betrouwbare overheidsinformatie over producten en diensten",
+      "organisatie": "Gemeente Pijnacker-Nootdorp",
+      "status": "in_gebruik",
+      "title": "Virtuele gemeente assistent Gem",
+      "toegevoegd": "2026-10-08",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/11595944"
+    },
+    {
+      "doel": "Zo goed mogelijk de inwoner begrijpen en hem aan het juiste antwoord helpen. Dat kan soms een inhoudelijk of procedureel antwoord zijn, soms een doorverwijzing of een overdracht naar een (livechat-)medewerker. De virtuele assistent wordt alleen ingezet om meer hulp te kunnen bieden door landelijk vastgestelde antwoorden te geven op burger- en ondernemersvragen of doorverwijzing naar een medewerker.",
       "geregistreerd": "2025-02-20",
       "id": "11631965",
       "impactassessment": "Onbekend",
@@ -554,12 +566,12 @@
     },
     {
       "doel": "Het algoritme bestaat uit een aantal computerspellen, waarmee de geschiktheid van sollicitanten wordt bepaald. Het algoritme wordt ingezet voor de werving van kandidaten voor een aantal functies, zoals KCC-medewerkers, WMO-consultenten en trainees. De inzet van de tool en daarmee het algrotime betreft een pilot. Het algoritme is bepalend voor de voorselectie van kandidaten met wie het sollicitatieproces wordt voortgezet.",
-      "geregistreerd": "2025-07-16",
+      "geregistreerd": "2026-10-07",
       "id": "14167528",
       "impactassessment": "Onbekend",
       "juridische_basis": "",
       "organisatie": "Gemeente Almere",
-      "status": "in_gebruik",
+      "status": "buiten_gebruik",
       "title": "Gamification",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/14167528"
@@ -1967,6 +1979,18 @@
       "title": "CROW - wegbeheersystematiek",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/22472410"
+    },
+    {
+      "doel": "Ouders van peuters hebben recht op gratis Voorschoolse Educatie als hun kind een doelgroepkind is en in Den Haag woont. Een doelgroepkind is een peuter die moeite heeft met taal of een risico heeft op een taalachterstand. De jeugdverpleegkundige van het CJG bekijkt of een kind een doelgroepkind is. Als een kind geen doelgroepkind is, kan het kind minder uren per week naar de Voorschoolse Educatie en zijn er kosten voor de ouders aan verbonden. Kinderopvangorganisaties vragen subsidie aan bij de gemeente om doelgroepkinderen gratis Voorschoolse Educatie te geven. Daarvoor maken zij gebruik van een automatische controle, waarbij wordt gecontroleerd of een kind een doelgroepkind is en in Den Haag woont. Hiervoor wordt gebruik gemaakt van gegevens van het CJG en de BRP. Ouders geven bij het CJG toestemming om deze gegevens te delen met de kinderopvangorganisatie.",
+      "geregistreerd": "2026-08-17",
+      "id": "22493789",
+      "impactassessment": "Ja",
+      "juridische_basis": "In de Wet op het primair onderwijs (Wpo) staat dat gemeenten moeten weten hoeveel peuterplaatsen er zijn en hoeveel peuters daarvan gebruikmaken. Dit geldt voor alle peuters: of ze doelgroepkind zijn of niet (artikelen 159, 160 en 161 Wpo). Ook moet de gemeente weten hoe de kindgebonden subsidie voor kinderen wordt besteed. Daarom is het belangrijk om te weten of een peuter een doelgroepkind is. Deze informatie is nodig om de subsidie voor kinderopvangorganisaties goed vast te stellen (artikel 163 Wpo).",
+      "organisatie": "Gemeente Den Haag",
+      "status": "in_gebruik",
+      "title": "Geautomatiseerde controle of een peuter in aanmerking komt voor subsidie voor Voorschoolse Educatie",
+      "toegevoegd": "2026-10-08",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/22493789"
     },
     {
       "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
@@ -7861,6 +7885,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/47688849"
     },
     {
+      "doel": "Het doel van de toepassing is het efficiënt, volledig en reproduceerbaar doorzoeken van grote hoeveelheden informatie binnen de Microsoft 365-omgeving. Hierdoor kan de gemeente wettelijke verplichtingen, zoals Woo-verzoeken en AVG-verzoeken, zorgvuldiger en sneller uitvoeren. De toepassing ondersteunt medewerkers bij het identificeren van mogelijk relevante informatie, maar neemt geen geautomatiseerde beslissingen over personen. De impact voor betrokkenen bestaat eruit dat hun persoonsgegevens onderdeel kunnen zijn van zoekopdrachten wanneer dit noodzakelijk is voor de uitvoering van een wettelijke taak of onderzoek. De uiteindelijke beoordeling en verwerking van de resultaten vindt altijd plaats door bevoegde medewerkers.",
+      "geregistreerd": "2026-10-07",
+      "id": "47726680",
+      "impactassessment": "Ja",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Almere",
+      "status": "in_gebruik",
+      "title": "eDiscovery",
+      "toegevoegd": "2026-10-08",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/47726680"
+    },
+    {
       "doel": "Het doel van dit algoritme is om efficiënter te selecteren welke aangiften mogelijk een risico geven op het niet naleven van de vergunningsplicht voor gefluoreerde broeikasgassen. Dit algoritme richt zich op naleving van de vergunningsplicht voor gefluoreerde broeikasgas producten die de Europese Unie (via Nederland) binnenkomen of verlaten. De Douane controleert bedrijven op basis van de uitkomsten van dit algoritme.",
       "geregistreerd": "2025-04-02",
       "id": "47735792",
@@ -10811,6 +10847,18 @@
       "title": "Microsoft 365 Copilot Chat",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/61754283"
+    },
+    {
+      "doel": "Een applicatie die alle informatie over de gemeenteraad op een duidelijke en toegankelijke manier presenteert voor inwoners, raadsleden en de griffie. Dit systeem biedt een overzicht van belangrijke documenten en (video)verslagen, waardoor mensen tijd besparen op zoek en leeswerk. Door gebruik te maken van een slimme zoekmachine en Al-technologie kan dit systeem complexe informatie eenvoudig toegankelijk maken. Door dit platform te gebruiken kan onze AI vertaaltool Weglot ook geimplementeerd worden voor raadsinformatie. Hierdoor kunnen wij deze ook meertalig ontsluiten.",
+      "geregistreerd": "2026-10-07",
+      "id": "61754733",
+      "impactassessment": "Ja",
+      "juridische_basis": "Nvt.",
+      "organisatie": "Gemeente Goes",
+      "status": "in_gebruik",
+      "title": "Gemeenteraad Goes - Debatrijk (AI)",
+      "toegevoegd": "2026-10-08",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/61754733"
     },
     {
       "doel": "Het doel van het algoritme is om gerichte informatie te verstrekken aan organisaties die gebruikmaken van de BRP (gebruikers), in plaats van losse gegevens die de gebruikers zelf moeten verwerken tot informatie. Het algoritme zet de losse gegevens om in informatie, op basis van regels. Die informatie wordt vanuit de centrale BRP verstrekt aan gebruikers, in plaats van de gehele set gegevens die nodig is om tot die informatie te komen. Hierdoor worden er minder gegevens verstrekt aan de BRP-gebruikers; hiermee wordt dataminimalisatie bereikt. Naast dataminimalisatie kent de inzet van algoritmes in de BRP API's de volgende doelstellingen. Het voorkomen van fouten bij het gebruik van BRP-gegevens, zoals een foutieve afleiding van de aanschrijfnaam op basis van losse naamgegevens, zodat de rechten van burgers zo goed mogelijk worden beschermd. Meer transparantie voor de burger; de burger kan ook zien hoe de gegevens zijn gebruikt doordat de afleidingsregels openbaar zijn (de afleidingsregels die gebruikers van de BRP zelf toepassen zijn veelal niet bekend en verschillen bovendien per gebruiker). Kostenbesparingen op de lange termijn: doordat de gebruikers van de BRP geen kopiebestanden meer hoeven te beheren; lagere aansluitkosten op de BRP voor gebruikers; centralisatie van regels bij de verstrekker van BRP-gegevens, in plaats van implementatie bij vele gebruikers; Het sneller en goedkoper doorvoeren van wijzigingen in de BRP vanwege maatschappelijke ontwikkelingen. Organisaties gebruiken nu zelf -ieder voor zich- regels om informatie af te leiden uit BRP-gegevens. Met de BRP API's gebeurt het afleiden van informatie uit BRP-gegevens centraal. Door de centralisatie van deze regels is de impact van een wijziging op aangesloten overheidssystemen veel kleiner dan nu.",
@@ -18433,6 +18481,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/97343514"
     },
     {
+      "doel": "Het algoritme ondersteunt crisiscommunicatieteams bij het verzamelen, ordenen en samenvatten van informatie tijdens een incident. Het genereert een omgevingsbeeld op basis van openbare online bronnen, maakt een eerste opzet voor een communicatiestrategie, stelt conceptteksten op en helpt bij het terugvinden van relevante contactgegevens en planinformatie. Deze functies worden gebruikt als input voor het werk van communicatieprofessionals. Burgers en bedrijven komen indirect met het algoritme in aanraking doordat de informatie die de overheid tijdens een crisis publiceert mede gebaseerd kan zijn op door het algoritme gegenereerde concepten die door professionals worden beoordeeld en vastgesteld.",
+      "geregistreerd": "2026-08-17",
+      "id": "97372875",
+      "impactassessment": "Ja",
+      "juridische_basis": "Het algoritme wordt ingezet binnen het proces van crisiscommunicatie. Dit proces heeft een duidelijke wettelijke basis. De burgemeester is op grond van de Gemeentewet verantwoordelijk voor de handhaving van de openbare orde tijdens rampen en crises. De Wet veiligheidsregio’s verplicht burgemeesters om de bevolking tijdig en duidelijk te informeren over een incident, de risico’s en de gedragsadviezen. Deze verplichting wordt verder uitgewerkt in het Besluit informatie rampen en crisis en het Besluit veiligheidsregio’s, waarin staat dat een actueel totaalbeeld moet worden bijgehouden en gedeeld met alle betrokken partijen. Het verwerken van informatie – waaronder persoonsgegevens – is daarom een noodzakelijk onderdeel van deze wettelijke taak. De AVG biedt hiervoor het juridisch kader, omdat de gegevensverwerking plaatsvindt op basis van een wettelijke verplichting en een taak van algemeen belang. In crisissituaties kan ook een beroep worden gedaan op de grondslag “vitale belangen”, wanneer snelle informatievoorziening nodig is om schade te voorkomen.",
+      "organisatie": "Gemeente Den Haag",
+      "status": "ontwikkeling",
+      "title": "Algoritme voor ondersteuning crisiscommunicatie - crisisbuddy",
+      "toegevoegd": "2026-10-08",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/97372875"
+    },
+    {
       "doel": "Het doel van de scanauto is het lezen van kentekens van geparkeerde auto's om het parkeren te handhaven.",
       "geregistreerd": "2026-07-14",
       "id": "97448639",
@@ -18949,7 +19009,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1579,
-  "fetched_at": "2026-10-07T06:30:17Z",
+  "count": 1584,
+  "fetched_at": "2026-10-08T06:32:14Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
