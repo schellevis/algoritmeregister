@@ -7285,6 +7285,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/45419166"
     },
     {
+      "doel": "Het algoritme ondersteunt de afhandeling van meldingen over de openbare ruimte, zoals afval, straatmeubilair, bestrating en verkeerssituaties.",
+      "geregistreerd": "2026-10-08",
+      "id": "45421743",
+      "impactassessment": "Ja",
+      "juridische_basis": "De gemeente verwerkt deze meldingen als onderdeel van haar wettelijke taak om meldingen over de openbare ruimte te ontvangen, te beoordelen en af te handelen.",
+      "organisatie": "Gemeente Haarlem",
+      "status": "in_gebruik",
+      "title": "Meldingen Openbare Ruimte (Signalen)",
+      "toegevoegd": "2026-10-09",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/45421743"
+    },
+    {
       "doel": "De meeste ondernemingen doen aangifte voor de omzetbelasting (ook wel btw genoemd). Een negatieve aangifte omzetbelasting betekent dat een onderneming in de aangifteperiode meer btw heeft betaald dan ontvangen en daarom een teruggaaf vraagt van de Belastingdienst. Dit kan bijvoorbeeld het geval zijn bij hoge investeringen of een lage omzet in die periode. De Belastingdienst ontvangt jaarlijks zo’n 2,6 miljoen negatieve aangiften. Een deel van deze negatieve aangiften wordt handmatig beoordeeld. Dit betekent dat een medewerker aan de hand van bewijsstukken controleert of de aangifte juist is ingevuld. Als hierbij onjuistheden worden opgemerkt leidt dit tot een correctie. Waarvoor wordt het algoritme gebruikt? Niet alle negatieve aangiften kunnen handmatig worden beoordeeld. Daarvoor is het aantal te groot. Ook wil de Belastingdienst de ondernemers niet onnodig belasten met het aanleveren van bewijsstukken. Daarom richt de handmatige beoordeling zich vooral op de aangiften waarvan vooraf is ingeschat dat ze een hogere kans hebben onjuist te zijn. Het algoritme OB-negatief wordt gebruikt voor de detectie van deze mogelijk onjuiste aangiften van MKB-ondernemingen. Op basis van de uitkomsten van het algoritme worden de aangiften geselecteerd voor de handmatige beoordeling.",
       "geregistreerd": "2026-05-12",
       "id": "45443116",
@@ -11903,6 +11915,18 @@
       "title": "Microsoft 365 Copilot",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/65655913"
+    },
+    {
+      "doel": "Doel: Leges zijn vergoedingen voor gemeentelijke dienstverlening. De tarieven worden vastgesteld door de gemeenteraad en staan in de Legesverordening. De grondslagsoort bepaalt waar de grondslag gevonden moet worden; de legessoort bepaalt de berekening om tot het legesbedrag te komen. Impact: Initiatiefnemers (burgers en organisaties) betalen voor de diensten van de gemeente zoals uitgewerkt in de legesverordening.",
+      "geregistreerd": "2026-10-08",
+      "id": "65726785",
+      "impactassessment": "Ja",
+      "juridische_basis": "Elke gemeente stelt jaarlijks de legesverordening vast. In deze verordening staat precies hoe de leges berekend moeten worden en waarover deze geheven worden.",
+      "organisatie": "Gemeente Oss",
+      "status": "in_gebruik",
+      "title": "Legesberekening",
+      "toegevoegd": "2026-10-09",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/65726785"
     },
     {
       "doel": "De anonimiserings software wordt ingezet om invulling te geven aan enerzijds transparantie en anderzijds aan de noodzakelijke bescherming van de personen en bedrijven op wie de documenten betrekking hebben.",
@@ -19009,7 +19033,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1584,
-  "fetched_at": "2026-10-08T06:32:14Z",
+  "count": 1586,
+  "fetched_at": "2026-10-09T06:31:06Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
