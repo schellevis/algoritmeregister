@@ -6481,14 +6481,14 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/42145240"
     },
     {
-      "doel": "De Belastingdienst maakt gebruik van een algoritme om de openstaande schulden en gemaakte afspraken actief te volgen (monitoren). Dat algoritme noemen we ‘Dynamisch Monitoren’ (DM). DM werkt met gegevens uit diverse gegevensbronnen en met signalen uit de algoritmen ‘Willen Kunnen Kwadrant-GG’ (WKK-GG) en ‘Bellen na Aanmaning’ (BNA). De algoritmen WKK-GG en BNA kunnen een signaal geven aan een medewerker van de Belastingdienst als het bellen van een belastingschuldige: er aan bijdraagt dat de openstaande vordering wordt betaald, of dat er afspraken worden gemaakt over de invordering. De algoritmen WKK-GG en BNA geven alleen signalen na de aanmaning en vóór het dwangbevel. WKK-GG doet dit in het geval dat iemand voor het eerst sinds lange tijd een aanmaning heeft gehad. Na het dwangbevel gaat het algoritme DM na of iemand met een belastingschuld over voldoende (nieuwe) inkomsten of eigendommen beschikt waar de Belastingdienst beslag op kan leggen. Dat gebeurt bij alle openstaande vorderingen waar: een dwangbevel geen resultaat heeft opgeleverd en waar nog geen beslag is gelegd en geen afspraken (zoals een betalingsregeling) zijn gemaakt. Signalen worden in de meest efficiënte volgorde gezet. Zo kan de Belastingdienst met de minste kosten het grootste deel van de openstaande schuld innen. Beschikt een persoon met een belastingschuld naar verwachting over voldoende (nieuwe) inkomsten of eigendommen? Dan wordt er een signaal gestuurd naar een medewerker van de Belastingdienst die de situatie beoordeelt. Het algoritme DM bewaakt de voortgang van de beslaglegging en de gemaakte afspraken wanneer er uitstel van betaling of een betalingsregeling is afgesproken.",
-      "geregistreerd": "2024-06-26",
+      "doel": "Het is de wettelijke taak van de Belastingdienst om ervoor te zorgen dat mensen hun belasting betalen. Dat noemen we het innen van verschuldigde belasting. Aan een vastgestelde belastingaanslag zit een vordering (geldbedrag) vast. Deze moet betaald worden door de belastingplichtige. In totaal gaat het om heel veel vorderingen die de Belastingdienst moet innen. Dat maakt het innen van belasting een omvangrijke taak. De meeste vorderingen worden op tijd betaald. Een klein deel staat langer open dan is toegestaan. Op dat moment wordt er in de meeste gevallen eerst een herinnering naar de belastingplichtige gestuurd. Dat is een waarschuwing dat het geldbedrag nog niet is betaald. Als dat geen resultaat oplevert, sturen we een aanmaning. Bij een aanmaning worden ook aanmaningskosten in rekening gebracht. Daarna zal in een aantal gevallen een medewerker van de Belastingdienst telefonisch contact opnemen met een belastingplichtige om deze te informeren over de mogelijkheden voor uitstel van betaling, kwijtschelding of een betalingsregeling. De volgende stap is een dwangbevel. Dit is een aankondiging dat de Belastingdienst stappen gaat ondernemen door invorderingsmaatregelen. In de fase na het dwangbevel heeft de Belastingdienst verschillende mogelijkheden om de belastingschuld te verhalen, zoals: beslagleggen op bijvoorbeeld een auto of onroerende zaken/goederen vorderingen op loon of banktegoed aansprakelijk stellen Bij het verhalen op inkomen let de Belastingdienst er op dat het bestaansminimum van een belastingplichtige niet wordt aangetast. Er zijn ook particulieren en bedrijven die hun belastingschuld (tijdelijk) niet kunnen betalen. In dat geval is uitstel van betaling of kwijtschelding mogelijk. Of wordt een betalingsregeling afgesproken. De invordering wordt dan gepauzeerd.",
+      "geregistreerd": "2026-10-09",
       "id": "42148382",
       "impactassessment": "Onbekend",
-      "juridische_basis": "Het verzamelen en het gebruik van de hierna beschreven gegevens is geregeld in de: Invorderingswet 1990 Algemene wet inzake rijksbelastingen Uitvoeringsregeling algemene wet inzake rijksbelastingen Wet vereenvoudiging beslagvrije voet (en bijbehorende regelingen) Algemene wet bestuursrecht Algemene verordening gegevensbescherming Uitvoeringswet algemene verordening gegevensbescherming Europees verdrag voor de bescherming van de rechten van de mens Handvest van de grondrechten van de Europese Unie Grondwet Wet algemene bepalingen Burgerservicenummer Leidraad Invordering 2008 Wetboek van Burgerlijke Rechtsvordering Archiefwet 1995 Selectielijsten Belastingdienst",
+      "juridische_basis": "Het verzamelen en het gebruik van de hierboven beschreven gegevens is geregeld in de: Invorderingswet 1990 Algemene wet inzake rijksbelastingen Uitvoeringsregeling algemene wet inzake rijksbelastingen Wet vereenvoudiging beslagvrije voet (en bijbehorende regelingen) Algemene wet bestuursrecht Algemene verordening gegevensbescherming Uitvoeringswet algemene verordening gegevensbescherming Europees verdrag voor de bescherming van de rechten van de mens Handvest van de grondrechten van de Europese Unie Grondwet Wet algemene bepalingen Burgerservicenummer Leidraad Invordering 2008 Wetboek van Burgerlijke Rechtsvordering Archiefwet 1995 Selectielijsten Belastingdienst",
       "organisatie": "Belastingdienst",
       "status": "in_gebruik",
-      "title": "Prioritering Invorderingswerkzaamheden",
+      "title": "Dynamisch Monitoren",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/42148382"
     },
@@ -17149,6 +17149,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/92445260"
     },
     {
+      "doel": "Het algoritme ondersteunt de afhandeling van meldingen over de openbare ruimte, zoals afval, straatmeubilair, bestrating en verkeerssituaties.",
+      "geregistreerd": "2026-10-09",
+      "id": "92538258",
+      "impactassessment": "Ja",
+      "juridische_basis": "De gemeente verwerkt deze meldingen als onderdeel van haar wettelijke taak om meldingen over de openbare ruimte te ontvangen, te beoordelen en af te handelen.",
+      "organisatie": "Gemeente Zandvoort",
+      "status": "in_gebruik",
+      "title": "Meldingen Openbare Ruimte (Signalen)",
+      "toegevoegd": "2026-10-10",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/92538258"
+    },
+    {
       "doel": "Het doel is het anonimiseren van privacygevoelige informatie in documenten die de gemeente publiceert. Zo beschermen we de privacy van burgers en organisaties en voorkomen we (eventuele) datalekken.",
       "geregistreerd": "2024-10-14",
       "id": "92563836",
@@ -19033,7 +19045,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1586,
-  "fetched_at": "2026-10-09T06:31:06Z",
+  "count": 1587,
+  "fetched_at": "2026-10-10T06:28:33Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
