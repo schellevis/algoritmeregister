@@ -769,6 +769,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/15135562"
     },
     {
+      "doel": "Voor elke verkiezing stelt de gemeente Eindhoven een overzicht op van inwoners die mogen stemmen. Hiervoor gebruikt de gemeente gegevens uit de Basisregistratie Personen (BRP). Het systeem past de wettelijke voorwaarden voor de betreffende verkiezing toe en selecteert de inwoners die hieraan voldoen. Deze kiezers ontvangen een stempas.",
+      "geregistreerd": "2026-09-30",
+      "id": "15354192",
+      "impactassessment": "Ja",
+      "juridische_basis": "In artikel D 1 van de Kieswet staat dat burgemeester en wethouders van elke gemeente de kiesgerechtigdheid registreren van hun eigen inwoners. In artikel J 7 van de Kieswet staat dat de burgemeester van iedere gemeente op de dag na de kandidaatstelling vaststelt wie mag stemmen. Deze personen krijgen ten minste 14 dagen voor de verkiezingen een stempas thuisgestuurd.",
+      "organisatie": "Gemeente Eindhoven",
+      "status": "in_gebruik",
+      "title": "Selecteren kiesgerechtigden",
+      "toegevoegd": "2026-10-13",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/15354192"
+    },
+    {
       "doel": "Een inwoner vraagt een bijstandsuitkering aan. De gemeente moet vaststellen of de burger hier recht op heeft. Het IB helpt gemeenten hierbij. Tijdens een uitkering kan de situatie van de bijstandsgerechtigde veranderen. Dit kan van invloed zijn op de uitkering. Bijvoorbeeld als iemand tegelijkertijd een bijstandsuitkering en een baan (inkomen) heeft. Dat kan soms betekenen dat de uitkering aangepast of stopgezet moet worden. In deze gevallen ontvangt de gemeente een bericht van het IB. Dit scheelt de gemeente een hoop werk, bij het vaststellen of iemand nog steeds recht heeft op een uitkering. Dit voorkomt dat mensen met een uitkering pas veel later te maken krijgen met terugvorderingen.",
       "geregistreerd": "2025-08-04",
       "id": "15422688",
@@ -13129,6 +13141,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/72514740"
     },
     {
+      "doel": "Het algoritme is ontwikkeld om het gezicht van de persoon die voor de balie staat te vergelijken met de afbeelding in zijn identiteitsdocument en om aan te kunnen geven met welke zekerheid gesteld kan worden dat de persoon weergegeven op de afbeelding van het gescande identiteitsdocument dezelfde persoon is (of niet). Dit algoritme ondersteunt de RNI-medewerker aan de balie zodat deze met enige zekerheid kan vaststellen of de persoon aan de balie ook de persoon is van wie het identiteitsdocument gescand is.",
+      "geregistreerd": "2026-10-12",
+      "id": "72534797",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wettelijke verplichting tot deugdelijke identiteitsvaststelling: Wet BRP art. 2.67 4de lid, Besluit BRP art.35 Toelaatbaarheid van biometrie: UAVG art. 29, in voorliggende situatie is authenticatie noodzakelijk",
+      "organisatie": "Gemeente Eindhoven",
+      "status": "in_gebruik",
+      "title": "Inzet geautomatiseerde gezichtsvergelijking",
+      "toegevoegd": "2026-10-13",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/72534797"
+    },
+    {
       "doel": "Het algoritme ondersteunt de medewerker aan de balie bij het vergelijken van een live vastgelegde gezichtsopname met de afbeelding op een identiteitsdocument. De medewerker krijgt een indicatie en eventueel vergelijkingsscore te zien, op basis waarvan hij of zij de inschatting kan maken dat persoon en document bij elkaar horen. Het doel is om identiteitsfraude (zoals look-alike-fraude) te voorkomen en de betrouwbaarheid van gegevens in de BRP te versterken.",
       "geregistreerd": "2025-11-03",
       "id": "72639199",
@@ -16465,6 +16489,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/88456515"
     },
     {
+      "doel": "Doel: Het belang van een correct geregistreerd adres gaat verder dan het op orde houden van de BRP. Vindt er een ramp plaats, dan wil je iedereen in de omgeving tijdig kunnen waarschuwen. Ook worden voorzieningen, uitkeringen of subsidies verstrekt op basis van het in de BRP geregistreerde adres. Impact: Het algoritme controleert gegevens van de burger. Indien er geen bijzonderheden worden geconstateerd, wordt de aanvraag of aangifte verwerkt zonder tussenkomst van een medewerker. Indien er wel een bijzonderheid wordt geconstateerd, valt de aanvraag/aangifte in een wachtkamer. Het algoritme kan alleen automatisch goedkeuren; afkeuren kan alleen de ambtenaar.",
+      "geregistreerd": "2026-09-29",
+      "id": "88469775",
+      "impactassessment": "Ja",
+      "juridische_basis": "De Wet basisregistratie personen (Wet BRP) regelt de registratie van persoonsgegevens door gemeenten. Het Burgerlijk Wetboek bevat de wettelijke basis voor aangiften van burgerlijke stand.",
+      "organisatie": "Gemeente Eindhoven",
+      "status": "in_gebruik",
+      "title": "eDiensten Burgerzaken",
+      "toegevoegd": "2026-10-13",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/88469775"
+    },
+    {
       "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
       "geregistreerd": "2026-01-20",
       "id": "88471378",
@@ -18026,13 +18062,13 @@
     },
     {
       "doel": "Doel De IGJ moet gerichte keuzes maken in het toezicht op organisaties. Het algoritme helpt om meer objectief en structureel data uit verschillende bronnen mee te wegen in deze keuzes. Dit maakt het toezicht effectiever en efficiënter. Impact Deze keuzes kunnen bijvoorbeeld bestaan uit welke toezichtsactiviteit we gaan doen, welke onderwerpen op de agenda komen bij een toezichtsactiviteit of bij welke organisatie de toezichtsactiviteit plaatsvindt.",
-      "geregistreerd": "2026-04-16",
+      "geregistreerd": "2026-10-09",
       "id": "95279897",
       "impactassessment": "Ja",
       "juridische_basis": "De IGJ houdt toezicht op de verschillende zorgsectoren.",
       "organisatie": "Inspectie Gezondheidszorg en Jeugd",
       "status": "in_gebruik",
-      "title": "IGJ risico-signaleringssyteem (IRiS dashboards)",
+      "title": "IGJ risico-signaleringssyteem",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/95279897"
     },
@@ -19045,7 +19081,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1587,
-  "fetched_at": "2026-10-10T06:28:33Z",
+  "count": 1590,
+  "fetched_at": "2026-10-13T06:34:03Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
