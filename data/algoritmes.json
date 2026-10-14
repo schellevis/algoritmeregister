@@ -9746,12 +9746,12 @@
     },
     {
       "doel": "Doel van dit algoritme is ondersteuning van gebruikers met bijvoorbeeld een visuele handicap. Er zijn veel mensen in Nederland die moeite hebben met lezen en dus problemen hebben met het begrijpen van de teksten op websites. Denk aan laaggeletterden, anderstaligen, mensen met een beperking, slecht zicht, concentratieproblemen etc. Op de website van de gemeente Woensdrecht kan een bezoeker gebruik maken van ReadSpeaker. Dit is software die tekst kan voorlezen. Iedereen kan ReadSpeaker gebruiken. Deze versie van de voorleeshulp is gebruiksvriendelijk, voldoet aan de AVG-richtlijnen en biedt extra functionaliteiten zoals voorlezen via muisselectie, een vergrootfunctie, schermmaskering en meer.",
-      "geregistreerd": "2025-06-20",
+      "geregistreerd": "2026-10-13",
       "id": "56421457",
       "impactassessment": "Onbekend",
       "juridische_basis": "",
       "organisatie": "Gemeente Steenwijkerland",
-      "status": "ontwikkeling",
+      "status": "in_gebruik",
       "title": "Voorleessoftware website",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/56421457"
@@ -19082,6 +19082,6 @@
     }
   ],
   "count": 1590,
-  "fetched_at": "2026-10-13T06:34:03Z",
+  "fetched_at": "2026-10-14T06:28:39Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
