@@ -890,7 +890,7 @@
     },
     {
       "doel": "Wanneer u een WW-uitkering bij ons aanvraagt, willen wij weten of u niet door uw eigen schuld werkloos bent geworden. Als dit wel het geval is, dan bent u verwijtbaar werkloos. U heeft dan geen recht op een WW-uitkering. Om mogelijke verwijtbare werkloosheid bij WW-aanvragen te signaleren, gebruiken wij de Risicoscan Verwijtbare Werkloosheid.",
-      "geregistreerd": "2025-12-15",
+      "geregistreerd": "2026-10-14",
       "id": "15759870",
       "impactassessment": "Ja",
       "juridische_basis": "",
@@ -12038,7 +12038,7 @@
     },
     {
       "doel": "UWV wil dienstverlening bieden die past bij uw situatie. De Maatwerkscan laat ons zien of u een risico loopt om na de WW in de bijstand terecht te komen. Loopt u een risico? Dan nemen wij contact met u op om te kijken welke ondersteuning u nodig heeft om dit risico te verkleinen.",
-      "geregistreerd": "2026-04-24",
+      "geregistreerd": "2026-10-14",
       "id": "66433284",
       "impactassessment": "Ja",
       "juridische_basis": "WW-uitkering",
@@ -14666,7 +14666,7 @@
     },
     {
       "doel": "Om een WW-uitkering te krijgen, is het belangrijk dat u actief naar werk zoekt. De Sollicitatiescan WW laat ons zien of u hier mogelijk extra ondersteuning bij nodig heeft. Zo kunnen we u sneller en beter helpen bij het vinden van een nieuwe baan.",
-      "geregistreerd": "2026-02-09",
+      "geregistreerd": "2026-10-14",
       "id": "79826945",
       "impactassessment": "Ja",
       "juridische_basis": "WW-uitkering",
@@ -19082,6 +19082,6 @@
     }
   ],
   "count": 1590,
-  "fetched_at": "2026-10-14T06:28:39Z",
+  "fetched_at": "2026-10-15T06:28:55Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
