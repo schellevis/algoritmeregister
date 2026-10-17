@@ -7405,6 +7405,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/45781764"
     },
     {
+      "doel": "Doel: IMG ChatBob heeft verschillende functies. ChatBob kan teksten herschrijven, samenvattingen maken en ondersteunen in programeertaken. ChatBob mag niet worden gebruikt voor belangrijke beslissingen en besluitvorming. Impact: met ChatBob kunnen we teksten maken die iedereen begrijpt. Dit helpt ons om beter te communiceren. De samenvattingsfunctie van ChatBob bespaart ook tijd. Ondersteuning bij programmeertaken versnelt de ontwikkeling van producten en oplossen van problemen door sneller oorzaken te vinden.",
+      "geregistreerd": "2026-10-15",
+      "id": "45985124",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Instituut Mijnbouwschade Groningen",
+      "status": "in_gebruik",
+      "title": "IMG ChatBob",
+      "toegevoegd": "2026-10-17",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/45985124"
+    },
+    {
       "doel": "Toezichtcapaciteit inzetten bij de bedrijven met de meeste milieurelevantie en waar naar inschatting meer kans is op overtredingen. Aanvullend wordt de werkplanning voor een groot deel automatisch gemaakt. De hierdoor vrijkomende capaciteit kan worden ingezet voor toezicht. Dit algoritme wordt gebruikt voor prioriteitstelling van preventieve controles. Buiten dit model om worden ook controles uitgevoerd, bijvoorbeeld naar aanleiding van overlastklachten.",
       "geregistreerd": "2024-05-03",
       "id": "45991543",
@@ -15661,6 +15673,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/84938480"
     },
     {
+      "doel": "KennisChat helpt medewerkers om informatie in de IMG-Kennisbank beter te vinden en te gebruiken. Het maakt het ook makkelijker om deze informatie te begrijpen. Hierdoor hebben gebruikers minder werkdruk. Met KennisChat besparen gebruikers tijd, omdat ze niet meer handmatig door de grote IMG-Kennisbank hoeven te zoeken. Impact: de impact van deze chatbot is laag. Het systeem helpt alleen om informatie sneller te vinden en toegankelijker te maken. De chatbot ondersteunt medewerkers bij het vinden van informatie, maar neemt geen beslissingen en heeft geen juridische gevolgen. Er kan een risico zijn van onjuiste of misleidende informatie, wat kan leiden tot extra controle of vertraging. Dit risico is klein omdat de chatbot alleen helpt en menselijke controle vereist blijft.",
+      "geregistreerd": "2026-10-15",
+      "id": "84941392",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Instituut Mijnbouwschade Groningen",
+      "status": "in_gebruik",
+      "title": "Kennischat",
+      "toegevoegd": "2026-10-17",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/84941392"
+    },
+    {
       "doel": "Gemeente Delft past beeldherkenning toe om de openbare ruimte meetbaar te maken. Dit gebeurt d.m.v. het vastleggen van straatbeelden en analyseren van deze beelden met behulp van beeldherkenningstechnieken. Deze toepassing biedt informatie over de fysieke toestand van de openbare ruimte en wordt in verschillende vormen ingezet in het kader van slimmer en datagedreven beheer en onderhoud van de openbare ruimte. Gemeente Delft zet deze techniek in om obv beoordelingscriteria (e.g. aantal gedetecteerde propjes zwerfafval) het kwaliteitsniveau te bepalen. De technologie van beeldherkenning in combi met beeldmeetlatten maakt het mogelijk om op efficiënte wijze inzicht te krijgen in de staat van onderhoud van de openbare ruimte. Proces: 1. Beeldinwinning De beeldinwinning wordt uitgevoerd door medewerkers of ingehuurde personen, met behulp van opnameapparatuur (zoals GoPro’s of 360°-camera’s). Deze zijn bevestigd op voertuigen, fietsen, of worden gedragen door personen te voet. Er wordt uitsluitend geregistreerd vanaf openbare wegen of andere locaties waar het maken van beelden is toegestaan. Als de routes worden gepland, in samenwerking met een gemeentelijke opdrachtgever, kan deze opdrachtgever ervoor kiezen om inwoners vooraf te informeren via bijvoorbeeld de gemeentelijke website, nieuwsbrief of wijkkrant. De camera’s zijn primair gericht op relevante objecten in de openbare ruimte, zoals wegen, bomen en straatmeubilair. Toch kunnen mogelijk identificeerbare elementen onbedoeld in beeld komen; deze zijn echter niet het doel van de opname. De uitkomst van de analyse is een dataset bestaande uit numerieke scores, telwaarden of gebiedsgebonden classificaties (bijvoorbeeld per straatvak of rasters). Na de inwinning worden de beelden zo snel mogelijk, en uiterlijk binnen 24 uur, overgezet naar een beveiligde opslagomgeving of direct geüpload via een versleutelde verbinding naar de beveiligde on-premise serveromgeving. Alles wat tot personen kan herleiden wordt geblurd. Blurren is het proces van het onduidelijk maken of vervagen van bepaalde delen van een afbeelding of video zodat niet meer herleidbaar is naar personen. 2. Vernietiging ruwe beelden op opnameapparatuur Na succesvolle overdracht van de beelden naar de beveiligde serveromgeving van UrbanVue worden de ruwe beelden op de gebruikte opslagmedia (zoals SD-kaarten) direct vernietigd. De inzet van camera's is niet bedoeld om de huidige werkwijze te vervangen, maar om deze te ondersteunen en te versterken.",
       "geregistreerd": "2026-02-25",
       "id": "84945844",
@@ -19081,7 +19105,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1590,
-  "fetched_at": "2026-10-15T06:28:55Z",
+  "count": 1592,
+  "fetched_at": "2026-10-17T06:24:50Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
