@@ -11173,6 +11173,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/62767154"
     },
     {
+      "doel": "Het algoritme zorgt ervoor dat persoonlijke informatie veilig blijft. Het maakt gevoelige informatie anoniem. Zo blijft de privacy van mensen beschermd.",
+      "geregistreerd": "2026-10-19",
+      "id": "62799951",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
+      "organisatie": "Gemeente Midden-Groningen",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-10-20",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/62799951"
+    },
+    {
       "doel": "De chatbot is onderdeel van onze gemeentelijke website. De chatbot biedt onze inwoners een extra digitaal kanaal. De chatbot helpt om informatie te vinden op de website. Ook beantwoordt de chatbot gemakkelijk en snel vragen op basis van informatie die op de website te vinden is.",
       "geregistreerd": "2026-09-29",
       "id": "62823470",
@@ -16706,12 +16718,12 @@
     },
     {
       "doel": "De anonimiseringstool wordt ingezet om invulling te geven aan enerzijds transparantie en anderzijds aan de noodzakelijke bescherming van de personen, bedrijven en instellingen op wie documenten betrekking hebben.Transparantie omdat het gemeente Midden-Groningen in staat stelt om informatie volgens regelgeving zoals de Woo te delen, actief danwel passief. Voor de burger over wie er gegevens in te publiceren documenten zijn opgenomen, betekent het gebruik dat er geen privacy schending plaatsvindt daarmee voldoet aan de AVG. Dat geldt ook voor de bescherming van privacygegevens van de medewerkers van gemeente Midden-Groningen.De aanvrager van een Woo verzoek krijgt de informatie waarom zij vroeg, hetzij in geanonimiseerde versie of deels gemaskeerd op basis van een andere grondslag. Voor de afdelingen binnen de organisatie die voor het afhandelen van een Woo-verzoek en/of publicatie van informatie verantwoordelijk zijn, betekent het dat ze voldoen aan wet- en regelgeving. Gebruik van de software verkort de doorlooptijd en draagt derhalve bij aan het binnen de wettelijke termijnen kunnen aanbieden van gevraagde informatie.De risico impact van het algoritme is laag. Dat geldt voor personen (burgers, medewerkers van afnemende organisaties) en bedrijven en instellingen. Het algoritme zoekt specifiek naar (persoons)gegevens en maskeert deze of duidt ze aan ongeacht de verdere inhoud van documenten. Er wordt een voorstel gedaan voor het anonimiseren van een tekstfragment aan een vakinhoudelijk persoon, er is geen sprake van automatische beslissingen. Daarnaast heeft de tool als optie om handmatig informatie te maskeren die om andere redenen niet publiek gemaakt kan worden. Daarmee kan bijvoorbeeld een tekstfragment met strategische informatie gemarkeerd worden, ter bescherming van de eigen organisatie of een partnerorganisatie (overheid, bedrijf of instelling). De grondslag van het anonimiseren of maskeren wordt vermeld in het vak.",
-      "geregistreerd": "2025-01-14",
+      "geregistreerd": "2026-10-19",
       "id": "89591299",
       "impactassessment": "Onbekend",
       "juridische_basis": "",
       "organisatie": "Gemeente Midden-Groningen",
-      "status": "in_gebruik",
+      "status": "buiten_gebruik",
       "title": "Octobox",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/89591299"
@@ -19105,7 +19117,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1592,
-  "fetched_at": "2026-10-17T06:24:50Z",
+  "count": 1593,
+  "fetched_at": "2026-10-20T06:28:04Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
