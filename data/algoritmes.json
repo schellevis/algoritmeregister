@@ -1309,6 +1309,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/17364371"
     },
     {
+      "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
+      "geregistreerd": "2026-10-20",
+      "id": "17514213",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
+      "organisatie": "Gemeente Hilvarenbeek",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-10-21",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/17514213"
+    },
+    {
       "doel": "Het doel is om repetitieve en tijdrovende processen te automatiseren, verminderen administratieve lasten en snellere en foutloze afhandeling. De impact is om de groeiende werklast aan te kunnen en dat medewerkers meer tijd over hebben voor inhoudelijke(re) zaken. Het algoritme heeft als functie dat het collega's ondersteunt. De medewerker van de Gemeente Den Haag wordt ondersteund bij administratieve en repetitieve taken. Daardoor heeft de medewerker meer tijd voor inhoudelijke taken, ervaart de medewerker minder werkdruk en ervaart de medewerker meer werkplezier. Een medewerker van gemeente Den Haag zal altijd alleen indirect te maken krijgen met het algoritme. De gegevens van de medewerkers worden volledig versleuteld verwerkt, waardoor de data veiligheid gewaarborgd wordt",
       "geregistreerd": "2025-09-26",
       "id": "17542829",
@@ -8521,6 +8533,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/51398965"
     },
     {
+      "doel": "Doel: Leges zijn vergoedingen voor gemeentelijke dienstverlening. De tarieven worden vastgesteld door de gemeenteraad en staan in de Legesverordening. De grondslagsoort bepaalt waar de grondslag gevonden moet worden; de legessoort bepaalt de berekening om tot het legesbedrag te komen. Impact: Initiatiefnemers (burgers en organisaties) betalen voor de diensten van de gemeente zoals uitgewerkt in de legesverordening.",
+      "geregistreerd": "2026-10-20",
+      "id": "51421768",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Elke gemeente stelt jaarlijks de legesverordening vast. In deze verordening staat precies hoe de leges berekend moeten worden en waarover deze geheven worden.",
+      "organisatie": "Gemeente Hilvarenbeek",
+      "status": "in_gebruik",
+      "title": "Legesberekening",
+      "toegevoegd": "2026-10-21",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/51421768"
+    },
+    {
       "doel": "Het steekproefscript zorgt voor een uniform gebruik binnen de Belastingdienst. Wijzigingen in het landelijke beleid kunnen centraal worden doorgevoerd zodat de meest actuele versie wordt gebruikt. Alternatief is dat men zelf de statistische maatstaven waarmee de steekproef wordt getrokken vastlegt, en de steekproef zelf neemt in Arbutus. Dit is foutgevoeliger dan een centrale aanpak. Ook leidt het script tot standaard rapportage voor controledossier, tijdbesparing voor IT-auditor en standaard uitvoer naar de bedrijven. Het script zorgt voor aselecte trekking van te controleren geldeenheden, waarmee de steekproef aantoonbaar representatief is voor de populatie waaruit de steekproef is getrokken. Door het gebruik van het steekproefscript wordt iedere menselijke voorkeur uitgesloten bij de uitvoering van juistheidscontroles.",
       "geregistreerd": "2025-09-23",
       "id": "51558387",
@@ -13549,11 +13573,11 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/74517190"
     },
     {
-      "doel": "De Omgevingsdienst wil graag transparant zijn naar de omgeving maar moet ook voldoen aan privacywetgeving. De inzet van deze automatisering maakt dit mogelijk, zonder dat dit te veel inzet van medewerkers kost.",
-      "geregistreerd": "2024-01-30",
+      "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
+      "geregistreerd": "2026-10-20",
       "id": "74541993",
       "impactassessment": "Onbekend",
-      "juridische_basis": "Omgevingswet en AVG",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
       "organisatie": "Omgevingsdienst Noordzeekanaalgebied",
       "status": "in_gebruik",
       "title": "Anonimiseren",
@@ -14353,6 +14377,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/78165771"
     },
     {
+      "doel": "Door de inzet van een algoritme ontstaat er meer inzicht in de werkvoorraad VOG-aanvragen. Het algoritme deelt aanvragen op in werkstromen op basis van de verwachte behandel- en doorlooptijd. Hierdoor kan de beschikbare capaciteit aan medewerkers efficiënter worden ingezet. Ook kunnen de medewerkers de te behandelen VOG-aanvragen beter prioriteren. Dit vergroot de voorspelbaarheid van de doorlooptijd. Het algoritme draagt bij aan een betere naleving van de wettelijke termijnen voor het nemen van een beslissing op de VOG-aanvraag. Er is geen directe impact op burgers en rechtspersonen.",
+      "geregistreerd": "2026-10-15",
+      "id": "78312366",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Het algoritme wordt ingezet voor de uitvoering van de Wet strafvorderlijke en justitiële gegevens, namelijk voor afdeling 5: 'de Verklaring Omtrent het Gedrag'. Het wordt alleen ingezet voor de werkvoorraad van VOG-aanvragen van natuurlijke personen.",
+      "organisatie": "Justis",
+      "status": "in_gebruik",
+      "title": "Verdeling werkvoorraad VOG-aanvragen in werkstromen",
+      "toegevoegd": "2026-10-21",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/78312366"
+    },
+    {
       "doel": "Het dient als een snelle nauwkeurige geautomatiseerde politieke monitor voor het gericht berichten ophalen van de Tweede Kamer. Dit geeft snel inzicht in de informatie over de Tweede Kamer die voor de provincie relevant is. Hiermee kan de provincie vroegtijdig op de hoogte zijn van relevante politieke ontwikkelingen in de Tweede Kamer. Ook draagt het bij aan het op orde houden van de informatievoorziening. De signaleringsfunctie heeft geen directe impact op burgers. De informatie uit Polpo gaat niet naar burgers toe en wordt enkel gebruikt als lobby naar de Tweede Kamer.",
       "geregistreerd": "2024-05-29",
       "id": "78343766",
@@ -14999,6 +15035,18 @@
       "title": "Detecteren risico's in douaneaangiften: naleving vergunningsplicht voor ozonlaagafbrekende stoffen",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/81942839"
+    },
+    {
+      "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
+      "geregistreerd": "2026-10-20",
+      "id": "81985177",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Algemene Verordening Gegevensbescherming (AVG) Jeugdwet & Wmo 2015",
+      "organisatie": "Gemeente Hilvarenbeek",
+      "status": "in_gebruik",
+      "title": "Zivver",
+      "toegevoegd": "2026-10-21",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/81985177"
     },
     {
       "doel": "Met behulp van applicatie wordt het proces van het bepalen van de loonwaarde ondersteund. Het doel van de applicatie is om op uniforme wijze de loonwaarde te bepalen; hiervoor is sinds 2021 een landelijke methodiek beschikbaar. Vanuit de Participatiewet kunnen uitkeringsgerechtigden een beroep doen op begeleiding en het instrumentarium van de directie Werk en Participatie. Als een persoon een vermoedelijke arbeidsbeperking heeft, dan kan een loonwaardebepaling worden ingezet om de verminderde arbeidsproductiviteit te meten. Op het moment dat de productiviteit van een werknemer lager ligt dan een gemiddelde werknemer kun je als werkgever hiervoor een compensatie krijgen in de vorm van loonkostensubsidie. De hoogte van de loonkostensubsidie wordt vastgesteld door een loonwaardedeskundige in de vorm van een loonwaardemeting. Door een arbeidsbeperking is de werknemer niet in staat de volledige productiviteit te bieden. De gemeente subsidieert op dat moment een deel van de loon- en begeleidingskosten. De niet geleverde productie wordt gemeten en gecompenseerd met een loonkostensubsidie aan de werkgever die de vastgestelde loonwaarde aanvult tot het niveau van het wettelijk minimumloon. De uniforme loonwaarde methodiek berekent de (verminderde) arbeidsproductiviteit van een werknemer op van de drie variabelen: tempo, kwaliteit en netto werktijd.",
@@ -19117,7 +19165,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1593,
-  "fetched_at": "2026-10-20T06:28:04Z",
+  "count": 1597,
+  "fetched_at": "2026-10-21T06:28:31Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
