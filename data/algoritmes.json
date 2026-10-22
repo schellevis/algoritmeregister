@@ -4345,6 +4345,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/32856721"
     },
     {
+      "doel": "Ondersteunt het veilig verwerken van meldingen openbare ruimte door persoonsgegevens te herkennen en af te schermen zowel binnen documenten als in foto's. Inwoners komen hiermee in aanraking bij het melden van schade of overlast. De melder kiest zelf welke hoofdcategorie bij de melding past. Medewerkers van gemeente controleren de meldingen en verdelen deze in subcategorieën. Wanneer melders de keuze maken om een openbaar te delen, herkent het algoritme persoonlijke gegevens in de melding. Tevens maakt het systeem het eenvoudig om de geanonimiseerde meldingen te delen met externe partijen.",
+      "geregistreerd": "2026-10-21",
+      "id": "32961270",
+      "impactassessment": "Ja",
+      "juridische_basis": "- Gemeentewet - Algemene plaatselijke verordening (APV) - Wegenwet - Woningwet - Wet ruimtelijke ordening - Milieuwetgeving - Wet geluidhinder - Wet bodembescherming - Flora- en faunawet - Drank- en Horecawet - Warenwetbesluit Attractie- en speeltoestellen",
+      "organisatie": "Gemeente Amstelveen",
+      "status": "in_gebruik",
+      "title": "Fixi - meldingen openbare ruimte",
+      "toegevoegd": "2026-10-22",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/32961270"
+    },
+    {
       "doel": "Het doel van dit algoritme is om efficiënter te selecteren welke aangiften mogelijk onjuist zijn ingevuld. Dit algoritme richt zich op accijnsproducten (tabak, alcoholhoudende drank en minerale oliën) en kijkt naar aangiften van goederen die van buiten de Europese Unie komen. Het geeft aan bij welke aangiften er een hoger risico is op smokkel, fraude of onjuiste gegevens. De Douane controleert bedrijven op basis van de uitkomsten meer of juist minder.",
       "geregistreerd": "2024-02-28",
       "id": "33169372",
@@ -18014,7 +18026,7 @@
     },
     {
       "doel": "De anonimiseringstool wordt ingezet om te voorkomen dat persoonlijke of vertrouwelijke gegevens onbedoeld worden gedeeld of openbaar worden gemaakt.",
-      "geregistreerd": "2026-10-01",
+      "geregistreerd": "2026-10-21",
       "id": "94784767",
       "impactassessment": "Ja",
       "juridische_basis": "1. WOO 2. WDO 3. UAVG 4. WEP 5. WDO",
@@ -19165,7 +19177,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1597,
-  "fetched_at": "2026-10-21T06:28:31Z",
+  "count": 1598,
+  "fetched_at": "2026-10-22T06:28:30Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
