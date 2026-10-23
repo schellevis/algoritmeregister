@@ -14209,6 +14209,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/77267652"
     },
     {
+      "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
+      "geregistreerd": "2026-10-22",
+      "id": "77288224",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "AVG (artikel 32), Cbw (artikel 21)",
+      "organisatie": "Gemeente Leusden",
+      "status": "in_gebruik",
+      "title": "Zivver",
+      "toegevoegd": "2026-10-23",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/77288224"
+    },
+    {
       "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
       "geregistreerd": "2025-08-21",
       "id": "77357915",
@@ -19177,7 +19189,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1598,
-  "fetched_at": "2026-10-22T06:28:30Z",
+  "count": 1599,
+  "fetched_at": "2026-10-23T06:28:20Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
