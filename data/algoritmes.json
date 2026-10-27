@@ -1118,7 +1118,7 @@
     },
     {
       "doel": "De gemeente wil graag transparant zijn naar haar inwoners en ondernemers maar ze moet ook voldoen aan o.a. privacy-wetgeving. De inzet van anonimiseringssoftware maakt dit mogelijk door medewerkers te ondersteunen bij het anonimiseren van documenten.",
-      "geregistreerd": "2024-08-16",
+      "geregistreerd": "2026-10-26",
       "id": "16456482",
       "impactassessment": "Ja",
       "juridische_basis": "Algemene Verordening Gegevensbescherming (AVG), Uitvoeringswet Algemene Verordening Gegevensbescherming (UAVG) en de Wet Open Overheid (Woo), Wet elektronische publicatie (WEP).",
@@ -1967,6 +1967,18 @@
       "title": "Berekenen Huurtoeslag",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/22218344"
+    },
+    {
+      "doel": "RISC-Preventief is een hulpmiddel voor de Omgevingsdienst om te zorgen voor goede milieu-inspecties. Het helpt bij het plannen van inspecties op basis van risico's. Er zijn verschillende indicatoren die bepalen welke bedrijven eerst gecontroleerd moeten worden. Deze indicatoren kijken naar dingen zoals de tijd sinds de laatste controle, wat het bedrijf doet, en of er problemen bekend zijn zoals faillissementen. Elke dag wordt de lijst van bedrijven bijgewerkt, zodat de informatie altijd actueel is. Een toezichthouder kan in RISC-Preventief zien welke bedrijven het belangrijkst om te inspecteren zijn en waarom. Vanuit de tool kan een controle worden ingepland.",
+      "geregistreerd": "2026-10-26",
+      "id": "22279561",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Omgevingswet",
+      "organisatie": "DCMR Milieudienst Rijnmond",
+      "status": "in_gebruik",
+      "title": "RISC Preventief",
+      "toegevoegd": "2026-10-27",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/22279561"
     },
     {
       "doel": "Efficient en uniform behandelen van en besluiten op aanvragen, mutaties en heronderzoeken voor bijstand, bijzondere bijstand, IIT, verhaal op onderhoudsplichtigen en terugvordering van te veel ontvangen bijstand. Het algoritme wordt ingezet in een applicatie voor inwoners van de ca. 80 aangesloten gemeenten en controleert gedurende het proces of wordt voldaan aan verschillende (wettelijke) criteria . De consulent krijgt gedurende de hele behandeling de mogelijkheid om af te wijken van de voorgestelde keuzes van het kennissysteem.",
@@ -5701,6 +5713,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/38142260"
     },
     {
+      "doel": "Zo goed mogelijk de inwoner begrijpen en hem aan het juiste antwoord helpen. Dat kan soms een inhoudelijk of procedureel antwoord zijn, soms een doorverwijzing of een overdracht naar een (livechat-)medewerker. De virtuele assistent wordt alleen ingezet om meer hulp te kunnen bieden door landelijk vastgestelde antwoorden te geven op inwoners- en ondernemersvragen of doorverwijzing naar een medewerker.",
+      "geregistreerd": "2026-10-16",
+      "id": "38215881",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Het leveren van betrouwbare overheidsinformatie over producten en diensten",
+      "organisatie": "Gemeente Eindhoven",
+      "status": "in_gebruik",
+      "title": "Virtuele gemeente assistent Gem",
+      "toegevoegd": "2026-10-27",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/38215881"
+    },
+    {
       "doel": "De Belastingdienst controleert inhoudingsplichtigen(zoals een werkgever, pensioenfonds of uitkeringsinstantie) op een juiste en volledige aangifte en betaling van de loonheffingen. Loonheffingen bestaan uit loonbelasting, premie volksverzekeringen, premies werknemersverzekeringen en de inkomensafhankelijke bijdrage Zorgverzekeringswet. Inhoudingsplichtigen (zoals een werkgever, pensioenfonds of uitkeringsinstantie) houden de loonbelasting en premie volksverzekeringen in op het loon van hun werknemer en in sommige gevallen de inkomensafhankelijke bijdrage zorgverzekering. Zij dragen dit af aan de Belastingdienst. De premies werknemersverzekeringen en doorgaans de inkomensafhankelijke bijdrage Zorgverzekeringswet worden niet ingehouden op het loon van de werknemer, maar draagt de werkgever zelf af aan de Belastingdienst. U of uw werkgever/uitkeringsinstantie betaalt de inkomensafhankelijke bijdrage Zorgverzekeringswet aan de Belastingdienst. De bijdrage Zorgverzekeringswet is een bedrag dat u of uw werkgever/uitkeringsinstantie - naast de premie die u betaalt aan de zorgverzekeraar- betaalt voor de zorgverzekering. Hoe hoger uw inkomen, hoe hoger uw bijdrage Zorgverzekeringswet of de bijdrage Zorgverzekeringswet van uw werkgever. Ontvangt u tegelijkertijd loon, een pensioen of een andere uitkering of tegelijkertijd meerdere pensioenen of andere uitkeringen? En zijn uw inkomsten in totaal hoger dan het maximale inkomen waarover de bijdrage Zorgverzekeringswet wordt berekend (het maximumbijdrage-inkomen)? Dan wordt bij u in totaal te veel bijdrage Zorgverzekeringswet ingehouden. De belastingdienst geeft een teruggave van de te veel ingehouden bijdrage zorgverzekeringswet. Dit algoritme selecteert de benodigde gegevens van natuurlijke personen die via een massaal proces een teruggaaf van de bijdrage zorgverzekeringswet hebben ontvangen of te veel bijdrage zorgverzekeringswet terug hebben ontvangen die de Belastingdienst heeft teruggevorderd. Deze gegevens worden vervolgens overgezet van het ene systeem naar het andere.",
       "geregistreerd": "2025-10-30",
       "id": "38222274",
@@ -6709,6 +6733,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/42666963"
     },
     {
+      "doel": "Het doel van het algoritme is om aanvragen voor een bijstandsuitkering op een snelle en gelijke manier te beoordelen. Het algoritme wordt gebruikt in de online aanvraag voor inwoners. Tijdens de aanvraag begeleidt het algoritme de aanvrager door een vragenboom langs de voorwaarden voor een uitkering. De uitkomst van deze controle wordt direct aan de aanvrager getoond.",
+      "geregistreerd": "2026-10-15",
+      "id": "42676153",
+      "impactassessment": "Ja",
+      "juridische_basis": "Uitkering Participatiewet",
+      "organisatie": "Gemeente Eindhoven",
+      "status": "in_gebruik",
+      "title": "E-dienst Levensonderhoud",
+      "toegevoegd": "2026-10-27",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/42676153"
+    },
+    {
       "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
       "geregistreerd": "2025-02-18",
       "id": "42697347",
@@ -6722,7 +6758,7 @@
     },
     {
       "doel": "Ondersteunende AI-tool voor de beoordeling van asbestsloopmeldingen. Is de aanvraag compleet en bevat deze alle wettelijk voorgeschreven gegevens? De tool maakt gebruik van een LLM en het toetsingskader uit het Besluit bouwwerken leefomgeving. Het eindoordeel of een melding Goedgekeurd óf Afgekeurd wordt is aan de behandelaar.",
-      "geregistreerd": "2026-04-23",
+      "geregistreerd": "2026-10-26",
       "id": "42722830",
       "impactassessment": "Onbekend",
       "juridische_basis": "Omgevingswet, Besluit bouwwerken leefomgeving (Bbl)",
@@ -10298,7 +10334,7 @@
     },
     {
       "doel": "De gemeente wil graag transparant zijn naar haar inwoners en ondernemers maar ze moet ook voldoen aan o.a. privacy-wetgeving. De inzet van anonimiseringssoftware maakt dit mogelijk door medewerkers te ondersteunen bij het anonimiseren van documenten.",
-      "geregistreerd": "2024-04-29",
+      "geregistreerd": "2026-10-26",
       "id": "58579637",
       "impactassessment": "Onbekend",
       "juridische_basis": "Algemene Verordening Gegevensbescherming (AVG), Uitvoeringswet Algemene Verordening Gegevensbescherming (UAVG) en de Wet Open Overheid (Woo), Wet elektronische publicatie (WEP).",
@@ -11245,6 +11281,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/62862947"
     },
     {
+      "doel": "Algoritmes worden toegepast ter ondersteuning van een efficiëntere en meer doelgerichte uitvoering van toezicht- en handhavingstaken. Vanuit de doelstellingen van de betreffende programma’s worden interventies vastgesteld die bijdragen aan het bevorderen van de naleving van wet- en regelgeving. Om deze interventies effectief in te zetten, worden kenmerken geïdentificeerd die samenhangen met een verhoogde kans op niet-naleving. Deze kenmerken kunnen bijvoorbeeld betrekking hebben op het gebruik van bepaalde chemische stoffen, de activiteiten van het bedrijf, het inzetten van werknemers voor wie bijzondere vereisten gelden zoals buitenlandse studenten of kennismigranten, het eigendom of gebruik van specifieke typen percelen, of andere factoren die binnen een toezichtdomein relevant zijn voor het inschatten van nalevingsrisico’s. Bedrijven komen niet rechtstreeks met de algoritmes in aanraking, maar wel indirect doordat de uitkomsten worden gebruikt bij de selectie en prioritering van inspecties en controles. Het gebruik van de algoritmes heeft als doel de beschikbare toezicht- en handhavingscapaciteit zo effectief mogelijk in te zetten. Hierdoor kunnen bedrijven met een lagere risico-inschatting minder frequent worden gecontroleerd. Voor hen volstaan bijvoorbeeld de zelf-inspectie tools op de website van de inspectie.",
+      "geregistreerd": "2026-10-22",
+      "id": "62884697",
+      "impactassessment": "Ja",
+      "juridische_basis": "De kernwetten waarop de Arbeidsinspectie toezicht houdt: Arbeidsomstandighedenwet (Arbowet) Arbeidstijdenwet (ATW) Wet minimumloon en minimumvakantiebijslag (WML) Wet arbeid vreemdelingen (Wav) Wet allocatie arbeidskrachten door intermediairs (Waadi) Wet arbeidsvoorwaarden gedetacheerde werknemers in de Europese Unie (WagwEU) Wet SUWI (toezicht op uitvoering werk en inkomen) Diverse uitvoeringsbesluiten en veiligheidsregelingen zoals ARIE en Seveso III.",
+      "organisatie": "Nederlandse Arbeidsinspectie",
+      "status": "in_gebruik",
+      "title": "Gebruik van selectielijsten ten behoeve van toezicht",
+      "toegevoegd": "2026-10-27",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/62884697"
+    },
+    {
       "doel": "De gemeente Olst-Wijhe gebruikt M365 Copilot om medewerkers te helpen. Deze toepassing maakt het makkelijker om informatie te verwerken en teksten te schrijven. Het doel is om de interne werkprocessen te ondersteunen, niet om beslissingen te nemen. Sommige medewerkers hebben extra functies in M365 Copilot. Ook kunnen er speciale agents worden gemaakt voor hulp binnen de organisatie. Deze agents helpen de gebruiker en respecteren de toegangsrechten. Ze nemen geen eigen beslissingen. De impact is vooral binnen de organisatie: medewerkers kunnen sneller werken en makkelijker een eerste versie of overzicht maken. Inwoners en ondernemers krijgen geen automatische beslissingen van M365 Copilot. De toepassing helpt alleen medewerkers met voorbereidende en administratieve taken. De kwaliteit hangt af van menselijke controle en zorgvuldig gebruik.",
       "geregistreerd": "2026-09-09",
       "id": "62914488",
@@ -11363,6 +11411,18 @@
       "title": "Anonimiseringssoftware",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/63464375"
+    },
+    {
+      "doel": "Verbeteren bedrijfsvoering (efficiënt en effectief werken) en uiteindelijk daarmee de dienstverlening aan inwoners en bedrijven.",
+      "geregistreerd": "2026-10-26",
+      "id": "63519352",
+      "impactassessment": "Ja",
+      "juridische_basis": "nvt. Bedrijfsvoering",
+      "organisatie": "Gemeente Texel",
+      "status": "in_gebruik",
+      "title": "SafeGPT (AI)",
+      "toegevoegd": "2026-10-27",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/63519352"
     },
     {
       "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
@@ -13021,6 +13081,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/71477174"
     },
     {
+      "doel": "Doel: het digitaal handhaven van vrachtwagenverbod. Controle hierop gebeurt met camera's die kentekens kunnen lezen. Het doel van het algoritme is om efficiënt te kunnen handhaven. Het algoritme heeft alleen impact op voertuigen die niet in de gebieden mogen zijn. Alleen het overtredende voertuig wordt in beeld gebracht. Niet-overtreders worden buiten beschouwing gelaten. De camera's, en daarmee het algoritme, worden ingezet ten behoeve van het handhaven van het vrachtwagenverbod. De impact van het algoritme op de burger is laag. Enkel het lezen van de kentekenplaat wordt door het algoritme uitgevoerd. Vermeende overtreders worden door een BOA handmatig gecontroleerd om te bepalen of er sprake is van een strafbare gedraging, waarbij de BOA ook de kentekenplaat zelf nog controleert op camerabeelden.",
+      "geregistreerd": "2026-10-26",
+      "id": "71592868",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wegenverkeerswet 1994",
+      "organisatie": "Gemeente Drimmelen",
+      "status": "in_gebruik",
+      "title": "Kentekencamerahandhaving vrachtwagenverbod",
+      "toegevoegd": "2026-10-27",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/71592868"
+    },
+    {
       "doel": "Doel was om op grond van kenmerken een passend aanbod te kunnen bepalen voor mensen in de bijstand naar werk of participatie trajecten. Het algoritme was een eenmalige analyse.",
       "geregistreerd": "2024-08-23",
       "id": "71627856",
@@ -13211,6 +13283,18 @@
       "title": "Inzet geautomatiseerde gezichtsvergelijking",
       "toegevoegd": "2026-10-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/72534797"
+    },
+    {
+      "doel": "De applicatie ondersteunt inwoners bij het aanvragen van kwijtschelding van gemeentelijke belastingen. Het systeem bevraagt de aanvrager gericht naar informatie die nodig is voor het behandelen van een kwijtscheldingsaanvraag en controleert of alle benodigde informatie is aangeleverd. De applicatie ondersteunt bij het oordelen van de informatie die nodig is voor een besluit. Hierdoor kunnen aanvragen efficiënter en consistenter worden behandeld. Het doel van de applicatie is om het proces van kwijtscheldingsaanvragen eenvoudiger, toegankelijker en efficiënter te maken voor zowel inwoners als voor de medewerker invordering van de afdeling Belastingen.",
+      "geregistreerd": "2026-10-16",
+      "id": "72542255",
+      "impactassessment": "Ja",
+      "juridische_basis": "Invorderingswet 1990 (artikel 26), Uitvoeringsregeling Invorderingswet 1990, Regeling kwijtschelding belastingen medeoverheden en de Leidraad Invordering.",
+      "organisatie": "Gemeente Eindhoven",
+      "status": "in_gebruik",
+      "title": "Online aanvragen kwijtschelding gemeentelijke belastingen",
+      "toegevoegd": "2026-10-27",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/72542255"
     },
     {
       "doel": "Het algoritme ondersteunt de medewerker aan de balie bij het vergelijken van een live vastgelegde gezichtsopname met de afbeelding op een identiteitsdocument. De medewerker krijgt een indicatie en eventueel vergelijkingsscore te zien, op basis waarvan hij of zij de inschatting kan maken dat persoon en document bij elkaar horen. Het doel is om identiteitsfraude (zoals look-alike-fraude) te voorkomen en de betrouwbaarheid van gegevens in de BRP te versterken.",
@@ -19094,7 +19178,7 @@
     },
     {
       "doel": "Ondersteunende AI-tool voor de beoordeling van lozingsmeldingen (grondwater). Is de aanvraag compleet en bevat deze alle wettelijk voorgeschreven gegevens? Bij het beoordelen van lozingsmeldingen door een AI-bot wordt gebruik gemaakt van een LLM en het toetsingskader uit het Omgevingsplan. Het eindoordeel of een melding Goedgekeurd óf Afgekeurd wordt is aan de behandelaar.",
-      "geregistreerd": "2026-04-23",
+      "geregistreerd": "2026-10-26",
       "id": "99484574",
       "impactassessment": "Onbekend",
       "juridische_basis": "Omgevingswet",
@@ -19189,7 +19273,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1599,
-  "fetched_at": "2026-10-23T06:28:20Z",
+  "count": 1606,
+  "fetched_at": "2026-10-27T06:28:52Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
