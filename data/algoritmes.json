@@ -206,9 +206,9 @@
     },
     {
       "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
-      "geregistreerd": "2024-03-19",
+      "geregistreerd": "2026-10-27",
       "id": "12254864",
-      "impactassessment": "Onbekend",
+      "impactassessment": "Ja",
       "juridische_basis": "",
       "organisatie": "Gemeente Waalwijk",
       "status": "in_gebruik",
@@ -9913,6 +9913,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/56889459"
     },
     {
+      "doel": "ORBIT is ontwikkeld om de provincie te ondersteunen bij het beoordelingsproces van gemeenten in het toezichtsgebied omgevingsrecht, met als doel om de beoordelingen uniformer en op termijn efficiënter uit te voeren. Wanneer de beoordeling uitsluitend door mensen wordt uitgevoerd, kunnen toezichthouders informatie verschillend interpreteren en beoordelen. Hierdoor kunnen verschillen in de beoordelingen ontstaan. ORBIT ondersteunt toezichthouders door gemeentelijke documenten steeds op eenzelfde, vooraf vastgestelde werkwijze te doorzoeken en op basis daarvan een voorstel voor een conceptbeoordeling te geven. De toezichthouder blijft verantwoordelijk voor de uiteindelijke beoordeling en controleert ieder voorstel van ORBIT. Het uiteindelijke doel van ORBIT is om de beoordeling efficiënter te kunnen doen, waardoor in de toekomst meer tijd over zal blijven voor de dialooggesprekken met de gemeenten en de praktijktoetsing. ORBIT is momenteel nog in ontwikkeling waardoor er nu nog geen structurele tijdbesparing is vastgesteld.",
+      "geregistreerd": "2026-10-27",
+      "id": "56999857",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet revitalisering generiek toezicht (Wrgt)",
+      "organisatie": "Provincie Noord-Brabant",
+      "status": "ontwikkeling",
+      "title": "ORBIT",
+      "toegevoegd": "2026-10-28",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/56999857"
+    },
+    {
       "doel": "Het toekennen van de individuele inkomenstoeslag heeft als doel (deels geautomatiseerd) inwoners die langdurig een laag inkomen hun toeslag te doen toekomen met voor de inwoner zo laag mogelijk administratieve lasten door hergebruik van bij de gemeente al bekende gegevens.",
       "geregistreerd": "2024-06-24",
       "id": "57117645",
@@ -12035,6 +12047,18 @@
       "title": "iBurgerzaken e-diensten",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/65621338"
+    },
+    {
+      "doel": "Het hoofddoel van de inzet van vlam-chat is het bieden van een veilig, veelzijdig generatief AI-systeem ter ondersteuning van algemene kantoorwerkzaamheden van medewerkers van de Rijksoverheid. Werkzaamheden die hier onder vallen zijn bijvoorbeeld: samenvatten, herschrijven of vertalen.",
+      "geregistreerd": "2026-10-21",
+      "id": "65646322",
+      "impactassessment": "Ja",
+      "juridische_basis": "Verordening Artificiële Intelligentie (AI Act) Algemene verordening gegevensbescherming (AVG) Cyberbeveiligingswet (CBW)",
+      "organisatie": "SSC-ICT",
+      "status": "in_gebruik",
+      "title": "vlam-chat",
+      "toegevoegd": "2026-10-28",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/65646322"
     },
     {
       "doel": "Het doel van Microsoft 365 Copilot is om medewerkers te ondersteunen bij hun dagelijkse werk. Microsoft 365 Copilot helpt bijvoorbeeld bij het schrijven van teksten, het maken van samenvattingen, het opstellen van e-mails of het voorbereiden van vergaderingen. Dit gebeurt met behulp van kunstmatige intelligentie (AI). De impact is dat medewerkers sneller en makkelijker hun werk kunnen doen. Ze hoeven minder tijd te besteden aan standaardtaken en kunnen zich beter richten op inhoud en samenwerking. Burgers en bedrijven merken dit indirect, bijvoorbeeld doordat brieven duidelijker zijn, antwoorden sneller komen of vergaderingen beter zijn voorbereid. Het gebruik van Microsoft 365 Copilot draagt bij aan het vergroten van digitale vaardigheden en het vertrouwd raken met generatieve AI. Tegelijkertijd vraagt dit om bewust en verantwoord gebruik. De gemeente ziet de kansen van AI en volgt de technologische ontwikkelingen met aandacht. Er is een duidelijke ambitie om mee te bewegen met deze vooruitgang, zolang dit gebeurt op een zorgvuldige en verantwoorde manier. Om medewerkers hierin te begeleiden, zijn er spelregels opgesteld voor de omgang met generatieve AI. Daarnaast werken verschillende clusters aan tactisch beleid dat aansluit op de dagelijkse praktijk en bijdraagt aan de ontwikkeling van een alomvattend strategisch kader voor de omgang met AI binnen de organisatie.",
@@ -19273,7 +19297,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1606,
-  "fetched_at": "2026-10-27T06:28:52Z",
+  "count": 1608,
+  "fetched_at": "2026-10-28T06:21:01Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
