@@ -373,6 +373,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/12816718"
     },
     {
+      "doel": "Het werkproces voor de behandeling van WMO aanvragen starten met een melding van een ondersteuningsvraag door een inwoner. Vervolgens wordt de melding geregistreerd, gescreend en toegewezen aan een Wmo-consulent. De consulent voert een onderzoek uit. Tijdens het onderzoek worden gesprekken gevoerd, aanvullende documenten verzameld en relevante gegevens uit gemeentelijke en wettelijke bronnen geraadpleegd. Op basis hiervan wordt een onderzoeksverslag opgesteld dat door de inwoner wordt gecontroleerd. Na accordering vormt dit de basis voor de uiteindelijke beschikking. De WMO consulent wordt hierbij ondersteund door de inzet van AI (Wmo-agent), gebouwd in Microsoft Copilot Studio en gebruikmakend van Azure OpenAI-technologie. De Wmo-agent ondersteunt uitsluitend bij verslaglegging en kwaliteitscontrole door transcripties en documenten te analyseren; te controleren op volledigheid ten opzichte van wettelijke en gemeentelijke eisen; ontbrekende informatie te signaleren; een concept-onderzoeksverslag op te stellen volgens een vast format .De agent beslist niet over Wmo-voorzieningen; de Wmo-consulent blijft verantwoordelijk voor het onderzoek en de tekst.",
+      "geregistreerd": "2026-10-28",
+      "id": "12887138",
+      "impactassessment": "Ja",
+      "juridische_basis": "Gegevensverwerking binnen de inzet van ondersteunde AI tool vindt plaats op basis van de oorspronkelijke grondslag van de verwerking. Artikel 2.3.2 Wmo 2015 verplicht het college om de ondersteuningsvraag van een inwoner zorgvuldig te onderzoeken. Artikel 5.1.1 Wmo 2015 biedt een wettelijke basis voor de verwerking van de daarvoor noodzakelijke persoonsgegevens, waaronder gezondheidsgegevens. Voor het gebruik van persoonsgegevens bij de AI-ondersteunde verslaglegging noemt de DPIA artikel 6, eerste lid, onder e, AVG als grondslag: de uitvoering van een taak van algemeen belang. Bij gezondheidsgegevens moet daarnaast aan artikel 9 AVG zijn voldaan; de precieze uitzonderingsgrond is in de DPIA nog niet expliciet benoemd, terwijl voor gespreksopnamen afzonderlijk toestemming wordt gevraagd.",
+      "organisatie": "Gemeente Almere",
+      "status": "ontwikkeling",
+      "title": "Wmo Agent",
+      "toegevoegd": "2026-10-29",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/12887138"
+    },
+    {
       "doel": "Het doel van het algoritme is om gerichte informatie te verstrekken aan organisaties die gebruikmaken van de BRP (gebruikers), in plaats van losse gegevens die de gebruikers zelf moeten verwerken tot informatie. Het algoritme zet de losse gegevens om in informatie, op basis van regels. Die informatie wordt vanuit de centrale BRP verstrekt aan gebruikers, in plaats van de gehele set gegevens die nodig is om tot die informatie te komen. Hierdoor worden er minder gegevens verstrekt aan de BRP-gebruikers; hiermee wordt dataminimalisatie bereikt. Naast dataminimalisatie kent de inzet van algoritmes in de BRP API's de volgende doelstellingen. Het voorkomen van fouten bij het gebruik van BRP-gegevens, zoals een foutieve afleiding van de aanschrijfnaam op basis van losse naamgegevens, zodat de rechten van burgers zo goed mogelijk worden beschermd. Meer transparantie voor de burger; de burger kan ook zien hoe de gegevens zijn gebruikt doordat de afleidingsregels openbaar zijn (de afleidingsregels die gebruikers van de BRP zelf toepassen zijn veelal niet bekend en verschillen bovendien per gebruiker). Kostenbesparingen op de lange termijn: doordat de gebruikers van de BRP geen kopiebestanden meer hoeven te beheren; lagere aansluitkosten op de BRP voor gebruikers; centralisatie van regels bij de verstrekker van BRP-gegevens, in plaats van implementatie bij vele gebruikers; Het sneller en goedkoper doorvoeren van wijzigingen in de BRP vanwege maatschappelijke ontwikkelingen. Organisaties gebruiken nu zelf -ieder voor zich- regels om informatie af te leiden uit BRP-gegevens. Met de BRP API's gebeurt het afleiden van informatie uit BRP-gegevens centraal. Door de centralisatie van deze regels is de impact van een wijziging op aangesloten overheidssystemen veel kleiner dan nu.",
       "geregistreerd": "2024-10-21",
       "id": "12987610",
@@ -18121,6 +18133,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/94672666"
     },
     {
+      "doel": "Het belang van een correct geregistreerd adres gaat verder dan het op orde houden van de Basisregistratie Personen (BRP). Vindt er bijvoorbeeld een ramp plaats, dan wil je iedereen in de omgeving tijdig kunnen waarschuwen. Ook verstrek je als gemeente voorzieningen, uitkeringen of subsidies aan inwoners, op basis van het in de BRP geregistreerde adres. Dat maakt een correcte adresregistratie belangrijk voor zowel inwoners als overheid. Het algoritme controleert verschillende gegevens van de burger. Indien er geen bijzonderheden geconstateerd worden in de aanvraag of aangifte kan deze verwerkt worden zonder tussenkomst van een medewerker. Indien er wel een bijzonderheid geconstateerd wordt valt de aanvraag/aangifte in een wachtkamer waar deze gecontroleerd wordt door een medewerker. Het algoritme kan alleen automatisch een aanvraag/aangifte goedkeuren. Een aanvraag/aangifte afkeuren kan alleen de ambtenaar.",
+      "geregistreerd": "2026-10-28",
+      "id": "94741331",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet basisregistratie personen Wet rechten burgerlijke stand",
+      "organisatie": "Gemeente Houten",
+      "status": "in_gebruik",
+      "title": "Burgerzaken: eDiensten",
+      "toegevoegd": "2026-10-29",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/94741331"
+    },
+    {
       "doel": "Het algoritme ondersteunt de medewerker aan de balie bij het vergelijken van een live vastgelegde gezichtsopname met de afbeelding op een identiteitsdocument. De medewerker krijgt een indicatie en eventueel vergelijkingsscore te zien, op basis waarvan hij of zij de inschatting kan maken dat persoon en document bij elkaar horen. Het doel is om identiteitsfraude (zoals look-alike-fraude) te voorkomen en de betrouwbaarheid van gegevens in de BRP te versterken.",
       "geregistreerd": "2025-11-03",
       "id": "94778638",
@@ -19297,7 +19321,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1608,
-  "fetched_at": "2026-10-28T06:21:01Z",
+  "count": 1610,
+  "fetched_at": "2026-10-29T06:21:17Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
