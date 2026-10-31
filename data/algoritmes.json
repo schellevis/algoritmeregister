@@ -769,6 +769,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/14968815"
     },
     {
+      "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
+      "geregistreerd": "2026-10-30",
+      "id": "14985485",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Berg en Dal",
+      "status": "in_gebruik",
+      "title": "Zivver",
+      "toegevoegd": "2026-10-31",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/14985485"
+    },
+    {
       "doel": "Algemeen Het algoritme ‘startende verklaringhouder geen privégebruik auto’ heeft tot doel het informeren van startende verklaringhouders over de juiste invulling van een rittenregistratie. Onvolkomenheden ten aanzien van de formele vereisten van een rittenregistratie kunnen in het kader van de bijtelling privégebruik auto tot naheffingen leiden. Door contact te zoeken met de startende verklaringhouder kan de situatie van het onbedoeld onjuist of niet bijhouden van een rittenregistratie worden voorkomen. Het algoritme geeft aan de belastingdienstmedewerker een overzicht van nieuw gestarte verklaringhouders geen privégebruik auto. Situatie en doel De Belastingdienst controleert inhoudingsplichtigen op een juiste en volledige aangifte en betaling van de loonheffingen. Loonheffingen bestaan uit loonbelasting, premie volksverzekeringen, premies werknemersverzekeringen en de inkomensafhankelijke bijdrage Zorgverzekeringswet. Inhoudingsplichtigen (zoals een werkgever, pensioenfonds of uitkeringsinstantie) houden de loonbelasting en premie volksverzekeringen in op het loon van hun werknemer en in sommige gevallen de inkomensafhankelijke bijdrage Zorgverzekeringswet. Zij dragen dit af aan de Belastingdienst. De premies werknemersverzekeringen en doorgaans de inkomensafhankelijke bijdrage Zorgverzekeringswet worden niet ingehouden op het loon van de werknemer, maar worden door de inhoudingsplichtige zelf afgedragen aan de Belastingdienst. Wanneer er meer dan 500 kilometer privé in een auto van de zaak wordt gereden, moet hiervoor bijtelling worden betaald. De werkgever telt hiervoor een bedrag op bij het loon van de werknemer. De werkgever hoeft geen bijtelling privégebruik auto tot het loon te rekenen als de werkgever kan bewijzen dat er niet meer dan 500 kilometer per jaar privé wordt gereden. De werknemer kan deze bewijslast overnemen van de werkgever wanneer hij hiervoor een ‘Verklaring geen privégebruik auto’ aanvraagt, en daarna met behulp van een rittenregistratie zelf dit bewijs levert.",
       "geregistreerd": "2025-10-30",
       "id": "15135562",
@@ -3695,6 +3707,18 @@
       "title": "Anonimiseringssoftware",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/29141379"
+    },
+    {
+      "doel": "Het doel van de e-diensten met het onderliggende algoritme is inwoners en ondernemers maximaal ondersteunen/begeleiden bij een digitale aanvraag. Daardoor kan deze aanvraag juist en volledig worden ingediend. Het algoritme controleert verschillende gegevens van de inwoner. Als er geen aanvullende gegevens nodig zijn van de inwoner en er geen handmatige acties of controles van de gemeente zijn vereist (zoals bijvoorbeeld ondertekening) om de aanvraag te verwerken, dan kan deze verwerkt worden zonder tussenkomst van een burgerzakenmedewerker. Zijn er wel aanvullende gegevens, controles of acties nodig, dan komt de aanvraag/aangifte altijd terecht in een werklijst. Daar wordt deze gecontroleerd door een burgerzakenmedewerker. Het algoritme kan alleen automatisch een aanvraag/aangifte goedkeuren. Een aanvraag/aangifte afkeuren kan alleen de burgerzakenmedewerker. De impact is dat een dergelijke aanvraag efficiënt kan worden afgehandeld door de gemeente; een inwoner/bedrijf heeft namelijk diverse stappen (werkzaamheden) al uitgevoerd, waardoor de ambtenaar meer tijd overhoudt voor de bijzondere en/of ingewikkelde aangiften/aanvragen die de gemeente ontvangt. In een aantal gevallen kan deze aanvraag zelfs volledig automatisch worden verwerkt. De kwaliteit van de dienstverlening gaat door deze diensten omhoog, net als de kwaliteit van de gegevens in de BRP.",
+      "geregistreerd": "2026-10-30",
+      "id": "29195347",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet basisregistratie personen Wet rechten burgerlijke stand",
+      "organisatie": "Gemeente Berg en Dal",
+      "status": "in_gebruik",
+      "title": "iBurgerzaken e-diensten",
+      "toegevoegd": "2026-10-31",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/29195347"
     },
     {
       "doel": "Efficiënt en uniform behandelen van en besluiten op aanvragen, mutaties en heronderzoeken voor bijstand, bijzondere bijstand, IIT, verhaal op onderhoudsplichtigen en terugvordering van te veel ontvangen bijstand. Het algoritme wordt ingezet in een applicatie voor inwoners van de ca. 80 aangesloten gemeenten en controleert gedurende het proces of wordt voldaan aan verschillende (wettelijke) criteria. De consulent krijgt gedurende de hele behandeling de mogelijkheid om af te wijken van de voorgestelde keuzes van het kennissysteem.",
@@ -15445,6 +15469,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/83157644"
     },
     {
+      "doel": "Snellere hulp voor inwoners: medewerkers kunnen met AI snel de juiste informatie vinden. Dit helpt om inwoners sneller te helpen.",
+      "geregistreerd": "2026-10-30",
+      "id": "83197286",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Dienst Sociale Zaken en Werkgelegenheid Noardwest Fryslân",
+      "status": "in_gebruik",
+      "title": "AI-desk Participatiewet / WMO en Jeugdwet / Inburgering",
+      "toegevoegd": "2026-10-31",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/83197286"
+    },
+    {
       "doel": "Met dit algoritme ontstaat begrip of met de gemaakte planning doelen worden bereikt. Dit is aan de ene kant geld (hoeveel kan worden uitgegeven) en aan de andere kant het resultaat. Burgers en bedrijven zien hiermee voor iedere regeling hoe deze meewerken aan het halen van een bepaald resultaat.",
       "geregistreerd": "2025-02-27",
       "id": "83259627",
@@ -19321,7 +19357,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1610,
-  "fetched_at": "2026-10-29T06:21:17Z",
+  "count": 1613,
+  "fetched_at": "2026-10-31T06:15:44Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
