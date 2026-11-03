@@ -3049,6 +3049,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/26519744"
     },
     {
+      "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
+      "geregistreerd": "2026-11-01",
+      "id": "26523239",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
+      "organisatie": "Gemeente Berg en Dal",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-11-03",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/26523239"
+    },
+    {
       "doel": "Om het risico van toekomstig seksueel en gewelddadig delictgedrag bij plegers van seksuele misdrijven in te kunnen schatten, wordt bij de reclassering gebruik gemaakt van de Static 99r/Stable 2007/Acute 2007 (SSA). Het gebruik van dit instrument wordt alleen ingezet door reclasseringswerkers die hiervoor getraind zijn en de training met een certificaat hebben afgerond. De SSA combinatie kan gebruikt worden om te bepalen of, en zo ja welke, interventies de reclassering nodig acht om het recidiverisico te beïnvloeden, te beheersen, en bij te dragen aan het resocialiseren van de cliënt. Daarnaast is de SSA combinatie van waarde bij het bepalen van doelen en intensiteit van toezicht en begeleiding van de cliënt en het evalueren van voortgang gedurende het reclasseringstraject. De instrumenten worden daarom zowel in de adviesfase als tijdens toezicht ingezet. De drie instrumenten zijn van oorsprong Canadees en in 2014 in het Nederlands vertaald. De reclasseringsorganisaties in Nederland maken allemaal gebruik van de SSA. Het gaat daarbij om de instellingen van Stichting Verslavingsreclassering GGZ, Reclassering Nederland en Stichting Leger des Heils Jeugdbescherming & Reclassering.",
       "geregistreerd": "2025-12-15",
       "id": "26541424",
@@ -8569,14 +8581,14 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/51275118"
     },
     {
-      "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
-      "geregistreerd": "2024-06-11",
+      "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
+      "geregistreerd": "2026-11-02",
       "id": "51337966",
-      "impactassessment": "Ja",
-      "juridische_basis": "1. WOO 2. WDO 3. UAVG 4. WEP 5. WDO",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
       "organisatie": "Gemeente Staphorst",
       "status": "in_gebruik",
-      "title": "Anonimiseringssoftware",
+      "title": "Anonimiseren",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/51337966"
     },
@@ -11557,6 +11569,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/63834967"
     },
     {
+      "doel": "De Premie Differentiatie Individueel (PDI)-applicatie berekent voor iedere werkgever het premiepercentage voor de Werkhervattingskas (Whk). Dit percentage bepaalt hoeveel premie een werkgever moet betalen. De PDI-applicatie gebruikt hiervoor gegevens en een algoritme.",
+      "geregistreerd": "2026-11-02",
+      "id": "63849279",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet financiering sociale verzekeringen (Wfsv)",
+      "organisatie": "Uitvoeringsinstituut Werknemersverzekeringen",
+      "status": "in_gebruik",
+      "title": "Premie Differentiatie Individueel (PDI)-applicatie",
+      "toegevoegd": "2026-11-03",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/63849279"
+    },
+    {
       "doel": "Van 1 januari 2020 tot en met 31 december 2024 hebben we niet alle WIA-uitkeringen goed berekend. Het gaat om fouten bij het berekenen van het dagloon. In een aantal situaties zijn mogelijk fouten gemaakt. Het algoritme Situaties fout WIA-dagloon zoekt deze situaties in WIA-uitkeringen. We gebruiken dit algoritme omdat het beter werkt dan handmatige controle van alle WIA-uitkeringen tussen 2020 en 2024. Ook geeft het algoritme duidelijke en betrouwbare resultaten.",
       "geregistreerd": "2026-06-10",
       "id": "63853168",
@@ -13115,6 +13139,18 @@
       "title": "Ramingsmodel rente Schatkistbankieren",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/71371753"
+    },
+    {
+      "doel": "De inzet van de iVRI's draagt bij aan een efficiënte doorstroming en bereikbaarheid op kruispunten op een veilige en rechtvaardige manier (in een logische volgorde en zonder dat mensen voor niks staan te wachten). Het draagt bij aan de opgave mobiliteit van de provincie. Ook is de inzet van de iVRI's noodzakelijk om de taak als wegbeheerder van provinciale wegen op een efficiënte manier uit te kunnen voeren. Het algoritme heeft invloed op verkeersdeelnemers (automobilisten, wandelaars, fietsers, vrachtwagens, OV, nood- en hulpdiensten, etc) omdat het de kleur van de verkeerslichten bepaalt en hoe lang iedere verkeersdeelnemer moet wachten. iVRI’s kunnen een vorm van prioriteit geven aan verkeersdeelnemers. Bijvoorbeeld als een ambulance met spoed aan komt rijden, maar ook aan bijvoorbeeld een groep fietsers of een colonne vrachtwagens. Er zijn verschillende vormen van prioriteit. Absolute prioriteit (afkappen van andere richtingen) wordt bijvoorbeeld gebruikt voor nood en hulpdiensten en geconditioneerde prioriteit (het verkeerslicht probeert naar een weggebruiker “toe te regelen”) in andere gevallen. Het prioriteitenkader van de provincie en lokale omstandigheden bepalen de mate van prioriteit per verkeersdeelnemer.",
+      "geregistreerd": "2026-11-02",
+      "id": "71397157",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De provincie is als wegbeheerder van de provinciale wegen bevoegd verkeersmaatregelen te treffen, waaronder het plaatsen en regelen van verkeerslichten (artikel 18, eerste lid, onder b, Wegenverkeerswet 1994, in samenhang met het Besluit administratieve bepalingen inzake het wegverkeer). De technische eisen aan verkeersregelinstallaties volgen uit de Regeling verkeerslichten.",
+      "organisatie": "Provincie Overijssel",
+      "status": "in_gebruik",
+      "title": "Intelligente Verkeersregelinstallatie (iVRI) - Flowtack",
+      "toegevoegd": "2026-11-03",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/71397157"
     },
     {
       "doel": "Doel: Leges zijn vergoedingen voor gemeentelijke dienstverlening. De tarieven worden vastgesteld door de gemeenteraad en staan in de Legesverordening. Om leges te kunnen heffen bepalen wij grondslagsoorten en legessoorten. Leges worden berekend over een grondslag. De grondslagsoort bepaalt waar de grondslag voor de legesberekening gevonden kan worden. Impact : De legesbedragen voor deze aanvragen worden aan de hand van door de gemeente in Centric Leefomgeving ingevoerde rekenregels berekent.",
@@ -15347,6 +15383,18 @@
       "title": "Verkeercentrale voor het monitoren van (i)-VRI`s en verkeersstromen",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/82476553"
+    },
+    {
+      "doel": "Verbeter de manier waarop we werken, zodat we beter kunnen helpen aan inwoners en bedrijven.",
+      "geregistreerd": "2026-11-01",
+      "id": "82524294",
+      "impactassessment": "Ja",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Berg en Dal",
+      "status": "in_gebruik",
+      "title": "SafeGPT",
+      "toegevoegd": "2026-11-03",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/82524294"
     },
     {
       "doel": "De inzet van de iVRI's draagt bij aan een efficiënte doorstroming en bereikbaarheid op kruispunten op een veilige en rechtvaardige manier (zonder dat mensen voor niks staan te wachten en een logische volgorde). Het draagt bij aan de opgave bereikbaarheid, doorstroming van verkeer en veiligheid. De inzet van verkeerslichten in het algemeen is noodzakelijk om de taak als wegbeheerder op een efficiënte manier uit te kunnen voeren. Het algoritme heeft invloed op verkeersdeelnemers (automobilisten, voetgangers, fietsers, vrachtwagens, openbaar vervoer (OV), nood- en hulpdiensten, etc) omdat het de kleur van de verkeerslichten bepaalt en hoe lang iedere verkeersdeelnemer moet wachten. iVRI’s kunnen een vorm van prioriteit geven aan verkeersdeelnemers. Bijvoorbeeld als een ambulance met spoed aan komt rijden, maar ook aan bijvoorbeeld een groep fietsers of een colonne vrachtwagens. Er zijn verschillende vormen van prioriteit. Absolute prioriteit (afkappen van andere richtingen) wordt bijvoorbeeld gebruikt voor nood- en hulpdiensten en geconditioneerde prioriteit (het verkeerslicht probeert naar een weggebruiker “toe te regelen”) in andere gevallen. Het prioriteitenkader van de provincie en lokale omstandigheden bepalen de mate van prioriteit per verkeersdeelnemer.",
@@ -19357,7 +19405,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1613,
-  "fetched_at": "2026-10-31T06:15:44Z",
+  "count": 1617,
+  "fetched_at": "2026-11-03T06:18:35Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
