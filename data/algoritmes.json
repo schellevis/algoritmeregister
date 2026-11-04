@@ -1213,6 +1213,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/16729285"
     },
     {
+      "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
+      "geregistreerd": "2026-11-03",
+      "id": "16748792",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
+      "organisatie": "Gemeente Oosterhout",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-11-04",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/16748792"
+    },
+    {
       "doel": "Een applicatie die alle informatie over de gemeenteraad op een duidelijke en toegankelijke manier presenteert voor inwoners, raadsleden en de griffie. Dit systeem biedt een overzicht van belangrijke documenten en (video)verslagen, waardoor mensen tijd besparen op zoek en leeswerk. Door gebruik te maken van een slimme zoekmachine en Al-technologie kan dit systeem complexe informatie eenvoudig toegankelijk maken.",
       "geregistreerd": "2025-04-01",
       "id": "16752463",
@@ -10141,6 +10153,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/57665261"
     },
     {
+      "doel": "Het doel van dit proces is om e-mails en bijlagen samen te voegen tot één bestand. Dit bestand wordt teruggezet in de mailbox FM_Econnect. Met RPA, een digitale assistent, kunnen we het proces goed volgen. De assistent houdt bij wat er gebeurt, zodat we het proces kunnen controleren. Het proces wordt automatisch uitgevoerd volgens een vaste planning. De voordelen van het automatiseren van dit proces zijn: - Tijdsbesparing - Zekerheid dat alles goed wordt afgehandeld - Minder repetitieve taken voor medewerkers - Betere datakwaliteit - Een nieuw proces kan worden ingericht.",
+      "geregistreerd": "2026-11-02",
+      "id": "57695150",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De financiële administratie van de gemeente Venlo staat in de financiële verordening van 2025. Deze verordening is gebaseerd op het Besluit Begroting en Verantwoording (BBV).",
+      "organisatie": "Gemeente Venlo",
+      "status": "in_gebruik",
+      "title": "Samenvoegen en doorsturen facturen en betaalverzoeken",
+      "toegevoegd": "2026-11-04",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/57695150"
+    },
+    {
       "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
       "geregistreerd": "2025-10-07",
       "id": "57742423",
@@ -13141,8 +13165,8 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/71371753"
     },
     {
-      "doel": "De inzet van de iVRI's draagt bij aan een efficiënte doorstroming en bereikbaarheid op kruispunten op een veilige en rechtvaardige manier (in een logische volgorde en zonder dat mensen voor niks staan te wachten). Het draagt bij aan de opgave mobiliteit van de provincie. Ook is de inzet van de iVRI's noodzakelijk om de taak als wegbeheerder van provinciale wegen op een efficiënte manier uit te kunnen voeren. Het algoritme heeft invloed op verkeersdeelnemers (automobilisten, wandelaars, fietsers, vrachtwagens, OV, nood- en hulpdiensten, etc) omdat het de kleur van de verkeerslichten bepaalt en hoe lang iedere verkeersdeelnemer moet wachten. iVRI’s kunnen een vorm van prioriteit geven aan verkeersdeelnemers. Bijvoorbeeld als een ambulance met spoed aan komt rijden, maar ook aan bijvoorbeeld een groep fietsers of een colonne vrachtwagens. Er zijn verschillende vormen van prioriteit. Absolute prioriteit (afkappen van andere richtingen) wordt bijvoorbeeld gebruikt voor nood en hulpdiensten en geconditioneerde prioriteit (het verkeerslicht probeert naar een weggebruiker “toe te regelen”) in andere gevallen. Het prioriteitenkader van de provincie en lokale omstandigheden bepalen de mate van prioriteit per verkeersdeelnemer.",
-      "geregistreerd": "2026-11-02",
+      "doel": "De inzet van de iVRI's draagt bij aan een efficiënte doorstroming en bereikbaarheid op kruispunten op een veilige en rechtvaardige manier (in een logische volgorde en zonder dat mensen voor niets staan te wachten). Dit draagt bij aan de opgave mobiliteit van de provincie. Ook is de inzet van de iVRI's noodzakelijk om de taak als wegbeheerder van provinciale wegen op een efficiënte manier uit te kunnen voeren. Het algoritme heeft invloed op verkeersdeelnemers (automobilisten, voetgangers, fietsers, vrachtverkeer, openbaar vervoer, nood- en hulpdiensten, etc.) omdat het de kleur van de verkeerslichten bepaalt en hoe lang iedere verkeersdeelnemer moet wachten. iVRI’s kunnen een vorm van prioriteit geven aan verkeersdeelnemers. Bijvoorbeeld als een ambulance met spoed komt aanrijden, maar ook aan een groep fietsers of een colonne vrachtwagens. Er zijn verschillende vormen van prioriteit. Absolute prioriteit betekent dat andere richtingen direct rood krijgen. Dit wordt gebruikt voor nood- en hulpdiensten. Bij geconditioneerde prioriteit probeert het verkeerslicht naar een weggebruiker “toe te regelen”. Dit wordt in andere gevallen gebruikt.",
+      "geregistreerd": "2026-11-03",
       "id": "71397157",
       "impactassessment": "Onbekend",
       "juridische_basis": "De provincie is als wegbeheerder van de provinciale wegen bevoegd verkeersmaatregelen te treffen, waaronder het plaatsen en regelen van verkeerslichten (artikel 18, eerste lid, onder b, Wegenverkeerswet 1994, in samenhang met het Besluit administratieve bepalingen inzake het wegverkeer). De technische eisen aan verkeersregelinstallaties volgen uit de Regeling verkeerslichten.",
@@ -19405,7 +19429,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1617,
-  "fetched_at": "2026-11-03T06:18:35Z",
+  "count": 1619,
+  "fetched_at": "2026-11-04T06:18:57Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
