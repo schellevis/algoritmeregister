@@ -1597,6 +1597,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/19118228"
     },
     {
+      "doel": "Het doel is om werk dat vaak terugkomt en veel tijd kost, te automatiseren. Hierdoor hoeven medewerkers minder handmatig werk te doen. Dit helpt om fouten te voorkomen. Zo hebben medewerkers meer tijd voor belangrijker werk.",
+      "geregistreerd": "2026-11-04",
+      "id": "19121172",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Taak van algemeen belang (AVG art. 6 lid 1 sub e) Wet WMO Jeugdwet",
+      "organisatie": "Gemeente Almelo",
+      "status": "in_gebruik",
+      "title": "Automatisch proces om verzoeken van zorgaanbieders toe te wijzen",
+      "toegevoegd": "2026-11-05",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/19121172"
+    },
+    {
       "doel": "Lijst wordt gebruikt om een batch (verzameling van leges) naar de BghU te sturen ter facturatie. Als dit niet precies gebeurt kunnen inwoners onterecht facturen ontvangen. In beginsel krijgen inwoners facturen voor leges als zij een dienst of product van de gemeente afnemen. Hierbij kan men denken aan een horecavergunning, bouwvergunning, gebruik gemeentelijke grond.",
       "geregistreerd": "2025-01-21",
       "id": "19124373",
@@ -4717,6 +4729,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/34151769"
     },
     {
+      "doel": "De gemeente gebruikt een algoritme om aanvragen voor inkomenstoeslagen te verwerken. Dit betekent dat medewerkers het werk niet handmatig hoeven te doen. Hierdoor worden minder fouten gemaakt.",
+      "geregistreerd": "2026-11-04",
+      "id": "34231496",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De Participatiewet is een wet in Nederland. Deze wet helpt mensen met een beperking om werk te vinden. Het doel is dat iedereen kan meedoen in de samenleving. De wet zorgt ervoor dat werkgevers mensen met een beperking kunnen aannemen. Ook zijn er regels voor uitkeringen en ondersteuning.",
+      "organisatie": "Gemeente Almelo",
+      "status": "in_gebruik",
+      "title": "Automatische behandeling van inkomenstoeslagen",
+      "toegevoegd": "2026-11-05",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/34231496"
+    },
+    {
       "doel": "Het doel van LAA is om de kwaliteit van de adresgegevens in de Basisregistratie Personen te verbeteren, zodat overheidsorganen op basis van juiste informatie hun publieke taken kunnen uitvoeren. Dit gebeurt door persoonsgegevens te analyseren met behulp van risicoprofielen. Het ministerie van Binnenlandse Zaken en Koninkrijksrelaties verwerkt de gegevens. Als na onderzoek blijkt dat de inschrijving onjuist is, dan stelt de gemeente de burger daar schriftelijk van op de hoogte. Er volgt dan een formeel traject: het adresonderzoek. De burger krijgt het verzoek om zo snel mogelijk zijn verhuizing door te geven. Als de gemeente het juiste adres heeft achterhaald dan zal de gemeente de burger verhuizen naar dit adres. Als de gemeente geen adres heeft kunnen achterhalen, dan wordt de burger uitgeschreven uit de BRP. Het is dan onbekend waar de burger verblijft en de gemeente registreert in het systeem dat het adres onbekend is. Als een onderzoek naar inschrijving van personen op het adres plaats gaat vinden, wordt er soms huisbezoek op het adres gedaan waarbij mogelijk de persoonlijke levenssfeer in het gedrang komt.",
       "geregistreerd": "2025-11-17",
       "id": "34235430",
@@ -6887,6 +6911,18 @@
       "title": "Experiment Microsoft Copilot 365",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/42944469"
+    },
+    {
+      "doel": "GEM helpt inwoners en ondernemers met hun vragen. GEM probeert de vraag goed te begrijpen en geeft een duidelijk antwoord. Als GEM niet kan helpen, verwijst GEM naar de juiste informatie of naar een medewerker van de gemeente.",
+      "geregistreerd": "2026-11-04",
+      "id": "43111943",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De gemeente moet betrouwbare informatie geven over producten en diensten van de gemeente Almelo.",
+      "organisatie": "Gemeente Almelo",
+      "status": "in_gebruik",
+      "title": "Virtuele gemeente assistent GEM",
+      "toegevoegd": "2026-11-05",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/43111943"
     },
     {
       "doel": "Het doel van dit algoritme is om efficiënter te selecteren welke aangiften mogelijk betrekking hebben op de invoer van goederen met gevaarlijke stoffen. Het algoritme geeft aan welke douaneaangiften gaan over goederen met een risico dat de goederen gevaarlijke stoffen bevatten. Het algoritme helpt bij het selecteren van douaneaangiften die de Douane kan controleren. De Douane controleert bedrijven op basis van de uitkomsten van dit algoritme.",
@@ -11485,6 +11521,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/63391842"
     },
     {
+      "doel": "De computer helpt bij taken die veel tijd kosten. Hierdoor hoeven medewerkers minder handmatig werk te doen. Dit vermindert fouten. Medewerkers hebben zo meer tijd voor andere taken.",
+      "geregistreerd": "2026-11-04",
+      "id": "63398393",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De taak van algemeen belang is belangrijk voor de samenleving. Volgens de AVG, artikel 6, lid 1, sub e, mogen gegevens worden verwerkt als dit nodig is voor een taak die in het algemeen belang is.",
+      "organisatie": "Gemeente Almelo",
+      "status": "in_gebruik",
+      "title": "Automatische verwerking van zorgdeclaraties",
+      "toegevoegd": "2026-11-05",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/63398393"
+    },
+    {
       "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
       "geregistreerd": "2024-09-30",
       "id": "63464375",
@@ -14833,6 +14881,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/79274513"
     },
     {
+      "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
+      "geregistreerd": "2026-11-04",
+      "id": "79333636",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "1. WOO 2. WDO 3. UAVG 4. WEP 5. WDO",
+      "organisatie": "Gemeente IJsselstein",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-11-05",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/79333636"
+    },
+    {
       "doel": "Om de werkzoekende te ondersteunen in zijn oriëntatie of zoektocht naar werk biedt de gemeente Amsterdam de burger een online matchingsplatform als instrument aan. De werkzoekende kan een persoonlijk profiel aanmaken, eventueel met ondersteuning van de klantbegeleider. Dit persoonlijke profiel bestaat uit een aantal onderwerpen: kwaliteiten, beschikbaarheid, belastbaarheid, motivatie, interesses en ervaring. Vanuit dit persoonlijke profiel kan de werkzoekende ter oriëntatie inzicht krijgen in potentiële functies en beroepen die bij het profiel en daarmee deze werkzoekende passen, inclusief een overzicht van de actuele arbeidsmarktdata over de beroepen/ functies. De werkzoekende kan zelf in de vacatures zoeken of op basis van zijn profiel of filters zoekopdrachten aanmaken, waarmee de werkzoekende automatisch vacatures ontvangt (met een notificatie via e-mail). Binnen het online matchingsplatform kunnen werkzoekende zoeken in alle online gepubliceerde vacatures in Nederland plus de vacatures die de gemeente en het UWV voor hen hebben geacquireerd. Het persoonlijke profiel kan worden ingezien door professionals die de Amsterdammer ondersteunen in het oriënteren op en vinden van werk. Nadat zowel de Amsterdammer als de klantbegeleider het persoonlijke profiel zichtbaar hebben gemaakt, wordt het persoonlijke profiel inzichtelijk voor werkgevers die vanuit het Werkgeversservicepunt toegang hebben gekregen tot het platform. Het profiel is niet zichtbaar voor andere werkzoekenden.",
       "geregistreerd": "2025-09-17",
       "id": "79334684",
@@ -17185,6 +17245,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/91211734"
     },
     {
+      "doel": "Het doel van het automatiseren van dit proces is om de administratieve taken voor de afdeling te verminderen en om fouten te voorkomen bij het overnemen van gegevens. Met RPA kunnen we het proces goed volgen, omdat de digitale assistent logboeken bijhoudt van alle activiteiten. De voordelen van het automatiseren van dit proces zijn: - Tijdsbesparing - Zekerheid dat alles goed wordt afgehandeld - Medewerkers ontlasten van repetitieve taken.",
+      "geregistreerd": "2026-11-03",
+      "id": "91223917",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De financiële administratie van de gemeente Venlo staat in de financiële regels voor 2025. Deze regels zijn gebaseerd op het Besluit Begroting en Verantwoording (BBV).",
+      "organisatie": "Gemeente Venlo",
+      "status": "in_gebruik",
+      "title": "Verwerken facturen energieleverancier",
+      "toegevoegd": "2026-11-05",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/91223917"
+    },
+    {
       "doel": "Inzicht krijgen in alle vergunde adressen van toeristische verhuur en de gemelde verblijven, om adressen te kunnen selecteren voor inspectie op naleving van de regels voor toeristische verhuur. Bij overtredingen worden bestuurlijke maatregelen ingezet.",
       "geregistreerd": "2025-01-08",
       "id": "91243788",
@@ -19429,7 +19501,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1619,
-  "fetched_at": "2026-11-04T06:18:57Z",
+  "count": 1625,
+  "fetched_at": "2026-11-05T06:18:46Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
