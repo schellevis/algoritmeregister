@@ -145,6 +145,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/11721156"
     },
     {
+      "doel": "Microsoft 365 Copilot is een slimme assistent voor medewerkers van de gemeente. Copilot helpt medewerkers met het schrijven, samenvatten en organiseren van informatie in Microsoft 365. Het doel is om het werk makkelijker te maken, informatie toegankelijker te maken en de kwaliteit van de service te verbeteren.",
+      "geregistreerd": "2026-11-02",
+      "id": "11869737",
+      "impactassessment": "Ja",
+      "juridische_basis": "Microsoft 365 Copilot is een hulpmiddel dat gemeenten helpt bij hun werk. Het heeft geen eigen regels voor het verwerken van persoonsgegevens. Als persoonsgegevens worden gebruikt met Copilot, moeten dezelfde regels gelden als voor het normale werk van de gemeente. Medewerkers mogen de gegevens alleen gebruiken als dit past bij hun taak en het doel waarvoor de gegevens zijn verzameld. Soms is het nodig om gegevens te verwerken voor wettelijke verplichtingen of voor taken die belangrijk zijn voor de samenleving. Voor het gebruik binnen de organisatie kunnen andere regels gelden. Het is belangrijk om de juiste wettelijke basis te bepalen op basis van het werkproces waarin Copilot wordt gebruikt. De Algemene verordening gegevensbescherming en de Uitvoeringswet Algemene verordening gegevensbescherming zijn altijd van toepassing. Daarnaast kunnen er specifieke wetten en regels zijn voor elk gemeentelijk proces. Dit betekent dat Copilot geen nieuwe regels of doelen voor gegevensverwerking creëert.",
+      "organisatie": "Gemeente Hoeksche Waard",
+      "status": "in_gebruik",
+      "title": "Microsoft 365 Copilot als digitale werkplek assistent",
+      "toegevoegd": "2026-11-06",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/11869737"
+    },
+    {
       "doel": "Het doel is de verkeersveiligheid, doorstroom en bereikbaarheid te verbeteren. Daarnaast moet het ook bijdragen aan minder CO2-uitstoot doordat het verkeer soepeler doorrijdt. Het heeft impact op iedereen die aan het verkeer deelneemt, toch verwachten wij dat dit algoritme een lage impact heeft. Het gaat namelijk efficiënter, maar mogelijk merkt de burger daar niet veel van.",
       "geregistreerd": "2025-04-01",
       "id": "11899310",
@@ -1009,6 +1021,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/15897972"
     },
     {
+      "doel": "Sinds de invoering van de Wet arbeidsmarkt in balans (Wab) betalen werkgevers een hoge of een lage WW-premie. Dit is afhankelijk van het soort arbeidsovereenkomst dat de werknemer heeft. De regel is dat werkgevers een lage WW-premie betalen voor werknemers met een vast contract. Voor werknemers met een flexibel contract betalen ze een hoge WW-premie. Deze WW-premies heten ook wel de premies voor het Algemeen Werkloosheidsfonds (AWf). UWV controleert met gegevens uit de loonaangifte of werkgevers de juiste AWf-premie hebben doorgegeven. Als er aanwijzingen zijn dat dit niet zo is, geven we dit door aan de Belastingdienst. De Belastingdienst is verantwoordelijk voor de heffing en inning van de premies voor de werknemersverzekeringen. Voorwaarden voor de lage WW-premie: 1. Er is een schriftelijk arbeidscontract voor onbepaalde tijd. Dit mag geen oproepcontract zijn. 2. Het arbeidscontract is niet binnen 2 maanden beëindigd. Dit voorkomt dat werkgevers de proeftijd van een vast contract (waarbij lage WW-premie is toegestaan) gebruiken als een flexibel contract (waarbij hoge WW-premie verplicht is). 3. De werknemer werkt in een jaar maximaal 30% meer dan de uren die in het contract staan. Dit voorkomt dat werkgevers vaste contracten afsluiten met een (zeer) beperkt aantal vaste uren en structureel overwerk gebruiken als flexibele arbeid.",
+      "geregistreerd": "2026-11-05",
+      "id": "15917788",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet arbeidsmarkt in balans (Wab)",
+      "organisatie": "Uitvoeringsinstituut Werknemersverzekeringen",
+      "status": "in_gebruik",
+      "title": "Premiedifferentiatie Werkloosheidswet",
+      "toegevoegd": "2026-11-06",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/15917788"
+    },
+    {
       "doel": "Met dit algoritme bieden we een dienst aan aan vrijwilligers door middel van maatwerk aanbod locaties, functies en trainingen. Het gevolg van het algoritme is dat vrijwilligers eerst bepaalde ervaring moeten hebben opgedaan, voordat ze bepaalde verantwoordelijkere functies mogen vervullen. Ook de eerder gevolgde training is van invloed op het huidige wel/niet verplichte trainingsaanbod. De Stembureaumanager helpt hiermee de kwaliteit van de verkiezingen te waarborgen.",
       "geregistreerd": "2025-01-14",
       "id": "15939252",
@@ -1254,7 +1278,7 @@
       "id": "16796775",
       "impactassessment": "Ja",
       "juridische_basis": "1. De UAVG (Uitvoeringswet Algemene Verordening Gegevensbescherming) is de wet die regels geeft over hoe we met persoonsgegevens omgaan. 2. De Archiefwet gaat over het bewaren van documenten en gegevens.",
-      "organisatie": "Zeeuws Archief",
+      "organisatie": "Gemeenschappelijke regeling Zeeuws archief",
       "status": "in_gebruik",
       "title": "Anonimiseren",
       "toegevoegd": "2026-06-19",
@@ -2726,7 +2750,7 @@
     },
     {
       "doel": "Het doel van het algoritme is het anoniem maken van privacygevoelige informatie in bijvoorbeeld documenten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van personen gewaarborgd.",
-      "geregistreerd": "2024-10-23",
+      "geregistreerd": "2026-11-05",
       "id": "25289389",
       "impactassessment": "Onbekend",
       "juridische_basis": "Wet open overheid Wet elektronische publicaties",
@@ -3294,7 +3318,7 @@
       "id": "27483480",
       "impactassessment": "Ja",
       "juridische_basis": "",
-      "organisatie": "Zeeuws Archief",
+      "organisatie": "Gemeenschappelijke regeling Zeeuws archief",
       "status": "in_gebruik",
       "title": "Github Copilot",
       "toegevoegd": "2026-05-13",
@@ -4031,6 +4055,18 @@
       "title": "Detecteren risico’s in douaneaangiften voor toelating van levende dieren en veterinaire producten",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/31274395"
+    },
+    {
+      "doel": "De software voor anonimiseren helpt ons om documenten van het waterschap sneller en beter te beschermen. Hierdoor voorkomen we dat gegevens van mensen openbaar worden en zorgen we dat hun rechten veilig zijn.",
+      "geregistreerd": "2026-11-05",
+      "id": "31312598",
+      "impactassessment": "Ja",
+      "juridische_basis": "1. Woo 2. Wdo 3. AVG 4. Wep",
+      "organisatie": "Waterschap Brabantse Delta",
+      "status": "in_gebruik",
+      "title": "Anonimiseringssoftware",
+      "toegevoegd": "2026-11-06",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/31312598"
     },
     {
       "doel": "Projectie van het aantal IC opnames per dag met COVID-19 ten tijde van de pandemie. Er is geen verwachte impact op individuele burgers en bedrijven",
@@ -6553,6 +6589,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/41839733"
     },
     {
+      "doel": "Medewerkers van de gemeente kunnen Copilot Chat inzetten voor uiteenlopende taken, zoals het stellen van vragen, het genereren van teksten en afbeeldingen, en het maken van vertalingen en samenvattingen. Deze tool ondersteunt bij het efficiënter uitvoeren van de werkzaamheden. Daarnaast draagt het gebruik van Copilot Chat bij aan het vergroten van kennis en ervaring met AI-technologie. Het is echter van groot belang dat medewerkers zich bewust zijn van de risico’s die gepaard gaan met het gebruik van dergelijke AI-tools.",
+      "geregistreerd": "2026-11-05",
+      "id": "41867378",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De regels van de Europese Unie over kunstmatige intelligentie (AI) zijn belangrijk voor de gemeente. Ze zorgen ervoor dat AI en algoritmen veilig worden ontwikkeld en gebruikt.",
+      "organisatie": "Gemeente Doesburg",
+      "status": "in_gebruik",
+      "title": "Copilot chat",
+      "toegevoegd": "2026-11-06",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/41867378"
+    },
+    {
       "doel": "Eén van de belangrijkste maatschappelijke opgaven waar het CJIB voor staat, is maatschappelijk verantwoord innen en incasseren. Het CJIB wil mensen zo goed mogelijk ondersteunen bij het voldoen aan betalingsverplichtingen en een onnodige toename van schulden bij burgers voorkomen. Daarom heeft het CJIB de afgelopen jaren geïnvesteerd in het persoonsgericht benaderen van schuldenaren en het mogelijk maken van het treffen van betalingsregelingen voor mensen die niet (direct) kunnen betalen. Hiervoor heeft het CJIB aanvullende diensten en mogelijkheden ontwikkeld. Het algoritme ‘Telefonisch innen (Wahv)’ ondersteunt één van deze ontwikkelde diensten. Door proactief telefonisch contact op te nemen met mensen die vorderingen open hebben staan (verkeersovertreders), kan het CJIB achterhalen waarom niet (volledig) betaald is. In dit gesprek kan de medewerker van het CJIB eventuele zorgen over extra kosten en spanningen door de inzet van een deurwaarder wegnemen door een directe betaling te laten plaatsvinden, een betalingsafspraak te maken of de persoon in contact te brengen met schuldhulpverlening.",
       "geregistreerd": "2024-12-10",
       "id": "41914566",
@@ -7754,10 +7802,10 @@
     },
     {
       "doel": "De informatiedienst heeft twee doelen: 1. De gemeente helpen bij het beoordelen van aanvragen voor bijzondere bijstand voor mensen die meedoen aan een collectieve aanvullende zorgverzekering. 2. De gemeente helpen bij het beoordelen of deze bijzondere bijstand automatisch verlengd kan worden, als iemand al meedoet aan zo’n verzekering. Met deze geautomatiseerde controle ziet de gemeente of iemand voldoet aan de voorwaarden voor inkomen en vermogen. Deze voorwaarden stelt de gemeente zelf vast. Als iemand daar niet aan voldoet, krijgt de gemeente dat te zien. Als iemand al een bijstandsuitkering ontvangt (zoals van de Participatiewet, AIO, IOAW of IOAZ), dan is er altijd sprake van geen belemmering. Dan is er geen extra controle van het inkomen nodig via het UWV.",
-      "geregistreerd": "2025-09-03",
+      "geregistreerd": "2026-11-05",
       "id": "46538954",
       "impactassessment": "Onbekend",
-      "juridische_basis": "De verwerking van persoonsgegevens in het kader van deze informatiedienst kent de volgende grondslag(en): Grondslag verwerking Gemeenten: o Hoofdstuk 4 ‘Aanvullende inkomensondersteuning, Hoofdstuk 5 ‘Uitvoering’ en hoofdstuk 6 “Bevoegdheden en faciliteiten gemeenten” Pw o artikel 62 Wet SUWI Grondslag verwerking IB: o artikel 64, derde lid, en artikel 68 Pw o artikel 45, tweede lid, IOAW o artikel 45, tweede lid, IOAZ o artikel 63 Wet structuur uitvoeringsorganisatie werk en inkomen (Wet SUWI), artikel 5.24, leden 1 en 3, Besluit SUWI & artikelen 6.2 en 6.6 Regeling SUWI o samenwerkings- en uitwisselingsovereenkomsten Grondslag verwerking bronnen (algemeen): o artikel 64, eerste lid, en artikel 68 Pw o artikel 45, eerste lid, IOAW o artikel 45, eerste lid, IOAZ Grondslag verwerking SVB (bron): o Artikel 47a Participatiewet Grondslag verwerking RvIG: o artikelen 3.1 en 3.2 van de Wet basisregistratie personen o 651001 Autorisatiebesluit Inlichtingenbureau gemeenten en gemeentelijke samenwerkingsverbanden o 651002 Autorisatiebesluit Inlichtingenbureau Grondslag verwerking RDW (bron) o artikel 41a, eerste lid, onder a, Wegenverkeerswet (WvW) o artikel 42, vierde lid, onder c, j° artikel 43, eerste lid, WvW o Hoofdstuk 1 en Bijlage A (Overheidsorganen – bestuursorganen) Beleidsregels controle informatieverstrekkingen uit het kentekenregister o artikel 5.5a van het Besluit SUWI Grondslag verwerking IB-RDW: o Service Level Agreement RDW - Stichting Inlichtingenbureau (SLA) o Document Afspraken en procedures RDW – Stichting Inlichtingenbureau (DAP) o Overeenkomst Gemeenten – IB. o artikel 63 Wet SUWI, artikel 5.24, leden 1 en 3, Besluit SUWI & artikelen 6.2 en 6.6 Regeling SUWI. Zie ook het Gegevensregister. Verwerkingsactiviteiten Wet SUWI / Participatiewet op de website van IB te vinden via de volgende pagina: https://www.bidn.nl/privacy-beleid",
+      "juridische_basis": "De verwerking van persoonsgegevens in het kader van deze informatiedienst kent de volgende grondslag(en): Grondslag verwerking Gemeenten: o Hoofdstuk 4 ‘Aanvullende inkomensondersteuning, Hoofdstuk 5 ‘Uitvoering’ en hoofdstuk 6 “Bevoegdheden en faciliteiten gemeenten” Pw o artikel 62 Wet SUWI Grondslag verwerking IB: o artikel 64, derde lid, en artikel 68 Pw o artikel 45, tweede lid, IOAW o artikel 45, tweede lid, IOAZ o artikel 63 Wet structuur uitvoeringsorganisatie werk en inkomen (Wet SUWI), artikel 5.24, leden 1 en 3, Besluit SUWI & artikelen 6.2 en 6.6 Regeling SUWI o samenwerkings- en uitwisselingsovereenkomsten Grondslag verwerking bronnen (algemeen): o artikel 64, eerste lid, en artikel 68 Pw o artikel 45, eerste lid, IOAW o artikel 45, eerste lid, IOAZ Grondslag verwerking SVB (bron): o Artikel 47a Participatiewet Grondslag verwerking RvIG: o artikelen 3.1 en 3.2 van de Wet basisregistratie personen o 651001 Autorisatiebesluit Inlichtingenbureau gemeenten en gemeentelijke samenwerkingsverbanden o 651002 Autorisatiebesluit Inlichtingenbureau Grondslag verwerking RDW (bron) o artikel 41a, eerste lid, onder a, Wegenverkeerswet (WvW) o artikel 42, vierde lid, onder c, j° artikel 43, eerste lid, WvW o Hoofdstuk 1 en Bijlage A (Overheidsorganen – bestuursorganen) Beleidsregels controle informatieverstrekkingen uit het kentekenregister o artikel 5.5a van het Besluit SUWI Grondslag verwerking BIDN-RDW: o Service Level Agreement RDW - Stichting Inlichtingenbureau (SLA) o Document Afspraken en procedures RDW – Stichting Inlichtingenbureau (DAP) o Overeenkomst Gemeenten – IB. o artikel 63 Wet SUWI, artikel 5.24, leden 1 en 3, Besluit SUWI & artikelen 6.2 en 6.6 Regeling SUWI. Zie ook het Gegevensregister. Verwerkingsactiviteiten Wet SUWI / Participatiewet op de website van IB te vinden via de volgende pagina: https://www.bidn.nl/privacy-beleid",
       "organisatie": "Stichting Bureau Informatiediensten Nederland",
       "status": "in_gebruik",
       "title": "Inkomens- & vermogenstoets categoriale bijzondere bijstand",
@@ -9769,11 +9817,11 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/55629430"
     },
     {
-      "doel": "Soms hebben burgers een onvolledige AOW-uitkering. Mogelijk hebben ze recht op bijzondere bijstand. Maar dat weten ze soms niet. De gemeente kan ze hierover inlichten. Maar daarvoor moet de gemeente wel weten om welke burgers het gaat. Daarom maakt de Sociale Verzekeringbank een lijst van burgers die hier mogelijk recht op hebben. Het IB zorgt er met dit algoritme voor dat iedere gemeente alléén de gegevens krijgt van de eigen inwoners en dus niet die van inwoners van andere gemeentes. In principe is het de verantwoordelijkheid van de burger zelf om hulp bij hun inkomen aan te vragen. Maar gemeenten worden aangemoedigd om kwetsbare burgers te helpen. Dit is dus in het belang van de burger.",
-      "geregistreerd": "2025-08-04",
+      "doel": "Soms hebben burgers een onvolledige AOW-uitkering. Mogelijk hebben ze recht op bijzondere bijstand. Maar dat weten ze soms niet. De gemeente kan ze hierover inlichten. Maar daarvoor moet de gemeente wel weten om welke burgers het gaat. Daarom maakt de Sociale Verzekeringbank een lijst van burgers die hier mogelijk recht op hebben. BIDN zorgt er met dit algoritme voor dat iedere gemeente alléén de gegevens krijgt van de eigen inwoners en dus niet die van inwoners van andere gemeentes. In principe is het de verantwoordelijkheid van de burger zelf om hulp bij hun inkomen aan te vragen. Maar gemeenten worden aangemoedigd om kwetsbare burgers te helpen. Dit is dus in het belang van de burger.",
+      "geregistreerd": "2026-11-05",
       "id": "55638467",
       "impactassessment": "Ja",
-      "juridische_basis": "De verwerking van persoonsgegevens in het kader van de informatiedienst ‘Bijzondere bijstand’ kent de volgende grondslag(en): Grondslag verstrekking door SVB: - artikel 64, eerste lid, Participatiewet - artikel 45, eerste lid, onder b, Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte gewezen zelfstandigen (IOAW) - artikel 45, eerste lid, onder b, Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte werkloze werknemers (IOAZ) Grondslag verwerking gemeente(n): - Hoofdstuk 5 ‘Uitvoering’ en hoofdstuk 6 “Bevoegdheden en faciliteiten gemeenten” Participatiewet Grondslag verwerking IB: - artikel 64, derde lid, en artikel 68 Participatiewet - artikel 45, tweede lid, IOAW - artikel 45, tweede lid, IOAZ - artikel 63 Wet structuur uitvoeringsorganisatie werk en inkomen (SUWI), artikel 5.24, leden 1 en 3, Besluit SUWI & artikelen 6.2 en 6.6 Regeling SUWI Zie ook het Gegevensregister. Verwerkingsactiviteiten Wet SUWI / Participatiewet op de website van het IB te vinden via de volgende pagina: https://www.bidn.nl/privacy-beleid",
+      "juridische_basis": "De verwerking van persoonsgegevens in het kader van de informatiedienst ‘Bijzondere bijstand’ kent de volgende grondslag(en): Grondslag verstrekking door SVB: - artikel 64, eerste lid, Participatiewet - artikel 45, eerste lid, onder b, Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte gewezen zelfstandigen (IOAW) - artikel 45, eerste lid, onder b, Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte werkloze werknemers (IOAZ) Grondslag verwerking gemeente(n): - Hoofdstuk 5 ‘Uitvoering’ en hoofdstuk 6 “Bevoegdheden en faciliteiten gemeenten” Participatiewet Grondslag verwerking BIDN: - artikel 64, derde lid, en artikel 68 Participatiewet - artikel 45, tweede lid, IOAW - artikel 45, tweede lid, IOAZ - artikel 63 Wet structuur uitvoeringsorganisatie werk en inkomen (SUWI), artikel 5.24, leden 1 en 3, Besluit SUWI & artikelen 6.2 en 6.6 Regeling SUWI Zie ook het Gegevensregister. Verwerkingsactiviteiten Wet SUWI / Participatiewet op de website van BIDN te vinden via de volgende pagina: https://www.bidn.nl/privacy-beleid",
       "organisatie": "Stichting Bureau Informatiediensten Nederland",
       "status": "in_gebruik",
       "title": "Rapportage AOW-ers met AIO",
@@ -10307,6 +10355,18 @@
       "title": "Factuurverwerking",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/58118779"
+    },
+    {
+      "doel": "Doel en werking Microsoft 365 Copilot ondersteunt medewerkers met generatieve AI bij dagelijkse werkzaamheden. De toepassing kan informatie zoeken en samenvatten en kan op basis van een opdracht nieuwe content genereren, zoals e-mails, documenten en presentaties. Daarnaast kan Copilot ondersteunen bij werkzaamheden rondom vergaderingen, bijvoorbeeld door informatie samen te vatten en actiepunten inzichtelijk te maken. Impact op de werkwijze Het gebruik van Copilot verandert de manier waarop medewerkers informatie verwerken en content maken. Medewerkers kunnen conceptteksten laten genereren in plaats van deze volledig zelf op te stellen. Ook kan Copilot relevante informatie ophalen en samenvatten, waardoor informatie toegankelijker wordt en minder handmatig zoekwerk nodig is. Hiermee kunnen bepaalde werkzaamheden sneller worden uitgevoerd.",
+      "geregistreerd": "2026-11-05",
+      "id": "58156676",
+      "impactassessment": "Ja",
+      "juridische_basis": "AI-Verordening",
+      "organisatie": "Waterschap Brabantse Delta",
+      "status": "in_gebruik",
+      "title": "Microsoft 365 Copilot",
+      "toegevoegd": "2026-11-06",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/58156676"
     },
     {
       "doel": "iBabs Debrief helpt je om transcripties, samenvattingen en concept-notulen van vergaderingen te maken. De applicatie verwerkt opnames van vergaderingen en zet gesproken tekst om in een conceptverslag. Een medewerker controleert en bewerkt altijd het resultaat voordat het wordt gebruikt.",
@@ -14869,11 +14929,11 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/79228868"
     },
     {
-      "doel": "Als iemand te veel of ten onrechte bijstand heeft ontvangen, moet dit meestal worden terugbetaald aan de gemeente. Dit heet terugvordering. De persoon die dit bedrag moet terugbetalen noemen we ‘debiteur’. Het IB helpt gemeenten om dit goed en zorgvuldig te doen. Door dit algoritme kunnen gemeenten beter inschatten of iemand de bijstandsschuld (deels) kan terugbetalen, of dat er bijvoorbeeld een betaalafspraak moet worden aangepast. Ook helpt het bij het vinden van mensen die uit beeld zijn geraakt na het stoppen van de uitkering. Hoe werkt het? De gemeente geeft aan het IB door welke inwoners een schuld hebben die te maken heeft met de bijstand. Het IB vraagt gegevens op uit verschillende bronnen over het inkomen en/of vermogen van deze mensen. Op basis daarvan krijgt de gemeente daarna signalen terug. Zo krijgt de gemeente bijvoorbeeld informatie over: of iemand weer (of een structureel hoger) inkomen heeft, of er vermogen of een banksaldo is, of er voertuigen op naam staan (gegevens van de RDW) Met die informatie kan de gemeente bepalen wat een goede vervolgstap is. Voordelen op een rij: Het terugvorderen van bijstandsschulden kost veel tijd en moeite. Mensen met een schuld hebben vaak weinig geld, en zijn soms moeilijk te bereiken. Deze informatiedienst helpt gemeenten om het werk sneller en gerichter te doen. Gemeenten kunnen sneller stappen zetten, zoals het starten van een loonbeslag. Medewerkers kunnen hun tijd beter inzetten, doordat ze gericht signalen krijgen. Gemeenten kunnen sneller reageren als er iets verandert in de situatie van een inwoner. Er kan vaker en meer worden geïnd, omdat informatie eerder beschikbaar is. Er is minder geld nodig voor bijvoorbeeld deurwaarders.",
-      "geregistreerd": "2025-08-07",
+      "doel": "Als iemand te veel of ten onrechte bijstand heeft ontvangen, moet dit meestal worden terugbetaald aan de gemeente. Dit heet terugvordering. De persoon die dit bedrag moet terugbetalen noemen we ‘debiteur’. BIDN helpt gemeenten om dit goed en zorgvuldig te doen. Door dit algoritme kunnen gemeenten beter inschatten of iemand de bijstandsschuld (deels) kan terugbetalen, of dat er bijvoorbeeld een betaalafspraak moet worden aangepast. Ook helpt het bij het vinden van mensen die uit beeld zijn geraakt na het stoppen van de uitkering. Hoe werkt het? De gemeente geeft aan BIDN door welke inwoners een schuld hebben die te maken heeft met de bijstand. Het IB vraagt gegevens op uit verschillende bronnen over het inkomen en/of vermogen van deze mensen. Op basis daarvan krijgt de gemeente daarna signalen terug. Zo krijgt de gemeente bijvoorbeeld informatie over: of iemand weer (of een structureel hoger) inkomen heeft, of er vermogen of een banksaldo is, of er voertuigen op naam staan (gegevens van de RDW) Met die informatie kan de gemeente bepalen wat een goede vervolgstap is. Voordelen op een rij: Het terugvorderen van bijstandsschulden kost veel tijd en moeite. Mensen met een schuld hebben vaak weinig geld, en zijn soms moeilijk te bereiken. Deze informatiedienst helpt gemeenten om het werk sneller en gerichter te doen. Gemeenten kunnen sneller stappen zetten, zoals het starten van een loonbeslag. Medewerkers kunnen hun tijd beter inzetten, doordat ze gericht signalen krijgen. Gemeenten kunnen sneller reageren als er iets verandert in de situatie van een inwoner. Er kan vaker en meer worden geïnd, omdat informatie eerder beschikbaar is. Er is minder geld nodig voor bijvoorbeeld deurwaarders.",
+      "geregistreerd": "2026-11-05",
       "id": "79274513",
       "impactassessment": "Ja",
-      "juridische_basis": "De verwerking van persoonsgegevens in het kader van de informatiedienst ‘Bijstandsdebiteuren’ kent de volgende grondslag(en): Grondslag verwerking bronnen (algemeen) artikel 64, eerste lid, en artikel 68 Participatiewet artikel 45, eerste lid, Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte gewezen zelfstandigen (IOAW) artikel 45, eerste lid, Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte werkloze werknemers (IOAZ) Grondslag verwerking IB: artikel 64, derde lid, en artikel 68 Participatiewet artikel 45, tweede lid, IOAW artikel 45, tweede lid, IOAZ artikel 63 Wet structuur uitvoeringsorganisatie werk en inkomen (Wet SUWI), artikel 5.24, leden 1 en 3, Besluit SUWI & artikelen 6.2 en 6.6 Regeling SUWI samenwerkings- en uitwisselingsovereenkomsten Grondslag verwerking Gemeenten: Hoofdstuk 5 ‘Uitvoering’ en hoofdstuk 6 “Bevoegdheden en faciliteiten gemeenten” Participatiewet, in bijzonder artikelen 58 tot en met 60 Artikelen 25 tot en met 28 IOAW Artikelen 25 tot en met 28 IOAZ Artikel 62 Wet SUWI Ten aanzien van gegevenswerking RDW specifiek: Grondslag verwerking RDW (bron) · artikel 41a, eerste lid, onder a, Wegenverkeerswet (WvW) · artikel 42, vierde lid, onder c, j° artikel 43, eerste lid, WvW · Hoofdstuk 1 en Bijlage A (Overheidsorganen – bestuursorganen) Beleidsregels controle informatieverstrekkingen uit het kentekenregister Grondslag verwerking IB: · Service Level Agreement RDW - Stichting Inlichtingenbureau (SLA) · Document Afspraken en procedures RDW – Stichting Inlichtingenbureau (DAP) · artikel 63 Wet SUWI, artikel 5.24, leden 1 en 3, Besluit SUWI & artikelen 6.2 en 6.6 Regeling SUWI Zie ook het Gegevensregister. Verwerkingsactiviteiten Wet SUWI / Participatiewet op de website van IB te vinden via de volgende pagina: https://www.bidn.nl/privacy-beleid",
+      "juridische_basis": "De verwerking van persoonsgegevens in het kader van de informatiedienst ‘Bijstandsdebiteuren’ kent de volgende grondslag(en): Grondslag verwerking bronnen (algemeen) artikel 64, eerste lid, en artikel 68 Participatiewet artikel 45, eerste lid, Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte gewezen zelfstandigen (IOAW) artikel 45, eerste lid, Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte werkloze werknemers (IOAZ) Grondslag verwerking IB: artikel 64, derde lid, en artikel 68 Participatiewet artikel 45, tweede lid, IOAW artikel 45, tweede lid, IOAZ artikel 63 Wet structuur uitvoeringsorganisatie werk en inkomen (Wet SUWI), artikel 5.24, leden 1 en 3, Besluit SUWI & artikelen 6.2 en 6.6 Regeling SUWI samenwerkings- en uitwisselingsovereenkomsten Grondslag verwerking Gemeenten: Hoofdstuk 5 ‘Uitvoering’ en hoofdstuk 6 “Bevoegdheden en faciliteiten gemeenten” Participatiewet, in bijzonder artikelen 58 tot en met 60 Artikelen 25 tot en met 28 IOAW Artikelen 25 tot en met 28 IOAZ Artikel 62 Wet SUWI Ten aanzien van gegevenswerking RDW specifiek: Grondslag verwerking RDW (bron) · artikel 41a, eerste lid, onder a, Wegenverkeerswet (WvW) · artikel 42, vierde lid, onder c, j° artikel 43, eerste lid, WvW · Hoofdstuk 1 en Bijlage A (Overheidsorganen – bestuursorganen) Beleidsregels controle informatieverstrekkingen uit het kentekenregister Grondslag verwerking BIDN: · Service Level Agreement RDW - Stichting Inlichtingenbureau (SLA) · Document Afspraken en procedures RDW – Stichting Inlichtingenbureau (DAP) · artikel 63 Wet SUWI, artikel 5.24, leden 1 en 3, Besluit SUWI & artikelen 6.2 en 6.6 Regeling SUWI Zie ook het Gegevensregister. Verwerkingsactiviteiten Wet SUWI / Participatiewet op de website van IB te vinden via de volgende pagina: https://www.bidn.nl/privacy-beleid",
       "organisatie": "Stichting Bureau Informatiediensten Nederland",
       "status": "in_gebruik",
       "title": "Incasso-ondersteuning Bijstandsdebiteuren",
@@ -17557,6 +17617,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/92334739"
     },
     {
+      "doel": "De anonimiseringstool wordt ingezet om te voorkomen dat persoonlijke of vertrouwelijke gegevens onbedoeld worden gedeeld of openbaar worden gemaakt.",
+      "geregistreerd": "2026-11-05",
+      "id": "92338252",
+      "impactassessment": "Ja",
+      "juridische_basis": "1. WOO 2. WDO 3. UAVG 4. WEP 5. WDO",
+      "organisatie": "Gemeente Aalsmeer",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-11-06",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/92338252"
+    },
+    {
       "doel": "Het doel van dit algoritme is om efficiënter te selecteren welke aangiften mogelijk risicogevoelig zijn in het kader van strategische goederen. Er gelden strikte voorwaarden voor de overbrenging of overdracht van strategische goederen naar een andere lidstaat en voor de uit- en de doorvoer, vanwege veiligheidsredenen en (inter)nationale afspraken. Die voorwaarden kunnen betrekking hebben op het goederenverkeer tussen de Europese Unie (EU) en derde landen, maar ook tussen de lidstaten van de EU. Dit algoritme richt zich op de uitvoer en doorvoer van strategische goederen en kijkt naar aangiften van goederen die de EU gaan verlaten. Het geeft aan bij welke aangiften een vergunningplicht geldt voor dual use en militaire goederen. De Douane controleert bedrijven op basis van de uitkomsten meer of juist minder. Door gebruik te maken van dit algoritme worden aangiften efficiënter behandeld, waardoor de aangiften sneller worden gecontroleerd en eventueel sneller worden vrijgegeven.",
       "geregistreerd": "2024-12-09",
       "id": "92344567",
@@ -18395,6 +18467,18 @@
       "title": "Zivver",
       "toegevoegd": "2026-06-25",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/94846515"
+    },
+    {
+      "doel": "De agents maken afgebakende, bestaande kennis toegankelijk door algemene vragen van medewerkers te beantwoorden en informatie samen te vatten. Zij zijn niet bedoeld voor beoordeling van herleidbare casussen of persoonlijke omstandigheden. Beoogde effecten zijn betere vindbaarheid, consistentere informatievoorziening en tijdsbesparing. De doelgroep wordt per agent bepaald: de gehele interne organisatie of een geautoriseerde groep. Onjuiste, onvolledige of verouderde antwoorden kunnen tot verkeerde informatie of onzorgvuldige dienstverlening leiden. De afbakening omvat geen profilering, beoordeling van personen, automatische toekenning of afwijzing van voorzieningen of zelfstandige besluitvorming. Gebruik van Copilot Agents voor hoog risicotoepassingen is uitdrukkelijk niet toegestaan op grond van het gemeentelijke AI-beleid.",
+      "geregistreerd": "2026-11-05",
+      "id": "94871829",
+      "impactassessment": "Ja",
+      "juridische_basis": "De agents ondersteunen de bedrijfsvoering en vormen geen zelfstandige wettelijke bevoegdheid of grondslag voor besluiten.",
+      "organisatie": "Gemeente Venlo",
+      "status": "in_gebruik",
+      "title": "Copilot agents (AI-assistenten)",
+      "toegevoegd": "2026-11-06",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/94871829"
     },
     {
       "doel": "Persoonsgegevens worden beschermd door ze onherkenbaar te maken. Dit gebeurt als de gegevens opnieuw worden gebruikt, bijvoorbeeld voor beleid, rapporten of het delen van open data.",
@@ -19249,8 +19333,8 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/98821769"
     },
     {
-      "doel": "Het IB stuurt het bestand LKS-signaal re-integratie naar gemeenten. Dit gebeurt direct na ontvangst van het UWV. Zo kunnen gemeenten snel en goed de Participatiewet uitvoeren. Het doel is om gemeenten te informeren dat zij verantwoordelijk zijn voor de re-integratie van bepaalde mensen, de vangnetters. Met deze informatie kunnen zij actie ondernemen. Vangnetters zijn werknemers die ziek zijn en uit dienst gaan, zieke uitzendkrachten en zieke mensen met een WW-uitkering. Deze werknemers vallen onder de Ziektewet.",
-      "geregistreerd": "2025-12-23",
+      "doel": "BIDN stuurt het bestand LKS-signaal re-integratie naar gemeenten. Dit gebeurt direct na ontvangst van het UWV. Zo kunnen gemeenten snel en goed de Participatiewet uitvoeren. Het doel is om gemeenten te informeren dat zij verantwoordelijk zijn voor de re-integratie van bepaalde mensen, de vangnetters. Met deze informatie kunnen zij actie ondernemen. Vangnetters zijn werknemers die ziek zijn en uit dienst gaan, zieke uitzendkrachten en zieke mensen met een WW-uitkering. Deze werknemers vallen onder de Ziektewet.",
+      "geregistreerd": "2026-11-05",
       "id": "98875649",
       "impactassessment": "Onbekend",
       "juridische_basis": "De dienstverlening wordt uitgevoerd in het kader van artikel 10d Pw, de Regeling Loonkostensubsidie Participatiewet 2021 en de Regeling procesgang vangnetters gemeentelijke doelgroep Participatiewet artikel 26, vijfde lid. Grondslag verwerking UWV (bron) artikel 64, eerste lid, onder b, en artikel 68 Participatiewet artikel 33, tweede lid, onderdelen a tot en met c, en negende lid j° artikel 62 Wet structuur uitvoeringsorganisatie werk en inkomen (Wet SUWI) Grondslag verwerking RINIS (bron): verwerkersovereenkomst UWV-RINIS (sub-)verwerkersovereenkomst IB-RINIS Grondslag verwerking IB: artikel 64, derde lid, en artikel 68 Participatiewet artikel 63 Wet structuur uitvoeringsorganisatie werk en inkomen (SUWI), artikel 5.24, leden 1 en 3, Besluit SUWI & artikelen 6.2 en 6.6 Regeling SUWI Samenwerkings- en uitwisselingsovereenkomst IB-DUO Grondslag verwerking Gemeenten: Artikel 10f, aanhef en onder b, Participatiewet (ondersteuning bij leer-werktrajecten personen van 18 tot 27 jaar die nog geen startkwalificatie hebben behaald) Hoofdstuk 5 ‘Uitvoering’ en hoofdstuk 6 “Bevoegdheden en faciliteiten gemeenten” Participatiewet Artikel 62 Wet SUWI De verwerkingsactiviteiten zijn vastgelegd in het Gegevensregister Verwerkingsactiviteiten Wet SUWI/Participatiewet, zie: https://www.bidn.nl/",
@@ -19501,7 +19585,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1625,
-  "fetched_at": "2026-11-05T06:18:46Z",
+  "count": 1632,
+  "fetched_at": "2026-11-06T06:19:08Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
