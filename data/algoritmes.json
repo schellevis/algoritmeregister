@@ -4430,7 +4430,7 @@
     },
     {
       "doel": "De tool is ontwikkeld om beter zicht te krijgen op alle registraties van sextortion in BVH. Door het gebruik van deze tool worden deze registraties sneller herkend en doorgegeven aan de juiste afdelingen. Daardoor kunnen slachtoffers sneller en beter worden geholpen.",
-      "geregistreerd": "2026-03-31",
+      "geregistreerd": "2026-11-06",
       "id": "32766963",
       "impactassessment": "Onbekend",
       "juridische_basis": "Artikel 3 Politiewet 2012",
@@ -6191,6 +6191,18 @@
       "title": "WOZ-taxatiemodellen",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/39323486"
+    },
+    {
+      "doel": "Het doel is om de privacy te beschermen van mensen, bedrijven en organisaties die in documenten worden genoemd. De gevolgen voor mensen zijn klein. De tool zoekt alleen naar gegevens en zet er een markering bij. De tool beslist zelf niets. De medewerker kiest welke gegevens echt onleesbaar worden gemaakt. De medewerker kan ook zelf stukken tekst onleesbaar maken.",
+      "geregistreerd": "2026-10-28",
+      "id": "39348278",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet Open Overheid (Woo), de Algemene verordening gegevensbescherming (AVG) en de Wet Politiegegevens (WPG)",
+      "organisatie": "Politie",
+      "status": "in_gebruik",
+      "title": "Anonimiseringstool 2",
+      "toegevoegd": "2026-11-07",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/39348278"
     },
     {
       "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
@@ -19585,7 +19597,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1632,
-  "fetched_at": "2026-11-06T06:19:08Z",
+  "count": 1633,
+  "fetched_at": "2026-11-07T06:15:48Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
