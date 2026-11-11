@@ -2845,6 +2845,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/25625149"
     },
     {
+      "doel": "Volgens de Europese en Nederlandse Klimaatwet moeten de gebouwde omgeving in 2050 emissievrij worden verwarmd. In Nederland vereist dit de vervanging van installaties die verwarmen op basis van aardgas. Via de Omgevingswet hebben gemeenten de rol gekregen als regisseur van de lokale warmtetransitie. Zij moeten gefaseerd gebiedsgebonden processen begeleiden en doelmatig ondersteuning bieden aan gebouweigenaren die hun gebouw moeten ombouwen.",
+      "geregistreerd": "2026-11-10",
+      "id": "25628630",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Nederlandse Klimaatwet, Omgevingswet, Energiewet",
+      "organisatie": "Gemeente Waddinxveen",
+      "status": "in_gebruik",
+      "title": "Smart Twin",
+      "toegevoegd": "2026-11-11",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/25628630"
+    },
+    {
       "doel": "Bij verkeerscontroles worden auto's waarvan de eigenaar invorderingsschulden heeft van de weg gehaald. De belastingschuldige krijgt de gelegenheid om zijn achterstand te betalen. Eventueel kan de auto in beslag genomen worden. De kentekens van de langsrijdende auto's worden gescand door de ANPR camera. Het algoritme selecteert daarbij de kentekens van de auto's. Indien het kenteken voorkomt in het bestand krijgt de deurwaarder een melding “hit” en wordt het kenteken doorgegeven aan de motoragent die de auto op de volgende parkeerplaats aan de kant zet. De deurwaarder bespreekt daarna met de bestuurder de openstaande schulden.",
       "geregistreerd": "2025-09-04",
       "id": "25673438",
@@ -16585,6 +16597,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/86315829"
     },
     {
+      "doel": "Ondersteunt het veilig verwerken van meldingen openbare ruimte door persoonsgegevens te herkennen en af te schermen zowel binnen documenten als in foto's. Inwoners komen hiermee in aanraking bij het melden van schade of overlast. De melder kiest zelf welke hoofdcategorie bij de melding past. Medewerkers van gemeente controleren de meldingen en verdelen deze in subcategorieën. Wanneer melders de keuze maken om een openbaar te delen, herkent het algoritme persoonlijke gegevens in de melding. Tevens maakt het systeem het eenvoudig om de geanonimiseerde meldingen te delen met externe partijen.",
+      "geregistreerd": "2026-11-10",
+      "id": "86353843",
+      "impactassessment": "Ja",
+      "juridische_basis": "- Gemeentewet - Algemene plaatselijke verordening (APV) - Wegenwet - Woningwet - Wet ruimtelijke ordening - Milieuwetgeving - Wet geluidhinder - Wet bodembescherming - Flora- en faunawet - Drank- en Horecawet - Warenwetbesluit Attractie- en speeltoestellen",
+      "organisatie": "Gemeente Aalsmeer",
+      "status": "in_gebruik",
+      "title": "Fixi - meldingen openbare ruimte",
+      "toegevoegd": "2026-11-11",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/86353843"
+    },
+    {
       "doel": "Met de komst van de omgevingswet veranderen er een aantal dingen rondom het beleid externe veiligheid. Kwetsbare gebouwen en locaties (KGL’s) zijn gebouwen en lokaties die overheden extra moeten beschermen tegen externe veiligheidsrisico’s. Externe veiligheidsrisico's zijn samen te vatten als risico's die het gevolg zijn van activiteiten met gevaarlijke stoffen. Zulke risico's zijn bijvoorbeeld een brand, (giftige) gaswolken of ontploffingsgevaar. Om een bepaalde kwetsbaarheid toe te kennen kunnen bevoegd gezagen (meestal gemeenten) gebruik maken van een IT voorziening die op basis van een aantal criteria een voorstel doet voor de kwetsbaarheid. Op basis van dat voorstel kan een bevoegd gezag dan het kwetsbaarheidsniveau vaststellen.",
       "geregistreerd": "2025-06-20",
       "id": "86385972",
@@ -19657,7 +19681,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1638,
-  "fetched_at": "2026-11-10T06:17:59Z",
+  "count": 1640,
+  "fetched_at": "2026-11-11T06:18:19Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
