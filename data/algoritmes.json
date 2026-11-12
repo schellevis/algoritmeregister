@@ -6950,7 +6950,7 @@
     },
     {
       "doel": "Ondersteunende AI-tool voor de beoordeling van asbestsloopmeldingen. Is de aanvraag compleet en bevat deze alle wettelijk voorgeschreven gegevens? De tool maakt gebruik van een LLM en het toetsingskader uit het Besluit bouwwerken leefomgeving. Het eindoordeel of een melding Goedgekeurd óf Afgekeurd wordt is aan de behandelaar.",
-      "geregistreerd": "2026-10-26",
+      "geregistreerd": "2026-11-10",
       "id": "42722830",
       "impactassessment": "Onbekend",
       "juridische_basis": "Omgevingswet, Besluit bouwwerken leefomgeving (Bbl)",
@@ -7763,6 +7763,18 @@
       "title": "Digitale afhandeling levensonderhoud",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/46325235"
+    },
+    {
+      "doel": "Het doel van dit algoritme is om eraan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
+      "geregistreerd": "2026-11-11",
+      "id": "46358891",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Amstelveen",
+      "status": "in_gebruik",
+      "title": "Zivver",
+      "toegevoegd": "2026-11-12",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/46358891"
     },
     {
       "doel": "De anonimiseringssoftware wordt ingezet om invulling te geven aan enerzijds transparantie en anderzijds aan de noodzakelijke bescherming van de persoonsgegevens die in gemeentelijke documenten kunnen voorkomen.",
@@ -19681,7 +19693,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1640,
-  "fetched_at": "2026-11-11T06:18:19Z",
+  "count": 1641,
+  "fetched_at": "2026-11-12T06:18:49Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
