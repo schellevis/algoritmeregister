@@ -1945,6 +1945,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/21579514"
     },
     {
+      "doel": "Het doel is het efficiënt en uniform berekenen van belastingbedragen. De impact hangt samen met de belastingplicht van burgers en bedrijven. De uitkomst van de algoritmes is het belastbare bedrag. Dit wordt formeel door de heffingsambtenaar vastgesteld.",
+      "geregistreerd": "2026-02-03",
+      "id": "21697627",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Gemeentewet, Waterschapswet, AWR, Wet WOZ.",
+      "organisatie": "Gemeente Krimpen aan den IJssel",
+      "status": "in_gebruik",
+      "title": "Belastingen: Berekening belastingbedrag lokale heffingen",
+      "toegevoegd": "2026-11-14",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/21697627"
+    },
+    {
       "doel": "PolitieGPT helpt medewerkers om hun werk sneller en makkelijker te doen. Medewerkers kunnen documenten bevragen en verbeteren. Ook kan PolitieGPT helpen bij het schrijven en herschrijven van teksten, het maken van tekstvoorstellen, het samenvatten van documenten en het vertalen van informatie. PolitieGPT is bedoeld als ondersteuning bij interne bedrijfsvoering en politietaken. De chatbot is niet bedoeld voor het verwerken van politiegegevens die onder de WPG vallen. De focus ligt volledig op interne processen binnen de politie.",
       "geregistreerd": "2026-06-14",
       "id": "21714421",
@@ -5627,6 +5639,18 @@
       "title": "Identity matching in het BRP-Koppelpunt",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/36911468"
+    },
+    {
+      "doel": "Het voorlezen ondersteunt gebruikers met visuele handicap en het vertalen ondersteunt gebruikers die een en ander nog eens in de eigen taal willen lezen. Er zijn in Nederland veel mensen die moeite hebben met lezen en dus problemen hebben met het begrijpen van de teksten op websites. Denk aan laaggeletterden, anderstaligen, mensen met een beperking, slecht zicht, concentratieproblemen etc. Op de website van de gemeente kunnen inwoners gebruik maken van Webreader. Dit is software die tekst kan voorlezen, vertalen en uitleggen. Iedereen kan ReadSpeaker gebruiken. De versie van deze voorleeshulp is toegankelijk, AVG-proof en uitgebreid met extra functionaliteiten, zoals een vertaalfunctie met voorlezen in 22 talen (waaronder Oekraïens), voorlezen met muisselectie, vergrootfunctie, schermmaskering en nog meer.",
+      "geregistreerd": "2026-03-30",
+      "id": "36942435",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "WCAG 2.2 A en AA",
+      "organisatie": "Gemeente Krimpen aan den IJssel",
+      "status": "in_gebruik",
+      "title": "Webreader",
+      "toegevoegd": "2026-11-14",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/36942435"
     },
     {
       "doel": "Het algoritme helpt om met minder medewerkers betere inschattingen te maken. Voorspellingen weken voorheen sterk af van de echte aantallen. En het kostte veel tijd om na te gaan waar de verschillen door kwamen. Het algoritme gebruikt geen persoonsgegevens. In de gegevens staat het aantal boetes per overtreding (feitcode) en de plaats van overtreding (pleeglocatie). JenV controleert de juistheid en volledigheid van het algoritme. Bijvoorbeeld door te controleren of de gebruikte cijfers voor het aantal boetes overeenkomt met het aantal boetes dat binnen komen. Jaarlijks bepaalt JenV welke versie van het algoritme het gebruikt per handhavingsmiddel (bijvoorbeeld flitspalen, trajectcontroles of staande houding) en of ze deze moeten aanpassen aan nieuw beleid.",
@@ -9349,6 +9373,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/53531982"
     },
     {
+      "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
+      "geregistreerd": "2026-11-13",
+      "id": "53542856",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
+      "organisatie": "Gemeente Krimpen aan den IJssel",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-11-14",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/53542856"
+    },
+    {
       "doel": "De Hittestress module biedt inzicht in de gevoelstemperatuur (PET), wind en schaduwwerking op verschillende momenten van de dag. De module wordt gebruikt om de hittestress in stedelijk gebied op warme dagen in kaart te brengen, bijvoorbeeld voor klimaatstresstesten. Zowel de huidige als een mogelijke toekomstige situatie op baiss van bijvoorbeeld een stedenbouwkundig plan kunnen worden doorgerekend. Het betreft een fysisch model, de aanpak berust niet op kunstmatige intelligentie. De Hittemodule draait op een breder platform voor data-integratie en simulaties waarmee de leefomgeving op hyperresolutie integraal kan worden doorgerekend op aspecten als wateroverlast, hittestress, luchtkwaliteit en geluid. De Hittemodule is gebouwd volgens de richtlijnen van het Deltaplan Ruimtelijke Adaptatie (DPRA).",
       "geregistreerd": "2026-06-30",
       "id": "53624651",
@@ -11617,6 +11653,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/62961787"
     },
     {
+      "doel": "DOEL: Door combineren van inkomstengegevens, voertuiggegevens, financiële informatie en huishouden bepalen of we automatisch gemeentelijke afvalstoffenheffing mogen kwijtschelden. IMPACT: Geen. Indien kwijtschelding niet automatisch wordt toegekend, kan de burger deze vooralsnog aanvragen via de reguliere route.",
+      "geregistreerd": "2026-03-10",
+      "id": "62995535",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Gemeentewet; Invorderingswet; Uitvoeringsregeling Invorderingswet; Regeling kwijtschelding belastingen medeoverheden",
+      "organisatie": "Gemeente Krimpen aan den IJssel",
+      "status": "in_gebruik",
+      "title": "Belastingen: Automatische kwijtschelding",
+      "toegevoegd": "2026-11-14",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/62995535"
+    },
+    {
       "doel": "Binnen gemeentelijke aanbestedingen wordt veel tijd besteed aan het doorlezen, interpreteren en beoordelen van leveranciersdocumentatie. Dit proces is arbeidsintensief, gevoelig voor interpretatieverschillen en kent weinig ondersteuning door slimme technologie. Gemeente Almere wil verkennen of Generatieve AI kan bijdragen aan het efficiënter organiseren van dit proces, zonder in te boeten op transparantie, zorgvuldigheid en veiligheid. In samenwerking met de Technische Universiteit Eindhoven en Fontys Hogescholen is Gemeente Almere gestart met een project. Voor TU/e en Fontys sluit dit project aan bij het lopend promotieonderzoek naar vertrouwen in AI en de samenwerking tussen mens en technologie binnen besluitvormingsprocessen. Het project is op 1 september 2025 gestart en bevindt zich in de pilot- en testfase. In deze fase onderzoeken we de inzet van het algoritme uitsluitend in een gecontroleerde onderzoek omgeving, met als doel de mogelijke toegevoegde waarde te verkennen. Het project loopt tot eind 2025. Gedurende deze periode vinden er tussentijdse evaluaties plaats om werking, ethische overwegingen en procesinrichting te beoordelen. Het doel van dit project is om in, samenwerking met TU Eindhoven, te verkennen of, en op welke wijze, Generatieve AI (GenAI) kan ondersteunen bij het beoordelen van aanbestedingsdocumenten. De nadruk ligt op het versterken van het beoordelingsproces door menselijke afwegingen te ondersteunen, niet te vervangen, en het inventarisatieproces te versnellen zonder in te leveren op zorgvuldigheid of transparantie.",
       "geregistreerd": "2025-10-14",
       "id": "63153398",
@@ -12721,6 +12769,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/67453274"
     },
     {
+      "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
+      "geregistreerd": "2026-11-13",
+      "id": "67512762",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "1. WOO 2. WDO 3. UAVG 4. WEP 5. WDO",
+      "organisatie": "Gemeente Krimpen aan den IJssel",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-11-14",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/67512762"
+    },
+    {
       "doel": "Het doel van de e-diensten met het onderliggende algoritme is inwoners en ondernemers maximaal ondersteunen/begeleiden bij een digitale aanvraag. Daardoor kan deze aanvraag juist en volledig worden ingediend. Het algoritme controleert verschillende gegevens van de inwoner. Als er geen aanvullende gegevens nodig zijn van de inwoner en er geen handmatige acties of controles van de gemeente zijn vereist (zoals bijvoorbeeld ondertekening) om de aanvraag te verwerken, dan kan deze verwerkt worden zonder tussenkomst van een burgerzakenmedewerker. Zijn er wel aanvullende gegevens, controles of acties nodig, dan komt de aanvraag/aangifte altijd terecht in een werklijst. Daar wordt deze gecontroleerd door een burgerzakenmedewerker. Het algoritme kan alleen automatisch een aanvraag/aangifte goedkeuren. Een aanvraag/aangifte afkeuren kan alleen de burgerzakenmedewerker. De impact is dat een dergelijke aanvraag efficiënt kan worden afgehandeld door de gemeente; een inwoner/bedrijf heeft namelijk diverse stappen (werkzaamheden) al uitgevoerd, waardoor de ambtenaar meer tijd overhoudt voor de bijzondere en/of ingewikkelde aangiften/aanvragen die de gemeente ontvangt. In een aantal gevallen kan deze aanvraag zelfs volledig automatisch worden verwerkt. De kwaliteit van de dienstverlening gaat door deze diensten omhoog, net als de kwaliteit van de gegevens in de BRP.",
       "geregistreerd": "2025-10-30",
       "id": "67516272",
@@ -12767,6 +12827,18 @@
       "title": "Anonimiseren",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/67624935"
+    },
+    {
+      "doel": "Het doel van de toegepaste algoritmes is het berekenen van de marktwaarde van onroerende zaken in het kader van de Wet WOZ. De hoogte van de WOZ-waarde heeft voor belanghebbenden (burgers en bedrijven) verschillende implicaties. De belangrijkste impact is gelegen in de directe belastingen, zoals de onroerendezaakbelasting. Daarnaast heeft de hoogte van de WOZ-waarde -direct of indirect- invloed op andere belastingen, zoals de erf- en schenkbelasting, de inkomstenbelasting en de vennootschapsbelasting.",
+      "geregistreerd": "2026-03-10",
+      "id": "67654215",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet Waardering Onroerende Zaken (WOZ)",
+      "organisatie": "Gemeente Krimpen aan den IJssel",
+      "status": "in_gebruik",
+      "title": "Belastingen: WOZ-taxatiemodellen",
+      "toegevoegd": "2026-11-14",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/67654215"
     },
     {
       "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
@@ -15227,6 +15299,18 @@
       "title": "Vroeg eropaf",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/81165227"
+    },
+    {
+      "doel": "Vroegsignalering helpt om betalingsproblemen van mensen automatisch te vinden. Het kijkt naar groepen die risico lopen op schulden. Zo kunnen we vroegtijdig zien of iemand problemen heeft met geld. De gemeente kan dan op tijd hulp bieden. Dit helpt om grote schulden te voorkomen en zorgt voor een betere aanpak van schuldhulp.",
+      "geregistreerd": "2026-09-01",
+      "id": "81187720",
+      "impactassessment": "Ja",
+      "juridische_basis": "Sinds 1 januari 2021 is er een nieuwe wet over schuldhulpverlening. Deze wet maakt het mogelijk dat schuldeisers betalingsproblemen doorgeven. Hierdoor komen signalen van schulden sneller bij de gemeente. De gemeente kan dan eerder hulp bieden om te voorkomen dat mensen meer schulden krijgen.",
+      "organisatie": "Gemeente Krimpen aan den IJssel",
+      "status": "in_gebruik",
+      "title": "Vroegsignalering schulden",
+      "toegevoegd": "2026-11-14",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/81187720"
     },
     {
       "doel": "Het doel van het gebruik van RPA is om repeterende administratieve werkzaamheden van medewerkers van gemeente Zutphen te automatiseren. Op basis van exacte kenmerken, regel gebaseerd, wordt een voorheen handmatige actie nu door RPA uitgevoerd. Dit vermindert de tijd die nodig is voor administratieve vastlegging. Hierdoor houdt de medewerker meer tijd over voor inhoudelijke afhandeling van aanvragen.",
@@ -17977,6 +18061,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/93134923"
     },
     {
+      "doel": "Zodra er een online verhuizing binnenkomt, controleert het VA-tool of de aangifte afwijkende eigenschappen bevat. Zijn er geen bijzonderheden? Dan wordt de verhuizing automatisch verwerkt. Leveren de controles van de modules een signaal op? Dan zet de module de aangifte voor de ambtenaar klaar voor nadere controle in ???. Daar beoordeelt de ambtenaar of aanvullende vragen of onderzoek nodig zijn. Is de conclusie dat de aangifte in orde is, dan verwerkt de ambtenaar deze alsnog. De module Inzicht toetst de online aangiften aan de hand van controles van de Landelijke Aanpak Adreskwaliteit (LAA) én controles die de ambtenaar zal herkennen uit de dagelijkse praktijk. Denk bijvoorbeeld aan controle op veelverhuizers, het gebruiksdoel van een woning, overbewoning van een adres of een adres waar veel verhuisbewegingen op plaatsvinden. Het belang van een correct geregistreerd adres gaat verder dan het op orde houden van de Basisregistratie Personen (BRP). Vindt er bijvoorbeeld een ramp plaats, dan wil je iedereen in de omgeving tijdig kunnen waarschuwen. Ook verstrek je als gemeente voorzieningen, uitkeringen of subsidies aan inwoners, op basis van het in de BRP geregistreerde adres. Dat maakt een correcte adresregistratie belangrijk voor zowel inwoners als overheid. Het algoritme controleert verschillende gegevens van de burger. Indien er geen bijzonderheden geconstateerd worden in de aangifte kan deze verwerkt worden zonder tussenkomst van een medewerker. Indien er wel een bijzonderheid geconstateerd wordt valt de aangifte in een wachtkamer waar deze gecontroleerd wordt door een medewerker. Het algoritme kan alleen automatisch een aangifte goedkeuren. Een aangifte afkeuren kan alleen de ambtenaar.",
+      "geregistreerd": "2026-03-03",
+      "id": "93138130",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet basisregistratie personen",
+      "organisatie": "Gemeente Krimpen aan den IJssel",
+      "status": "in_gebruik",
+      "title": "Burgerzaken: Adrescontrole verhuizingen",
+      "toegevoegd": "2026-11-14",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/93138130"
+    },
+    {
       "doel": "Als er op straat of in een park iets gemaakt of opgeruimd moet worden, dan kan dat bij de gemeente worden gemeld via de Fixi app, het meldingensysteem van de gemeente Beekdaelen. Ook een gevaarlijke verkeerssituatie, woonoverlast of overlast van personen en horeca kan gemeld worden. De melder kiest zelf welke hoofdcategorie bij de melding het beste past (bijvoorbeeld ‘overlast’ of ‘straatmeubilair’). Medewerkers van de gemeente controleren de ingediende meldingen en verdelen deze in subcategorieën, zodat de melding bij het juiste behandelteam van de gemeente terecht komt. Aan elke (sub-)categorie is een vooraf bepaalde afhandeltermijn gekoppeld.",
       "geregistreerd": "2025-01-21",
       "id": "93156110",
@@ -19741,7 +19837,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1645,
-  "fetched_at": "2026-11-13T06:18:13Z",
+  "count": 1653,
+  "fetched_at": "2026-11-14T06:15:56Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
