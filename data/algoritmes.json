@@ -1909,6 +1909,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/21511426"
     },
     {
+      "doel": "Doel: Schulinck AI-Desk is ontwikkeld om gemeentelijke professionals (zoals consulenten, juristen en beleidsmedewerkers) direct te voorzien van een helder antwoord op juridische vragen. Hiermee kunnen medewerkers efficiënter werken en sneller tot de juiste oplossing komen in lopende casussen.Impact: In het dagelijks gebruik ondersteunt AI-Desk professionals onder meer bij het behandelen van individuele hulpvragen en het intern borgen van juridische kwaliteit. Dit leidt ertoe dat de dienstverlening richting de burger consistenter en zorgvuldiger wordt, terwijl de doorlooptijd afneemt.",
+      "geregistreerd": "2026-11-16",
+      "id": "21537253",
+      "impactassessment": "Ja",
+      "juridische_basis": "De AI-desk wordt alleen gebruikt in interne processen en neemt geen beslissingen zonder menselijke tussenkomst. Een wettelijke grondslag is daarom niet vereist.",
+      "organisatie": "Gemeente Kampen",
+      "status": "in_gebruik",
+      "title": "Schulinck AI",
+      "toegevoegd": "2026-11-17",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/21537253"
+    },
+    {
       "doel": "De anonimiseringstool wordt ingezet om invulling te geven aan transparantie en aan de noodzakelijke bescherming van de personen, bedrijven en instellingen op wie documenten betrekking hebben. Transparantie omdat het de organisatie in staat stelt om informatie volgens regelgeving zoals de Woo te delen. Voor de inwoner over wie er gegevens in te publiceren documenten zijn opgenomen, betekent het gebruik dat er geen privacyschending plaatsvindt en de organisatie daarmee voldoet aan de AVG. Dat geldt ook voor de bescherming van persoonsgegevens van de medewerkers van de organisatie. De aanvrager van een Woo verzoek krijgt de informatie waarom zij vroeg, hetzij in geanonimiseerde versie of deels gemaskeerd op basis van een andere grondslag. Voor de afdelingen binnen de organisatie die voor het afhandelen van een Woo verzoek en/of publicatie van informatie verantwoordelijk zijn, betekent het dat ze voldoen aan wet- en regelgeving. Gebruik van de software verkort de doorlooptijd en draagt derhalve bij aan het binnen de wettelijke termijnen kunnen aanbieden van gevraagde informatie. De risico impact van het algoritme is laag. Dat geldt voor personen (burgers, medewerkers van afnemende organisaties). Het algoritme zoekt specifiek naar (persoons)gegevens en maskeert deze of duidt ze aan ongeacht de verdere inhoud van documenten. Er wordt een voorstel gedaan voor het anonimiseren van een tekstfragment aan een medewerker, er is geen sprake van automatische beslissingen. Daarnaast heeft de tool als optie om handmatig informatie te maskeren die om andere redenen niet publiek gemaakt kan worden. Daarmee kan bijvoorbeeld een tekstfragment met strategische informatie gemarkeerd worden, ter bescherming van de eigen organisatie of een partnerorganisatie (overheid, bedrijf of instelling). De grondslag van het anonimiseren of maskeren wordt vermeld in het vak.",
       "geregistreerd": "2025-02-12",
       "id": "21544327",
@@ -3731,6 +3743,18 @@
       "title": "Informatieverwerking Kwijtscheldingsaanvragen",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/28751641"
+    },
+    {
+      "doel": "Het doel van Copilot is om medewerkers op een verantwoorde en veilige manier AI-ondersteuning te bieden. Hierbij helpt Copilot om efficiënter te werken en informatie sneller toegankelijk te maken. De impact van het gebruik van Copilot is dat werkzaamheden efficiënter kunnen worden uitgevoerd, waarbij de gebruiker verantwoordelijk blijft voor de beoordeling en het gebruik van de gegenereerde resultaten.",
+      "geregistreerd": "2026-11-16",
+      "id": "28762919",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Het gebruik van Copilot vindt plaats binnen de kaders van de Europese AI-verordening (AI Act), de Algemene Verordening Gegevensbescherming (AVG) en de Baseline Informatiebeveiliging Overheid (BIO). Deze kaders stellen eisen aan verantwoord AI-gebruik, de bescherming van persoonsgegevens en de beveiliging van informatie.",
+      "organisatie": "Gemeente Kampen",
+      "status": "in_gebruik",
+      "title": "M365 Copilot",
+      "toegevoegd": "2026-11-17",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/28762919"
     },
     {
       "doel": "De anonimiseringstool wordt ingezet om invulling te geven aan enerzijds transparantie en anderzijds aan de noodzakelijke bescherming van de personen, bedrijven en instellingen op wie documenten betrekking hebben. Transparantie omdat het de organisatie in staat stelt om informatie volgens regelgeving zoals de Woo te delen, actief danwel passief. Voor de burger over wie er gegevens in te publiceren documenten zijn opgenomen, betekent het gebruik dat er geen privacy schending plaatsvindt en de organisatie daarmee voldoet aan de AVG. Dat geldt ook voor de bescherming van privacygegevens van de medewerkers van de organisatie. De aanvrager van een Woo verzoek krijgt de informatie waarom zij vroeg, hetzij in geanonimiseerde versie of deels gemaskeerd op basis van een andere grondslag. Voor de afdelingen binnen de organisatie die voor het afhandelen van een Woo verzoek en/of publicatie van informatie verantwoordelijk zijn, betekent het dat ze voldoen aan wet- en regelgeving. Gebruik van de software verkort de doorlooptijd en draagt derhalve bij aan het binnen de wettelijke termijnen kunnen aanbieden van gevraagde informatie. De risico impact van het algoritme is laag. Dat geldt voor personen (burgers, medewerkers van afnemende organisaties) en bedrijven en instellingen. Het algoritme zoekt specifiek naar (persoons)gegevens en maskeert deze of duidt ze aan ongeacht de verdere inhoud van documenten. Er wordt een voorstel gedaan voor het anonimiseren van een tekstfragment aan een vakinhoudelijk persoon, er is geen sprake van automatische beslissingen. Daarnaast heeft de tool als optie om handmatig informatie te maskeren die om andere redenen niet publiek gemaakt kan worden. Daarmee kan bijvoorbeeld een tekstfragment met strategische informatie gemarkeerd worden, ter bescherming van de eigen organisatie of een partnerorganisatie (overheid, bedrijf of instelling). De grondslag van het anonimiseren of maskeren wordt vermeld in het vak.",
@@ -9517,6 +9541,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/54148866"
     },
     {
+      "doel": "Doel Wij willen dat iedereen de informatie op onze website kan lezen en begrijpen. Voor veel mensen is dat niet vanzelfsprekend. In Nederland hebben miljoenen volwassenen moeite met lezen. Anderen hebben dyslexie, zien slecht, zijn snel moe of leren nog Nederlands. Zij haken sneller af bij een moeilijke tekst. Dan missen ze informatie die voor hen belangrijk is, bijvoorbeeld over een aanvraag, een regeling of een verandering in hun buurt. De leeshulp helpt deze mensen om onze informatie zelf te lezen en te begrijpen, op het moment dat het hen uitkomt. Wij blijven daarnaast ons best doen om onze teksten zelf duidelijk te schrijven. De leeshulp is extra hulp, geen vervanging daarvan. Impact De leeshulp staat als knop op de openbare pagina's van onze website. Bezoekers kiezen zelf of ze hem gebruiken. Dit kan de leeshulp doen: Lees voor: een tekst of een deel ervan wordt voorgelezen. De tekst die u hoort, wordt gemarkeerd. Uitleg woorden: u klikt op een moeilijk woord en krijgt korte uitleg in eenvoudige taal. Soms staat er een plaatje bij. Simpele tekst: u krijgt een korte samenvatting van de pagina in eenvoudige taal. Vertalen: u kunt teksten en de leeshulp zelf in een andere taal lezen. U kunt ook de letters groter maken en instellingen aanpassen, bijvoorbeeld het markeren van tekst. Welke functies aanstaan, bepalen wij zelf. De leeshulp kan ook werken bij openbare pdf-documenten op onze website. U hoeft niet in te loggen en u hoeft geen gegevens in te vullen. Wij kunnen niet zien wie de leeshulp gebruikt. Wij zien alleen totalen, bijvoorbeeld hoe vaak een functie is gebruikt of bij welke woorden mensen uitleg vragen. Dat helpt ons om onze teksten te verbeteren. De leeshulp verandert niets aan de tekst op de pagina en niets aan onze besluiten. De officiële tekst blijft altijd staan en is leidend. Uitleg, een simpele tekst of een vertaling is hulp bij het lezen. Het is geen officiële of juridische tekst.",
+      "geregistreerd": "2026-11-16",
+      "id": "54156845",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Voor het gebruik van de leeshulp is geen aparte wet nodig. De leeshulp hoort bij de manier waarop wij mensen via onze website informeren. Wel past de leeshulp bij regels die ons verplichten om onze informatie voor iedereen toegankelijk te maken. Tijdelijk besluit digitale toegankelijkheid overheid Dit besluit geldt voor alle overheidsorganisaties. Het verplicht ons om onze websites en apps te laten voldoen aan de Europese norm EN 301 549. Daarin staan de WCAG-richtlijnen. Het doel is dat mensen met een beperking overheidsinformatie net zo goed kunnen gebruiken als ieder ander. Het besluit voert Europese richtlijn (EU) 2016/2102 uit. De plicht tot digitale toegankelijkheid is ook vastgelegd in de Wet digitale overheid. Let op: de leeshulp maakt een website niet vanzelf toegankelijk. Onze website moet ook zelf aan de eisen voldoen. De leeshulp biedt extra hulp. Die past bij het WCAG-criterium over leesniveau (3.1.5). Dat criterium vraagt om een eenvoudigere versie of extra hulp als een tekst moeilijk is. Het hoort bij het hoogste niveau (AAA) en is niet verplicht. VN-verdrag Handicap Dit verdrag vraagt overheden om informatie voor het algemene publiek ook te geven in vormen die mensen met een beperking kunnen gebruiken (artikel 9 en 21). Wet gelijke behandeling op grond van handicap of chronische ziekte Deze wet vraagt om stap voor stap te zorgen voor algemene toegankelijkheid voor mensen met een handicap of chronische ziekte. Persoonsgegevens De leeshulp werkt met openbare teksten en vraagt bezoekers niet om gegevens. Voor zover er technische gegevens worden verwerkt, zoals een IP-adres, geldt de Algemene verordening gegevensbescherming (AVG).",
+      "organisatie": "Gemeente Pekela",
+      "status": "in_gebruik",
+      "title": "Tolkie Leeshulp",
+      "toegevoegd": "2026-11-17",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/54156845"
+    },
+    {
       "doel": "Het doel van het gebruik van de documentscanners is beter te kunnen controleren of ingeleverde identificatiedocumenten echt zijn. De echtheidskenmerken van een identificatiedocument kunnen door een algoritme beter worden beoordeeld door door een mens met het blote oog. Als een document als niet echt wordt aangemerkt door het algoritme wordt een tweede check gedaan, waarbij de gegevens worden vergeleken met gegevens uit de BRP. Uiteindelijk kan constatering van niet echt zijn van een document resulteren in aangifte bij de politie.",
       "geregistreerd": "2025-01-23",
       "id": "54191613",
@@ -10127,6 +10163,18 @@
       "title": "Chatbot",
       "toegevoegd": "2026-07-22",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/56443833"
+    },
+    {
+      "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
+      "geregistreerd": "2026-11-16",
+      "id": "56474321",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
+      "organisatie": "Gemeente Buren",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-11-17",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/56474321"
     },
     {
       "doel": "Vaarverkeersmodel: Het model “Drukte per rak” telt de actuele en historische passages per uur per rak op. Zo berekenen we de verkeersintensiteit per rak, maar niet de maximale capaciteit van een rak. Het model “Drukte per rak” kan ook geen voorspellingen doen over veranderingen in het gebruik van het water. Een vaarverkeersmodel wordt ontwikkeld om veranderingen zoals de toe- of afname van de pleziervaart en het effect na ingrepen als een stremming of een verkeersmaatregel in kaart te brengen. Het vaarverkeersmodel is sinds 2022 in ontwikkeling en zal de capaciteit per rak weergeven. Hoeveel vaartuigen kunnen er per uur passeren? Indicatoren voor filevorming (zoals afname van de snelheid) worden gebruikt om de maximale capaciteit per rak, per uur te berekenen. De voorspellingen worden op basis van gemiddelde verplaatsingspatronen per gebruikersgroep gemaakt. De gebruikersgroepen zijn de pleziervaarders, passagiersvaarders en transportvaarders. De gegevens worden mogelijk aangevuld met gegevens over logistieke stromen, toeristische locaties en geaggregeerde demografische gegevens. In het model wordt alleen gewerkt met geaggregeerde gegevens.",
@@ -16105,6 +16153,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/84297219"
     },
     {
+      "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
+      "geregistreerd": "2026-11-16",
+      "id": "84299824",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
+      "organisatie": "Gemeente Pekela",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-11-17",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/84299824"
+    },
+    {
       "doel": "Belastingbetalers helpen met algemene vragen over de belasting op basis van op de website beschikbare informatie.",
       "geregistreerd": "2026-03-23",
       "id": "84321578",
@@ -19837,7 +19897,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1653,
-  "fetched_at": "2026-11-14T06:15:56Z",
+  "count": 1658,
+  "fetched_at": "2026-11-17T06:18:39Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
