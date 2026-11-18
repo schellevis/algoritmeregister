@@ -5785,6 +5785,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/37589341"
     },
     {
+      "doel": "Medewerkers kunnen M365 Copilot gebruiken voor veel verschillende taken. Je kunt de tool bijvoorbeeld vragen stellen, teksten of afbeeldingen laten genereren, en teksten laten vertalen of samenvatten. Dit helpt om het dagelijkse werk sneller en makkelijker te doen. De gemeente ziet de voordelen van AI en volgt de ontwikkelingen op de voet. We willen graag gebruikmaken van deze nieuwe techniek, maar dat moet wel veilig en verstandig gebeuren. Daarom heeft de gemeente duidelijke spelregels gemaakt. In deze regels staat hoe je M365 Copilot op een goede manier gebruikt tijdens je werk.",
+      "geregistreerd": "2026-11-17",
+      "id": "37598222",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De Europese AI-Verordening De Algemene Verordening Gegevensbescherming (AVG) Baseline Informatiebeveiliging Overheid (BIO)",
+      "organisatie": "Gemeente Midden-Drenthe",
+      "status": "in_gebruik",
+      "title": "M365 Copilot",
+      "toegevoegd": "2026-11-18",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/37598222"
+    },
+    {
       "doel": "De anonimiseringstool wordt gebruikt om invulling te geven aan een open overheid. Daarmee beschermt de gemeente de gegevens van personen en organisaties over wie documenten gaan. Openheid zodat de organisatie deze informatie kan delen volgens de wet zoals de Wet open overheid (Woo). Voor de inwoner over wie er gegevens in openbaar te maken documenten zijn opgenomen, betekent het gebruik dat er geen privacy inbreuk is. De gemeente houdt zich daarmee aan de Algemene verordening gegevensbescherming (AVG). Dat geldt ook voor de bescherming van persoonsgegevens van de medewerkers van de gemeente. De aanvrager van een Woo verzoek krijgt de informatie waarom zij vroeg. Dit krijgt zij in een (voor een deel) anoniem gemaakte versie. Voor de medewerkers die een Woo verzoek behandelen en/of informatie openbaar maken, betekent het dat ze zich houden aan de wet. Gebruik van het algoritme zorgt ervoor dat het anoniem maken sneller en makkelijker kan. Hierdoor kan de gemeente de gevraagde informatie binnen de wettelijke termijnen bieden. Het risico van het algoritme is laag. Het algoritme zoekt in het bijzonder naar (persoons)gegevens en maakt deze anoniem. Er wordt een voorstel gedaan voor het anoniem maken van een tekstfragment aan een medewerker. Het algoritme maakt zelf geen (automatische) beslissingen. Daarnaast heeft het algoritme als optie om zelf informatie anoniem te maken die om andere redenen niet openbaar gemaakt kan worden. Daarmee kan bijvoorbeeld een tekstfragment met gevoelige informatie van de gemeente anoniem gemaakt worden om de organisatie te beschermen. De reden van het anoniem maken wordt genoemd in het vak.",
       "geregistreerd": "2025-05-26",
       "id": "37653460",
@@ -6155,6 +6167,18 @@
       "title": "Management Drives",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/38935972"
+    },
+    {
+      "doel": "Persoonsgegevens en factuurinformatie herkennen met tekstherkenning (OCR) voor binnenkomende post en e-mails. Dit helpt om post sneller te verwerken.",
+      "geregistreerd": "2026-11-16",
+      "id": "38937314",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Pekela",
+      "status": "in_gebruik",
+      "title": "Tekst herkenning en documentroutering",
+      "toegevoegd": "2026-11-18",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/38937314"
     },
     {
       "doel": "Met de tool maskeren wij persoonsgegevens. Dit gebeurt bij het ter inzage leggen of publiceren van stukken en bij opgevraagde documenten voor bijvoorbeeld Woo-verzoeken en andere informatieverzoeken. De anonimiseringssoftware wordt ingezet om te voorkomen dat persoonlijke of vertrouwelijke gegevens onbedoeld worden gedeeld of openbaar gemaakt worden.",
@@ -8387,6 +8411,18 @@
       "title": "Leefomgeving: Legesberekening",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/48513760"
+    },
+    {
+      "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
+      "geregistreerd": "2026-11-16",
+      "id": "48516958",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Pekela",
+      "status": "in_gebruik",
+      "title": "Zivver",
+      "toegevoegd": "2026-11-18",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/48516958"
     },
     {
       "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
@@ -17929,6 +17965,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/92445260"
     },
     {
+      "doel": "Medewerkers kunnen Copilot Chat gebruiken voor het stellen van vragen, het genereren van teksten en afbeeldingen en het maken van vertalingen en samenvattingen. Copilot Chat kan gebruikt worden om dagelijkse werkzaamheden efficiënter te laten verlopen. Daarnaast is het van belang dat medewerkers kennis en ervaring opdoen met deze nieuwe technologie. Wel is het essentieel dat medewerkers kennis hebben van de risico's van het gebruik van generatieve AI-tools. Richtlijnen hieromtrent zijn vastgesteld en worden voortdurend uitgedragen.",
+      "geregistreerd": "2026-11-17",
+      "id": "92496170",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De AI-verordening is belangrijk voor deze analyse en voor ons beleid en onze richtlijnen.",
+      "organisatie": "Gemeente Pekela",
+      "status": "in_gebruik",
+      "title": "Microsoft 365 Copilot Chat",
+      "toegevoegd": "2026-11-18",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/92496170"
+    },
+    {
       "doel": "Het algoritme ondersteunt de afhandeling van meldingen over de openbare ruimte, zoals afval, straatmeubilair, bestrating en verkeerssituaties.",
       "geregistreerd": "2026-10-09",
       "id": "92538258",
@@ -19897,7 +19945,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1658,
-  "fetched_at": "2026-11-17T06:18:39Z",
+  "count": 1662,
+  "fetched_at": "2026-11-18T06:18:21Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
