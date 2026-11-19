@@ -1525,6 +1525,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/18265620"
     },
     {
+      "doel": "De AI-toepassing analyseert open antwoorden uit klanttevredenheidsonderzoeken (KTO's) door reacties te categoriseren en sentimenten te herkennen. Hierdoor worden terugkerende signalen, ervaringen, behoeften en verbeterpunten uit feedback van inwoners en ondernemers makkelijk inzichtelijk gemaakt. De gemeente kan hiermee haar dienstverlening gerichter evalueren en verbeteren. Respondenten komen niet direct in aanraking met het algoritme. Ze komen indirect met het algoritme in aanraking als hun reacties opgevolgd worden en zij, bijvoorbeeld, verbeterde dienstverlening ervaren. De categorisatie of sentimentanalyse kan onjuist zijn, waardoor feedback verkeerd wordt geïnterpreteerd of relevante signalen onvoldoende worden herkend. Hierdoor bestaat het risico dat verbeterpunten niet of minder goed worden meegenomen in de evaluatie en ontwikkeling van de dienstverlening.",
+      "geregistreerd": "2026-11-18",
+      "id": "18349913",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De belangenafweging 3.1 Belang van de gemeente Den Haag: Meer vertrouwen van burgers door betere dienstverlening en verbetering van de bedrijfsvoering, zodat de gemeente burgers beter kan helpen. 3.2 Belang van betrokkenen: Zij hebben uiteindelijk baat bij betere dienstverlening. 3.3 Omvang van de verwerking: Jaarlijks vullen maximaal 300.000 personen klanttevredenheidsonderzoeken in. 3.4 Mogelijke nadelen: Deelname is vrijwillig en heeft geen gevolgen voor betrokkenen. 3.5 Uitoefening van AVG-rechten: Betrokkenen kunnen via de website van de gemeente Den Haag een AVG-verzoek indienen. 3.6 Mogelijke gevolgen: De verwerking heeft geen individuele gevolgen. Het enige mogelijke nadeel is dat betrokkenen de e-mail moeten invullen of wegklikken. 3.7 Informatie bij verkrijging via een derde: In de e-mail van het onderzoeksbureau staat dat de gegevens met de gemeente Den Haag worden gedeeld en wordt verwezen naar de gemeentelijke privacyverklaring. 3.8 Informatie en verwachtingen: De privacyverklaring over klanttevredenheidsonderzoeken informeert betrokkenen over het doel en de gevolgen van de verwerking. Noodzakelijkheidstoets 4.1 Noodzaak: Om de bedrijfsvoering en dienstverlening te verbeteren, is het voor een grote gemeente als Den Haag essentieel burgers en ondernemers om feedback te vragen via vragenlijsten. Zo worden hun ervaringen met de dienstverlening meetbaar en kan de gemeente die aan de hand van de uitkomsten verbeteren. 4.2 Proportionaliteit: De verwerking staat in verhouding tot het doel. Alleen gegevens die nodig zijn om ervaringen van inwoners te analyseren en de gemeentelijke dienstverlening te verbeteren, worden verzameld. Gegevens die niet aan dit doel bijdragen, worden niet verwerkt. Gegevens worden zo veel mogelijk geanonimiseerd of gepseudonimiseerd om de privacy van deelnemers te beschermen. De omvang, aard en bewaartermijn zijn afgestemd op het beperkte, duidelijk omschreven onderzoeksdoel.",
+      "organisatie": "Gemeente Den Haag",
+      "status": "in_gebruik",
+      "title": "Expoints AI Text Analysis",
+      "toegevoegd": "2026-11-19",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/18349913"
+    },
+    {
       "doel": "Het doel van dit algoritme is om zendingen te selecteren voor controle die de Europese Unie, via het grondgebied van Nederland, binnenkomen en die in Nederland worden ingevoerd. Het algoritme richt zich op zendingen met producten. De wettelijke grondslag is Verordening (EU) 2019/1020 betreffende markttoezicht en conformiteit van producten. De Douane treedt hier op in samenwerking met de Nederlandse Voedsel- en Warenautoriteit (NVWA) en de Nederlandse Arbeidsinspectie (NLA). De Douane controleert bedrijven op basis van de uitkomsten meer of juist minder.",
       "geregistreerd": "2025-05-05",
       "id": "18448652",
@@ -6841,6 +6853,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/42219936"
     },
     {
+      "doel": "Doel: KCC-medewerkers sneller en consistenter het juiste antwoord laten vinden. Kennis is verspreid over de publieke website, interne instructieschermen en SharePoint. De assistent brengt deze bronnen samen en toont suggesties met bronvermelding. Daarnaast registreert het systeem kennislacunes, zodat de kwaliteit van de kennisbronnen structureel verbetert kan worden. Impact op burgers en bedrijven: inwoners hebben geen direct contact met de AI tool. Zij merken het effect indirect via de medewerker: snellere en consistentere antwoorden via telefoon en chat.",
+      "geregistreerd": "2026-11-18",
+      "id": "42222965",
+      "impactassessment": "Ja",
+      "juridische_basis": "Chatbot Dani ondersteunt bij de uitvoering van de gemeentelijke publieksdienstverlening. De wettelijke basis voor de onderliggende dienstverlening verschilt per vraag en gemeentelijke taak. Dani heeft zelf geen zelfstandige wettelijke taak of bevoegdheid, maar ondersteunt medewerkers bij het vinden en formuleren van informatie voor inwoners. De medewerker blijft verantwoordelijk voor het uiteindelijke antwoord.",
+      "organisatie": "Gemeente Den Haag",
+      "status": "ontwikkeling",
+      "title": "Dani — Digitale Medewerker voor KCC",
+      "toegevoegd": "2026-11-19",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/42222965"
+    },
+    {
       "doel": "De inzet van het model helpt bij de volledige en snelle jaarlijkse vaststelling van de WOZ waarde van de meeste gebouwen.",
       "geregistreerd": "2025-01-10",
       "id": "42247799",
@@ -9673,6 +9697,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/54377963"
     },
     {
+      "doel": "De anonimiseringssoftware wordt ingezet om documenten die de gemeente publiceert sneller en beter te anonimiseren. Zo voorkomen we datalekken en dragen we bij aan een betere bescherming van de AVG-rechten van betrokkenen.",
+      "geregistreerd": "2026-11-18",
+      "id": "54383395",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "1. WOO 2. WDO 3. UAVG 4. WEP 5. WDO",
+      "organisatie": "Gemeente Montfoort",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-11-19",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/54383395"
+    },
+    {
       "doel": "Het doel van dit algoritme is om er aan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
       "geregistreerd": "2025-04-29",
       "id": "54414769",
@@ -12179,6 +12215,18 @@
       "title": "iBurgerzaken e-diensten",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/64612270"
+    },
+    {
+      "doel": "De tooling is ontwikkeld om de operatie van het Werkcentrum te ondersteunen en te professionaliseren. Het doel is drieledig: (1) gidsen leggen elk bezoek en de afhandeling eenduidig vast (vervangt de eerdere handmatige Excel-registratie), (2) management krijgt actueel inzicht in bezoekersaantallen, vraagtypen, doorverwijzingen en prestaties per locatie, en (3) gidsen en werkgeversadviseurs vinden sneller de best passende vervolgstap of doorverwijzing. Inwoners en werkgevers komen ermee in aanraking doordat een gids de zoek- en adviesfunctie tijdens het gesprek gebruikt en de uitkomst als (bewerkbaar) adviesdocument meegeeft; de inwoner krijgt dus altijd advies via een medewerker, niet via een zelfstandig publiek systeem.",
+      "geregistreerd": "2026-11-18",
+      "id": "64634757",
+      "impactassessment": "Nee",
+      "juridische_basis": "De inzet vindt plaats binnen de wettelijke taken van gemeenten en UWV op het gebied van werk en re-integratie. De Participatiewet regelt de gemeentelijke taak om mensen te ondersteunen bij het vinden van werk en inkomen. De Wet SUWI verplicht UWV en gemeenten tot regionale samenwerking in de arbeidsmarktregio (het Werkcentrum) om werkzoekenden en werkgevers te bedienen. AI Gids ondersteunt de uitvoering van deze taken; het vormt zelf geen grondslag voor besluiten.",
+      "organisatie": "Gemeente Den Haag",
+      "status": "in_gebruik",
+      "title": "Werkcentrum Haaglanden",
+      "toegevoegd": "2026-11-19",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/64634757"
     },
     {
       "doel": "De gemeente Apeldoorn gebruikt Copilot Chat als generatieve AI-chat assistent ter ondersteuning van medewerkers. Het doel hierbij is het vergroten van de persoonlijke effectiviteit bij het opstellen van concepten van teksten of afbeeldingen, samenvatten van teksten en het gebruik als digitale sparringpartner over verschillende onderwerpen. Copilot Chat wordt uitsluitend gebruikt op basis van gebruikersinvoer en heeft geen rechtstreekse toegang tot interne gegevens of systemen binnen de Microsoft 365-omgeving van de gemeente. Er worden geen geautomatiseerde besluiten genomen. De impact van het gebruik is beperkt tot individuele ondersteuning van medewerkers. Om het gebruik van Copilot Chat op een verantwoorde manier te borgen, heeft de gemeente Apeldoorn drie principes voor het gebruik van generatieve AI opgesteld welke te maken hebben met gevoelige informatie, domeinkennis en verantwoordelijkheid.",
@@ -15313,6 +15361,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/79713955"
     },
     {
+      "doel": "Doel van de toepassing is het automatisch genereren en structureren van gespreksverslagen, waardoor medewerkers minder tijd besteden aan administratieve werkzaamheden en meer tijd beschikbaar hebben voor persoonlijk contact met kandidaten. Daarnaast draagt de toepassing bij aan een consistente vastlegging van gesprekken, een hogere kwaliteit van dossiers en een vermindering van handmatige verslagleggingsfouten. Voor kandidaten en werkgevers verandert het proces inhoudelijk niet. Zij merken de toepassing vooral indirect doordat medewerkers meer tijd beschikbaar hebben voor begeleiding en ondersteuning en doordat informatie sneller en consistenter wordt vastgelegd. De toepassing neemt geen besluiten over kandidaten of werkgevers en heeft geen invloed op rechten, plichten of de uitkomst van dienstverlening. De AI-toepassing ondersteunt uitsluitend bij het vastleggen en structureren van informatie uit gesprekken.",
+      "geregistreerd": "2026-11-18",
+      "id": "79733276",
+      "impactassessment": "Ja",
+      "juridische_basis": "De gesprekken tussen de medewerkers van DenHaagWerkt en kandidaten zijn in het kader van de wettelijke reintegratie verplichting op grond van de Participatiewet.",
+      "organisatie": "Gemeente Den Haag",
+      "status": "ontwikkeling",
+      "title": "AI-tool gespreksverslagen - Jobport",
+      "toegevoegd": "2026-11-19",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/79733276"
+    },
+    {
       "doel": "Verticai beschrijft zichzelf als een AI-gestuurd gespreksondersteunend platform dat gesprekken analyseert en omzet naar gestructureerde rapportages. De software is specifiek getraind en ingericht voor de terminologie, processen en rapportage-eisen binnen zorg en sociaal domein zodat klantmanagers of consulenten zich tijdens het gesprek volledig kunnen richten op de klant en er efficiëntie behaald wordt in beter en sneller vastleggen van een rapportage.",
       "geregistreerd": "2026-09-22",
       "id": "79811327",
@@ -17641,6 +17701,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/91295620"
     },
     {
+      "doel": "Het hoofddoel van het algoritme is om de instroom, uitstroom en caseload van bijstandsgerechtigden binnen Den Haag nauwkeuriger te voorspellen. Door deze voorspellingen kunnen gemeentelijke organisatieonderdelen beter sturen op capaciteit en dienstverlening, wat leidt tot een datagedreven onderbouwing van de taakstellingen en programmabegrotingen. Het algoritme ondersteunt zo bij het realiseren van de gewenste uitstroom uit de bijstand, met als ultiem doel een efficiëntere en effectievere inzet van middelen binnen SZW. Inwoners merken dit doordat zij sneller geholpen worden en minder lang hoeven te wachten op een beslissing. Ook helpt het model om ontwikkelingen en trends eerder te zien, zodat de gemeente hierop kan inspelen en waar nodig extra onderzoek kan doen. Zo kunnen middelen en capaciteit slimmer worden ingezet en worden inwoners beter ondersteund.",
+      "geregistreerd": "2026-11-18",
+      "id": "91331830",
+      "impactassessment": "Ja",
+      "juridische_basis": "De inzet van het algoritme is gebaseerd op de Participatiewet, met name artikel 7 en 8, waarin staat dat gemeenten verplicht zijn om beleid te voeren dat gericht is op arbeidsinschakeling, re‑integratie en het bevorderen van uitstroom uit de bijstand. De wet vraagt gemeenten om actief te sturen op deze doelen en om maatregelen te nemen die helpen burgers naar werk te begeleiden. Het maken van prognoses en het monitoren van instroom, uitstroom en caseload is een logisch onderdeel van deze wettelijke taak. Daarnaast biedt de Gemeentewet ruimte om de gemeentelijke organisatie doelmatig in te richten, beleidsinformatie te verzamelen en processen te verbeteren. Een voorspelmodel helpt daarbij door beter inzicht te geven in benodigde capaciteit en beleidskeuzes. Voor het gebruik van persoonsgegevens geldt artikel 6(1)(e) van de AVG, dat verwerking toestaat wanneer dit nodig is voor een taak van algemeen belang. In dit geval gaat het om beleidsontwikkeling en uitvoering binnen SZW en Den Haag Werkt. Omdat het model uitsluitend geaggregeerde informatie oplevert en niet wordt gebruikt voor individuele besluiten, past dit binnen de wettelijke kaders.",
+      "organisatie": "Gemeente Den Haag",
+      "status": "ontwikkeling",
+      "title": "Voorspelmodel Bijstand",
+      "toegevoegd": "2026-11-19",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/91331830"
+    },
+    {
       "doel": "Het algoritme zorgt ervoor dat persoonlijke informatie anoniem wordt gemaakt. Dit beschermt de privacy van mensen.",
       "geregistreerd": "2026-09-28",
       "id": "91361439",
@@ -19945,7 +20017,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1662,
-  "fetched_at": "2026-11-18T06:18:21Z",
+  "count": 1668,
+  "fetched_at": "2026-11-19T06:19:20Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
