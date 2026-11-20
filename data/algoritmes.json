@@ -9385,6 +9385,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/53213554"
     },
     {
+      "doel": "Het doel is om een onafhankelijke transcriptietool te zijn. Deze tool is niet afhankelijk van een derde partij. We kunnen ook interne gesprekken transcriberen die gaan over een inwoner of bedrijf.",
+      "geregistreerd": "2026-11-19",
+      "id": "53293145",
+      "impactassessment": "Ja",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Pekela",
+      "status": "in_gebruik",
+      "title": "Audio Transcriptie",
+      "toegevoegd": "2026-11-20",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/53293145"
+    },
+    {
       "doel": "Wordt ingezet als technische ondersteuning om te beoordelen of een afgenomen vingerafdruk van voldoende kwaliteit is.",
       "geregistreerd": "2026-03-16",
       "id": "53364698",
@@ -20017,7 +20029,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1668,
-  "fetched_at": "2026-11-19T06:19:20Z",
+  "count": 1669,
+  "fetched_at": "2026-11-20T06:18:31Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
