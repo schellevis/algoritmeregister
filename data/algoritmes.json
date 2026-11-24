@@ -2221,6 +2221,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/22739142"
     },
     {
+      "doel": "Doel: Het belang van een correct geregistreerd adres gaat verder dan het op orde houden van de BRP. Vindt er een ramp plaats, dan wil je iedereen in de omgeving tijdig kunnen waarschuwen. Ook worden voorzieningen, uitkeringen of subsidies verstrekt op basis van het in de BRP geregistreerde adres. Impact: Het algoritme controleert gegevens van de burger. Indien er geen bijzonderheden worden geconstateerd, wordt de aanvraag of aangifte verwerkt zonder tussenkomst van een medewerker. Indien er wel een bijzonderheid wordt geconstateerd, valt de aanvraag/aangifte in een wachtkamer. Het algoritme kan alleen automatisch goedkeuren; afkeuren kan alleen de ambtenaar.",
+      "geregistreerd": "2026-11-23",
+      "id": "22775320",
+      "impactassessment": "Ja",
+      "juridische_basis": "De Wet basisregistratie personen (Wet BRP) regelt de registratie van persoonsgegevens door gemeenten. Het Burgerlijk Wetboek bevat de wettelijke basis voor aangiften van burgerlijke stand.",
+      "organisatie": "Gemeente Bunschoten",
+      "status": "in_gebruik",
+      "title": "eDiensten Burgerzaken",
+      "toegevoegd": "2026-11-24",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/22775320"
+    },
+    {
       "doel": "Het voorkomen van woninginbraak in Utrecht. Daarvoor geven we onze bewoners handvatten, zoals informatie over geschikte alarminstallaties, Politiekeurmerken en praktische tips. Met de toepassing van dit algoritme konden we als gemeente tot op buurtniveau voorspellen hoe hoog het risico op woninginbraken zou zijn. Op basis van veel verschillende soorten data, vanuit de gemeente en andere partners als de Politie. Sinds de toepassing van dit algoritme is het aantal woninginbraken in Utrecht afgenomen.",
       "geregistreerd": "2025-09-05",
       "id": "22789541",
@@ -4235,6 +4247,18 @@
       "title": "SlimTaal",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/31533951"
+    },
+    {
+      "doel": "Het algoritme ondersteunt de medewerker aan de balie bij het vergelijken van een live vastgelegde gezichtsopname met de afbeelding op een identiteitsdocument. De medewerker krijgt een indicatie en eventueel vergelijkingsscore te zien, op basis waarvan hij of zij de inschatting kan maken dat persoon en document bij elkaar horen. Het doel is om identiteitsfraude (zoals look-alike-fraude) te voorkomen en de betrouwbaarheid van gegevens in de BRP te versterken.",
+      "geregistreerd": "2026-11-23",
+      "id": "31546821",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet BRP art. 2.67 lid 4; Besluit BRP art. 35; UAVG art. 29 – inzet van biometrie is toegestaan bij noodzakelijke authenticatie.",
+      "organisatie": "Gemeente Bunschoten",
+      "status": "in_gebruik",
+      "title": "Gezichtsvergelijking – hulpmiddel voor identiteitsvaststelling bij gemeentelijke balie",
+      "toegevoegd": "2026-11-24",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/31546821"
     },
     {
       "doel": "Wij optimaliseren onze website met ‘GetFeedback’, een platform waarmee wij uw feedback verzamelen. Zo kunnen we ervoor zorgen dat de website beter aansluit bij de informatie die onze cliënten zoeken. Bezoekers die de pop-up op hun scherm te zien krijgen, zijn niet verplicht de vragen te beantwoorden. Zij kunnen zelf het scherm wegklikken en besluiten om niet deel te nemen aan het klantonderzoek.",
@@ -10139,6 +10163,18 @@
       "title": "Algoritme Eigenrisicodragerschap WGA",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/55824545"
+    },
+    {
+      "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
+      "geregistreerd": "2026-11-23",
+      "id": "55937115",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet open overheid Wet elektronische publicaties",
+      "organisatie": "Gemeente Bunschoten",
+      "status": "in_gebruik",
+      "title": "Anonimiseren",
+      "toegevoegd": "2026-11-24",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/55937115"
     },
     {
       "doel": "Het doel van het model is tweeledig. In de eerste plaats het ontwikkelen van effectief verkeersveiligheidsbeleid en minder ongevallen. Daarnaast kan het model worden ingezet om in concrete projecten twee of meer ontwerpen met elkaar te vergelijken op de score van verkeersveiligheid. Burgers zien uiteindelijk aanpassingen aan de weg en hopelijk minder ongevallen.",
@@ -20029,7 +20065,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1669,
-  "fetched_at": "2026-11-20T06:18:31Z",
+  "count": 1672,
+  "fetched_at": "2026-11-24T06:18:35Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
