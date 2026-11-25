@@ -205,6 +205,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/12142167"
     },
     {
+      "doel": "Het doel van dit algoritme is om eraan bij te dragen dat informatie die wordt verzonden per e-mail op de juiste wijze wordt beveiligd. Ofwel: niet met te weinig beveiligingsmaatregelen, maar ook niet met te veel. Het algoritme levert hier een bijdrage aan door verzenders van een e-mail te attenderen op gevoelige informatie en aan te moedigen deze informatie vervolgens veilig te verzenden. Als zij hiervoor kiezen dan wordt de e-mail beveiligd met encryptie, tweefactorauthenticatie voor de ontvanger, intrekmogelijkheid en logging. Dit zorgt ervoor dat gevoelige informatie wordt beveiligd, terwijl ongevoelige informatie toegankelijk is zonder extra frictie voor de ontvanger. Het algoritme heeft alleen impact op het proces van het verzenden van e-mails en raakt niet aan de materiële rechtspositie van burgers of bedrijven.",
+      "geregistreerd": "2026-11-11",
+      "id": "12143274",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "",
+      "organisatie": "Gemeente Aalsmeer",
+      "status": "in_gebruik",
+      "title": "Zivver",
+      "toegevoegd": "2026-11-25",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/12143274"
+    },
+    {
       "doel": "Het belang van een correct geregistreerd adres gaat verder dan het op orde houden van de Basisregistratie Personen (BRP). Vindt er bijvoorbeeld een ramp plaats, dan wil je iedereen in de omgeving tijdig kunnen waarschuwen. Ook verstrek je als gemeente voorzieningen, uitkeringen of subsidies aan inwoners, op basis van het in de BRP geregistreerde adres. Dat maakt een correcte adresregistratie belangrijk voor zowel inwoners als overheid. Het algoritme controleert verschillende gegevens van de burger. Indien er geen bijzonderheden geconstateerd worden in de aanvraag of aangifte kan deze verwerkt worden zonder tussenkomst van een medewerker. Indien er wel een bijzonderheid geconstateerd wordt valt de aanvraag/aangifte in een wachtkamer waar deze gecontroleerd wordt door een medewerker. Het algoritme kan alleen automatisch een aanvraag/aangifte goedkeuren. Een aanvraag/aangifte afkeuren kan alleen de ambtenaar.",
       "geregistreerd": "2025-02-10",
       "id": "12239160",
@@ -7297,6 +7309,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/43833636"
     },
     {
+      "doel": "Het doel van de inzet van de AI-assistent is om meer aandacht voor de inwoner tijdens het gesprek en het verlagen van de administratiedruk onder medewerkers. De AI-assistent neemt geen zelfstandige beslissingen; een medewerker controleert altijd de uitkomsten. Elk verslag wordt ter goedkeuring voorgelegd aan de inwoners. Deelname is vrijwillig voor inwoners. Voorafgaand wordt gevraagd of inwoners bezwaar maken tegen het gebruik van de assistent. Het gebruik van de AI-assistent staat los van de (toegang tot) dienstverlening.",
+      "geregistreerd": "2026-11-23",
+      "id": "43855357",
+      "impactassessment": "Ja",
+      "juridische_basis": "WMO Jeugdwet Participatiewet",
+      "organisatie": "Gemeente Wageningen",
+      "status": "in_gebruik",
+      "title": "AI-assistent gespreksondersteuning",
+      "toegevoegd": "2026-11-25",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/43855357"
+    },
+    {
       "doel": "Het algoritme ‘signaal kostendelers’ geeft aan dat er iets is veranderd wat de hoogte van de bijstandsuitkering kan beïnvloeden. Dit gaat over wie er in huis woont bij degene die bijstand krijgt. Als iemand in huis aan bepaalde kenmerken voldoet (zoals leeftijd en studie), kunnen er mogelijk woonkosten (zoals huur/hypotheek of energie etc.) worden gedeeld. Dit heeft invloed op de hoogte van de uitkering. De informatie over wie in het huishouden woont, komt van de Rijksdienst voor Identiteitsgegevens (RvIG), en studie-informatie komt van de Dienst Uitvoering Onderwijs (DUO). Het doel van deze dienst is om inzicht te geven aan gemeenten in veranderingen op het adres van mensen met een bijstandsuitkering of een aanvulling op een onvolledige AOW-uitkering (Algemene Ouderdomswet). Dit is belangrijk omdat deze veranderingen invloed kunnen hebben op de kostendelersnorm en dus op de hoogte van de uitkering. Het IB geeft informatie over deze veranderingen door aan gemeenten. De gemeenten kunnen zo beter vaststellen of er sprake is van een kostendeler of een gezamenlijke huishouding. Zo kunnen zij, als dat nodig is, de uitkering op tijd aanpassen aan de nieuwe situatie. Ook kunnen gemeenten hiermee nagaan of de persoon met een uitkering de verandering op het adres aan de gemeente heeft doorgegeven, of dat dit nieuwe informatie is.",
       "geregistreerd": "2025-08-05",
       "id": "43858196",
@@ -7319,6 +7343,18 @@
       "title": "Tekstanalyse",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/43918980"
+    },
+    {
+      "doel": "Het algoritme ondersteunt de medewerker aan de balie bij het vergelijken van een live vastgelegde gezichtsopname met de afbeelding op een identiteitsdocument. De medewerker krijgt een indicatie en eventueel vergelijkingsscore te zien, op basis waarvan hij of zij de inschatting kan maken dat persoon en document bij elkaar horen. Het doel is om identiteitsfraude (zoals look-alike-fraude) te voorkomen en de betrouwbaarheid van gegevens in de BRP te versterken.",
+      "geregistreerd": "2026-11-24",
+      "id": "43927988",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "Wet BRP art. 2.67 lid 4; Besluit BRP art. 35; UAVG art. 29 – inzet van biometrie is toegestaan bij noodzakelijke authenticatie.",
+      "organisatie": "Gemeente Aalsmeer",
+      "status": "in_gebruik",
+      "title": "Gezichtsvergelijking – hulpmiddel voor identiteitsvaststelling bij gemeentelijke balie",
+      "toegevoegd": "2026-11-25",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/43927988"
     },
     {
       "doel": "Doel: Het belang van een correct geregistreerd adres gaat verder dan het op orde houden van de Basisregistratie Personen (BRP). Vindt er bijvoorbeeld een ramp plaats, dan wil je iedereen in de omgeving tijdig kunnen waarschuwen. Ook verstrek je als gemeente voorzieningen, uitkeringen of subsidies aan inwoners, op basis van het in de BRP geregistreerde adres. Dat maakt een correcte adresregistratie belangrijk voor zowel inwoners als overheid. Impact: Het algoritme controleert verschillende gegevens van de burger. Indien er geen bijzonderheden geconstateerd worden in de aanvraag of aangifte kan deze verwerkt worden zonder tussenkomst van een medewerker. Indien er wel een bijzonderheid geconstateerd wordt valt de aanvraag/aangifte in een wachtkamer waar deze gecontroleerd wordt door een medewerker. Het algoritme kan alleen automatisch een aanvraag/aangifte goedkeuren. Een aanvraag/aangifte afkeuren kan alleen de ambtenaar.",
@@ -8618,7 +8654,7 @@
     },
     {
       "doel": "De gemeente wil graag transparant zijn naar haar inwoners en ondernemers maar ze moet ook voldoen aan o.a. privacy-wetgeving. De inzet van anonimiseringssoftware maakt dit mogelijk door medewerkers te ondersteunen bij het anonimiseren van documenten.",
-      "geregistreerd": "2024-10-07",
+      "geregistreerd": "2026-11-24",
       "id": "48887319",
       "impactassessment": "Onbekend",
       "juridische_basis": "",
@@ -13199,6 +13235,18 @@
       "title": "Maaidata",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/68294175"
+    },
+    {
+      "doel": "vlam-chat heeft geen directe impact op burgers of bedrijven. Het doel is om ambtenaren te helpen bij het sneller, veiliger en efficiënter verwerken en gebruiken van informatie. De tool ondersteunt bij dagelijkse werkzaamheden, zoals het samenvatten van documenten, vertalen, of het genereren van conceptteksten. Door de interne opzet blijft gevoelige overheidsinformatie beschermd en wordt voorkomen dat deze terechtkomt bij externe, openbare AI-diensten.",
+      "geregistreerd": "2026-11-24",
+      "id": "68362326",
+      "impactassessment": "Ja",
+      "juridische_basis": "Vlam-chat volgt de Nederlandse en EU-wetgeving, zoals de AI Verordening, de Algemene verordening gegevensbescherming (AVG) en de Baseline Informatiebeveiliging Overheid (BIO).",
+      "organisatie": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
+      "status": "in_gebruik",
+      "title": "vlam-chat bij het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
+      "toegevoegd": "2026-11-25",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/68362326"
     },
     {
       "doel": "Voor de Overdrachtsbelasting (OVB) is een speciaal signaalmodel ontwikkeld dat toezicht ondersteunt op het gebruik van het verlaagd tarief en de startersvrijstelling. De uitworpredenen zijn (in)direct gebaseerd op wettelijke bepalingen. Alle aangiftes waarin aanspraak wordt gemaakt op deze gunstige regelingen, worden automatisch door dit risicomodel gehaald en geregistreerd. Het is een algoritme dat afwijkingen in de aangiftegegevens signaleert. Het controleert of de opgegeven waarden overeenkomen met de wettelijke criteria die gelden voor het verlaagd tarief of de startersvrijstelling. Wanneer er afwijkingen worden gevonden, kent het algoritme per uitvalreden een score toe. Deze scores worden vervolgens cumulatief weergegeven aan de behandelaars van OVB-aangiftes. Op basis van deze scores kunnen behandelaars gericht actie ondernemen. Het uiteindelijke doel van het algoritme is dan ook om effectief toezicht te houden op het juiste gebruik van de fiscale regelingen binnen de OVB.",
@@ -18277,6 +18325,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/92994661"
     },
     {
+      "doel": "Het algoritme ondersteunt de medewerker aan de balie bij het vergelijken van een live vastgelegde gezichtsopname met de afbeelding op een identiteitsdocument. De medewerker krijgt een indicatie en eventueel vergelijkingsscore te zien, op basis waarvan hij of zij de inschatting kan maken dat persoon en document bij elkaar horen. Het doel is om identiteitsfraude (zoals look-alike-fraude) te voorkomen en de betrouwbaarheid van gegevens in de BRP te versterken.",
+      "geregistreerd": "2026-11-24",
+      "id": "93127989",
+      "impactassessment": "Ja",
+      "juridische_basis": "Wet BRP art. 2.67 lid 4; Besluit BRP art. 35; UAVG art. 29 – inzet van biometrie is toegestaan bij noodzakelijke authenticatie.",
+      "organisatie": "Gemeente Amstelveen",
+      "status": "in_gebruik",
+      "title": "Gezichtsvergelijking – hulpmiddel voor identiteitsvaststelling bij gemeentelijke balie",
+      "toegevoegd": "2026-11-25",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/93127989"
+    },
+    {
       "doel": "Gemeenten zijn verantwoordelijk voor de registratie van personen in de Basisregistratie Personen (BRP). Op basis van deze gegevens verstrekt de gemeente onder andere uitkeringen en subsidies. Andere overheidsinstellingen maken ook gebruik van de gegevens in de BRP. Het is daarom van groot belang dat de gegevens in de BRP correct zijn. Er zijn verschillende redenen waarom gegevens in de BRP niet juist zijn. Het kan zijn dat burgers zich vergeten in te schrijven of dat zij niet weten dat het moet. Maar het kan ook zijn dat burgers zich moedwillig niet inschrijven, zich inschrijven op een onjuist adres om fraude te plegen met sociale voorzieningen, of zich moedwillig niet inschrijven om schuldeisers te ontlopen.",
       "geregistreerd": "2024-06-26",
       "id": "93134923",
@@ -20065,7 +20125,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1672,
-  "fetched_at": "2026-11-24T06:18:35Z",
+  "count": 1677,
+  "fetched_at": "2026-11-25T06:19:07Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
