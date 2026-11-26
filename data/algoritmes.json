@@ -3374,7 +3374,7 @@
     },
     {
       "doel": "GovChat-NL is ontwikkeld als een veilig, open-source AI-platform dat dient als alternatief voor openbare chatbots (zoals ChatGPT en DeepSeek) en commerciële oplossingen (Zoals Copilot). Het platform stelt overheden in staat om overheidsspecifieke AI-toepassingen in te zetten, met volledige controle over de gegevensverwerking, privacy en integratie binnen bestaande IT-omgevingen (centraal beheer vs decentrale vrijheid). Met GovChat-NL/LAICA beschikken ambtenaren over een digitale assistent die hen ondersteunt bij het efficiënt uitvoeren van hun dagelijkse taken.",
-      "geregistreerd": "2025-04-29",
+      "geregistreerd": "2026-11-24",
       "id": "27383155",
       "impactassessment": "Ja",
       "juridische_basis": "",
@@ -16909,6 +16909,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/85957884"
     },
     {
+      "doel": "Het doel is het verbeteren van de bereikbaarheid van de gemeente en de efficiency in het beantwoorden van vragen van burgers. Impact is dat de gemeente beter bereikbaar is en de wachttijd aan de telefoon voor burgers verkort wordt. Ook kunnen mensen met meerdere talen makkelijker een vraag stellen aan de gemeente.",
+      "geregistreerd": "2026-11-25",
+      "id": "85982491",
+      "impactassessment": "Ja",
+      "juridische_basis": "Artikel 50 van de Europeese AI verordening",
+      "organisatie": "Gemeente Doesburg",
+      "status": "in_gebruik",
+      "title": "Open Iris - AI telefoonassistent",
+      "toegevoegd": "2026-11-26",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/85982491"
+    },
+    {
       "doel": "Het doel van de e-Diensten met het onderliggende algoritme is inwoners maximaal ondersteunen/begeleiden bij een digitale aanvraag voor minimaregelingen. Het gaat hierbij om onze Regelrecht regeling en tegemoetkoming wettelijk eigen risico ziektekosten. Daardoor kan deze aanvraag juist en volledig worden ingediend. Het algoritme controleert verschillende gegevens van de inwoner. De e-Diensten kent toe of wijst af op basis van antwoorden die gegeven worden. De aanvraag wordt zonder tussenkomst van afdeling maatschappelijke ontwikkeling afgehandeld. De impact is dat een dergelijke aanvraag snel en efficiënt kan worden afgehandeld door de gemeente. De burger doorloopt zelfstandig het gehele aanvraag proces. In alle gevallen wordt deze aanvraag volledig automatisch beoordeeld en verwerkt. De kwaliteit van de dienstverlening gaat door deze diensten omhoog.",
       "geregistreerd": "2026-01-28",
       "id": "86171797",
@@ -20125,7 +20137,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1677,
-  "fetched_at": "2026-11-25T06:19:07Z",
+  "count": 1678,
+  "fetched_at": "2026-11-26T06:19:01Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
