@@ -1069,6 +1069,18 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/15943226"
     },
     {
+      "doel": "Doel: Het ondersteunen van medewerkers binnen het sociaal domein bij verslaglegging en het opstellen van documenten door gebruik te maken van automatische transcriptie en AI-ondersteuning bij de toepassing van relevante wet- en regelgeving. Impact: Gesprekken worden automatisch omgezet in transcripties en conceptdocumenten, waardoor administratieve werkzaamheden worden verminderd en efficiënter kunnen worden uitgevoerd. Dit ondersteunt een consistente en kwalitatief goede dienstverlening. De gegenereerde uitkomsten zijn uitsluitend adviserend van aard; de medewerker blijft verantwoordelijk voor de inhoudelijke beoordeling, eventuele aanpassingen en de uiteindelijke besluitvorming.",
+      "geregistreerd": "2026-11-26",
+      "id": "15977537",
+      "impactassessment": "Ja",
+      "juridische_basis": "De verwerking van persoonsgegevens via Mynte vindt plaats ter ondersteuning van de uitvoering van wettelijke taken binnen het sociaal domein. Hierbij wordt aangesloten bij de reeds bestaande grondslagen voor de gegevensverwerking zoals die gelden voor de uitvoering van de Wmo 2015, Jeugdwet en Participatiewet.",
+      "organisatie": "Gemeente Kampen",
+      "status": "ontwikkeling",
+      "title": "Mynte",
+      "toegevoegd": "2026-11-27",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/15977537"
+    },
+    {
       "doel": "De RvdK geeft een strafadvies aan de officier van justitie en de kinderrechter voor jongeren van 12 tot 18 jaar oud. De RvdK gebruikt het Landelijk Instrumentarium Jeugdstrafrechtketen (LIJ), waarvan de Ritax een onderdeel is, bij het onderzoek om het meest passende strafadvies voor de jongere te geven. De onderzoeker van de RvdK praat met de jongere, ouders en vaak met school. Met deze informatie wordt een vragenlijst ingevuld. De RvdK maakt een rapport waarin de uitkomsten van de Ritax en het advies staat. Dit rapport krijgt de jongere, de ouders, de kinderrechter en de officier van justitie.",
       "geregistreerd": "2024-04-24",
       "id": "15996611",
@@ -20137,7 +20149,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1678,
-  "fetched_at": "2026-11-26T06:19:01Z",
+  "count": 1679,
+  "fetched_at": "2026-11-27T06:18:46Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
