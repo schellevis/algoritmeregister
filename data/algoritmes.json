@@ -3613,18 +3613,6 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/27965463"
     },
     {
-      "doel": "Het hoofddoel van de nabestaandenregeling voor overleden kinderen is om ook overleden kinderen van gedupeerde ouders te erkennen. Er kunnen één of meerdere ontvangers van de nabestaandenregeling zijn. Er wordt gekeken naar de situatie van het gezin om te zorgen dat het herstel terechtkomt bij het gezin waar de overledene bij hoorde toen het overleed. Er is een volgorde voor de regeling: de toeslagpartner van het overleden kind; de kinderen van het overleden kind; de ouders van het overleden kind. Is er een toeslagpartner? Dan is die persoon de ontvanger van de regeling en de anderen niet. Is er geen toeslagpartner? Dan geldt deze regeling voor de kinderen van het overleden kind. Zijn er ook geen kinderen? Dan zijn de ouders van het overleden kind de ontvangers van deze regeling. De inzet van een algoritme heeft als doel om alle personen die mogelijk recht hebben op de regeling zorgvuldig en volledig in beeld te brengen. Dit verkleint de kans dat personen die recht hebben op de regeling worden gemist. Ook vermindert het het risico op fouten die kunnen ontstaan wanneer medewerkers deze personen handmatig selecteren. Daarnaast maakt het algoritme het proces efficiënter en bevordert het een gelijkwaardige en objectieve beoordeling. Dat komt omdat er vooraf vastgestelde criteria worden toegepast. Het voorkomt dat informatie die sterke emoties kan oproepen opnieuw bij nabestaanden moet worden opgevraagd. Medewerkers controleren altijd de uitkomsten van het algoritme. Het algoritme vormt niet zelfstandig de basis voor een besluit.",
-      "geregistreerd": "2026-11-09",
-      "id": "27995482",
-      "impactassessment": "Ja",
-      "juridische_basis": "· Algemene wet bestuursrecht · Wet hersteloperatie toeslagen, Afdeling 2.2a (artikel 2.14c t/m 2.14f). · Uitvoeringswet algemene verordening gegevensbescherming · Wet algemene bepalingen burgerservicenummer · Archiefwet 1995 · Selectielijsten Dienst Toeslagen",
-      "organisatie": "Dienst Toeslagen",
-      "status": "in_gebruik",
-      "title": "Nabestaandenregeling hersteloperatie toeslagen – overleden kind",
-      "toegevoegd": "2026-11-10",
-      "url": "https://algoritmes.overheid.nl/nl/algoritme/27995482"
-    },
-    {
       "doel": "Er komen verschillende bezwaar- en verzoekbrieven binnen per post. Dit algoritme categoriseert deze brieven, zodat ze direct bij de juiste afdeling terechtkomen voor verdere behandeling. Indien het algoritme een brief niet kan classificeren, leest een medewerker de brief handmatig en zorgt ervoor dat deze alsnog bij de juiste afdeling wordt aangeboden. Brieven die eventueel onjuist gecategoriseerd zijn, worden eveneens handmatig gecorrigeerd door een medewerker",
       "geregistreerd": "2026-05-12",
       "id": "28191647",
@@ -6983,18 +6971,6 @@
       "title": "Weglot",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/42425218"
-    },
-    {
-      "doel": "Doel en impact Het hoofddoel van de nabestaandenregeling voor een overleden aanvrager is ervoor te zorgen dat het gezin verder kan met het herstel. Als degene die de kinderopvangtoeslag heeft aangevraagd overlijdt, heeft het gezin immers nog steeds hulp nodig. Dat kan bestaan uit erkenning, compensatie en ondersteuning. Alsnog niet is vastgesteld of de overleden ouder erkend gedupeerd is door de problemen met de kinderopvangtoeslag, wordt de beoordeling altijd eerst gedaan. De nabestaandenregeling volgt niet het erfrecht. Alleen de toeslagpartner van de overleden aanvrager of diens kinderen van de overleden aanvrager kunnen recht hebben op de regeling. Zij zijn de ‘ontvangers’ van de regeling. Er kunnen één of meer ‘ontvangers’ van de regeling zijn. Bij het vaststellen van de ontvangers is de volgorde: De toeslagpartner van de overleden ouder op het moment van overlijden. Of als deze er niet is: Het kind of de kinderen van de overleden ouder. Het algoritme ondersteunt bij het identificeren van mogelijk gedupeerde overleden aanvragers en bij het vaststellen van personen die mogelijk als ‘ontvanger’ van de regeling in aanmerking komen. Hierdoor kan efficiënter worden gewerkt en kunnen vastgestelde criteria op een consistente manier worden toegepast. Daarnaast helpt het algoritme om relevante gegevens uit verschillende bronnen samen te brengen, waardoor minder handmatige uitvraag en verwerking nodig is. Medewerkers controleren altijd de uitkomsten van het algoritme. Het algoritme vormt niet zelfstandig de basis voor een besluit.",
-      "geregistreerd": "2026-11-09",
-      "id": "42425537",
-      "impactassessment": "Ja",
-      "juridische_basis": "Wet hersteloperatie toeslagen, Afdeling 2.1a (artikelen 2.9a en 2.9b) en artikel 6.12 leden 1, 4 en 17. · Algemene wet bestuursrecht · Uitvoeringswet algemene verordening gegevensbescherming · Wet algemene bepalingen burgerservicenummer · Archiefwet 1995 · Selectielijsten Dienst Toeslagen",
-      "organisatie": "Dienst Toeslagen",
-      "status": "in_gebruik",
-      "title": "Nabestaandenregeling hersteloperatie toeslagen – overleden aanvrager",
-      "toegevoegd": "2026-11-10",
-      "url": "https://algoritmes.overheid.nl/nl/algoritme/42425537"
     },
     {
       "doel": "Met de inzet van het algoritme wordt het nemen van een besluit versneld, zodat zo veel mogelijk ondernemers op tijd subsidie kunnen krijgen. Het algoritme versnelt de besluitvorming voor de toekenning van een tegemoetkoming en het geeft een risicoduiding voor de handmatige stroom.",
@@ -14306,9 +14282,9 @@
     },
     {
       "doel": "Het doel van het algoritme is het anonimiseren van privacygevoelige informatie in informatieobjecten. Hierdoor wordt de persoonlijke informatie beschermd en blijft de privacy van individuen gewaarborgd.",
-      "geregistreerd": "2026-10-20",
+      "geregistreerd": "2026-11-27",
       "id": "74541993",
-      "impactassessment": "Onbekend",
+      "impactassessment": "Ja",
       "juridische_basis": "Wet open overheid Wet elektronische publicaties",
       "organisatie": "Omgevingsdienst Noordzeekanaalgebied",
       "status": "in_gebruik",
@@ -17857,18 +17833,6 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/91386595"
     },
     {
-      "doel": "Het doel van het algoritme is de uitvoering van de hzk-regeling te ondersteunen bij het onderscheiden van burgers die waarschijnlijk recht hebben op herstel vanwege institutioneel vooringenomen behandeling in een CAF-zaak. Het algoritme helpt dossiers te selecteren en te beoordelen op een consistente, zorgvuldige en efficiënte manier. Het algoritme heeft daarbij een ondersteunende rol binnen het besluitvormingsproces. Het algoritme maakt het mogelijk om een groot aantal zaken op eenzelfde manier te analyseren en te selecteren voor verdere beoordeling. Hierdoor wordt de uitvoering efficiënter, worden beoordelingen vaker op dezelfde manier uitgevoerd en komen mogelijk benadeelde burgers sneller in beeld. Daarnaast ondersteunt het algoritme medewerkers bij het verwerken van informatie uit verschillende gegevensbronnen. Medewerkers blijven de uiteindelijke besluiten nemen.",
-      "geregistreerd": "2026-11-09",
-      "id": "91425951",
-      "impactassessment": "Ja",
-      "juridische_basis": "Wet hersteloperatie toeslagen, Afdeling 2.5 (artikel 2.16, 2.18 en 2.19) en artikelen 6.8 en 6.9 Wht · Algemene wet bestuursrecht (Awb) · Uitvoeringswet algemene verordening gegevensbescherming · Wet algemene bepalingen burgerservicenummer · Archiefwet 1995 Selectielijsten Dienst Toeslagen",
-      "organisatie": "Dienst Toeslagen",
-      "status": "in_gebruik",
-      "title": "hzk-regeling CAF",
-      "toegevoegd": "2026-11-10",
-      "url": "https://algoritmes.overheid.nl/nl/algoritme/91425951"
-    },
-    {
       "doel": "Ontvangt een inwoner studiefinanciering, dan heeft deze persoon geen recht op bijstand. De studiefinanciering is een voorliggende voorziening. Dit betekent dat studiefinanciering eerst gebruikt moet worden voordat een inwoner bijstand kan krijgen. Dankzij de informatie van het IB ziet de gemeente of een inwoner die een bijstandsuitkering aanvraagt tegelijkertijd ook studiefinanciering ontvangt. Elke maand wisselt het IB Burgerservicenummers (BSN) uit met de Dienst Uitvoering Onderwijs (DUO). Dit is de organisatie die studiefinanciering regelt. Als DUO een BSN herkent, laat ze dat weten aan het IB. Vervolgens geeft het IB dit door aan de gemeente. De gemeente kan dan in gesprek gaan met de persoon die bijstand krijgt.",
       "geregistreerd": "2025-08-05",
       "id": "91437642",
@@ -19081,18 +19045,6 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/95197324"
     },
     {
-      "doel": "Het doel van het algoritme is om de uitvoering van de hzk-regeling te ondersteunen bij het onderscheiden van burgers die waarschijnlijk recht hebben op herstel. Het gaat om burgers die onterecht een aantekening Opzet/Grove Schuld (O/GS) hebben gekregen. Het algoritme helpt dossiers te selecteren en te beoordelen op een zorgvuldige en efficiënte manier. Het algoritme heeft daarbij een ondersteunende rol binnen het besluitvormingsproces. Het maakt het mogelijk om een groot aantal zaken op dezelfde manier te analyseren en te selecteren om verder te kunnen beoordelen. Hierdoor wordt de uitvoering efficiënter, worden beoordelingen steeds vaker hetzelfde en komen mogelijk benadeelde burgers sneller in beeld. Daarnaast ondersteunt het algoritme medewerkers bij het verwerken van informatie uit verschillende gegevensbronnen. Medewerkers blijven de uiteindelijke besluiten nemen.",
-      "geregistreerd": "2026-11-09",
-      "id": "95228961",
-      "impactassessment": "Ja",
-      "juridische_basis": "Wet hersteloperatie toeslagen, Afdeling 2.5 (artikel 2.17, 2.18 en 2.19) en artikelen 6.8 en 6.9 Wht · Algemene wet bestuursrecht (Awb) · Uitvoeringswet algemene verordening gegevensbescherming · Wet algemene bepalingen burgerservicenummer · Archiefwet 1995 Selectielijsten Dienst Toeslagen",
-      "organisatie": "Dienst Toeslagen",
-      "status": "in_gebruik",
-      "title": "hzk-regeling Opzet / Grove Schuld",
-      "toegevoegd": "2026-11-10",
-      "url": "https://algoritmes.overheid.nl/nl/algoritme/95228961"
-    },
-    {
       "doel": "Efficiënt en uniform innemen van en besluiten op aanvragen voor bijstand, bijzondere bijstand, Bbz, IIT en minimaregelingen. Het algoritme wordt ingezet in een applicatie voor inwoners van de ca. 50 aangesloten gemeenten en controleert gedurende de aanvraag of de aanvrager voldoet aan verschillende (wettelijke) criteria. De uitkomst wordt gedeeld met de aanvrager.",
       "geregistreerd": "2025-08-19",
       "id": "95245469",
@@ -19583,6 +19535,18 @@
       "title": "Zivver",
       "toegevoegd": "2026-05-13",
       "url": "https://algoritmes.overheid.nl/nl/algoritme/97333278"
+    },
+    {
+      "doel": "Ondersteuning voor gebruikers met een visuele handicap. In Nederland zijn er veel mensen die moeite hebben met lezen. Dit kan problemen geven bij het begrijpen van teksten op websites. De oplossing die gemeente Montfoort hiervoor gebruikt is ReadSpeaker. Dit is een programma dat teksten kan voorlezen en vertalen. Iedereen kan ReadSpeaker gebruiken. Het is veilig en heeft extra functies, zoals het voorlezen in meerdere talen, waaronder Oekraïens. Je kunt ook teksten vergroten en het scherm maskeren.",
+      "geregistreerd": "2026-11-27",
+      "id": "97334763",
+      "impactassessment": "Onbekend",
+      "juridische_basis": "De wettelijke basis voor het gebruik van ReadSpeaker ligt in de verplichting om digitale overheidsinformatie toegankelijk te maken en in de publieke taak van de gemeente om informatie voor alle inwoners begrijpelijk en bruikbaar aan te bieden, binnen de kaders van privacywetgeving.",
+      "organisatie": "Gemeente Montfoort",
+      "status": "in_gebruik",
+      "title": "Readspeaker",
+      "toegevoegd": "2026-11-28",
+      "url": "https://algoritmes.overheid.nl/nl/algoritme/97334763"
     },
     {
       "doel": "Het doel van het algoritme is informatiegestuurd en risicogericht toezicht mogelijk te maken op vergunningen die op grond van de Telecommunicatiewet zijn afgegeven voor landmobiel frequentiegebruik. Een deel van dit toezicht is gericht op Seveso bedrijven. Het algoritme koppelt Seveso bedrijven aan een intern relatiebestand van de RDI dat informatie bevat over vergunninghouders. Op basis van deze koppeling wordt duidelijk welke Seveso‑bedrijven één of meer vergunningen hebben voor landmobiel frequentiegebruik en daarmee in aanmerking komen voor inspectie. Omdat deze koppeling handmatig veel tijd kostte, kan de tijd van inspecteurs met dit algoritme effectiever worden ingezet.",
@@ -20149,7 +20113,7 @@
       "url": "https://algoritmes.overheid.nl/nl/algoritme/99734350"
     }
   ],
-  "count": 1679,
-  "fetched_at": "2026-11-27T06:18:46Z",
+  "count": 1676,
+  "fetched_at": "2026-11-28T06:17:26Z",
   "source_url": "https://algoritmes.overheid.nl/api/algoritme/NLD"
 }
